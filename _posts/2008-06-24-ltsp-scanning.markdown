@@ -2,7 +2,8 @@
 layout: post
 title:  "LTSP Scanning"
 date:   2008-06-24 00:00:00
-categories: ltsp linux scanning
+categories: technology floss linux ltsp
+tags: scanning
 ---
 
 Since upgrading to LTSP5, our scanning has ceased to work.  I have created a Work in Progress page called LTSP5 Scanning.  Having worked through the instructions contained on that page, scanning is still not working.  The logs show that the request `scanimage -L` is being detected by the client and the client is confirming that the LTSP server has permission, but it is then failing with:

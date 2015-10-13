@@ -2,7 +2,8 @@
 layout: post
 title:  "LTSP Sound on Compaq ENSFF PCs"
 date:   2008-06-21 00:00:00
-categories: ltsp linux sound
+categories: technology floss linux ltsp 
+tags: ltsp audio compaq
 ---
 
 We have a number of Compaq Deskpro ENSFF P450s for which sound stopped working since our LTSP5 Upgrade.  I spent some time this morning solving this problem and have detailed [my solution below](#configure-compaq-deskpro-ensff-for-ltsp5-sound).

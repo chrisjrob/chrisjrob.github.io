@@ -2,7 +2,8 @@
 layout: post
 title:  "About LTSP"
 date:   2008-06-24 00:00:00
-categories: ltsp linux terminal
+categories: technology floss linux ltsp
+tags: terminal
 ---
 
 ## What is the Linux Terminal Server Project (LTSP)

@@ -2,7 +2,8 @@
 layout: post
 title:  "Big Buck Bunny"
 date:   2008-06-19 00:00:00
-categories: blender
+categories: technology floss blender
+tags: blender
 ---
 
 Finally managed to find the time to watch Big Buck Bunny.   Big Buck Bunny tells the story of a giant rabbit with a big heart. When one sunny day three rodents rudely harass him, something snaps, and...

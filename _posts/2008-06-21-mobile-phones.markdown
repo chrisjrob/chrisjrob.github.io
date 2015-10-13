@@ -2,7 +2,8 @@
 layout: post
 title:  "Mobile Phones"
 date:   2008-06-21 00:00:00
-categories: kontact funambol kde
+categories: technology floss linux kde kontact 
+tags: funambol
 ---
 
 Our MD has once again brought up the thorny subject of which mobile phone to buy, in order to be certain of being able to synchronise with KDE Kontact.  Oh, if only life under Linux was that simple.  I believe the best solution is to replace our mail server with an Cyrus IMAP server and implement [Funambol][funambol], and aim to synchronise the mobile phones with that.  To that end I referred him to [this page][funambol].

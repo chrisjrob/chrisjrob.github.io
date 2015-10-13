@@ -2,7 +2,8 @@
 layout: post
 title:  "The Importance of Microsoft"
 date:   2008-06-24 00:00:00
-categories: microsoft linux
+categories: technology floss linux
+tags: microsoft opinion
 ---
 
 The Linux world hates Microsoft.  This is not where I argue that Microsoft is
