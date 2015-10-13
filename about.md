@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Chris is the Finance & IT Director at Trident Garages Ltd, Honda dealers in Surrey.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+A FLOSS advocate, Chris is interested in GNU/Linux, Perl and RepRap 3D printing. Chris is involved in the [Surrey Linux User Group](http://surrey.lug.org.uk), the [Thames Valley RepRap User Group](http://tvrrug.org.uk).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Chris can be found in IRC in #surrey on irc.lug.org.uk.
