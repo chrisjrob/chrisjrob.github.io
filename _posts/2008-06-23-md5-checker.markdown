@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "MD5 Checker"
+date:   2008-06-23 00:00:00
+categories: kde md5
+---
+
+Linux includes "md5sum" utility for checking MD5 values of downloaded applications.  I find it a nuisance having to drop into a command shell and execute...
+
+    $ md5sum download.iso
+
+And then manually compare with the author's.  I have therefore written a simple KDE ServiceMenu to add MD5 checking.
+
+Simply download and extract to /home/~USERNAME~/.kde/share/apps/konqueror/servicemenus.
+
