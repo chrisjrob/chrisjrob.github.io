@@ -1,0 +1,21 @@
+---+ Alternatives to Windows
+
+<<<---
+%TOC%
+<<<---
+
+---++ What are the alternatives
+
+I have been repeatedly astonished by the number of people who have no idea that any alternative to Microsoft Windows actually exists.  Here is a list of just a few with Links to their respective Wikipedia pages:
+
+   * `Linux` (open source)
+   * `Apple Mac OS X` (proprietary)
+   * `BSD` (open source)
+   * More >> `List of operating systems`
+
+It is worth mentioning at this point that Apple Mac OS X is a proprietary closed system, whilst the others are `open source`.
+
+I recommend Linux - Why Linux?
+
+
+

@@ -1,0 +1,109 @@
+---+ Functions
+
+<<<~~~
+%TOC%
+<<<~~~
+
+---+ Special Functions
+
+---++ Table of Contents
+
+Providing you have used Headings more than once in your document, then activating the Table of Contents function will provide you with a table of contents based on those headings.
+
+To activate the function simply enter the following on a line of its own:
+
+<pre>
+&#37;TOC&#37;
+</pre>
+
+---++ Site Map
+
+Similar to the Table of Contents function above, this builds a sitemap of the entire website. To use this function, simply enter the following on a line of its own:
+
+<pre>
+&#37;SITEMAP&#37;
+</pre>
+
+---++ Related Pages
+
+Another feature of Site Map is that you can produce a sub-set of the overall site map, listing just the children of the current page, simply by entering the following command on a line of its own:
+
+<pre>
+&#37;MENU&#37;
+</pre>
+
+---++ Headlines
+
+Alternatively known as News or Announcements, the headlines command will simply add a list box showing the most recent headlines on your News or Announcements page.
+
+To use this feature simply decide how many recent headlines you would like to be included and then add the following command on a line on its own:
+
+<pre>
+&#37;HEADLINES3&#37;
+</pre>
+
+Change '3' to the number of headlines you wish to have included.
+
+<!> This function will only work if you are maintaining a news of announcements page and this needs to be defined in the pageloader configuration file.
+
+---++ Links
+
+If you are maintaining a Links page, then adding the following command will list your most popular 10 links. As with the other functions, simply add it on a line on its own:
+
+<pre>
+&#37;LINKS10&#37;
+</pre>
+
+---++ Combining features
+
+The above features may be combined into a single box, simply by encasing the series of features in the Box Command:
+
+<pre>
+ <<<
+ %TOC%
+ %MENU%
+ <<<
+</pre>
+
+---++ Search box
+
+The search box gives the user a convenient box to search various sources, depending on installed features. At it's simplest, it will allow searching of:
+
+   * Website
+   * Google
+   * Google Maps
+   * Snopes rumours
+
+However these may be extended the webmaster.
+
+To add a search box simply enter the following command on a line of its own:
+
+<pre>
+&#37;SEARCH&#37;
+</pre>
+
+---++ Forms
+
+If you are maintaining a Forms folder on your website, then adding the following command will build a Forms page, listing all the forms contained in the forms folder.
+
+Currently there is no way of uploading forms, except by FTP.
+
+<pre>
+&#37;FORMS&#37;
+</pre>
+
+---++ Cars of the week
+
+If you are using the Stocklist system on your website, then adding the following command will build a Cars of the Week box, listing the five cars on your stocklist, listing first those that are tagged with "COTW" then by amount of total reductions (highest reduction first) and finally by age in stock.
+
+<pre>
+&#37;COTW&#37;
+</pre>
+
+---++ Graphs
+
+You can add a graph to your page by using the %GRAPH...% function. This is a more complicated function than most of those above, and for further details see the Graphs page.
+
+---++ Film Strip or Gallery Function
+
+See [Images] for details on adding a film strip or gallery of images to your website.

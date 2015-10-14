@@ -1,0 +1,41 @@
+---+ Copy directories and preserve permissions
+
+<<<---
+%TOC%
+<<<---
+
+---++ The Command
+
+%RAW%
+<pre>
+$ cd /
+$ tar cf - opt | (cd /archive; tar xf - )
+</pre>
+%RAW%
+
+<?> You cannot run this command as "sudo", if you need root access for your copy, then you will need to execute a "sudo su" or log in as root.
+
+---++ What the command will do
+
+With any command that you are given by someone, you should always check what that command will do:
+
+%RAW%
+<pre>
+$ tar cf - opt | (cd /archive; tar xf - )
+c = create
+f - = file stdout
+opt = source path
+| = pipe all above to...
+(
+cd /archive;
+x = extract
+f - = file stdin
+)
+</pre>
+%RAW%
+
+So this command will pipe a new archive from opt to stdout, which it will then recreate in /archive.
+
+This  will copy /opt into /archive/opt, preserving permissions, file modification times etc.
+
+Read man tar for more details.

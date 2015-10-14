@@ -1,0 +1,136 @@
+---+ Enhancements
+
+<<<~~~
+%TOC%
+<<<~~~
+
+---++ Proposed enhancements
+
+| !ID  | !Description |
+| 1009 |Remove automatic icons for PDF etc. These are not supported by IE. Replace with defined styles and code with replace_hyperlinks subroutine. |
+| 1008 |Remove hyperlinks from quotations. |
+| 1006 |Improve search engine |
+| 1004 |Enable different values and labels for drop-down boxes. |
+| 1003 |Enable form templates to provide a more human-readable email. |
+| 1002 |Enable renaming of photos under Photo Manager. |
+| 1001 |Provide interface for the management of form results CSV file. |
+
+---++ Reported bugs
+
+| !ID  | !Description |
+| 5006 |In-line comments cannot cope with terminating punctuation #example?# |
+| 5005 |Page does not appear on toolbar if there is more than one page on the menu. |
+| 5004 |If a table is the last thing on your page then you have to leave two blank lines below the table, otherwise it relocates the whole table below the subsequent ^top marker. |
+| 5001 |Javascript CTRL+ENTER does not work when pages first created. |
+
+---++ Completed
+
+| !ID  | !Description | !Completed |
+| 1009 |Enable heading levels 4, 5 and 6. | 18/04/2007 |
+| 1007 |Enable users to stay authenticated as long as possible, but still able to switch between read/edit. | 23/04/2007 |
+| 5003 |Check linking of email addresses. | 17/04/2007 |
+| 5002 |Unspecified links 'http://www.google.com/' linking even when apostrophes used and www is linking in preference to http:// | 17/04/2007 |
+| 1005 |Have the edit box auto-sizing to the maximum possible. | 16/04/2007 |
+
+---++ Developments
+
+---+++ 14/05/2007: Changes to be documented
+
+---++++ Rounded boxes
+
+Currently <<<--- gives a rectangular box, whilst <<< gives a plain box, now you have a third option of <<<~~~ for a rounded box. This option also works with right alignment >>>~~~ and centred ^^^~~~.
+
+---++++ Definitions
+
+If you have a term that you would like to define, and you would prefer not to interrupt the flow of the reader by using brackets, then you might like to use the following option:
+
+---+++++ Traditional method using brackets:
+
+The new Accord comes equipped with ADAS (Advanced Driver Assist System).
+
+---+++++ New method using pop-up box:
+
+The new Accord comes equipped with (ADAS(Advanced Driver Assist System)).
+
+---+++++ Wikipedia
+
+<?> But don't forget you can still use Wikipedia to provide a definition, simply by surrounding phrase with back ticks: The new Accord comes equipped with `ADAS`.
+
+---++++ Floating boxes
+
+Boxes now float automatically next to each other, to maximise use of the users screen. If you do not desire this behaviour then put to empty lines between the boxes.
+
+---++++ Boxes with background images
+
+It is now possible to specify a background image for a box. This enables you to overlay text, just as with a normal box. If you create a plain image with shadow, this gives you the impression of shadowed boxes.
+
+---+++ 24/04/2007: Changes to automatic linking
+
+To reduce the number of undesirable links being generated on our websites, I have today made the following changes:
+
+   * Remove the page heading from the list of headings to auto-link on the page
+   * Remove the current page from the list of internal pages to which to auto-link
+   * Change order of page headings to ensure that the longest text matches first
+   * New ability to block text from ever linking, by creating a blocking link on the autolinks page
+
+---+++ 23/04/2007: Edit mode expiry
+
+I have now stopped you from being automatically logged out after four hours of editing. Apart from being a nuisance, if you in the middle of uploading a photo or editing a page, this actually damaged security, as it then required you to re-key your password and send it over the Internet.
+
+---+++ 21/04/2007: Internet connection upgrade completed
+
+We have now replaced our Internet connection, for one with triple the bandwidth. This should have a significant impact on the speed of your website, and the speed of uploading photos to your website.
+
+---+++ 18/04/2007: Minor update released today
+
+The following changes were made:
+
+   * The handling of links has been improved, eliminating the disappearance of text when detected as a heading link.
+   * Enable of heading levels 4, 5 and 6. See Headings for further details.
+   * Corrected inconsistent and incorrect linking of email addresses.
+   * Unspecified links 'http://www.google.com/' linking even when apostrophes used and www was linking in preference to 'http://'.
+
+You can track changes under the Enhancements page.
+
+---+++ 17/04/2007: New commenting functionality
+
+You can now add comments to your content, see Formatting page for details. You can search for all the comments on your website by clicking [Comments] on your editing toolbar.
+
+---+++ 16/04/2007: Auto-resizing edit box
+
+The edit box, in which you edit your website, will now automatically adjust its size to suit your screen size. This feature will always assume that your browser is maximised and that you have a javascript-enabled browser.
+
+Contact us if you find that this feature is not working for you.
+
+---+++ 14/04/2007: New Film Strip function
+
+You can now add a horizontally scrollable view of your chosen images, as follows:
+
+<pre>
+ %FILMSTRIP%
+    * {image_none|example_image1.jpg}
+    * {image_none|example_image2.jpg}
+    * {image_none|example_image3.jpg}
+    * {image_none|example_image4.jpg}
+ %FILMSTRIP%
+</pre>
+
+See Functions page for more details.
+
+---+++ 10/04/2007: Photo Manager major update
+
+   * Integrated into your website style, including menu buttons, banner etc.
+   * New menu on entry offering either upload or a new view, enabling you to manage your site photos
+
+---+++ 10/04/2007: Page Loader update released
+
+   * Editing help updated with new location of help files within Bootpolish.net
+   * Fixed issue with specified links being corrupted by being treated as an unspecified link:
+      * The auto-linking on the website works on the basis of specified and unspecified links. The specified links are those that are generated by the site, or explicitly stated by the website editor. Unspecified links are those that are generated from website links ('http://www.google.com/') or email links ('john@bobble.com'). Specified links were being corrupted by part of the link matching the criteria set for an unspecified link. Page Loader now converts all the specified links first, and then converts any remaining unspecified links thereafter.
+   * Removed editing buttons when already editing a page. Selecting one of these buttons would lose your changes. If you wish to load multiple pages, e.g. Photo Manager or Editing Help, then you will now need to do so before editing a page.
+
+---+++ 10/04/2007: Changes to Bootpolish.net
+
+   * Editing Help has moved: Editing help was a hidden series of pages. These have now been moved to the home page of this site.
+   * New Enhancements page, where I will list planned improvements to the Page Loader, Photo Manager and other systems.
+   * New Developments page, where I will announce changes as they are completed.

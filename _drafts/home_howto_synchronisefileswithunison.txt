@@ -1,0 +1,42 @@
+---+ Synchronise files with Unison
+
+<<<---
+%TOC%
+<<<---
+
+---++ Warning
+
+These instructions worked for the author - they may not work for you.
+
+---++ Installing Unison
+
+You need to install unison on both machines, unison-gtk probably only on the client.
+
+<pre>
+$ sudo apt-get install unison unison-gtk
+</pre>
+
+<?> unison-gtk is an optional component - if you are comfortable working from the command line
+
+---++ Using Unison
+
+Under KMenu / Utilities there should be an option for Unison File Synchronisation.
+
+<pre>
+$ cd ~
+$ mkdir unison
+</pre>
+
+A sample config file is shown here:
+
+<pre>
+$ nano ~/.unison/default.prf
+
+# Unison preferences file
+root = /home/user/unison
+root = ssh://user@remote.server/unison
+follow = Regex .*
+</pre>
+
+This is a simple configuration which will synchronise a directory called "unison" under the user's home directory to a users "unison" directory on "remote.server".  If the unison directory includes symbolic links, then it will follow the link and copy the actual file, if this is not what you want, simply delete the "follow" line.
+
