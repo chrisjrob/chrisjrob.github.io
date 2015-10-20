@@ -2,8 +2,8 @@
 layout: post
 title:  "Viglen MPC-L"
 date:   2008-08-27 00:00:00
-categories: technology floss linux
-tags: viglen xubuntu xfce uupc ltsp
+categories: technology floss linux ltsp
+tags: viglen xubuntu xfce uupc 
 ---
 
 The Viglen MPC-L is a very small thin-client device, running Xubuntu with the XFCE desktop.  At &#163;99 including VAT, this is a very inexpensive PC.  I recently listened to a review of the device on the [Ubuntu UK Podcast](http://podcast.ubuntu-uk.org/).  They described the device as slow, but explained that the Viglen MPC-L is really intended as a thin client device anyway.  I decided to order a test unit for evaluation, in the hope that it would work as a thin client for our LTSP server.
