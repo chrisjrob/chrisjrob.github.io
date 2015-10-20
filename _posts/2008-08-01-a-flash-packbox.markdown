@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A flash packbox"
+title:  "A Flash Packbox"
 date:   2008-08-01 00:00:00
 categories: technology floss linux ltsp
 tags: packbox
