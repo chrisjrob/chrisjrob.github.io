@@ -1,6 +1,12 @@
----++ 20/11/2008: Toshiba Satellite Pro A300 / Debian Lenny 64-bit
+---
+layout: post
+title:  "Toshiba Satellite Pro A300 / Debian Lenny 64-bit"
+date:   2008-11-20 00:00:00
+categories: technology floss linux
+tags: toshiba laptop debian lenny 64-bit
+---
 
-The battery on my ageing Dell Inspiron 8200 had to be replaced recently, then the charger, and then (perhaps damage from cheap charger/battery?) the laptop died completely with ampage warnings about a month later.
+The battery on my ageing Dell Inspiron 8200 had to be replaced recently, then the charger, and then (perhaps damage from cheap charger/battery?) the laptop died completely with amperage warnings about a month later.
 
 So I researched a replacement laptop, and ordered a Toshiba Satellite Pro A300, with 3gb RAM and 250gb hard drive.  I ordered with downgrade media to XP Pro.  Yes, anyone who has read my previous postings will appreciate just how appallingly hypocritical that is; but given that I will need XP to run under VirtualBox, and given that you don't seem to save any money by not having it, it made sense (even if it irks to be constantly adding to MS profits).
 
@@ -14,18 +20,14 @@ The good news is that, thus far at least, all the packages that I have wanted ha
 
 The astonishing thing, and something that I have never seen mentioned in any Linux vs Windows review, is how quick it is to go from zero to actually having a fully productive machine.  Probably close to one hour.
 
-There is one negative, which is that for some reason Debian Lenny 32-bit and 64-bit have a mismatch in versions between virtualbox-ose and virtualbox-ose-modules.  Such problems are only to be expected (Lenny hasn't been officially released yet) and I have checked that there is a bug report logged(1).  To fix the problem in the meantime:
+There is one negative, which is that for some reason Debian Lenny 32-bit and 64-bit have a mismatch in versions between virtualbox-ose and virtualbox-ose-modules.  Such problems are only to be expected (Lenny hasn't been officially released yet) and I have checked that [there is a bug report logged][bug502346].  To fix the problem in the meantime:
 
-%RAW%
-<pre>
-$ sudo aptitude remove virtualbox-ose-modules-2.6.26-1-amd64
-$ sudo rmmod vboxdrv
-$ sudo aptitude install build-essential module-assistant
-$ sudo aptitude install virtualbox-ose-source
-$ sudo module-assistant auto-install virtualbox-ose
-$ sudo dpkg -l virtualbox*  (check all are at same version)
-$ sudo modprove vboxdrv
-</pre>
-%RAW%
+    $ sudo aptitude remove virtualbox-ose-modules-2.6.26-1-amd64
+    $ sudo rmmod vboxdrv
+    $ sudo aptitude install build-essential module-assistant
+    $ sudo aptitude install virtualbox-ose-source
+    $ sudo module-assistant auto-install virtualbox-ose
+    $ sudo dpkg -l virtualbox*  (check all are at same version)
+    $ sudo modprobe vboxdrv
 
-   # http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=502346
+[bug502346]: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=502346
