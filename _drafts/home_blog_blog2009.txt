@@ -148,26 +148,3 @@ But I can see that, once I'm over this hump, it will do just about everything I 
 
 And most importantly, we are a Microsoft-free house - hurrah!
 
----++ 24/01/2009: LTSP 5 Clean Install
-
-I have today started a clean install on a new server, and I am documenting the entire process; not just the LTSP install, but everything, from the installation of a virtualised Windows server, to the installation of KDE and end-user apps.  You can follow the process on the following page:
-
-   * LTSP5 Install
-
----++ 11/01/2009: UK Self-Assessment for Linux
-
-This morning I have been trying to find a way to complete my UK Self-Assessment Tax Return under Linux.  Unfortunately only one application appears to exist for Linux, called FTax, and this application requires Adobe Reader, which is not available for 64-bit Linux.  If you're comfortable on how to run 32-bit applications under Linux, then this might not be an obstacle for you.  After going all round the houses, I ended up back on Windows XP.
-
-See Submit a UK Self-Assessment Return under Linux to read more.
-
----++ 06/01/2009: Amazon MP3 Downloads
-
-Fantastic, Amazon have opened their MP3 download site for the UK.  Better still they support Linux, offering clients for Debian, Ubuntu and Fedora.  Once again we see companies choosing to support Linux from day one.  Unfortunately there is no 64-bit version, as I found out last night.  This really is the problem for companies producing proprietary software for an open platform.  Which distros do they support?  Which architectures?  Which desktop environment?
-
-The solution is obviously that they should just open source their client applications so that the distros can package them; or just publish their APIs and leave the open source community to develop the client apps.  Naive I know, and yes I should just be grateful that Amazon are even offering a client for Linux.  But then again the existence of the Amazon packaged client is going to be a powerful disincentive for any developer to produce an open source client.  Maybe that wouldn't be possible anyway.
-
-I guess I can manage without the client app, but I'll have to make sure that none of my friends and family move to 64-bit.  That would have been the case anyway, as they all use Skype.  So what am I actually complaining about?  God knows.  Oh yes, proprietary software; always worthy of a rant.
-
----++ 01/01/2009: Blog 2008
-
-See Blog 2008 for my older postings.
