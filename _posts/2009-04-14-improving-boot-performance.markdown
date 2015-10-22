@@ -10,7 +10,7 @@ One thing you need to know about me is that I am rarely satisfied.  For example,
 
 ## Analyse Boot Speed
 
-![Boot Chart]({{ site.url }}/assets/bootchart_300.png)
+![Boot Chart]({{ site.url }}/assets/bootchart_500.png)
 
 ### Step 1 - Install bootchart
 
