@@ -20,7 +20,7 @@ Just a reminder of what I was wanting for our HTPC:
 
 ## The Case: Lian Li PC-C37
 
-![Lian Li PC-37 Case]({{% site.url %}}/assets/lian_li_pc_c37_muse_200x200.jpg)
+![Lian Li PC-37 Case]({{% site.url %}}/assets/lian_li_pc_c37_muse_200.jpg)
 
 I started, perversely, with the case.  Normally you would start with the cpu/mb, but I knew that, in order to get spouse approval, it had to look right.  You can spend from &#163;20 to &#163;1000 on cases, and I dare say more.  I wanted something that looked like a black HiFi separate, both in dimensions and styling.  I would have thought that there would have been a considerable choice, but there really wasn't, the only one I found was the [Lian-Li PC-C37](http://www.productwiki.com/lian-li-pc-c37-muse/).  It would seem to be a well made quality case, for about &#163;100. I would have liked to have spent a little less, but really there was no choice whatsover.
 
