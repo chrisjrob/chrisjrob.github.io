@@ -2,7 +2,7 @@
 layout: post
 title:  "Mission Control - We have a Problem"
 date:   2008-07-29 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: ipcop firewall vodafone
 ---
 

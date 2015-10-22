@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Synchronise files with Unison"
 date:   2009-03-21 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: unison sync
 ---
 

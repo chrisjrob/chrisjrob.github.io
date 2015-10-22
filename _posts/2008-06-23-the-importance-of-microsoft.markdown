@@ -2,7 +2,7 @@
 layout: post
 title:  "The Importance of Microsoft"
 date:   2008-06-24 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: microsoft opinion
 ---
 

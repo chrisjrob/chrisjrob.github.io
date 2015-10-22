@@ -2,7 +2,7 @@
 layout: post
 title:  "Toshiba Satellite Pro A300 / Debian Lenny 64-bit"
 date:   2008-11-20 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: toshiba laptop debian lenny 64-bit
 ---
 

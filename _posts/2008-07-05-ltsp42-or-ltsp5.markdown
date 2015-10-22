@@ -2,7 +2,7 @@
 layout: post
 title:  "LTSP4.2 or LTSP5"
 date:   2008-07-05 00:00:00
-categories: technology floss linux ltsp 
+categories: technology linux ltsp 
 ---
 
 Having agonised about the correct version of LTSP to install, chosen the wrong one, and upgraded, I thought it would be worthwhile to type up my thoughts on the subject:

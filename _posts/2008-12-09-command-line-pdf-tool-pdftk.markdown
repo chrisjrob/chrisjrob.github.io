@@ -2,7 +2,7 @@
 layout: post
 title:  "Command line PDF tool pdftk"
 date:   2008-12-09 00:00:00
-categories: technology floss linux cli
+categories: technology linux cli
 tags: pdftk
 ---
 

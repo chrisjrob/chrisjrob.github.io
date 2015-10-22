@@ -2,7 +2,7 @@
 layout: post
 title:  "LTSP Scanning"
 date:   2008-06-24 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: scanning
 ---
 

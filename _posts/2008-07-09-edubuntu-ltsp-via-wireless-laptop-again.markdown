@@ -2,7 +2,7 @@
 layout: post
 title:  "Edubuntu LTSP via Wireless Laptop Again"
 date:   2008-07-09 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: wireless edubuntu
 ---
 

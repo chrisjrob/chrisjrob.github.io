@@ -2,7 +2,7 @@
 layout: post
 title:  "Ubuntu LTSP - how the other half live?"
 date:   2008-07-06 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: linux ltsp ubuntu
 ---
 

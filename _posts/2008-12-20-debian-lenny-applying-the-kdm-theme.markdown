@@ -2,7 +2,7 @@
 layout: post
 title:  "Debian Lenny - applying the new kdm theme"
 date:   2008-12-20 00:00:00
-categories: technology floss linux debian
+categories: technology linux debian
 tags: lenny kde kdm theme
 ---
 

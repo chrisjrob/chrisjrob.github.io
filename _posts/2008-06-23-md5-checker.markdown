@@ -2,7 +2,7 @@
 layout: post
 title:  "MD5 Checker"
 date:   2008-06-23 00:00:00
-categories: technology floss linux kde
+categories: technology linux kde
 tags: md5
 ---
 

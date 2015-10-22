@@ -2,7 +2,7 @@
 layout: post
 title:  "Unison File Synchronisation"
 date:   2008-10-27 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: unison sync
 ---
 

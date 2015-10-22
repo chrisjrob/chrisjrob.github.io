@@ -2,7 +2,7 @@
 layout: post
 title:  "Viglen MPC-L"
 date:   2008-08-27 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: viglen xubuntu xfce uupc 
 ---
 

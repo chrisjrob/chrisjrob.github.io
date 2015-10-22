@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Amarok as your Podcasting Client"
 date:   2008-06-30 00:00:00
-categories: technology floss linux kde
+categories: technology linux kde
 tags: amarok podcast kitty
 ---
 

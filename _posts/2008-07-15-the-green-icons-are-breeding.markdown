@@ -2,7 +2,7 @@
 layout: post
 title:  "The Green Icons are breeding"
 date:   2008-07-15 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: italc vnc
 ---
 

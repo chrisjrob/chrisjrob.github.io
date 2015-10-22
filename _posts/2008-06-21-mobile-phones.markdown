@@ -2,7 +2,7 @@
 layout: post
 title:  "Mobile Phones"
 date:   2008-06-21 00:00:00
-categories: technology floss linux kde kontact 
+categories: technology linux kde kontact 
 tags: funambol
 ---
 

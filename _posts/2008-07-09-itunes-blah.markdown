@@ -2,7 +2,7 @@
 layout: post
 title:  "iTunes blah"
 date:   2008-07-09 00:00:00
-categories: technology floss linux 
+categories: technology linux 
 tags: itunes music ipod amarok
 ---
 

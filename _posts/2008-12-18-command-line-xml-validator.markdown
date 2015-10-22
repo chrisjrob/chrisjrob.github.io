@@ -2,7 +2,7 @@
 layout: post
 title:  "Command line XML validator"
 date:   2008-12-18 00:00:00
-categories: technology floss linux cli
+categories: technology linux cli
 tags: xml
 ---
 

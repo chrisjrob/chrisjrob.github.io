@@ -2,7 +2,7 @@
 layout: post
 title:  "LTSP sound problem fixed"
 date:   2008-06-18 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: linux ltsp sound rdesktop
 ---
 

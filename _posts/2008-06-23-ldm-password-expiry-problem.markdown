@@ -2,7 +2,7 @@
 layout: post
 title:  "LDM password expiry problem"
 date:   2008-06-24 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: ltsp ldm password
 ---
 

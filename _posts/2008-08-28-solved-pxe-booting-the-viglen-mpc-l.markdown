@@ -2,7 +2,7 @@
 layout: post
 title:  "Solved PXE Booting the Viglen MPC-L"
 date:   2008-08-28 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: viglen xubuntu xfce
 ---
 

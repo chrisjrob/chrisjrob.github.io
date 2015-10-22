@@ -2,7 +2,7 @@
 layout: post
 title:  "Screen Shadowing"
 date:   2008-07-10 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: x11vnc italc
 ---
 

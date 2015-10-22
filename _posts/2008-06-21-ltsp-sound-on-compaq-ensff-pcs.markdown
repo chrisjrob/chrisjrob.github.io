@@ -2,7 +2,7 @@
 layout: post
 title:  "LTSP Sound on Compaq ENSFF PCs"
 date:   2008-06-21 00:00:00
-categories: technology floss linux ltsp 
+categories: technology linux ltsp 
 tags: ltsp audio compaq
 ---
 

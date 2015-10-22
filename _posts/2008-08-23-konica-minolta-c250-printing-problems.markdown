@@ -2,7 +2,7 @@
 layout: post
 title:  "Konica Minolta C250 Printing Problems"
 date:   2008-08-23 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: printing cups 
 ---
 

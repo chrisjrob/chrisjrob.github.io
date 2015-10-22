@@ -2,7 +2,7 @@
 layout: post
 title:  "LTSP sound in rdesktop sessions"
 date:   2008-06-17 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: linux ltsp sound rdesktop
 ---
 

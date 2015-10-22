@@ -2,7 +2,7 @@
 layout: post
 title:  "64-bit Flash and Java Plugins"
 date:   2008-11-20 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: java flash icedtea adobe 
 ---
 

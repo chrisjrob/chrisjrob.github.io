@@ -2,7 +2,7 @@
 layout: post
 title:  "LTSP5 Clean Install"
 date:   2009-01-24 00:00:00
-categories: technology floss linux ltsp
+categories: technology linux ltsp
 tags: ltsp
 ---
 

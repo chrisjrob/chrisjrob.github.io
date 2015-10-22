@@ -2,7 +2,7 @@
 layout: post
 title:  "Kubuntu to Debian Sid"
 date:   2008-08-20 00:00:00
-categories: technology floss linux 
+categories: technology linux 
 tags: kubuntu debian sid xorg kde4
 ---
 

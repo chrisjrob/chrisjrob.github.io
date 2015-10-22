@@ -2,7 +2,7 @@
 layout: post
 title:  "Debian Lenny"
 date:   2008-10-13 00:00:00
-categories: technology floss linux debian
+categories: technology linux debian
 tags: lenny
 ---
 

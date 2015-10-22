@@ -2,7 +2,7 @@
 layout: post
 title:  "Debian Lenny - Some simple performance improvements"
 date:   2008-12-19 00:00:00
-categories: technology floss linux debian
+categories: technology linux debian
 tags: lenny
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Amazon MP3 Downloads"
 date:   2009-01-06 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: amazon mp3 64-bit
 ---
 

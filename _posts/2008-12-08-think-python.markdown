@@ -2,7 +2,7 @@
 layout: post
 title:  "Think Python"
 date:   2008-12-08 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: python perl
 ---
 

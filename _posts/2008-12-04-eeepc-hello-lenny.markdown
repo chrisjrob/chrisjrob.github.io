@@ -2,7 +2,7 @@
 layout: post
 title:  "EeePC - Hello Lenny"
 date:   2008-12-04 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: eeepc debian
 ---
 

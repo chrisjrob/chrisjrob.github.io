@@ -2,7 +2,7 @@
 layout: post
 title:  "Toshiba Satellite Pro A300 and Compiz"
 date:   2008-12-07 00:00:00
-categories: technology floss linux
+categories: technology linux
 tags: toshiba compiz kde
 ---
 

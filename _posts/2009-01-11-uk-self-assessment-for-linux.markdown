@@ -2,7 +2,7 @@
 layout: post
 title:  "UK Self-Assessment for Linux"
 date:   2009-01-11 00:00:00
-categories: technology floss linux 
+categories: technology linux 
 tags: tax finance self-assessment
 ---
 
