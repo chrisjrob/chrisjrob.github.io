@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "MythWeb"
+date:   2009-03-14 00:00:00
+categories: technology linux mythtv
+tags: mythweb tv
+---
+
+If, like me, you have your laptop permanently on whilst you watch TV, then MythWeb is going to be a shock, a delightful shock.  Imagine, from the comfort of your sofa, with your laptop on your lap:
+
+   * What's on TV?  Open your browser and you have a beautifully formatted programme guide - far better than an on-TV guide.
+   * Want to record something? Simply click on it, choose your options and submit.
+   * Nothing on TV?  View your Recorded Programmes.
+   * Want to know what you've got set to record?  Upcoming Recordings.
+   * On holiday and you realise you forgot to record the new series of Doctor Who?  Log-into MythWeb remotely and record.
+   * At work and you want to show your colleagues the funny bit in Big Bang Theory?  No problem log into MythWeb and download, or play the episode in Flash.
+
+And there's more: weather, ripped video, music, and more.  If you're anything like me, you'll wonder how you ever lived without it, and quite simply it has now spoiled me for ANY other PVR system.
+
+
