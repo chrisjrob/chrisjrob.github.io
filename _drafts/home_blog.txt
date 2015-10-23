@@ -331,17 +331,3 @@ I arrived this morning to the comment ~"it's a bit bright any chance we could to
 
 I was very polite.
 
----++ 04/08/2010: Home Theatre PC - Continued
-
-Oh dear, it seems I failed to update my blog after the last work I did on my HTPC.  Well the good news is that the programme guide is now working, it was a bit of a pain, in that you have to use the command line to create a channel listing that is then read my the guide updating process.  But given that you only have to do this when your channel line-up changes, this isn't a big deal.  I have updated my notes on the following page:
-
-   * http://bootpolish.net/hauppaugehvr2200
-
----++ 04/08/2010: Microsoft XPS under Linux
-
-A member of staff asked how he could open a personal XPS file, created in Windows 7.  Now XPS is the Microsoft replacement for PDF and it is apparently installed as a printer by default in Vista and Windows 7, which means increasingly people are going to start sending XPS files whether we like it or not.  Fortunately it seems XPS is supported in Okular under KDE4 (which we don't have yet), and can also be readily converted to PDF using the Ghostscript "gxps" tool.  This has to be built from source, but proved relatively simple.  As our users do not have access to the command line, I also had to also create a Konqueror service menu, to enable right-click Action "Convert XPS to PDF".
-
-I am pleased to say it all works beautifully, and I have typed up my instructions for Debian Lenny here:
-
-   * http://bootpolish.net/home_howto_convertxpstopdf
-

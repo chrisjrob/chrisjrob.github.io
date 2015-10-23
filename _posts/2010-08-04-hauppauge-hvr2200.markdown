@@ -1,0 +1,129 @@
+---
+layout: post
+title:  "Hauppauge HVR-2200"
+date:   2010-08-04 00:00:03
+categories: technology linux mythtv
+tags: htpc hauppauge hvr2200
+---
+
+## Introduction
+
+It seems that the HVR-2200 is something of a work-in-progress under Linux.  Plenty of people seem to have it working, but it is not simple to configure.  See the references at the end for further reading.  In particular, those new to MythTV should visit:
+
+   * [http://parker1.co.uk/mythtv_ubuntu.php](http://parker1.co.uk/mythtv_ubuntu.php)
+
+I now have this card working under MythTV, but I have not yet managed to get the programme guide updating via EIT (Freeview).
+
+## Installation
+
+    $ sudo apt-get install mercurial libncurses5-dev unzip
+
+    $ wget http://www.steventoth.net/linux/hvr22xx/22xxdrv_27086.zip
+    $ wget  http://www.steventoth.net/linux/hvr22xx/HVR-12x0-14x0-17x0_1_25_25271_WHQL.zip
+    $ wget http://www.steventoth.net/linux/hvr22xx/firmwares/4019072/NXP7164-2010-03-10.1.fw
+    $ wget http://www.steventoth.net/linux/hvr22xx/extract.sh
+    $ sh extract.sh
+    $ sudo cp *fw /lib/firmware
+    or
+    $ sudo cp *fw /lib/firmware/`uname -r`
+
+    $ hg clone http://kernellabs.com/hg/saa7164-stable/
+
+    $ cd saa7164-stable
+    $ make CONFIG_DVB_FIREDTV:=n
+    $ sudo make install
+    $ wget http://www.steventoth.net/linux/hvr22xx/firmwares/4038864/v4l-saa7164-1.0.3-3.fw 
+    $ sudo cp v4l-saa7164-1.0.3-3.fw /lib/firmware
+
+    $ sudo adduser &lt;userid&gt; video
+    $ sudo reboot
+
+## Create Channel.conf
+
+    $ sudo apt-get install dvb-apps
+    $ scan ./uk-CrystalPalace -o zap > ~/.mythtv/channels.conf
+
+## Scan
+
+Now go to Mythbackend-Setup and perform a full scan.
+
+## Test
+
+You should now have a working system, unfortunately I found that the programme guide, or EPG, was not updating.
+
+## Fixing EPG
+
+(Thanks to "Neon Dusk" from the second Ubuntu forum link in the references below.)
+
+Using channels.conf to get the channel information is OK, but sometimes it doesn't fill in all the information required.
+
+Make a note of your mysql password from `/etc/mythtv/mysql.txt` - there should be a field DBPassword
+
+    $ mysql -u mythtv -p
+    <enter mysql password>
+    use mythconverg;
+    select * from `dtv_multiplex`;
+
+Copy the resulting output into a text editor, here was mine.  Note the networkid is null.
+
+| mplexid | sourceid | transportid | networkid | frequency | inversion | symbolrate | fec  | polarity | modulation | bandwidth | lp_code_rate | transmission_mode | guard_interval | visible | constellation | hierarchy | hp_code_rate | mod_sys   | rolloff | sistandard | serviceversion | updatetimestamp     | default_authority |
+|---------+----------+-------------+-----------+-----------+-----------+------------+------+----------+------------+-----------+--------------+-------------------+----------------+---------+---------------+-----------+--------------+-----------+---------+------------+----------------+---------------------+-------------------|
+| 1       | 1        | 4100        | NULL      | 505833330 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    |            | 33             | 2010-06-29 19:28:10 |                   |
+| 2       | 1        | 8197        | NULL      | 481833330 | a         | 0          | auto | v        | qam_64     | 8         | 1/2          | 2                 | 1/32           | 0       | qam_64        | n         | 2/3          | UNDEFINED | 0.35    |            | 33             | 2010-06-29 19:28:10 |                   |
+| 3       | 1        | 12290       | NULL      | 561833330 | a         | 0          | auto | v        | qam_64     | 8         | 1/2          | 2                 | 1/32           | 0       | qam_64        | n         | 2/3          | UNDEFINED | 0.35    |            | 33             | 2010-06-29 19:28:10 |                   |
+| 4       | 1        | 16384       | NULL      | 529833330 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    |            | 33             | 2010-06-29 19:28:10 |                   |
+| 5       | 1        | 20480       | NULL      | 578166670 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    |            | 33             | 2010-06-29 19:28:10 |                   |
+| 6       | 1        | 24576       | NULL      | 537833330 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    |            | 33             | 2010-06-29 19:28:10 |                   |
+
+6 rows in set (0.00 sec)
+
+In mythtv-setup -> channel editor -> Edit transport
+Delete all existing transports (highlight transport then press d)
+
+Go to channel scanner
+Select Scan Type: Full Scan (Tuned)
+
+Use the values recorded from the sql statement and then do a scan. You'll need to do this for the 6 muxes.
+
+Hopefully this should find all the channels and if you repeat the sql commands you'll see the networkid value filled in. This should then allow the EIT EPG to work
+
+My resulting output was as attached:
+
+| mplexid | sourceid | transportid | networkid | frequency | inversion | symbolrate | fec  | polarity | modulation | bandwidth | lp_code_rate | transmission_mode | guard_interval | visible | constellation | hierarchy | hp_code_rate | mod_sys   | rolloff | sistandard | serviceversion | updatetimestamp     | default_authority |
+|---------+----------+-------------+-----------+-----------+-----------+------------+------+----------+------------+-----------+--------------+-------------------+----------------+---------+---------------+-----------+--------------+-----------+---------+------------+----------------+---------------------+-------------------|
+| 10      | 1        | 16384       | 9018      | 529833330 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    | dvb        | 33             | 2010-08-08 18:27:49 |                   |
+| 9       | 1        | 12290       | 9018      | 561833330 | a         | 0          | auto | v        | qam_64     | 8         | 1/2          | 2                 | 1/32           | 0       | qam_64        | n         | 2/3          | UNDEFINED | 0.35    | dvb        | 33             | 2010-08-08 18:27:49 |                   |
+| 8       | 1        | 8197        | 9018      | 481833330 | a         | 0          | auto | v        | qam_64     | 8         | 1/2          | 2                 | 1/32           | 0       | qam_64        | n         | 2/3          | UNDEFINED | 0.35    | dvb        | 33             | 2010-08-08 18:27:49 |                   |
+| 7       | 1        | 4100        | 9018      | 505833330 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    | dvb        | 33             | 2010-08-08 18:27:49 |                   |
+| 11      | 1        | 20480       | 9018      | 578166670 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    | dvb        | 33             | 2010-08-08 18:27:49 |                   |
+| 12      | 1        | 24576       | 9018      | 537833330 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    | dvb        | 33             | 2010-08-08 18:27:49 |                   |
+| 13      | 1        | 8197        | 0         | 481833330 | a         | 0          | auto | v        | qam_64     | 8         | 1/2          | 2                 | 1/32           | 0       | qam_64        | n         | 2/3          | UNDEFINED | 0.35    | dvb        | 33             | 2010-08-08 18:27:59 |                   |
+| 14      | 1        | 16384       | 0         | 529833330 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    | dvb        | 33             | 2010-08-08 18:27:59 |                   |
+| 15      | 1        | 24576       | 0         | 537833330 | a         | 0          | auto | v        | qam_16     | 8         | 3/4          | 2                 | 1/32           | 0       | qam_16        | n         | 3/4          | UNDEFINED | 0.35    | dvb        | 33             | 2010-08-08 18:27:59 |                   |
+|---------+----------+-------------+-----------+-----------+-----------+------------+------+----------+------------+-----------+--------------+-------------------+----------------+---------+---------------+-----------+--------------+-----------+---------+------------+----------------+---------------------+-------------------|
+
+9 rows in set (0.00 sec)
+
+## Test Again
+
+Have a look at your programme guide, give it a few minutes - it isn't instantaneous.
+
+## References
+
+   * [http://parker1.co.uk/mythtv_ubuntu.php](http://parker1.co.uk/mythtv_ubuntu.php)
+   * [http://www.uluga.ubuntuforums.org/showthread.php?t=942403](http://www.uluga.ubuntuforums.org/showthread.php?t=942403)
+      * [http://www.uluga.ubuntuforums.org/showpost.php?p=9351505&postcount=271](http://www.uluga.ubuntuforums.org/showpost.php?p=9351505&postcount=271)
+   * [http://ubuntuforums.org/showpost.php?p=9292366&postcount=3](http://ubuntuforums.org/showpost.php?p=9292366&postcount=3)
+   * [http://www.zedlopez.com/strangeloopiness/2010/04/mythtv_on_ubuntu_lucid_gotchas.html](http://www.zedlopez.com/strangeloopiness/2010/04/mythtv_on_ubuntu_lucid_gotchas.html)
+   * [http://www.kernellabs.com/blog/?p=721](http://www.kernellabs.com/blog/?p=721)
+   * [http://ubuntuforums.org/showthread.php?t=1167640](http://ubuntuforums.org/showthread.php?t=1167640)
+   * [http://www.hauppauge.co.uk/site/products/data_hvr2200mc.html](http://www.hauppauge.co.uk/site/products/data_hvr2200mc.html)
+   * [http://www.mythtvtalk.com/forum/hardware/8096-there-status-hvr-2250-linux-driver-2.html#post46347](http://www.mythtvtalk.com/forum/hardware/8096-there-status-hvr-2250-linux-driver-2.html#post46347)
+   * [http://www.linuxtv.org/wiki/index.php/Hauppauge_WinTV-HVR-2200](http://www.linuxtv.org/wiki/index.php/Hauppauge_WinTV-HVR-2200)
+   * [http://www.mythtvtalk.com/forum/hardware/12229-hvr-2200-not-picking-up-all-channels.html](http://www.mythtvtalk.com/forum/hardware/12229-hvr-2200-not-picking-up-all-channels.html)
+   * [http://ubuntuforums.org/archive/index.php/t-1410407.html](http://ubuntuforums.org/archive/index.php/t-1410407.html)
+
+The tuner card is now working under MythTV to "Watch TV"; however the programme guide is still not updating correctly over EIT.  In theory this should happen automatically after a full scan, but for some reason this seems not to be working.  It may be that this is because I have simply not left the backend to idle for long enough for an EIT scan to be initiated.
+
+More news when I have it.
+
