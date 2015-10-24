@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Skype 64-bit"
+date:   2010-12-05 00:00:00
+categories: technology linux debian
+tags: skype voip im
+---
+
+When I bought my Toshiba laptop and opted for 64-bit Debian Squeeze I made one compromise, I gave up Skype.  This was for the simple reason that it would not work on 64-bit Linux (or 64-bit anything, come to that).  Later I heard from several people that you could install the 32-bit version using the 32-bit libraries, but I was conscious that this was sub-optimal and in any case Skype should be punished for being closed source and, perhaps more to the point, for not providing a 64-bit version.
+
+Skype is important, though, for new Linux users.  It is no good telling them to use SIP, as their friends have Skype and most people do not want to make the sacrifices that some of us feel are necessary.
+
+Feeling a little guilty, I decided to give it a go.  I was expecting to download the 32-bit version of Skype, and the 32-bit libraries, but was surprised to see a 64-bit version for Ubuntu.  Given that Ubuntu is based on Debian, it was worth a try:
+
+   * [Download Skype for Linux](http://www.skype.com/en/download-skype/skype-for-linux/)
+
+I installed it with:
+
+    $ sudo dpkg -i skype-ubuntu-intrepid_2.1.0.81-1_amd64.deb
+
+And, erm, it seems to work.  Well at least the test call worked perfectly.
+
+So we seem to be able to tick the Skype 64-bit box as "job done", now how about iTunes...
+
