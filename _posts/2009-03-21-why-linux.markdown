@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Why Linux?"
+date:   2009-03-21 00:00:00
+categories: technology linux
+tags: 
+---
+
+## Benefits of Linux
+
+In fact there is some shared parentage with these, for example all three are UNIX originated, and Apple Mac OS X has, as I understand it, come from BSD.  This means that all three of these operating systems have the power of a UNIX base, giving them many advantages over Microsoft Windows systems, including in my experience:
+
+   * Free
+   * Open source
+   * Better performance for the same hardware
+   * Reduced disk activity (quieter and faster)
+   * Better stability (I have seen Linux machines work for 360-days without a reboot)
+   * Better user security
+   * Much reduced risk of viruses
+   * More choice
+
+## Disadvantages of Linux
+
+In general the disadvantages are rapidly eroding, but they do exist, including:
+
+   * Hardware compatibility: getting that hardware device to sync on your PC
+   * Software compatibility: getting that software application to run on your PC
+
+## Hardware compatibility
+
+When you read through the specifications of that new gadget, take a look at the supported operating systems - it will always say "Microsoft Windows XP/Vista", occasionally "Apple Mac OS X", but almost never "Linux".  One of the reasons for this is that there are many different versions of Linux, and it would be a tall order for a manufacturer to test with them all, so instead they play safe and don't list it.  Often such devices "just work" when they're plugged into Linux.  There doesn't seem to be any standard that a hardware manufacturer can work to, and be able to say, without fear of contradiction "supports Linux".  That said, there are a great many devices that simply don't work.
+
+In general, devices which work as USB Mass Storage devices (Memory keys, iPods and MP3 players, Cameras etc) work very well under Linux, as do mouse, keyboards and monitors.  But devices which require proprietary closed source drivers to run (Sony dictation machines is one example I have come across recently) simply do not work.  Similarly, which the iPod works beautifully on Linux, your average iPod user may disagree when they start looking for iTunes, which is not available for Linux.
+
+## Software compatibility
+
+Your Windows software will not "just work" on Linux.  See my page Windows for Linux for further information.

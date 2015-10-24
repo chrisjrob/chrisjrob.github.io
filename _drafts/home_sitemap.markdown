@@ -1,0 +1,3 @@
+## Site Map
+
+%SITEMAP%

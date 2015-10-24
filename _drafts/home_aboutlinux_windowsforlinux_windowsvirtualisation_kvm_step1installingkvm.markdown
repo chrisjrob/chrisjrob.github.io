@@ -1,0 +1,86 @@
+## Step 1: Installing KVM
+
+<<<---
+%TOC%
+%MENU%
+<<<---
+
+### Step 1: Check CPU supports KVM
+
+<pre>
+# egrep '^flags.*(vmx|svm)' /proc/cpuinfo 
+</pre>
+
+If nothing is displayed, then you do not have a CPU that supports KVM. If lines are output that include the text "vmx" then you have an Intel CPU that supports KVM, if "svm" then an AMD CPU that supports KVM.
+
+### Step 2: Check Kernel
+
+In order to run KVM you must be running 2.6.20 or higher. You can check this by running the following command:
+
+<pre>
+# uname -r
+2.6.26-1-686
+</pre>
+
+### Step 3: Install Prerequisites
+
+<pre>
+# aptitude install gcc-3.4 libsdl1.2-dev zlib1g-dev libasound2-dev linux-kernel-headers pkg-config libgnutls-dev
+</pre>
+
+### Step 4: Install KVM
+
+<?> Make sure that you have Backports installed if you are running Etch.
+
+<pre>
+# aptitude install kvm qemu
+</pre>
+
+<?> You need QEMU in order to create disk images.
+
+### Step 5: Add User to KVM
+
+<pre>
+# adduser $USER kvm
+</pre>
+
+### Step 6: Load KVM Modules
+
+Decide whether you have an Intel or AMD CPU (see Step 1).
+
+<pre>
+# modprobe kvm
+# modprobe kvm-intel or kvm-amd (depending on CPU type)
+</pre>
+
+If this fails then try
+
+<pre>
+# dmesg | grep kvm
+</pre>
+
+If it states "kvm disabled in BIOS" then you will need to boot into the BIOS and switch on VT support (probably under advanced processor options).
+
+You can check that the modules are enabled by running:
+
+<pre>
+# lsmod | grep kvm
+</pre>
+
+### Step 7: Set KVM modules to autoload
+
+Add the modules to /etc/modules to ensure that they load upon the next reboot.
+
+<pre>
+# echo "kvm" >> /etc/modules
+# echo "kvm-intel" >> /etc/modules
+</pre>
+
+### Next Steps
+
+   * Step 2: Creating a Virtual Machine in KVM
+
+### References
+
+   * {KVM Wiki Howto|http://kvm.qumranet.com/kvmwiki/HOWTO}
+   * {KVM on Debian Wiki|http://wiki.debian.org/KVM}

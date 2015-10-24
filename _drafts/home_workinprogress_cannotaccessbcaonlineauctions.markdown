@@ -1,0 +1,31 @@
+## Cannot access BCA on-line auctions
+
+<<<---
+%TOC%
+<<<---
+
+### The Issue
+
+Users are unable to access BCA on-line auctions:
+
+   * http://www.bca-online-auctions.co.uk/AuctionServlet/login.html
+
+### Iceweasel/Firefox on Debian Etch
+
+
+
+### Internet Explorer on Windows Server 2003
+
+{image_right|screenshots_bcaproblems_windows2003server_thumb.gif|images/screenshots_bcaproblems_windows2003server.gif}
+
+Call has been logged with BCA as ref 199445:
+
+   # From internet Explorer select Tools >> Internet Options >> Security then select the Internet Icon and then click the custom level button.
+   # Towards the bottom of the list should be a section labelled scripting of Java applets.
+   # Set this to enabled then click OK and OK.
+
+As the screen shots suggest they need to check their Internet options-security-java applet/activex settings. If they are coming thro a company firewall or network they may not be able to reset these settings.
+
+### References
+
+    * http://www.bca-online-auctions.co.uk/AuctionServlet/login.html

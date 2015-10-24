@@ -1,7 +1,0 @@
----+ Convert Quicktime MOV to AVI
-
-%RAW%
-<pre>
-$ ffmpeg -i "source.mov" -sameq -vcodec msmpeg4v2 -acodec pcm_u8 "output.avi"
-</pre>
-%RAW%

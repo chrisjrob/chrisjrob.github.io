@@ -1,0 +1,80 @@
+## Analyse Boot Speed
+
+{image_right|graphs/bootchart_0_500x500.png|images/graphs/bootchart_0.png}
+
+<<<---
+%TOC%
+<<<---
+
+### Step 1 - Install bootchart
+
+%RAW%
+<pre>
+# aptitude install bootchart
+</pre>
+%RAW%
+
+### Step 2 - Update Grub
+
+%RAW%
+<pre>
+# nano /boot/grub/menu.lst
+</pre>
+%RAW%
+
+Look for a line that looks like this:
+
+%RAW%
+<pre>
+# altoptions=(single-user mode) single
+</pre>
+%RAW%
+
+And add a similar line after it that looks like this:
+
+%RAW%
+<pre>
+# altoptions=(single-user mode) single
+# altoptions=(bootchart) init=/sbin/bootchartd
+</pre>
+%RAW%
+
+Then update your grub entries by typing:
+
+%RAW%
+<pre>
+# update-grub
+</pre>
+%RAW%
+
+### Step 3 - Reboot
+
+Reboot, making sure that you select the bootchart option from the grub menu.
+
+Once the boot has finished, open a terminal and type:
+
+%RAW%
+<pre>
+$ bootchart
+</pre>
+%RAW%
+
+### Step 4 - Analyse
+
+You chould find a new png image in your current directory (the one you ran the bootchart command from) called bootchart.png.  Open it, analyse it and write a really good howto on how to optimise your system, and then publish it on the web!
+
+Good luck!
+
+### Comments
+
+%FORM%
+Name*:       [                                                         ]
+Email*:      [                                                         ] Will not be published
+Subject*:    [                                                         ]
+Comment*:    [                                                         .....]
+%FORM%
+
+%RESULTS%
+##### {mandatory_subject} by {mandatory_name} on {timestamp}:
+"{mandatory_comment}"
+%RESULTS%

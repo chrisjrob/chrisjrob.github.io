@@ -1,0 +1,75 @@
+## Rails 3 migrating data from sqlite3 to mysql
+
+<<<---
+%TOC%
+<<<---
+
+### Warning
+
+This is a notes page, please do not following any information contained therein.
+
+### Example 1
+
+Probably the quick easiest way is using the sqlite .dump command, in this case create a dump of the sample database.
+
+<pre>
+sqlite3 sample.db .dump > dump.sql
+</pre>
+
+You can then (in theory) import this into the mysql database, in this case the test database on the database server 127.0.0.1, using user root.
+
+<pre>
+mysql -p -u root -h 127.0.0.1 test < dump.sql
+</pre>
+
+I say in theory as there are a few differences between grammars.
+
+In sqlite transactions begin
+
+<pre>
+BEGIN TRANSACTION;
+...
+COMMIT;
+</pre>
+
+MySQL uses just
+
+<pre>
+BEGIN;
+...
+COMMIT;
+</pre>
+
+There are other similar problems (varchars and double quotes spring back to mind) but nothing find and replace couldn't fix.
+
+Perhaps you should ask why you are migrating, if performance/ database size is the issue perhaps look at reoginising the schema, if the system is moving to a more powerful product this might be the ideal time to plan for the future of your data.
+
+### Example 2
+
+Here are the basic commands for dumping/loading DBs in mysql:
+
+Dumping the database:
+
+<pre>
+$ mysqldump your_dev_db_name > your_db_dump.sql
+</pre>
+
+Loading the dump:
+<pre>
+$ mysql your_production_db_name < your_db_dump.sql
+</pre>
+
+### Migrating Schema
+
+Migrate schema from current db to production:
+
+<pre>
+rake:db:schema:dump
+RAILS_ENV=production rake db:schema:load
+</pre>
+
+### References
+
+   * http://stackoverflow.com/questions/18671/quick-easy-way-to-migrate-sqlite3-to-mysql
+   * http://workingwithrails.com/forums/4-ask-a-rails-expert/topics/821-copy-development-db-to-production-both-mysql
+   * http://thinkingrails.blogspot.com/2007/06/rails-rake-tasks-reference.html

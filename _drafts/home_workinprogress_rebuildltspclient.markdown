@@ -1,0 +1,66 @@
+## Rebuild LTSP Client
+
+<<<---
+%TOC%
+<<<---
+
+### Warning
+
+<!> This document is work in progress
+
+### Why rebuild the client
+
+There are times when tinkering is just not enough and you decide that you want to rebuild the client.  E.g. you have messed about with the chroot, and now the clients will not boot, or you have lost local functionality and cannot resolve it.
+
+### Method
+
+   # Backup special client config, e.g. /opt/ltsp/i386/etc/lts.conf
+   # Remove /opt/ltsp/i386
+   # Re-run ltsp-build-client script
+
+### Backup client configuration
+
+Create a temporary backup directory:
+
+<pre>
+$ cd
+$ mkdir ltsp-client-config
+</pre>
+
+Copy lts.conf (the location of the config for all your clients):
+
+<pre>
+$ sudo cp /opt/ltsp/i386/etc/lts.conf ~/ltsp-client-config
+</pre>
+
+List the current client packages:
+
+<pre>
+$ sudo chroot /opt/ltsp/i386
+$ dpkg --get-selections >dpkg-selections
+$ exit
+</pre>
+
+Copy created list of client packages into the temporary backup directory:
+
+<pre>
+$ cp /opt/ltsp/i386/dpkg-selections ~/ltsp-client-config
+</pre>
+
+<?> Think about the changes you have made to your client and think about backing up those changes.
+
+### Build client
+
+<pre>
+$ sudo ltsp-build-client --extra-mirror "http://pkg-ltsp.alioth.debian.org/debian etch-ltsp-backports main" --apt-key /etc/apt/trusted.gpg
+</pre>
+
+<!> If you want to install the client elsewhere than /opt/ltsp then add switch for " --base /opt/path"
+
+### Further Information
+
+You may want to perform further configuration on the client:
+
+   * LTSP5 Sound
+   * LTSP5 Local Devices
+   * LTSP5 Scanning

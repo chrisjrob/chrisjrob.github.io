@@ -1,0 +1,67 @@
+## Install Courier-IMAP Server
+
+<<<---
+%TOC%
+<<<---
+
+### Introduction
+
+Courier-IMAP is quick and easy to install, but is probably not your best option for running a first class IMAP server.  In particularly I have been strongly recommended `Cyrus IMAP server`.  The big advantage to Courier-IMAP is that it can be very easily installed on your LTSP server as a temporary migration tool for email, i.e. to transfer users from Windows to Linux.
+
+### Install IMAP
+
+<pre>
+$ sudo apt-get install courier-imap
+</pre>
+
+This will prompt whether to create files for use by the web interfaces; it is safe to select "No" here.
+
+Now you need to choose a directory where your mail will live:
+
+<pre>
+$ sudo mkdir -p /opt/imap-mail
+</pre>
+
+Now we need to define our users in the courier-imap user database. There are several ways to do this, including mass conversion of all your users in /etc/passwd using the pw2userdb tool as mentioned in the courier FAQ. Here is what we do to create a single user:
+
+%RAW%
+<pre>
+$ sudo touch /etc/courier/userdb
+$ sudo chmod 600 /etc/courier/userdb
+$ sudo userdb ~userid~ set uid=<1000> gid=<1000> shell=/bin/bash home=/opt/imap-mail/~userid~
+</pre>
+%RAW%
+
+*Edit the final line as appropriate
+
+Now you need to set the users password and create the directory that will store all our e-mail:
+
+<pre>
+$ sudo userdbpw -md5 | sudo userdb <peanut> set systempw
+$ sudo mkdir -p /opt/imap-mail/<userid>
+$ sudo maildirmake /opt/imap-mail/<userid>/Maildir
+$ sudo chown -R <1000>:<1000> /opt/imap-mail/<userid>
+</pre>
+
+In the /etc/courier/authdaemonrc file, make sure you set the following value:
+
+<pre>
+authmodulelist="authuserdb"
+</pre>
+
+Note that you may need to replace the existing authmodulelist value. Now prepare the user DB and restart the entire system:
+
+<pre>
+$ sudo makeuserdb
+$ sudo /etc/init.d/courier-authdaemon stop
+$ sudo /etc/init.d/courier-imap stop
+$ sudo /etc/init.d/courier-authdaemon start
+$ sudo /etc/init.d/courier-imap start 
+</pre>
+
+The IMAP system is now ready.  See LTSP User Migration for more information.
+
+### References
+
+   * http://www.howtoforge.com/converting_outlook_pst_to_maildir
+

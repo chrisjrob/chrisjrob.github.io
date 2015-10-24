@@ -1,0 +1,5 @@
+## Install NTP time server or client
+
+I am not going to reinvent the wheel - the following link is excellent:
+
+   * http://www.debianadmin.com/ntp-server-and-client-configuration-in-debian.html
