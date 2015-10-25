@@ -1,0 +1,34 @@
+---
+layout: post
+title: rkhunter /usr/bin/unhide.rb has been replaced by /usr/bin/unhide.rb
+date: 2013-07-04 15:05:45.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+- ubuntu
+tags:
+- rkhunter
+- ubuntu
+meta:
+  _wpas_done_687483: '1'
+  publicize_twitter_user: chrisjrob
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:122468352;b:1;}}
+  _edit_last: '20992958'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2013-07-04
+    15:06:47";}
+  _wpas_skip_687483: '1'
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I have recently moved over to Rootkit Hunter (rkhunter) instead of using fcheck, one issue that I encountered on all our Ubuntu servers was the error:</p>
+<pre>Warning: The command '/usr/bin/unhide.rb' has been replaced by a script: /usr/bin/unhide.rb: Ruby script</pre>
+<p>Googling confirmed that this error was normal on Ubuntu systems, but I found no solution. Fortunately the solution was simple, simply editing /etc/rkhunter.conf and adding the following line at the appropriate place:</p>
+<pre>SCRIPTWHITELIST=/usr/bin/unhide.rb</pre>
+<p>&nbsp;</p>

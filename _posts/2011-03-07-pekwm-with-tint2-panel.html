@@ -1,0 +1,38 @@
+---
+layout: post
+title: PekWM with Tint2 Panel
+date: 2011-03-07 15:05:51.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+tags:
+- pekwm
+- tint2
+meta:
+  _edit_last: '20992958'
+  _wpas_done_twitter: '1'
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1300097798";}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I have just been recommended to try the "tint2" panel.  It looks lovely and minimalist, and has happily taken the kwalletmanager system tray icon; so hopefully will work on my laptop with battery and wireless monitors.</p>
+<p><a href="http://chrisjrob.files.wordpress.com/2011/03/pekwm-snapshot-med.png"><img src="{{ site.baseurl }}/assets/pekwm-snapshot-med.png?w=300" alt="PekWM with Tint2 Panel" title="PekWM with Tint2 Panel" width="300" height="168" class="alignright size-medium wp-image-151" /></a></p>
+<p>Whilst you're looking at my screenshot, note the Window grouping between Google Chrome and Iceweasel and the two terminal windows grouped together.  The window grouping feature really is very, very handy.</p>
+<p>Installing tint2 is simple:<br />
+<code>$ sudo apt-get install tint2</code></p>
+<p>And then add tint2 to your <code>~/.pekwm/startup</code> file:<br />
+<code>tint2 &amp;</code></p>
+<p>If you need to configure it, then edit <code>~/.config/tint2/tint2rc</code>; so far I have found the defaults to be okay.</p>
+<h2>Update: Battery monitor</h2>
+<p>To get the built in tint2 battery monitor, simply edit <code>~/.config/tint2/tint2rc</code>:<br />
+<code><br />
+battery = 1<br />
+battery_hide = never<br />
+</code></p>

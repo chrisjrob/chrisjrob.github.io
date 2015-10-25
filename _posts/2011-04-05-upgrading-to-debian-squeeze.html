@@ -1,0 +1,68 @@
+---
+layout: post
+title: Upgrading to Debian Squeeze
+date: 2011-04-05 12:31:58.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- debian
+- linux
+- technology
+tags:
+- apt
+- aptitude
+- debian
+- dpkg
+- kde
+- pekwm
+- squeeze
+meta:
+  _edit_last: '20992958'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2011-04-05
+    12:45:45";}
+  _wpas_done_twitter: '1'
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1307958103";}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I finally decided to upgrade my work desktop to Debian Squeeze.</p>
+<h2>Preparing for the Upgrade</h2>
+<p>I manually removed all but the official lenny repositories (and removed the Debian Volatile repository which is no longer used), and updated them to "squeeze":<!--more--><br />
+<code><br />
+$ sudo vim /etc/apt/sources.list<br />
+deb http://91.121.125.139/debian/ squeeze main non-free contrib<br />
+deb-src http://91.121.125.139/debian/ squeeze main non-free contrib</p>
+<p>deb http://security.debian.org/ squeeze/updates main non-free contrib<br />
+deb-src http://security.debian.org/ squeeze/updates main non-free contrib<br />
+</code></p>
+<p>Next, in order to minimise download time, I reviewed my installed packages:<br />
+<code><br />
+$ sudo dpkg -l | grep "ii " | less<br />
+</code></p>
+<p>And I removed all the unnecessary packages.  In particular I decided to remove all of KDE, as I am now using pekwm.  When removing packages I found apt-get kept trying to upgrade large numbers of packages.  Aptitude was much better, as instead of just trying to install a load of packages, it reported the problem (e.g. package XYZ will be broken by this change) and let me choose the solution.  I just added the packages that would be broken to the list of packages to be removed.</p>
+<h2>Upgrade apt and dpkg</h2>
+<p>Then I installed apt and dpkg, to save these from having to be upgraded during the upgrade process:<br />
+<code><br />
+$ sudo apt-get update<br />
+$ sudo apt-get install apt dpkg<br />
+</code></p>
+<h2>Upgrade to Squeeze</h2>
+<p>Lastly, I ran the upgrade to squeeze with:<br />
+<code><br />
+$ sudo apt-get dist-upgrade<br />
+</code></p>
+<p>During the upgrade I receive warnings about <code>/lib/firmware/e100</code> missing.  Mindful of the Debian's much touted removal of non-free drivers, I did an <code>apt-file search e100</code> which revealed that I needed to install the <code>firmware-linux-nonfree</code> package.  This done, I rebooted.</p>
+<h2>First Boot</h2>
+<p>It booted fine to the command prompt, but of course without a login manager it got no further.  I simply typed startx to get into pekwm and it all worked perfectly.</p>
+<h2>Installing KDE</h2>
+<p>I decided to install KDE again, although I would struggle to explain why, curiosity perhaps.  I installed kde-core and it all just worked perfectly, with a neat first time wizard to handle the migration of configuration from KDE3.5 to KDE4, excellent work.</p>
+<p>I used KDE4 for a few hours before returning to pekwm.</p>
+<h2>Conclusions</h2>
+<p>So far Squeeze has been flawless and yet another Debian dist-upgrade without a hitch.  Well done Debian.</p>
+<p>KDE looks great and seemed to work exactly as it ought.  Over the few hours I encountered no problems whatsoever.  But I do wish KDE would learn from some of the features of PekWM - I just love the left-mouse-click on the screen edge to move to the next window, I love the ability to group windows and I love the fact that you can resize windows to fill the available space.</p>
+<p>I am not saying that all those features should be made the default in KDE, such matters are subjective, but they ought to at least be possible in KDE and as far as I can tell they are not.  There is a screen edge option, but it works poorly, relying on you holding the mouse at the screen edge for a definable period of time.</p>

@@ -1,0 +1,41 @@
+---
+layout: post
+title: Google Chrome Flash plug-in blocked
+date: 2011-03-13 18:20:33.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+tags:
+- chrome
+- debian
+- flash
+- squeeze
+meta:
+  _edit_last: '20992958'
+  _wpas_done_twitter: '1'
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1300349522";}
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2011-03-16
+    09:14:37";}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>Google Chrome started stating <em>"The Flash plug-in was blocked because it is out of date."</em>.</p>
+<p>To fix this I entered "about:plugins" in the address bar, and clicked "disable" against Flash.  This results in Google Chrome falling back on the version of Flash installed in the operating system.  If you do not have Flash installed, then in Debian you can install as follows:</p>
+<p>Firstly ensure that the repositories in <code>/etc/apt/sources.list</code> include "non-free", for example:<br />
+<code><br />
+deb http://ftp.uk.debian.org/debian squeeze main contrib non-free<br />
+</code></p>
+<p>Then install Adobe Flash with:<br />
+<code><br />
+$ sudo apt-get update<br />
+$ sudo apt-get install flashplugin-nonfree<br />
+</code></p>
+<p>And you should now have a working Flash installation.  I have tested You Tube and all seems to be well, but I will update this page if I find any issues.</p>
+<p>By the way, I would obviously prefer to run Chromium, the open source version of Chrome, but at the moment the version in Squeeze is outdated, and there are no backports yet for Wheezy.</p>

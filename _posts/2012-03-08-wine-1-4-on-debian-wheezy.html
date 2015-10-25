@@ -1,0 +1,42 @@
+---
+layout: post
+title: Wine 1.4 on Debian Wheezy
+date: 2012-03-08 14:28:45.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- debian
+- linux
+- technology
+tags:
+- build
+- debian
+- wheezy
+- wine
+meta:
+  publicize_results: a:1:{s:7:"twitter";a:1:{i:122468352;a:2:{s:7:"user_id";s:9:"chrisjrob";s:7:"post_id";s:18:"177762792047247362";}}}
+  _wpas_done_twitter: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2012-03-08
+    14:32:42";}
+  _edit_last: '20992958'
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p><strong>Update <a title="Wine 1.5 Announcement" href="http://www.winehq.org/announce/1.5.0">Wine 1.5 has now been announced</a>!</strong></p>
+<p>I was delighted to read this morning that <a title="Wine 1.4 Released" href="http://www.winehq.org/news/2012030701">Wine 1.4 stable had been released</a>, a quick ...<br />
+<code>dpkg -l wine</code><br />
+... revealed that my Debian Wheezy install was running version 1.0.1, several significant versions old.  There may be good stability reasons for that decision, but I can afford to be a little more adventurous on my desktop PC.</p>
+<p>So the question was how to build, well <a title="Wine 1.4 out now -- very brief build instructions" href="http://verahill.blogspot.com/2012/03/wine-14-out-now-very-brief-build.html">some brief and helpful instructions are already available</a>.</p>
+<p>The only ways I deviated from these instructions was to use the standard Wine option for the build:</p>
+<p><code> $ cd tmp/<br />
+$ ./tools/wineinstall<br />
+</code></p>
+<p>Taking the option for "no" to build without installation, and once complete I installed with:</p>
+<p><code>sudo checkinstall</code></p>
+<p>Checkinstall is a wonderful program to install from source via a Deb package, that can later be uninstalled or upgraded.</p>
+<p>Many thanks to lindqvist for saving me the hassle of working out the dependencies!</p>

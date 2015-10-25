@@ -1,0 +1,87 @@
+---
+layout: post
+title: Drupal 7
+date: 2011-02-23 15:05:18.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+tags:
+- apache
+- ckeditor
+- drupal
+- linux
+meta:
+  _edit_last: '20992958'
+  _wpas_skip_twitter: '1'
+  _wpas_skip_fb: '1'
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1303536304";}
+  _oembed_5afb333f4863aa0874655abddf8914bf: "{{unknown}}"
+  _oembed_c6976683f0e9c959a9b7a94f93e1ca16: "{{unknown}}"
+  _oembed_f8fbc5c06affffc8dc4084a9455b27c8: "{{unknown}}"
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I have decided to set up a web for my wider family, as a place to chat and share information.  I've had some experience with <a title="Drupal" href="http://drupal.org/">Drupal</a> 6, but knowing how tough it can be to upgrade between versions of Drupal, I decided to opt for Drupal 7.</p>
+<p>Drupal is great for one main reason - it is extendible to the n'th degree - a Drupal site can be a blog, a forum, a static site, a database application.  In fact there is very little you can't do with a Drupal site.  There is a price to be paid for all the functionality, I do see Drupal as being something of a jack of all trades and yet a master of none, but, if you want flexibility without the need to host multiple services, then Drupal is it.</p>
+<p>Installing Drupal was very simple, providing you know how to configure mysql (or another database).  The instructions are clearly laid out in the tar.gz; although newer users would probably be best advised to find a howto.</p>
+<p>Having googled for a decent link for you, I have found nothing, so here goes a brief howto - from memory (you have been warned ;):</p>
+<ul>
+<li>Install prerequisites (hopefully I haven't missed any that won't be brought in anyway):</li>
+</ul>
+<pre style="padding-left:60px;">$ sudo apt-get install apache2 php5-common php5-mysql \
+libapache2-mod-php5 php5-gd</pre>
+<ul>
+<li><a title="Drupal" href="http://drupal.org/project/drupal">Visit Drupal 7</a> page and copy the link to the  tar.gz file for Drupal 7 and download to a suitable directory on the server:</li>
+</ul>
+<pre style="padding-left:60px;">$ wget http://ftp.drupal.org/files/projects/drupal-7.0.tar.gz</pre>
+<ul>
+<li>Extract contents and change into the Drupal directory:</li>
+</ul>
+<pre style="padding-left:60px;">$ tar -xvvzf drupal-7.0.tar.gz
+$ cd drupal-7.0</pre>
+<ul>
+<li>Read the INSTALL.txt file and follow the steps to move the installation to its proper home (under debian /var/www):</li>
+</ul>
+<pre style="padding-left:60px;">$ cd ..
+$ sudo mkdir /var/www/drupal
+$ sudo mv drupal-7.0/* drupal-7.0/.htaccess /var/www/drupal/</pre>
+<ul>
+<li>Set the ownership and group on the new directory:</li>
+</ul>
+<pre style="padding-left:60px;">$ sudo chown -R www-data:www-data /var/www/drupal
+$ sudo chown root:root /var/www/drupal/.htaccess
+$ sudo chmod 644 /var/www/drupal/.htaccess</pre>
+<ul>
+<li>Read the INSTALL.mysql.txt file (or alternatives) and follow the steps to create the database and database user.   The following is more or less what I did:</li>
+</ul>
+<pre style="padding-left:60px;">$ mysql -u root -p
+mysql&gt; use mysql; 
+mysql&gt; INSERT INTO user (Host,User,Password)
+VALUES('%','drupal',PASSWORD('drupalpassword'));
+mysql&gt; create database drupaldb;
+mysql&gt; GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX,
+ALTER ON drupaldb.* TO drupal@localhost IDENTIFIED BY drupalpassword;</pre>
+<ul>
+<li>Return to the INSTALL.txt file and continue the remaining steps.</li>
+<li>I cloned /etc/apache2/sites-available/default to /etc/apache2/sites-available/drupal and modified it as appropriate, and then enabled it with:</li>
+</ul>
+<pre style="padding-left:60px;">$ sudo a2ensite drupal</pre>
+<ul>
+<li>Alternatively you could probably just edit the default to have:</li>
+</ul>
+<pre style="padding-left:60px;">DocumentRoot /var/www/drupal</pre>
+<ul>
+<li>I found that I needed to enable mod_rewrite to get the clean urls working:</li>
+</ul>
+<pre style="padding-left:60px;">$ sudo a2enmod rewrite
+$ sudo /etc/init.d/apache restart</pre>
+<p>Once installed Drupal 7 looks very attractive and feels a very slick product.  I was particularly impressed by the ability to paste a link to a Drupal module tar.gz file and click Install.  Doubtless this is not the recommended way to install modules, but it worked fine.</p>
+<p>One thing that most users will wish to install is a WYSIWYG editor, and after much trial and error I found that the <a title="CKEditor" href="http://drupal.org/project/ckeditor">CKEditor module</a> (and <strong>not</strong> the <a title="WYSIWYG Module" href="http://drupal.org/project/wysiwyg">WYSIWYG module</a> + <a title="CKEditor" href="http://ckeditor.com/download">CKEditor</a>) worked best.</p>
+<p>On the downside, I am struggling to find all the modules that I need.  As in previous versions of Drupal, there are a great many that have still not updated for Drupal 7.  In particular, I would like an instant messaging module, but cannot find such a thing.  I would imagine this issue will get easier over time, and I would rather be on the current version now and be able to add features later, than be on the old version now with all features and have the worry about how I am ever going to upgrade!</p>

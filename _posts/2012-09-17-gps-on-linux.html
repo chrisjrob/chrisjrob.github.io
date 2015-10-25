@@ -1,0 +1,52 @@
+---
+layout: post
+title: GPS on Linux
+date: 2012-09-17 14:46:49.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- debian
+- linux
+- personal
+- sailing
+- technology
+tags:
+- gps
+- maps
+- osm
+- sailing
+meta:
+  _edit_last: '20992958'
+  tagazine-media: a:7:{s:7:"primary";s:74:"http://chrisjrob.files.wordpress.com/2012/09/416qvft-dcl-_sl500_aa300_.jpg";s:6:"images";a:1:{s:74:"http://chrisjrob.files.wordpress.com/2012/09/416qvft-dcl-_sl500_aa300_.jpg";a:6:{s:8:"file_url";s:74:"http://chrisjrob.files.wordpress.com/2012/09/416qvft-dcl-_sl500_aa300_.jpg";s:5:"width";i:300;s:6:"height";i:300;s:4:"type";s:5:"image";s:4:"area";i:90000;s:9:"file_path";b:0;}}s:6:"videos";a:0:{}s:11:"image_count";i:1;s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2012-09-17
+    14:46:49";}
+  _wpas_done_twitter: '1'
+  _wpas_skip_687483: '1'
+  twitter_cards_summary_img_size: a:7:{i:0;i:300;i:1;i:300;i:2;i:2;i:3;s:24:"width="300"
+    height="300"";s:4:"bits";i:8;s:8:"channels";i:3;s:4:"mime";s:10:"image/jpeg";}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>[caption id="attachment_560" align="alignright" width="300"]<a title="Buy on Amazon" href="http://www.amazon.co.uk/gp/product/B000PKX2KA/ref=as_li_ss_il?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B000PKX2KA&amp;linkCode=as2&amp;tag=robsquadnet-21"><img class="size-full wp-image-560" title="416QvFT-dCL._SL500_AA300_" src="{{ site.baseurl }}/assets/416qvft-dcl-_sl500_aa300_.jpg" alt="GPS Receiver BU-353" width="300" height="300" /></a> GPS Receiver BU-353[/caption]</p>
+<p>I have bought myself a <a href="http://www.amazon.co.uk/gp/product/B000PKX2KA/ref=as_li_ss_il?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B000PKX2KA&amp;linkCode=as2&amp;tag=robsquadnet-21">GPS Receiver BU-353</a>.</p>
+<p>Having plugged in the device into my Debian Wheezy workstation, I wanted to test that it was working.</p>
+<p>A quick dmesg | tail showed me that the device has been found and installed correctly (no drivers required).<br />
+<!--more--><br />
+I then installed the GPS daemon:</p>
+<pre>$ sudo apt-get install gpsd gpsd-clients
+$ sudo dpkg-reconfigure gpsd</pre>
+<p>This then started the GPS daemon. The next thing to do was get some example output, and the tool for this is gpspipe:</p>
+<pre>$ gpspipe -w -n 5</pre>
+<p>Lastly, I thought it would be fun to plot the output onto Google Maps and/or Openstreetmaps:</p>
+<pre>$ tpv=$(gpspipe -w -n 5 | grep -m 1 TPV | cut -d, -f4,6-8,13)
+$ latitude=$(echo $tpv | cut -d, -f3 | cut -d: -f2)
+$ longitude=$(echo $tpv | cut -d, -f4 | cut -d: -f2)
+$ google_map_url="http://maps.google.com/?q=${longitude},${latitude}&amp;z=${zoom}"
+$ osm_map_url="http://www.openstreetmap.org/?mlat=${latitude}&amp;mlon=${longitude}&amp;zoom=${zoom}&amp;layers=M"
+$ xdg-open $google_map_url
+$ xdg-open $osm_map_url</pre>
+<p>All worked beautifully.</p>

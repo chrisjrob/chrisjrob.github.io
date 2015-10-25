@@ -1,0 +1,50 @@
+---
+layout: post
+title: Dillinger - The HTML5 Markdown Editor
+date: 2014-08-09 10:55:35.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+- ubuntu
+tags:
+- dillinger
+- markdown
+- ubuntu
+- vim
+meta:
+  _publicize_pending: '1'
+  _edit_last: '20992958'
+  _wpas_skip_google_plus: '1'
+  _wpas_skip_twitter: '1'
+  _wpas_skip_facebook: '1'
+  _wpas_skip_tumblr: '1'
+  _wpas_skip_linkedin: '1'
+  _wpas_skip_path: '1'
+  geo_public: '0'
+  _wpas_skip_7195844: '1'
+  _wpas_skip_5246225: '1'
+  _wpas_skip_687483: '1'
+  _wpas_skip_8247391: '1'
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I thought I loved <a title="Read about markdown on Wikipedia" href="http://en.wikipedia.org/wiki/Markdown">markdown</a>. I thought <a href="http://dillinger.io">Dillinger</a> (an HTML5 Markdown editor) looked remarkable. So I downloaded and installed it on an Ubuntu 14.04.1 LTS server:</p>
+<pre><code>git clone https://github.com/joemccann/dillinger.git dillinger
+cd dillinger
+npm i -d
+mkdir -p public/files/{md,html,pdf}
+sudo apt-get install nodejs
+ln -s /usr/bin/nodejs /usr/bin/node
+npm install express
+npm install phantomjs
+cd dillinger
+node app</code></pre>
+<p>It looks beautiful and works perfectly and even includes the ability to export to PDF. But it seems that, for me at least, markdown without <a href="http://www.vim.org/">Vim</a> just isn't the same.</p>
+<p>Shame that.</p>

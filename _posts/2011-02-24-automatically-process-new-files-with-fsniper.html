@@ -1,0 +1,38 @@
+---
+layout: post
+title: Automatically process new files with fsniper
+date: 2011-02-24 15:41:19.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+tags:
+- fsniper
+- linux
+- rsync
+- unison
+meta:
+  _wpas_done_twitter: '1'
+  _wpas_done_fb: '1'
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1304264450";}
+  _edit_last: '20992958'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2011-03-16
+    09:16:37";}
+  _oembed_4541c3780dc858f5003a237ba7430c84: "{{unknown}}"
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I had never heard of fsniper until it was mentioned in a mailing list today, but it sounds excellent:</p>
+<p><a href="http://www.linux.com/archive/feature/150200">Linux.com :: Automatically process new files with fsniper</a></p>
+<p>Now I am wondering if I can use it to prompt an rsync to sync our shared documents to our remote site, and <a title="Bio-Geeks" href="http://bio-geeks.com/?p=662">it seems I could</a>.  This is a major headache for me, as we have two branches and a shared documents repository.</p>
+<p>I have previously tried using <a title="Unison File Syncrhonizer" href="http://www.cis.upenn.edu/~bcpierce/unison/">Unison</a> to synchronise between the branches, but this has created a lot of load on the master server, massively slowing down performance for all the users on the master server.</p>
+<p>We are currently using apache2+webdav+svn but this is not working well for us.  Potentially fsniper+rsync could work very well.  It would clearly need to be running on both servers and I can see a potential clash if the two servers happen to try and update the same file at the same time.  More thought is required, any suggestions - do let me know.</p>
+<p>The links to the fsniper site seem to be outdated in both of the above articles, but it may be found at:</p>
+<p><a href="http://freshmeat.net/projects/fsniper">http://freshmeat.net/projects/fsniper</a></p>
+<p>It doesn't appear to be packaged for Debian, but I will probably compile from source and try it soon.  More later!</p>

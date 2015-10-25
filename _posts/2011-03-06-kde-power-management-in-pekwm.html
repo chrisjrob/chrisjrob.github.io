@@ -1,0 +1,64 @@
+---
+layout: post
+title: KDE Power Management in PekWM
+date: 2011-03-06 23:00:01.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+tags:
+- battery
+- kde
+- pekwm
+- power management
+- powerdevil
+- xbattbar
+meta:
+  _edit_last: '20992958'
+  _wpas_done_twitter: '1'
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1300097799";}
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2011-03-16
+    09:15:15";}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>After my laptop spontaneously switched off on <b>two</b> separate occasions, because I had failed to switch on the mains socket, I decided that something had to be done about the lack of power management in <a href="http://www.pekwm.org/">pekwm</a>.</p>
+<p>Hunting the 'net for anything to do with pekwm is a frustrating business.  You can't help thinking that there are only a handful of us that use it.  I may post something about why I think pekwm is great, but that is a topic for another day.</p>
+<p>As my laptop's primary desktop environment is KDE, I wanted to use the KDE power management with pekwm, rather than install the Gnome Power Manager, which would bring in a load of Gnome dependencies.  If you already have Gnome installed, then I suspect the Gnome Power Manager is for you.</p>
+<p>There seem to be three parts to this:</p>
+<ol>
+<li>Getting the power management daemon to run</li>
+<li>Adding a power meter</li>
+<li>Adding the configuration tool to the menu</li>
+</ol>
+<p>Whilst these instructions are primarily for pekwm, I am sure that openbox, fluxbox and other *box window managers could use them with a little adjustment.<br />
+<!--more--></p>
+<h2>Power Management Daemon</h2>
+<p>In the ~/.pekwm/start file, add the lines:<br />
+<code><br />
+kded4 &amp;<br />
+qdbus org.kde.kded /kded loadModule powerdevil &amp;<br />
+</code></p>
+<p>If you do not want to restart pekwm to test, just run those two commands live.</p>
+<h2>Battery Meter</h2>
+<p>Update: Since writing this post <a href="/2011/03/07/pekwm-with-tint2-panel/">I have discovered tint2</a> which includes a simple battery monitor.</p>
+<p>What I really want is a battery level meter that will sit happily in <a href="http://icculus.org/openbox/2/docker/">Docker</a>, but I failed in this quest.  If you have any suggestions, please do let me know and I will update this post.  In the meantime I have installed xbattbar, which gives a full thin width line at the bottom of your screen.</p>
+<p><code><br />
+$ sudo apt-get install xbattbar<br />
+</code></p>
+<p>In the ~/.pekwm/start file, add the line:<br />
+<code><br />
+xbattbar &amp;<br />
+</code></p>
+<h2>Power Management Configuration</h2>
+<p>It is quite possible that you will wish to configure your power management from within pekwm.  To do this, add the following to your ~/.pekwm/menu file:<br />
+<code><br />
+Entry = "Configure Powerdevil" { Actions = "Exec kcmshell4 powerdevilconfig &amp; " }<br />
+</code></p>
+<p>And that appears to be a working solution for me, I hope it works for you too!</p>

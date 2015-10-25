@@ -1,0 +1,41 @@
+---
+layout: post
+title: Novatech n1410 Nine Months On
+date: 2013-11-14 18:15:08.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+- ubuntu
+tags:
+- linux
+- novatech
+- ubuntu
+meta:
+  publicize_twitter_user: chrisjrob
+  publicize_twitter_url: http://t.co/en14OMGq2K
+  _wpas_done_687483: '1'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:122468352;b:1;}}
+  _edit_last: '20992958'
+  _wpas_skip_687483: '1'
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p><a href="http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html"><img class="alignright size-medium wp-image-790" alt="nfinityn1411" src="{{ site.baseurl }}/assets/nfinityn1411.png?w=300" width="300" height="167" /></a>Nine months with my Novatech n1410 have reinforced <a title="The Novatech nfinity n1410 Review" href="http://chrisjrob.com/2013/02/22/the-novatech-nfinity-n1410-review/">all my earlier thoughts</a>.</p>
+<p>The power switch remains a momentary petty irritation, but the poor quality keyboard and intrusive trackpad are harder to live with. The wireless is pretty poor, but it generally connects fine and rarely actually causes me any problems.</p>
+<p>But the Novatech remains a good-looking, lightweight laptop with a great battery life, and highly portable. And it was undeniably great value.</p>
+<p><!--more--></p>
+<p>One new irritation, that I hadn't noticed in my earlier review, is that the volume can be too quiet in some circumstances. If sound is important to you, and particularly if you require it to deliver the goods in noisy environments, then you will probably need to invest in some external speakers, for example a pair of <a title="XMI X-Mini Capsule Speakers" href="http://www.amazon.co.uk/gp/product/B004LLI0CY/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B004LLI0CY&amp;linkCode=as2&amp;tag=robsquadnet-21&quot;">XMI X-Mini MAX V1-1 Capsule Speakers</a>.</p>
+<p>Nine months on, and I decided to upgrade <a title="Ubuntu" href="http://www.ubuntu.com">Ubuntu</a> 12.10 to 13.04 and 13.10. The upgrades both went flawlessly and as usual I do wonder why Ubuntu users seem so tied to re-installing instead of upgrading.</p>
+<p>But unfortunately it hasn't been all good news - the upgrade to 13.04 saw the introduction of two bugs:</p>
+<p><strong>Brightness on Boot:</strong> On booting up, brightness is set to the maximum every time. The numerous suggested fixes didn't seem to work and so, pending a better solution, I have installed "xbacklight" and added it to the start-up applications with the switches "-set 20" to set it to 20% brightness. And yes, I am aware that I could have just echoed the chosen brightness to the relevant device file:</p>
+<pre># echo 1102 &gt; /sys/class/backlight/intel_backlight/brightness</pre>
+<p><strong>Volume FN Buttons:</strong> The volume buttons no longer work correctly, on the first press the volume shoots up to maximum or minimum and then the indicator keeps flashing, locking the keyboard and requiring a <a title="REISUB" href="http://www.wikipedia.org/wiki/reisub">REISUB</a> reboot. For the time being I have simply re-mapped the F10, F11 and F12 buttons to do the tasks that would normally be done by FN F10, FN F11 and FN F12 (see screenshot).</p>
+<p><a href="http://chrisjrob.files.wordpress.com/2013/11/keyboard.png"><img class="size-full wp-image" id="i-1059" alt="Image" src="{{ site.baseurl }}/assets/keyboard.png?w=650" /></a></p>
+<p>But I cannot fairly blame Novatech for these bugs, what I need to do is report bugs for them with Ubuntu. I have found an article about <a title="Backlight Debugging" href="https://wiki.ubuntu.com/Kernel/Debugging/Backlight">Backlight Debugging</a> and another on <a title="Hotkeys Debugging" href="https://wiki.ubuntu.com/Hotkeys/Troubleshooting">Hotkey Debugging</a>, both of which I will be following at some point.</p>

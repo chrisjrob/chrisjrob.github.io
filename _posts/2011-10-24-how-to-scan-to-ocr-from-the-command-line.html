@@ -1,0 +1,56 @@
+---
+layout: post
+title: How to scan to OCR from the Command Line
+date: 2011-10-24 09:21:56.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+tags:
+- epson perfection 1250
+- ocr
+- scan
+- scanimage
+- tesseract
+meta:
+  _edit_last: '20992958'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2011-10-24
+    09:21:56";}
+  _wpas_done_twitter: '1'
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I just had to remind myself how to scan to OCR, and thought I would share the results.</p>
+<p>Before you start, you need to have sane installed, and you also need tesseract-ocr - both should be available in your distros repositories.</p>
+<p><code>$ sudo apt-get install sane-utils tesseract-ocr</code></p>
+<p>Next you need to find out what scanners you have available, and you do this with:<br />
+<!--more--><br />
+<code>$ scanimage -L<br />
+device `v4l:/dev/video0' is a Noname Vimicro USB Camera (Altair) virtual device<br />
+device `plustek:libusb:004:002' is a Epson Perfection 1250/Photo flatbed scanner)</code></p>
+<p>Obviously the latter is my scanner.</p>
+<p>Assuming you have a working scanner, the following is a simple two liner to scan and OCR.</p>
+<p><code>$ scanimage -d 'plustek:libusb:004:002' --mode Lineart \<br />
+ --format tiff -x 215 -y 297 --resolution 200 &gt; example.tif</code></p>
+<p>And finally convert to text with tesseract:</p>
+<p><code>$ tesseract /tmp/example.tif example</code></p>
+<p>You should now have a file example.txt in your current directory, which you can open in any text editor.</p>
+<p>Obviously this has limitations - it works for single-page A4 portrait typed<br />
+documents - but it gives you the basics.</p>
+<p>You could probably experiment with the resolution, 200 worked for me, so<br />
+I didn't bother trying anything else. &nbsp;Traditionally the higher the<br />
+resolution the better, but I seem to recall that tesseract works better on<br />
+300 and below.</p>
+<p>On my Epson Perfection 1250 I found that I needed to add the sane<br />
+switch <code>--warmup-time 0</code> as otherwise it never finished warming up.</p>
+<p>If you would prefer to OCR an existing PDF, which is another thing that I find<br />
+myself doing from time to time, then first convert it to a tif:</p>
+<p><code>$ convert -density 200 example.pdf -depth 8 /tmp/example.tif<br />
+</code></p>
+<p>And then run the above tesseract command.</p>

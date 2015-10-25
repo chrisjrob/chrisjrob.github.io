@@ -1,0 +1,75 @@
+---
+layout: post
+title: Install Debian Squeeze with RAID1+LVM
+date: 2011-03-01 16:27:05.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- debian
+- linux
+- technology
+tags:
+- hp microserver
+- lvm
+- n36l
+- openvz
+- raid
+meta:
+  _edit_last: '20992958'
+  _wpas_done_twitter: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2011-03-25
+    17:34:18";}
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1299594725";}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I've just bought a new <a title="HP N36L Microserver" href="http://h10010.www1.hp.com/wwpc/uk/en/sm/WF06a/15351-15351-4237916-4237917-4237917-4248009.html?jumpid=in_r2515_uk/en/smb/psg/psc404redirect-ot-xx-xx-/chev/">HP N36L Microserver</a>, for £210 with £100 cashback (UPDATE: this promotion is still running even today 2011-12-06 for example at BT Business Direct and Ebuyer).  It came with a 250gb SATA, so I added a second 250gb SATA; so that I could have a simple software RAID array.  I also added 2gb of Crucial RAM.</p>
+<p>When the server arrived, I was surprised to find it had RAID built into it, but my understanding is that this is FakeRAID and thus should be avoided at all costs.  If you were particularly interested in that  option, with particular reference to Windows Home Server (yikes) then <a title="How to setup a raid array on a HP Microserver" href="http://www.tenniswood.co.uk/technology/windows-home-server/how-to-setup-a-raid-array-on-a-hp-microserver/">this page may be helpful</a>.</p>
+<p>I plugged in <a title="IODD External Harddrive" href="http://linitx.com/viewproduct.php?prodid=12992">my wonderful IODD ISO drive</a> and selected Debian Squeeze AMD64 netinstall, and off I went.  When it came to the partitioning, you need to carry this out manually, in the following order:<!--more--></p>
+<ul>
+<li>Partition <strong>both disks </strong>as follows:
+<ul>
+<li>Create boot primary partition (about 500mb)
+<ul>
+<li>Set mount as /boot and make bootable</li>
+</ul>
+</li>
+<li>Create partition using most of the rest of the first drive (e.g. 247gb)
+<ul>
+<li>Set partition as Use as physical volume for RAID</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Configure software RAID
+<ul>
+<li>Create MD Device, RAID1, 2 devices, 0 spare devices</li>
+<li>Select the RAID partition on each drive</li>
+</ul>
+</li>
+<li>Create Physical Volumes for LVM
+<ul>
+<li>Create volume group</li>
+<li>Create suitable volumes for your systems, e.g. swap (2 x RAM, root (10GB or so), home (to your taste), usr (2gb+), var (2gb+), tmp (1gb+).
+<ul>
+<li>it is a good idea not to use the whole space, as the whole benefit to LVM is being able to then add available space into any volume</li>
+</ul>
+</li>
+<li>I also created a large volume for /var/lib/vz/private, as this will be an openvz server.</li>
+</ul>
+</li>
+<li>Partition disks
+<ul>
+<li>Set each LVM volume to use the appropriate file system type, e.g. ext3 or ext4, and set the appropriate mountpoint, e.g. home should be /home etc, swap should be allocated to swap space etc</li>
+</ul>
+</li>
+</ul>
+<p>I found this howto on <a title="LVM + RAID for debian-installer" href="http://dev.jerryweb.org/raid/">LVM + RAID for debian-installer</a> most useful but, providing you follow the logical progression, it really is not as difficult as it seems.</p>
+<p>After the partitioning, I continued with the installation, removing all options including "Standard System" from the software profiles; so that I basically installed a base system, which is how I prefer it.</p>
+<p>Next I installed: sudo, <a title="Wikipedia::GNU Screen" href="http://en.wikipedia.org/wiki/GNU_Screen">GNU Screen</a>, openssh-server, vim, fcheck, locales, localepurge, apt-file,  apt-show-versions and nullmailer (ssmtp is  better if your mailserver requires secure authentication).  Doubtless you have your own favourite packages to install!</p>
+<p>Next step will be to configure as a small <a title="openvz" href="http://openvz.org">openvz</a> server, and migrate the virtual machines off my old server (which I will be commissioning as a storage server).</p>

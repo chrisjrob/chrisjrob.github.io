@@ -1,0 +1,51 @@
+---
+layout: post
+title: The Novatech nFinity n1410 Review
+date: 2013-02-22 19:11:22.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+- ubuntu
+tags:
+- laptop
+- novatech
+- review
+- ubuntu
+meta:
+  _edit_last: '20992958'
+  tagazine-media: a:7:{s:7:"primary";s:61:"http://chrisjrob.files.wordpress.com/2013/02/nfinityn1411.png";s:6:"images";a:1:{s:61:"http://chrisjrob.files.wordpress.com/2013/02/nfinityn1411.png";a:6:{s:8:"file_url";s:61:"http://chrisjrob.files.wordpress.com/2013/02/nfinityn1411.png";s:5:"width";i:409;s:6:"height";i:228;s:4:"type";s:5:"image";s:4:"area";i:93252;s:9:"file_path";b:0;}}s:6:"videos";a:0:{}s:11:"image_count";i:1;s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2013-02-22
+    17:26:30";}
+  publicize_twitter_user: chrisjrob
+  _wpas_done_687483: '1'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:122468352;b:1;}}
+  _wpas_skip_687483: '1'
+  twitter_cards_summary_img_size: a:6:{i:0;i:409;i:1;i:228;i:2;i:3;i:3;s:24:"width="409"
+    height="228"";s:4:"bits";i:8;s:4:"mime";s:9:"image/png";}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p><a href="http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html"><img class="alignright size-medium wp-image-790" alt="nfinityn1411" src="{{ site.baseurl }}/assets/nfinityn1411.png?w=300" width="300" height="167" /></a>After spending much time trying to choose the perfect Ultrabook, I came to the conclusion that it is either not made, or is prohibitively expensive. In the meantime I ordered a <a title="Novatech nFinity n1410" href="http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html">Novatech nFinity n1410</a> (14" Intel Core i5 3317 Mobile Processor - 8GB DDR3 Memory) for just £450 (plus VAT).</p>
+<p>My expectations were fairly low, given the price, but I expected something that would be adequate and I was pleased to be able to buy a laptop without a Microsoft operating system pre-installed.</p>
+<p>Purchase and delivery were quick and painless, thanks to Novatech.</p>
+<p>My first impressions were very agreeable, it looked much better than expected with a metal top. The dimensions were just as I had expected - it would fit in my briefcase and be light and portable, but still have a decent sized screen.<!--more--></p>
+<p>Then I went to switch the n1410 on, oh dear, the power switch is terrible! Cheap, nasty, with a horrible unsatisfactory movement. It still irritates me every time I use it. It glows blue when powered and red with disk activity. Once I went to put the laptop in my briefcase and the flashing blue button reminded me that it was still in standby - so yes the button is clearly functional - but still I hate it.</p>
+<p>Installing <a title="Ubuntu" href="http://ubuntu.com">Ubuntu</a> 12.10 was very simple, with no issues whatsoever. With Ubuntu installed and working well, it was time to reboot. I made the mistake of glancing away from the screen for few seconds, and it was already sitting at the login prompt. It boots in less than 15s, it takes longer to shutdown, but this is a great benefit for a portable laptop.</p>
+<p>Logging in and things just got better - the buttons all work, including the FN buttons like brightness and media playback. This is seriously impressive and the Ubuntu community deserve congratulations, as this is no mean feat. Given how painless the installation is, you can't but wonder why Novatech don't offer Ubuntu as an option.</p>
+<p>This all seemed to good to be true, and it was, suddenly the wireless signal dropped out, despite my sitting less than a metre away from the wireless access point. And this kept happening. Googling for an answer I ended up adding the following line to the end of /etc/modprobe.d/iwlwifi.conf:</p>
+<pre>options iwlwifi 11n_disable=1 bt_coex_active=N</pre>
+<p>This seemed to make the laptop usable, but it is not a long-term solution. I was advised to try a newer kernel, and I am now on 3.6.3, but it seems no different. The problem seems to be a bug with the iwlwifi module,  and <a title="Bug 1034740" href="https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1034740">it does seem to be known about</a>, so hopefully a fix will wander down to Ubuntu soon. Maybe upgrading to 13.04 will fix all, but that is one for another day.</p>
+<p>I tried closing the laptop, whilst still on, and it promptly went into standby mode. I opened the lid again and the laptop sprung back into life, although the wireless was not connected. Restarting network-manager revived the wireless connection. I can live with that. In fact I do find that I frequently need to restart network manager when first powering up, which may well be more evidence of the flaws in iwlwifi.</p>
+<p>The screen is glossy, which is never a good thing, but other than that I cannot fault it. The speakers are a little tinny, but I suspect that that is par for the course with an Ultrabook. The keyboard feels a bit cheap and I keep missing letters, or getting letters twice. I hope I get used to this, but it has to be said that the keyboard is not a pleasure to use.</p>
+<p>I am also struggling with the trackpad. My previous laptops have had smaller trackpads, which I would occasionally catch when typing. This laptop has a large trackpad, which I am constantly catching, and it is driving me slightly mad. I am not sure that this is the fault of Novatech though, in theory Ubuntu should disable the trackpad when typing, but in my experience it could work better. Maybe I can improve this is some way and I will do further research.</p>
+<p>Another trackpad irritation is that the right hand side of the pad seems to be the right-mouse-click, and the left hand side - the left mouse click. Whilst flawlessly logical, it means that right handed users have to travel a long way for left click. I suspect that this is a trait of new Xorg versions, but I have done no research on the matter. Maybe I will get used to it.</p>
+<p>The trackpad does have buttons below it, but they are simply horrible to use, requiring a considerable pressure to work, for that reason I tend to only use the trackpad itself.</p>
+<p>Sticking with the default 128gb SSD was a mistake though, as I could not even transfer my Pictures folder (blame my young family and camera touting wife!). I knew that <a title="Popey" href="http://popey.com/">popey</a> had added an mSATA drive to his Lenovo X220, and I telephoned Novatech to find out if this would be possible with the n1410. The answer was that yes it had an mSATA port, but that it was limited to 32gb and would only be used to improve the boot speed. I was not convinced that they were correct and Googling the subject showed that Dell had said the same about their laptops, and it was not true. With some concern I ordered a <a href="//www.amazon.co.uk/gp/product/B0085J17UA/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B0085J17UA&amp;linkCode=as2&amp;tag=robsquadnet-21">Crucial CT256M4SSD3 256GB m4 mSATA 6Gb/s Internal SSD</a>. To cut a long story short- this proved successful and I intend writing up the experience <a title="Fitting mSATA Drive to the Novatech nFinity n1410" href="http://chrisjrob.com/2013/03/22/fitting-msata-drive-to-the-novatech-nfinity-n1410/">in a separate post</a>.</p>
+<p>Battery life seems excellent - with past laptops I have generally used them connected to the mains, but the battery life on the n1410 is good enough that I am finding myself using it more like a tablet, in leaving it on most of the time. I believe 5 hours should be possible.</p>
+<p>Overall this is a very good value Ultrabook. Clearly it is not perfect, but I never expected it to be, I expected it to be adequate and functional, and that it certainly is. That it is also attractive, with a reasonable screen, battery life and all working with Ubuntu is just fantastic. All in all I am very pleased with my new Ultrabook.</p>

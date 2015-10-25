@@ -1,0 +1,41 @@
+---
+layout: post
+title: IRSSI Spellchecking
+date: 2013-06-12 18:24:05.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- debian
+- linux
+- technology
+tags:
+- cli
+- irssi
+- spell
+meta:
+  _edit_last: '20992958'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2013-06-12
+    15:26:04";}
+  publicize_twitter_user: chrisjrob
+  _wpas_done_687483: '1'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:122468352;b:1;}}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>Having migrated servers, my irssi tab-complete spell-check facility had broken; so I decided to document the process of getting it working.</p>
+<p>Firstly install the required packages:</p>
+<pre>$ sudo apt-get install aspell-en libaspell-dev aspell libtext-aspell-perl</pre>
+<p>Secondly, create your user's script folder, if not already present:</p>
+<pre>$ mkdir -p ~/.irssi/scripts/autorun</pre>
+<p>Now, download the aspell script:</p>
+<pre>$ cd ~/.irssi/scripts
+$ wget http://scripts.irssi.org/scripts/aspell_complete.pl
+$ cd autorun
+$ ln -s ../aspell_complete.pl</pre>
+<p>Lastly, either restart IRSSI, or, in type:</p>
+<pre>/script load ~/.irssi/scripts/autorun/aspell_complete.pl</pre>

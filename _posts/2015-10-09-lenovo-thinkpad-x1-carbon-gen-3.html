@@ -1,0 +1,85 @@
+---
+layout: post
+title: Lenovo ThinkPad X1 Carbon Gen 3
+date: 2015-10-09 19:31:57.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+- ubuntu
+tags:
+- lenovo
+- thinkpad
+- x1 carbon
+meta:
+  _edit_last: '20992958'
+  geo_public: '0'
+  draftfeedback_requests: a:1:{s:13:"5617b9217640a";a:3:{s:3:"key";s:13:"5617b9217640a";s:4:"time";s:10:"1444395297";s:7:"user_id";s:8:"20992958";}}
+  draft_feedback: a:1:{s:13:"5617b9217640a";a:1:{i:0;a:2:{s:4:"time";s:10:"1444395457";s:7:"content";s:47:""So
+    why did I chose the X1 Carbon?" => "choose"";}}}
+  _publicize_done_external: a:2:{s:7:"twitter";a:1:{i:8247381;s:55:"https://twitter.com/chrisjrob/status/652572164026052608";}s:8:"facebook";a:1:{i:8247391;s:36:"https://facebook.com/958360687539383";}}
+  _publicize_job_id: '15655158756'
+  _publicize_done_8243466: '1'
+  _wpas_done_8247381: '1'
+  publicize_twitter_user: chrisjrob
+  publicize_google_plus_url: https://plus.google.com/112653355770650909703/posts/TBv5HXSdR1z
+  _publicize_done_8243471: '1'
+  _wpas_done_8247386: '1'
+  _publicize_done_8243475: '1'
+  _wpas_done_8247391: '1'
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p><a href="https://chrisjrob.files.wordpress.com/2015/10/lenovo-laptop-thinkpad-x1-carbon-2-front-2.jpg"><img class="alignright size-medium wp-image-1415" src="{{ site.baseurl }}/assets/lenovo-laptop-thinkpad-x1-carbon-2-front-2.jpg?w=300" alt="Lenovo ThinkPad X1 Carbon Gen 3" width="300" height="169" /></a></p>
+<p>Following the <a href="http://chrisjrob.com/2015/10/01/novatech-n1410-ultrabook-32-months-on/">demise of my Novatech n1410</a>, I have now taken delivery of a shiny (actually "shiny" is one thing it isn't!) new <a href="http://shop.lenovo.com/gb/en/laptops/thinkpad/x-series/x1-carbon/">Lenovo ThinkPad X1 Carbon Gen 3</a>. This is not a review of the X1 Carbon - <a href="http://lmgtfy.com/?q=review+x1+carbon+3rd+gen">there are plenty of those available already</a>, but merely my experience of the first few days of ownership.</p>
+<p>So why did I choose the X1 Carbon?</p>
+<ol>
+<li>Quality of construction and life expectancy;</li>
+<li><a href="http://www.ubuntu.com/certification/hardware/201411-16196/">Ubuntu hardware certification</a>;</li>
+<li>Screen resolution 2560x1440 - perfect for remote support;</li>
+<li>Keyboard and Trackpad quality - two&nbsp;of my dissatisfactions with the Novatech;</li>
+<li>Weight: at 1.3kg - it is much lighter than the Novatech and much of the competition.</li>
+</ol>
+<p><!--more--></p>
+<p>The high cost was a concern to me, but having paid £479 for the Novatech and it having only lasted 32 months, I was very conscious that price isn't everything.&nbsp;I bought the X1 Carbon from <a href="http://www.businessdirect.bt.com/products/lenovo-thinkpad-x1-carbon-intel-core-i5-5200u-8gb-256gb-ssd-14--windows-7-professional-64-bit-20bs006euk-B758.html">BT Business Direct</a> for a touch&nbsp;under £1,000.</p>
+<p>When it arrived I was very surprised by the size of the packaging - this was a very small box for something so expensive! The one thing that I was not expecting was to be excited by the looks of this laptop - the words "business-like" best summed up my expectations. In the flesh&nbsp;I found the X1 Carbon absolutely stunning - the photo above is one of the few that I have found that do it justice.</p>
+<p>By this point I was <a href="http://www.bbc.co.uk/comedy/blackadder/episodes/three/three_ink.shtml">as happy&nbsp;as a Frenchman who's invented self-removing trousers</a>.</p>
+<h2>Ubuntu Installation</h2>
+<p>I downloaded <a href="http://www.businessdirect.bt.com/products/lenovo-thinkpad-x1-carbon-intel-core-i5-5200u-8gb-256gb-ssd-14--windows-7-professional-64-bit-20bs006euk-B758.html">Ubuntu 14.04-3 LTS 64-bit</a> and copied it to my <a href="http://www.amazon.co.uk/gp/product/B00S65FARE/ref=as_li_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B00S65FARE&amp;linkCode=as2&amp;tag=robsquadnet-21">iodd 2531 Black USB 3.0 External Hard Drive Enclosure Virtual DVD Blu-ray ROM</a>. The Ubuntu installation was flawless and fast. I opted for a whole drive encrypted LVM install and in no time was booting into Ubuntu.&nbsp;The screen was absolutely beautiful - for the first time I had&nbsp;a laptop with a screen to rival an Apple Macbook.</p>
+<h2>Display Issues</h2>
+<p><img class="size-medium wp-image-1417 alignleft" src="{{ site.baseurl }}/assets/imag1412_640.jpg?w=300" alt="Screen corruption" width="300" height="184" />Ubuntu prompted me to run software update (I never update during the install process),&nbsp;which I duly did. Having rebooted - disaster struck - the boot process almost immediately dumped me to this screen. I was able to enter my drive encryption password blind and it then progressed to the beautiful LightDM login screen as before.</p>
+<p>I <a href="https://bugs.launchpad.net/ubuntu/+source/plymouth/+bug/1503716">logged this as a bug with Ubuntu</a>&nbsp;and then&nbsp;installed an <a href="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.19.8-ckt7-vivid/">Ubuntu Mainline kernel</a>&nbsp;and,&nbsp;whilst it still exhibited the screen corruption,&nbsp;it&nbsp;included a new Drive Encryption Password Prompt which did not suffer from the problem and gave me a functioning system once again (but read on for more).</p>
+<h2>Trackpad Buttons</h2>
+<p>I then noticed that the Trackpad buttons were not working. Well that's not entirely true - they were scrolling up and down a page, rather than behaving as normal trackpad buttons. This <a href="http://askubuntu.com/questions/599477/lenovo-x1-carbon-2015-3rd-gen-20-bs-trackpoint-clickpad-and-wifi">Ubuntu Question</a> suggested that I was not alone and offered a solution - that of changing the trackpad from synaptic to imps driver. I tried this, but instantly the Trackpad felt less responsive, the cursor slowed down and whatever I tried to customise it made no odds.</p>
+<p>But more importantly the Trackpad buttons still didn't work.</p>
+<p>It is worth noting that even without the Trackpad buttons, you can still left-click (single finger tap to Trackpad) and right-click (two finger tap to Trackpad). In reality this is what I shall use in day-to-day operation, so this is issue is not a show stopper - at least for me.</p>
+<p>After much head scratching and trial and error I found that by rebooting into the original 3.19.0-25 kernel, holding the Shift key down to access Grub during boot process, not only fixed the Trackpad issue, but it also resolved the screen corruption issues during the boot&nbsp;process.</p>
+<p>As a result, I&nbsp;decided to uninstall the newer Kernel 3.19.0-30, which contains the problem, along with the mainline kernel and generic LTS kernel packages. This will prevent&nbsp;any further updates to the Kernel&nbsp;and&nbsp;is clearly only a short-term fix, but the benefit is a perfectly working system.</p>
+<h2>Review of Reported Ubuntu X1 Carbon Gen 3 Issues</h2>
+<p>It is possibly worth reviewing that <a href="http://askubuntu.com/questions/599477/lenovo-x1-carbon-2015-3rd-gen-20-bs-trackpoint-clickpad-and-wifi">Ubuntu Question</a> again and the issues raised therein:</p>
+<ol>
+<li>Wifi is disconnecting: I have not encountered this problem at all.</li>
+<li>Clickbuttons are not working at all: Resolved by returning to kernel 3.19.0-25.</li>
+<li>Vertical Scrolling (with trackpoint and middle button): Not tested as yet.</li>
+<li>Special Keys (like Brightness): these all work fine for me.</li>
+<li>Screen Characters scrambled on 14.10: not experienced in 14.04 as yet.</li>
+<li>Trackpoint Sensitivity: I think that was a by-product of the imps driver - which I have not needed to use.</li>
+</ol>
+<p>In short, at least for the 3.19.0-25 kernel, this is a fully functioning Ubuntu laptop!</p>
+<h2>Fingerprint Recognition</h2>
+<p>I was expecting problems with Fingerprint recognition, but that was not the case. I simply installed a couple of packages, scanned my fingerprints and it all worked fine.</p>
+<pre>$ sudo apt-get install fprintd fingerprint-gui</pre>
+<p>There were two surprises: The first was that the fingerprint reader works for command line use - so&nbsp;no more typing the sudo password - simply swipe your&nbsp;finger! The second surprise was that it doesn't appear to work for the initial LightDM login. The fingerprint scanner flashes a couple of times and then stops. Given that you only type this once in a session, this isn't a huge deal, compared to the number of times you enter passwords for sudo and the lock screen.</p>
+<p>There are <a href="https://bugs.launchpad.net/ubuntu/+source/libfprint/+bug/998367">reports of LightDM not working with encrypted home directories</a>, but I am using whole Drive Encryption which I wouldn't have thought would have been affected in this way, given that I have already entered my drive encryption password by this point.</p>
+<p>If I manage to solve this problem I will of course update this page. If you have any solutions please do comment below.</p>
+<h2>WLAN - 4G Wireless</h2>
+<p>Lastly, an oddity of the BT Business Direct specification is that this laptop has a 4G WLAN slot. This was not something I particularly wanted, but of course now that I have it I have had to order a £6.25 per month Vodafone 4G Data Plan. Once the SIM card arrives I will provide feedback.</p>
+<h2>Conclusion</h2>
+<p>It is easy to be critical of some of the pitfalls in running Ubuntu on the X1 Carbon, but the reality, with a few caveats, is that it works flawlessly. The laptop is a joy to use, the keyboard feels wonderful&nbsp;and running your fingers across the trackpad is an almost sensuous experience - I may be getting carried away here, but suffice to say that this is a very good laptop and it is working beautifully on Ubuntu with the kernel 3.19.0-25.</p>
+<p>With luck the bugs will be resolved and I will be able to update the kernel in due course!</p>

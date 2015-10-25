@@ -1,0 +1,40 @@
+---
+layout: post
+title: Viewing a Textual PDF in Mutt
+date: 2011-03-23 18:27:45.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- debian
+- linux
+- technology
+tags:
+- elinks
+- mutt
+- pdf
+meta:
+  _edit_last: '20992958'
+  _wpas_done_twitter: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2011-03-23
+    18:32:53";}
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1311597017";}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I think there must be something wrong with me.  Why, in this age of graphical user interfaces, does it delight me so much that I can view textual PDFs within Mutt (on a remote server without a gui)?</p>
+<p>To set this up, you need to install pdftotext.  This application is available in either poppler-utils or xpdf-utils - most people seem to use the latter, but I suspect the former is probably a better option for a text-only server.  I installed poppler-utils.</p>
+<p>Next create (or edit) the <code>~/.mailcap</code> file, so that it has the following line:<!--more--><br />
+<code><br />
+application/pdf;                pdftotext -layout %s -; copiousoutput<br />
+</code></p>
+<p>You could also add the line:<br />
+<code><br />
+text/html;                      elinks %s; nametemplate=%s.html<br />
+</code></p>
+<p>The latter line opens HTML attachments in elinks.</p>
+<p>Then just hit "V" when viewing an email, and you will see the attachments, select the attachment and hit Enter to view it.  Awesome :)</p>

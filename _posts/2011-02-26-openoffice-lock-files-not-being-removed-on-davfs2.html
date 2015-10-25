@@ -1,0 +1,40 @@
+---
+layout: post
+title: Openoffice lock files not being removed on davfs2
+date: 2011-02-26 13:24:43.000000000 +00:00
+type: post
+published: true
+status: publish
+categories:
+- linux
+- technology
+tags:
+- openoffice
+- webdav
+meta:
+  _edit_last: '20992958'
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1299020241";}
+  _wpas_skip_twitter: '1'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"20992958";s:7:"blog_id";s:8:"20408733";s:9:"mod_stamp";s:19:"2011-03-16
+    09:15:57";}
+author:
+  login: chrisjrob
+  email: chrisjrob@gmail.com
+  display_name: chrisjrob
+  first_name: ''
+  last_name: ''
+---
+<p>I have a mystery - I have two Debian Lenny servers both running the same version of davfs2 and the same version of openoffice.org.  When you open an openoffice document, openoffice creates a lock file of the same name, but prefixed with ".~lock".  This file retains a copy of the document until you save and exit, whereon it is removed automatically.</p>
+<p>The mystery is that, at one of our branches, it reduces size to 0, but is never actually removed; after which time the file cannot be edited until that lock file is manually removed.</p>
+<p>Both servers have the same davfs2.conf and I have done a diff between the two servers:<!--more--></p>
+<pre># for file in `find /usr/lib/openoffice/ -name *.xcs -type f`; \
+  do echo "=== $file ==="; \
+  ssh root@other-server "cat $file" | diff $file - ; \
+  done</pre>
+<p>But there are no differences.  I have checked users' davfs2.conf files, but these are all commented out entirely.</p>
+<p>Previously I had "fixed" this problem, by setting UseDocumentOOoLockFile to false in:</p>
+<pre>﻿/usr/lib/openoffice/basis3.2/share/registry/schema/org/openoffice/Office/Common.xcs</pre>
+<p>This doesn't stop the lock files being created, but it does tell Openoffice not to worry about them.  Unfortunately this no longer seems to be working, and I really can't understand why.</p>
+<p>Currently I have "fixed" the problem by setting davfs2.conf to:</p>
+<pre>use_locks 0</pre>
+<p>This is now allowing the lock files to be removed properly.  I believe that actually this will work quite well, with the UseDocumentOOoLockFile set to true, given that 99.9% of our documents are Openoffice documents.  Always assuming I can persuade Openoffice to obey its own registry!</p>
