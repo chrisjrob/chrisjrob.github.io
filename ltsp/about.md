@@ -1,16 +1,19 @@
-## About LTSP
+---
+layout: page
+title: "LTSP | About LTSP"
+menu: ltsp
+weight: 10
+---
 
-<<<---
-%TOC%
-<<<---
+## About LTSP
 
 ### What is the Linux Terminal Server Project (LTSP)
 
 If you come from a Windows background, you may be familiar with Windows Terminal Services and/or Citrix.  Windows Terminal Services basically enables users from different clients to connect to servers and work concurrently on them using the RDP (Remote Desktop) protocol.  Perhaps you've connected to your work PC using Remote Desktop - it's the same thing, just Terminal Services just allows multiple users to connect concurrently.  Citrix is just the same, but uses the ICA protocol.
 
-Big Deal.  All Linux machines are inherently multi-user machines and all Linux machines can accept concurrent connections, either using X directly, or using ssh -XC ~serverip~ (the -X switch enables the X-forwarding so that you have a GUI and the -C switch compresses the data stream which generally improves performance, particularly over low-bandwidth connections).
+Big Deal.  All Linux machines are inherently multi-user machines and all Linux machines can accept concurrent connections, either using X directly, or using `ssh -XC ~serverip~` (the -X switch enables the X-forwarding so that you have a GUI and the -C switch compresses the data stream which generally improves performance, particularly over low-bandwidth connections).
 
-LTSP goes a massive step further, in that it actually serves a complete operating system to the client.  This means that the client hardware does not require a host operating system, or even a hard drive; instead the client `PXE` boots over the network, downloading the operating system, installs it, configures it, boots it, and finally runs a login manager to provide a secure login to the server.
+LTSP goes a massive step further, in that it actually serves a complete operating system to the client.  This means that the client hardware does not require a host operating system, or even a hard drive; instead the client PXE boots over the network, downloading the operating system, installs it, configures it, boots it, and finally runs a login manager to provide a secure login to the server.
 
 In contrast, a Windows thin client usually includes a flash disk with a local operating system.  LTSP does not need this, all LTSP requires is a PXE compatible network card and a pretty minimal amount of RAM and CPU (a Pentium II with 64mb is probably the minimum required).
 
