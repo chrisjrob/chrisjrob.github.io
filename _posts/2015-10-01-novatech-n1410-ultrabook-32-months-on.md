@@ -7,6 +7,7 @@ published: true
 status: publish
 categories: technology
 tags: laptop novatech review
+---
 
 [![nfinityn1411](/assets/nfinityn1411_300.png)](/assets/nfinityn1411.png)
 

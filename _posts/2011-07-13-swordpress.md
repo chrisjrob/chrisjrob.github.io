@@ -1,0 +1,23 @@
+--- 
+layout: post 
+title: Wordpress
+date: 2011-07-13
+type: post 
+published: true 
+status: publish
+categories: technology
+tags: wordpress
+---
+
+Finally registered chrisjrob.com for my blog. Update your bookmarks,
+feeds, etc.
+
+<http://chrisjrob.com/>
+
+The old chrisjrob.wordpress.com will continue to work, but will redirect
+to chrisjrob.com. At least until the day I decide to leave Wordpress
+whereon I will disappear into oblivion.
+
+Actually, I am very happy with Wordpress.com, so am unlikely to be
+leaving any time soon.
+
