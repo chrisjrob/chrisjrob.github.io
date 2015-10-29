@@ -63,11 +63,7 @@ Broadly speaking I followed these key stages:
 
 7.  Install dependencies listed in the README:
 
-```
-# apt-get install libpurple-dev libtool intltool pkg-config \
-libglib2.0-dev libxml2-dev libnss3-dev libssl-dev libkrb5-dev \
-libnice-dev libgstreamer0.10-dev
-```
+    `# apt-get install libpurple-dev libtool intltool pkg-config libglib2.0-dev libxml2-dev libnss3-dev libssl-dev libkrb5-dev libnice-dev libgstreamer0.10-dev`
 
 These dependencies may change over time, and your particular
 requirements may be different from mine, so please read the README and
@@ -77,7 +73,9 @@ Lastly, as an ordinary user, you should now be able to compile. If it
 fails at any stage, simply read the error and install the missed
 dependency.
 
-    $ ./configure --prefix=/usr $ make $ sudo checkinstall
+    $ ./configure --prefix=/usr
+    $ make
+    $ sudo checkinstall
 
 I found checkinstall was pre-populated with sensible settings, and I was
 able to continue without making any changes. Once complete a Debian

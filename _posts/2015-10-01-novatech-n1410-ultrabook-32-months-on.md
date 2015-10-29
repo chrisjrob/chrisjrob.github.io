@@ -9,7 +9,7 @@ categories: technology
 tags: laptop novatech review
 ---
 
-[![nfinityn1411](/assets/nfinityn1411_300.png)](/assets/nfinityn1411.png)
+<a href="/assets/nfinityn1411.png"><img src="/assets/nfinityn1411_300.png" class="image-right" alt="nFinity n1410"></a>
 
 I received a surprising amount of interest in my [Novatech n1410
 review]({% post_url 2013-02-22-the-novatech-nfinity-n1410-review %})
@@ -29,9 +29,8 @@ heavily-abused laptop - it has never been dropped, I don't commute, the
 laptop is stored in a padded case and treated at all times with respect.
 So why would the case fail in this way?
 
-[![Hinge damage](/assets/imag1411_300.jpg)](/assets/imag1411.jpg)
-
-[![Hinge damage](/assets/imag1410_300.jpg)](/assets/imag1410.jpg)
+<a href="/assets/imag1410.jpg"><img src="/assets/imag1410_300.jpg" class="image-right" alt="Hinge damage"></a>
+<a href="/assets/imag1411.jpg"><img src="/assets/imag1411_300.jpg" class="image-right" alt="Hinge damage"></a>
 
 On closer inspection this would appear to be a natural failure point,
 the case after all is only plastic held together by a single screw at

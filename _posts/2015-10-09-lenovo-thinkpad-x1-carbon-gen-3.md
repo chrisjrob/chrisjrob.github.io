@@ -1,4 +1,4 @@
---- 
+-- 
 layout: post
 title: Lenovo ThinkPad X1 Carbon Gen 3
 date: 2015-10-09 19:31:57.000000000 +01:00
@@ -9,8 +9,7 @@ categories: technology linux
 tags: lenovo thinkpad x1 carbon
 --- 
 
-[![Lenovo ThinkPad X1 Carbon Gen
-3](/assets/lenovo-laptop-thinkpad-x1-carbon-2-front-2_300.jpg)](/assets/lenovo-laptop-thinkpad-x1-carbon-2-front-2.jpg)
+<a href="/assets/lenovo-laptop-thinkpad-x1-carbon-2-front-2.jpg"><img src="/assets/lenovo-laptop-thinkpad-x1-carbon-2-front-2_300.jpg" class="image-right" alt="Lenovo ThinkPad X1 Carbon Gen 3"></a>
 
 Following the [demise of my Novatech
 n1410]({% post_url 2015-10-01-novatech-n1410-ultrabook-32-months-on %}),
@@ -64,12 +63,12 @@ screen to rival an Apple Macbook.
 Display Issues
 --------------
 
-![Screen
-corruption](/assets/imag1412_300.jpg)Ubuntu
-prompted me to run software update (I never update during the install
+<img src="/assets/imag1412_300.jpg" class="image-right" alt="Screen corruption">
+
+Ubuntu prompted me to run software update (I never update during the install
 process), which I duly did. Having rebooted - disaster struck - the boot
-process almost immediately dumped me to this screen. I was able to enter
-my drive encryption password blind and it then progressed to the
+process almost immediately dumped me to this screen. I was able to enter my
+drive encryption password blind and it then progressed to the
 beautiful LightDM login screen as before.
 
 I [logged this as a bug with
@@ -83,7 +82,7 @@ gave me a functioning system once again (but read on for more).
 Trackpad Buttons
 ----------------
 
-I then noticed that the Trackpad buttons were not working. Well that's
+I then noticed that the trackpad buttons were not working. Well that's
 not entirely true - they were scrolling up and down a page, rather than
 behaving as normal trackpad buttons. This [Ubuntu
 Question](http://askubuntu.com/questions/599477/lenovo-x1-carbon-2015-3rd-gen-20-bs-trackpoint-clickpad-and-wifi)
@@ -117,15 +116,15 @@ It is possibly worth reviewing that [Ubuntu
 Question](http://askubuntu.com/questions/599477/lenovo-x1-carbon-2015-3rd-gen-20-bs-trackpoint-clickpad-and-wifi)
 again and the issues raised therein:
 
-1.  Wifi is disconnecting: I have not encountered this problem at all.
-2.  Clickbuttons are not working at all: Resolved by returning to kernel
+ 1. Wi-Fi is disconnecting: I have not encountered this problem at all.
+ 2. Click-buttons are not working at all: Resolved by returning to kernel
     3.19.0-25.
-3.  Vertical Scrolling (with trackpoint and middle button): Not tested
+ 3. Vertical Scrolling (with trackpoint and middle button): Not tested
     as yet.
-4.  Special Keys (like Brightness): these all work fine for me.
-5.  Screen Characters scrambled on 14.10: not experienced in 14.04 as
+ 4. Special Keys (like Brightness): these all work fine for me.
+ 5. Screen Characters scrambled on 14.10: not experienced in 14.04 as
     yet.
-6.  Trackpoint Sensitivity: I think that was a by-product of the imps
+ 6. Trackpoint Sensitivity: I think that was a by-product of the imps
     driver - which I have not needed to use.
 
 In short, at least for the 3.19.0-25 kernel, this is a fully functioning

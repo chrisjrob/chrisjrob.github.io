@@ -16,8 +16,7 @@ would cause, along with the need for malware protection. It would also
 have pushed up the cost, a laptop capable of pushing Windows along
 reasonably decently, would have cost a few hundred pounds at least.
 
-[![HP 255 G1 Laptop with
-Ubuntu](/assets/ubuntu-laptop-000.jpg)](http://www.ebuyer.com/620311-hp-255-g1-laptop-with-ubuntu-h6q17ea-abu)
+<a href="http://www.ebuyer.com/620311-hp-255-g1-laptop-with-ubuntu-h6q17ea-abu"><img src="/assets/ubuntu-laptop-000.jpg" class="image-left" alt="HP 255 G1 Laptop with Ubuntu"></a>
 
 Generally I would just have purchased a low-end Lenovo laptop and
 installed [Ubuntu](http://ubuntu.com "Ubuntu") onto it, but I was aware
@@ -35,12 +34,13 @@ seemed an attractive proposition.
 Unboxing
 --------
 
-![Windows 8 Instructions](/assets/ubuntu-laptop-002-300.jpg)My
-first impressions were good, the laptop comes with a laptop case and the
-laptop itself looks smart enough for a budget machine. An Ubuntu
-sticker, instead of the usual Windows sticker, was welcome, although the
-two sticky marks where previous stickers had been removed were less so.
-Still, at least they **had** been removed.
+<img src="/assets/ubuntu-laptop-002-300.jpg" class="image-right" alt="Windows 8 Instructions">
+
+My first impressions were good, the laptop comes with a laptop case and the
+laptop itself looks smart enough for a budget machine. An Ubuntu sticker,
+instead of the usual Windows sticker, was welcome, although the two sticky
+marks where previous stickers had been removed were less so.  Still, at least
+they **had** been removed.
 
 Whilst we are on the subject of Windows' remnants - the Getting Started
 leaflet was for Windows 8 rather than Ubuntu. Most Ubuntu users won't
@@ -65,14 +65,13 @@ The first thing to note is that this is Ubuntu 12.04, the previous LTS
 is a shame that it didn't have the latest LTS release - Ubuntu 14.04.
 Users may of course choose to upgrade.
 
-![Ubuntu
-sticker]({{%20site.baseurl%20}}/assets/ubuntu-laptop-003-300.jpg)Secondly,
-the wireless was slow to detect the wireless access points on the
-network. Eventually I decided to restart network-manager, but just as I
-was about to do so, it suddenly sprang into life and displayed all the
-local access points. Once connected, it will re-connect quickly enough,
-but it does seem to take a while to scan new networks. Or perhaps I am
-just too impatient.
+<img src="/assets/ubuntu-laptop-003-300.jpg" class="image-left" alt="Ubuntu sticker">
+
+Secondly, the wireless was slow to detect the wireless access points on the
+network. Eventually I decided to restart network-manager, but just as I was
+about to do so, it suddenly sprang into life and displayed all the local access
+points. Once connected, it will re-connect quickly enough, but it does seem to
+take a while to scan new networks. Or perhaps I am just too impatient.
 
 Ubuntu then prompted to run some updates, but the updates failed, as
 "91.189.88.153" was said to be unreachable, even though it was
