@@ -1,16 +1,17 @@
 --- 
 layout: post 
-title: Upgrading Ubuntu 12 04 To 14 04 With Limited Bandwidth
+title: Upgrading Ubuntu 12.04 To 14.04 With Limited Bandwidth
 date: 2014-09-04
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology linux ubuntu
+tags: apt-get bandwidth
 ---
 
-![ubuntu-1404-desktop]({{%20site.baseurl%20}}/assets/ubuntu-1404-desktop.png?w=300)Upgrading
-Ubuntu at work can make you rather unpopular, as the Internet bandwidth
+![ubuntu-1404-desktop](/assets/ubuntu-1404-desktop.png)
+
+Upgrading Ubuntu at work can make you rather unpopular, as the Internet bandwidth
 is fully utilised downloading all the updates to packages you have long
 since forgotten that you installed.
 
@@ -44,11 +45,11 @@ please untick all active repositories.
 Step 2: Update Repositories
 ---------------------------
 
-Edit /etc/apt/sources.list and replace all occurrences of  "precise"
+Edit `/etc/apt/sources.list` and replace all occurrences of  "precise"
 with "trusty". If you are of a brave disposition, the following command
 should do this for you:
 
-    sed -i.bak 's/precise/trusty/g' sources.list
+    $ sudo sed -i.bak 's/precise/trusty/g' sources.list
 
 (This will create a copy of sources.list to sources.list.bak, in case
 you wish to reverse this.)
@@ -58,7 +59,7 @@ Step 3: Download Packages
 
 Still in the terminal, type:
 
-    sudo apt-get updatesudo apt-get -o Acquire::http::Dl-Limit=64 -d dist-upgrade
+    $ sudo apt-get updatesudo apt-get -o Acquire::http::Dl-Limit=64 -d dist-upgrade
 
 The 64 will limit the bandwidth to 64 Kbps, please adjust to suit your
 available bandwidth. The "-d" will instruct apt-get to merely download
@@ -73,7 +74,7 @@ Step 4: Upgrade
 Still in the terminal, I tend to use GNU Screen for extra resilience,
 type:
 
-    sudo do-release-upgrade
+    $ sudo do-release-upgrade
 
 Conclusion
 ----------

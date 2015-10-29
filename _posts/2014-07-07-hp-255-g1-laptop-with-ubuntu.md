@@ -1,12 +1,12 @@
 --- 
 layout: post 
-title: Hp 255 G1 Laptop With Ubuntu
+title: HP 255 G1 Laptop With Ubuntu
 date: 2014-07-07
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology linux ubuntu
+tags: hp laptop
 ---
 
 At work I needed a cheap laptop for a computer-illiterate user. Giving
@@ -17,12 +17,12 @@ have pushed up the cost, a laptop capable of pushing Windows along
 reasonably decently, would have cost a few hundred pounds at least.
 
 [![HP 255 G1 Laptop with
-Ubuntu]({{%20site.baseurl%20}}/assets/ubuntu-laptop-000.jpg)](http://www.ebuyer.com/620311-hp-255-g1-laptop-with-ubuntu-h6q17ea-abu)
+Ubuntu](/assets/ubuntu-laptop-000.jpg)](http://www.ebuyer.com/620311-hp-255-g1-laptop-with-ubuntu-h6q17ea-abu)
 
 Generally I would just have purchased a low-end Lenovo laptop and
 installed [Ubuntu](http://ubuntu.com "Ubuntu") onto it, but I was aware
-that Ebuyer had recently launched an [HP255 G1 Laptop with Ubuntu
-pre-installed](http://www.ebuyer.com/620311-hp-255-g1-laptop-with-ubuntu-h6q17ea-abu "HP 255 G1 Laptop with Ubuntu")
+that Ebuyer had recently launched an 
+[HP255 G1 Laptop with Ubuntu pre-installed](http://www.ebuyer.com/620311-hp-255-g1-laptop-with-ubuntu-h6q17ea-abu "HP 255 G1 Laptop with Ubuntu")
 for £219.99 inc. vat (just £183 if you can reclaim the VAT).
 
 Buying pre-installed with Ubuntu afforded me the comfort of knowing that
@@ -35,8 +35,7 @@ seemed an attractive proposition.
 Unboxing
 --------
 
-![Windows 8
-Instructions]({{%20site.baseurl%20}}/assets/ubuntu-laptop-002-300.jpg)My
+![Windows 8 Instructions](/assets/ubuntu-laptop-002-300.jpg)My
 first impressions were good, the laptop comes with a laptop case and the
 laptop itself looks smart enough for a budget machine. An Ubuntu
 sticker, instead of the usual Windows sticker, was welcome, although the

@@ -5,8 +5,8 @@ date: 2014-08-09
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology linux ubuntu
+tags: dillinger markdown
 ---
 
 I thought I loved
