@@ -5,12 +5,28 @@ date: 2014-06-08
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology 3dprint
+tags: 3dmodel reprap
 ---
 
-[gallery type="rectangular"
-ids="1308,1306,1305,1313,1314,1310,1312,1303,1316"]
+<table>
+  <tr>
+    <td><img src="/assets/gokart-01.jpg"></td>
+    <td><img src="/assets/gokart-02.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/gokart-04.jpg"></td>
+    <td><img src="/assets/gokart-05.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/gokart-06.jpg"></td>
+    <td><img src="/assets/gokart-07.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/gokart-08.jpg"></td>
+    <td><img src="/assets/gokart-09.jpg"></td>
+  </tr>
+</table>
 
 At a dinner party a few months ago, the host asked if I could repair
 their go-kart, using my RepRap 3D Printer. Apparently the steering wheel
