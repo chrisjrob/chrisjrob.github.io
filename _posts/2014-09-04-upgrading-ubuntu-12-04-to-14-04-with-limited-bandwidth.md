@@ -22,6 +22,8 @@ For these reasons I like to trickle download the upgrade over a day and
 only perform the actual upgrade once all the packages are ready,
 typically the following morning.
 
+<!--more-->
+
 This is how I performed my low-bandwidth upgrade…
 
 **N.B. This is not the official or recommended way of upgrading between

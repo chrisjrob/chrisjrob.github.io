@@ -17,6 +17,8 @@ I thought [Dillinger](http://dillinger.io) (an HTML5 Markdown editor)
 looked remarkable. So I downloaded and installed it on an Ubuntu 14.04.1
 LTS server:
 
+<!--more-->
+
     $ git clone https://github.com/joemccann/dillinger.git dillinger
     $ cd dillinger
     $ npm i -d

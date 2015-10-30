@@ -1,12 +1,12 @@
 --- 
 layout: post 
-title: Pdftk The Pdf Toolkit 2
+title: PDFTK The PDF Toolkit
 date: 2014-03-24
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology linux
+tags: cli
 ---
 
 [PDFTK - The PDF
@@ -17,6 +17,8 @@ frequently surprised when people have not heard of it. True, it is a
 command line tool, but it is easy to incorporate into service menus,
 scripts etc and doubtless there is a GUI front-end for it somewhere (in
 fact there is one linked to from the above page).
+
+<!--more-->
 
 Clearly a blog post is called for, but, whilst you wait for a post that
 will never arrive, [here is a

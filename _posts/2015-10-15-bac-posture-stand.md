@@ -20,6 +20,8 @@ purchased the Bac Posture Stand, better known on Amazon as [Portable Folding
 Notebook or Laptop Table - Desk - Tray - Stand -
 (Black)][bac].
 
+<!--more-->
+
 Hmm catchy.
 
 It appears to be well made, although it does take a little setting up.

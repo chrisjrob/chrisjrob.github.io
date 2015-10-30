@@ -23,6 +23,8 @@ term proved to be the keyboard and trackpad which have never been
 enjoyable to use and the lack of audio volume. Overall though I would
 say that it has lived up to my expectations for a budget Ultrabook.
 
+<!--more-->
+
 But then last night - disaster struck, I was closing my laptop after
 working and the case opened up at the right hand hinge. This is not a
 heavily-abused laptop - it has never been dropped, I don't commute, the

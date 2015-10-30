@@ -18,6 +18,8 @@ general steps were:
 And then restart Pidgin and add a new Account. The Office Communicator
 is the relevant plugin, with the following parameters:
 
+<!--more-->
+
   * Protocol: Office Communicator
   * Username: Your Office 365 or Skype for Business username - probably
     your email address

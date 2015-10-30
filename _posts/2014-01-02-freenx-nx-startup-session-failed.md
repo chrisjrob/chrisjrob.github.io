@@ -19,6 +19,8 @@ and installing NoMachine's NXServer instead.
 
 In the end the solution proved remarkably simple:
 
+<!--more-->
+
 On the server run:
 
     # nxserver --list

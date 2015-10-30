@@ -18,6 +18,8 @@ ludicrous price for a 13 year old microwave. Other appliance repair
 centres would either not repair microwave ovens at all, or particularly
 excluded De-Dietrich.
 
+<!--more-->
+
 Fortunately one such appliance repair person recommended that we contact
 [Visual Eyes in Farnham,
 Surrey](http://www.visual-eyes.eu/Pages/CommercialMicrowaveRepairs.aspx "Visual Eyes").

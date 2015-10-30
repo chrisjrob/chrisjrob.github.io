@@ -17,6 +17,8 @@ slightly thrown when I come across a crontab without it! No, you don't
 need it, yes the standard commented header works just fine, but, if like
 me you prefer things neatly lined up, then this might suit you:
 
+<!--more-->
+
     MAILTO=
     #   _________________________ 2. Minute - Minutes after the hour (0-59)
     #  |

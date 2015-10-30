@@ -5,20 +5,21 @@ date: 2014-05-11
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: personal sailing
+tags: rope
 ---
 
-[caption id="attachment\_1277" align="alignnone" width="627"][![Soft
-Shackle
-Animation]({{%20site.baseurl%20}}/assets/soft-shackle3.gif?w=627)](http://chrisjrob.files.wordpress.com/2014/05/soft-shackle3.gif)
-A soft shackle[/caption]
+<img src="/assets/soft-shackle.jpg" class="image-right" alt="Soft Shackle">
 
 I've been looking into the best method for attaching sheets to the
 foresail. Metal shackles are dangerous and can rip holes in sails,
 bowlines are unreliable knots when not under pressure, and a continuous
 line looped in the middle through the clew is likely to compress the
 clew over time.
+
+<!--more-->
+
+[![Soft Shackle Animation](/assets/soft-shackle3.gif)](/assets/soft-shackle3.gif)
 
 The ideal solution appears to be to splice soft eyes into the end of
 each sheet, and attach them to the clew with a "soft shackle". Being a

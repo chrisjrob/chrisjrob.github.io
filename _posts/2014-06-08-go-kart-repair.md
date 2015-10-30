@@ -9,6 +9,22 @@ categories: technology 3dprint
 tags: 3dmodel reprap
 ---
 
+<img src="/assets/gokart-08.jpg" class="image-right" alt="Go Kart">
+
+At a dinner party a few months ago, the host asked if I could repair
+their go-kart, using my RepRap 3D Printer. Apparently the steering wheel
+had broken off and the Chinese supplier refused to supply only the
+steering wheel. I accepted the challenge, but did warn that PLA was not
+the ideal plastic for such a repair, being somewhat brittle.
+
+I decided to approach the problem by removing all the broken plastic
+from the back of the steering wheel, and [designing a new
+part](http://www.fabfabbers.com/models/id/203/gokart-repair-by-chrisjrob "FabFabbers - Go-kart repair")
+to slot over the steering column nut and bolt onto the remains of the
+steering wheel.
+
+<!--more-->
+
 <table>
   <tr>
     <td><img src="/assets/gokart-01.jpg"></td>
@@ -27,18 +43,6 @@ tags: 3dmodel reprap
     <td><img src="/assets/gokart-09.jpg"></td>
   </tr>
 </table>
-
-At a dinner party a few months ago, the host asked if I could repair
-their go-kart, using my RepRap 3D Printer. Apparently the steering wheel
-had broken off and the Chinese supplier refused to supply only the
-steering wheel. I accepted the challenge, but did warn that PLA was not
-the ideal plastic for such a repair, being somewhat brittle.
-
-I decided to approach the problem by removing all the broken plastic
-from the back of the steering wheel, and [designing a new
-part](http://www.fabfabbers.com/models/id/203/gokart-repair-by-chrisjrob "FabFabbers - Go-kart repair")
-to slot over the steering column nut and bolt onto the remains of the
-steering wheel.
 
 Having designed the part, I [posted it to
 Google+](https://plus.google.com/112653355770650909703/posts/bauW56mMF9p "Google+ Post")

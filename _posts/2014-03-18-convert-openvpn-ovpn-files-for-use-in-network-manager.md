@@ -1,12 +1,12 @@
 --- 
 layout: post 
-title: Convert Openvpn Ovpn Files For Use In Network Manager
+title: Convert OpenVPN OVPN Files for use in Network Manager
 date: 2014-03-18
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology linux
+tags: vpn openvpn networking
 ---
 
 Anyone who has enjoyed the dubious benefits of working with IPSEC will
@@ -19,6 +19,8 @@ renaming them in some appropriate way, and then using them simply by
 typing:
 
     $ sudo openvpn client.ovpn
+
+<!--more-->
 
 If, on the other hand, you live in a more graphically orientated world,
 then you might like to integrate them into Network Manager. Sadly, the

@@ -1,4 +1,4 @@
--- 
+--- 
 layout: post
 title: Lenovo ThinkPad X1 Carbon Gen 3
 date: 2015-10-09 19:31:57.000000000 +01:00
@@ -21,6 +21,8 @@ available already](http://lmgtfy.com/?q=review+x1+carbon+3rd+gen), but
 merely my experience of the first few days of ownership.
 
 So why did I choose the X1 Carbon?
+
+<!--more-->
 
 1.  Quality of construction and life expectancy;
 2.  [Ubuntu hardware
