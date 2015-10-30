@@ -6,12 +6,10 @@ type: post
 published: true 
 status: publish
 categories: technology
-tags: 
+tags: novatech
 ---
 
-[![nfinityn1411]({{%20site.baseurl%20}}/assets/nfinityn1411.png?w=300)](http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html)Nine
-months with my Novatech n1410 have reinforced [all my earlier
-thoughts](http://chrisjrob.com/2013/02/22/the-novatech-nfinity-n1410-review/ "The Novatech nfinity n1410 Review").
+<a href="http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html"><img src="/assets/nfinityn1411.png" class="image-right" alt="Novatech nFinity n1410"></a>
 
 The power switch remains a momentary petty irritation, but the poor
 quality keyboard and intrusive trackpad are harder to live with. The
@@ -20,6 +18,8 @@ actually causes me any problems.
 
 But the Novatech remains a good-looking, lightweight laptop with a great
 battery life, and highly portable. And it was undeniably great value.
+
+<!--more-->
 
 One new irritation, that I hadn't noticed in my earlier review, is that
 the volume can be too quiet in some circumstances. If sound is important

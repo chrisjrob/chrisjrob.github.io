@@ -18,6 +18,8 @@ I manually removed all but the official lenny repositories (and removed
 the Debian Volatile repository which is no longer used), and updated
 them to "squeeze":
 
+<!--more-->
+
     $ sudo vim /etc/apt/sources.list
     deb http://91.121.125.139/debian/ squeeze main non-free contrib
     deb-src http://91.121.125.139/debian/ squeeze main non-free contrib

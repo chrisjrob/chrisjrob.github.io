@@ -16,6 +16,8 @@ To fix this I entered "about:plugins" in the address bar, and clicked
 the version of Flash installed in the operating system. If you do not
 have Flash installed, then in Debian you can install as follows:
 
+<!--more-->
+
 Firstly ensure that the repositories in `/etc/apt/sources.list` include
 "non-free", for example:
 

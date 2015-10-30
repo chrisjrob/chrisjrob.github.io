@@ -5,8 +5,8 @@ date: 2013-03-05
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology linux
+tags: cli pekwm
 ---
 
 For some time it has irritated me that launching URLs from my terminal
@@ -18,6 +18,8 @@ that setting the default browser in update-alternatives should be
 enough:
 
     # update-alternatives --config x-www-browser
+
+<!--more-->
 
 Unfortunately of course many of the applications that I am using are
 native to KDE or Gnome and probably are still respecting their

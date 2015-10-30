@@ -1,25 +1,26 @@
 --- 
 layout: post 
-title: Iredmail Open Source Mailserver
+title: iredmail Open Source Mailserver
 date: 2013-11-27
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology linux
+tags: mailserver postfix imap dovecot ldap
 ---
 
-[iRedMail - Open Source
-Mailserver](http://iredmail.org/ "iRedMail - Open Source Mailserver")
+<a href="http://iredmail.org"><img src="/assets/dashboard_300.png" class="image-right" alt="iRedmail"></a>
 
 Whilst the world seems to be moving email to "The Cloud", rightly or
 wrongly I remain reluctant to give up the control of our own mailserver.
 For over ten years now we have been using a combination of the following
 open source applications:
 
--   Postfix MTA with Amavis + Spamassassin
--   Dovecot IMAP server
--   OpenLDAP
+   * Postfix MTA with Amavis + Spamassassin
+   * Dovecot IMAP server
+   * OpenLDAP
+
+<!--more-->
 
 Whilst these are super-stable and bulletproof solutions, the main issue
 with such a solution is the administration - setting up users, changing
@@ -37,9 +38,7 @@ prettier than Squirrelmail, which we were using before. iRedMail even
 includes a pre-configure Fail2ban, essential to protect your
 internet-facing server from attack.
 
-[caption id="" align="alignnone" width="665"][![The iRedAdmin
-Dashboard]({{%20site.baseurl%20}}/assets/dashboard.png)](http://www.iredmail.org/images/iredadmin/)
-The iRedAdmin Dashboard[/caption]
+<img src="/assets/dashboard.png" alt="The iRedmail Dashboard">
 
 There are two web administration panels to choose from - the free and
 open source panel and the Pro panel. Both interfaces are attractive and

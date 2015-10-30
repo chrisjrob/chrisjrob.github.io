@@ -18,6 +18,8 @@ available in either poppler-utils or xpdf-utils - most people seem to
 use the latter, but I suspect the former is probably a better option for
 a text-only server. I installed poppler-utils.
 
+<!--more-->
+
 Next create (or edit) the `~/.mailcap` file, so that it has the
 following line:
 

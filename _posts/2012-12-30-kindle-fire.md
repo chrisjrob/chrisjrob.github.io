@@ -5,18 +5,21 @@ date: 2012-12-30
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology android
+tags: amazon kindle fire
 ---
 
-[![]({{%20site.baseurl%20}}/assets/q?_encoding=UTF8&Format=_SL160_&ASIN=B0083Q04M2&MarketPlace=GB&ID=AsinImage&WS=1&tag=robsquadnet-21&ServiceVersion=20070822)](http://www.amazon.co.uk/gp/product/B0083Q04M2/ref=as_li_ss_il?ie=UTF8&tag=robsquadnet-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B0083Q04M2)![]({{%20site.baseurl%20}}/assets/ir?t=robsquadnet-21&l=as2&o=2&a=B0083Q04M2)\
- This Christmas my wife bought me a [Kindle
-Fire](http://www.amazon.co.uk/gp/product/B0083Q04M2/ref=as_li_ss_tl?ie=UTF8&tag=robsquadnet-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B0083Q04M2)![]({{%20site.baseurl%20}}/assets/ir?t=robsquadnet-21&l=as2&o=2&a=B0083Q04M2).
+<a href="http://www.amazon.co.uk/gp/product/B0083Q04M2/ref=as_li_ss_tl?ie=UTF8&tag=robsquadnet-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B0083Q04M2"><img src="/assets/kindle-fire.jpg" class="image-right" alt="The Kindle Fire"></a>
+
+This Christmas my wife bought me a [Kindle
+Fire](http://www.amazon.co.uk/gp/product/B0083Q04M2/ref=as_li_ss_tl?ie=UTF8&tag=robsquadnet-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B0083Q04M2).
 Originally I wanted a Nexus 7, but was tempted by a Black Monday offer
 of £99 for the basic Fire (normally £129). There is also a more
 expensive HD version, which also has Dolby sound, for £159; but in my
 opinion you are getting dangerously close to Nexus 7 pricing at that
 point.
+
+<!--more-->
 
 I am a great fan of the 7 inch form factor. Personally I would be
 embarrassed to carry around with me a 10" tablet, but the smaller
@@ -27,9 +30,9 @@ My hope for the Fire was that it would be a quality device, being sold
 cheap as a loss leader for Amazon, but more to the point I hoped that it
 would still be usable for email and web browsing and that I would be
 able to find at least some of my favourite Android apps in the Amazon
-app store.\
-\
- Opening it on Christmas day I was immediately pleased with the quality
+app store.
+
+Opening it on Christmas day I was immediately pleased with the quality
 of the screen, which was bright with vibrant colours. The home screen
 was a disappointment, being a carousel style, which includes all the
 books bought from Amazon. Entries include your books and apps in what I
@@ -87,7 +90,6 @@ extremely well. Would I have paid £129 though? I think I would have
 spent some more time looking at the Nexus before making that decision,
 but at £99 I am very pleased.
 
---\
- **Update:** I have managed to get Connectbot working thanks to [this
-post](http://thehelpfulhacker.net/2011/12/28/kindle-fire-connectbot-followup/).
+**Update:** I have managed to get Connectbot working thanks to 
+[this post](http://thehelpfulhacker.net/2011/12/28/kindle-fire-connectbot-followup/).
 

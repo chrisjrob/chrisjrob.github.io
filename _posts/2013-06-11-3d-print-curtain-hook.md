@@ -5,12 +5,11 @@ date: 2013-06-11
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology 3dprint
+tags: 3dmodel
 ---
 
-[![3D Print: Curtain
-Hook]({{%20site.baseurl%20}}/assets/dscf1652.jpg)](http://www.fabfabbers.com/models/id/166/curtainhook-by-chrisjrob)
+<a href="/assets/curtain-hook.jpg"><img src="/assets/curtain-hook_300.jpg" class="image-right" alt="Curtain Hooks"></a>
 
 My mother-in-law's curtains were pulled down by a Great Dane, breaking
 many of the curtain hooks. They seemed to be an unusual design and she
@@ -20,6 +19,9 @@ This was very satisfying design, which did not take long, posed no
 particular challenges and printed very quickly. If only all jobs were
 like that.
 
--   [View on
-    FabFabbers](http://www.fabfabbers.com/models/id/166/curtainhook-by-chrisjrob)
+<!--more-->
+
+For more information please:
+
+   * [View it on GitHub](https://github.com/chrisjrob/curtainhook)
 

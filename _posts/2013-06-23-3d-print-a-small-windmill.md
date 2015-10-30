@@ -5,16 +5,18 @@ date: 2013-06-23
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology 3dprint
+tags: 3dmodel windmill
 ---
 
-[![3D Print: A Small
-Windmill]({{%20site.baseurl%20}}/assets/dscf2175.jpg)](http://www.fabfabbers.com/models/id/175/windmill-by-chrisjrob)
+<a href="/assets/windmill.jpg"><img src="/assets/windmill_300.jpg" class="image-right" alt="A Small Windmill"></a>
 
 My daughter wanted a small windmill for a school project, and this was
 my very quick'n'dirty attempt.
 
--   [View on
-    FabFabbers](http://www.fabfabbers.com/models/id/175/windmill-by-chrisjrob)
+<!--more-->
+
+For more information please:
+
+   * [View it on GitHub](https://github.com/chrisjrob/windmill)
 

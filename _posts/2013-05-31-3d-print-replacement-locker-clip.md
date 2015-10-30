@@ -1,13 +1,15 @@
 --- 
 layout: post 
-title: 3d Print Replacement Locker Clip
+title: 3D Printed Replacement Locker Clip
 date: 2013-05-31
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology 3dprint
+tags: 3dmodel
 ---
+
+<a href="/assets/lockerclip.jpg"><img src="/assets/lockerclip_300.jpg" class="image-right" alt="Locker Clip"></a>
 
 On my boat there was a locker below the cooker that was not closing
 properly. The problem was that the retaining clip was broken. Normally
@@ -16,9 +18,9 @@ use for a 3D printer, as it enables you to re-create just the broken
 half. And, even better, you can design the screw holes to be in the same
 place, enabling a super quick replacement.
 
-[![Locker Clip
-Photo]({{%20site.baseurl%20}}/assets/lockerclip.jpg)](http://www.fabfabbers.com/models/id/148/lockerclip-by-chrisjrob "3D Print: Replacement Locker Clip")
+<!--more-->
 
--   [See it on
-    fabfabbers](http://www.fabfabbers.com/models/id/148/lockerclip-by-chrisjrob "3D Print: Replacement Locker Clip")
+For more information please see it on GitHub.
+
+   * [View it on GitHub](https://github.com/chrisjrob/lockerclip)
 

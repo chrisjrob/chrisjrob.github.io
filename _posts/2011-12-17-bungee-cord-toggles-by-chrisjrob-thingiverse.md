@@ -9,12 +9,16 @@ categories: technology 3dprint
 tags: 3dmodel
 ---
 
-[![toggle](/assets/toggle_300.png)](/assets/toggle.png)
+<a href="/assets/toggle.png"><img src="/assets/toggle_300.png" class="image-right" alt="Bungee Cord Toggles"></a>
 
 I have just created my first OpenSCAD design - 
 [Bungee Cord Toggles](https://github.com/chrisjrob/toggle/blob/master/toggle-dbl.stl). I
 don't actually know if it will print, but will have to wait until my
 reprap is complete before trying.
 
-   * [View it on GitHub](https://github.com/chrisjrob/toggle/blob/master/toggle-dbl.stl)
+<!--more-->
+
+For more information please:
+
+   * [View it on GitHub](https://github.com/chrisjrob/toggle)
 

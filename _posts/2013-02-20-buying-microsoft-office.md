@@ -5,8 +5,8 @@ date: 2013-02-20
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology windows
+tags: microsoft office licensing
 ---
 
 Whilst [my Company](http://www.tridenthonda.co.uk "Trident Honda") is
@@ -19,11 +19,12 @@ benefit of that. Unfortunately most of those benefits are only available
 if you are also running Microsoft Excel 2010 and later, whilst we of
 course use OpenOffice.
 
+<!--more-->
+
 So, with a heavy heart I reached for my dog-eared copy of the Internet,
 to see what this would cost me. I knew I needed Microsoft Office
 Professional, as Microsoft Access is occasionally needed. I found that
-[a full retail licence from BT Business
-Direct](http://www.businessdirect.bt.com/products/microsoft-office-professional-2010---licence---1-pc---pkc---win---english-7258.html?q=office%202010 "BT Business Direct - Microsoft Office Professional 2010") cost
+[a full retail licence from BT Business Direct](http://www.businessdirect.bt.com/products/microsoft-office-professional-2010---licence---1-pc---pkc---win---english-7258.html?q=office%202010 "BT Business Direct - Microsoft Office Professional 2010") cost
 £205 plus VAT, not so bad after all.
 
 I considered buying 12 of these full retail licences, but decided in the

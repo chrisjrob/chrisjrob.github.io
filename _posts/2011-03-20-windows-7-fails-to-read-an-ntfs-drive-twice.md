@@ -16,6 +16,8 @@ multiple occasions, but the reset failed to change the IP address to the
 default. We noticed that the rear fan is not working, which suggests
 that the device is not in the best of health.
 
+<!--more-->
+
 So we took the drive out of the NAS and I used a 
 [USB to SATA cable](http://www.amazon.co.uk/gp/product/B001A5SK56/ref=as_li_ss_tl?ie=UTF8&tag=robsquadnet-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B001A5SK56)
 to mount the drive on my Debian Squeeze laptop. All worked just fine, I

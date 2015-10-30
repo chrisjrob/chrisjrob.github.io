@@ -1,22 +1,23 @@
 --- 
 layout: post 
-title: 3d Print Curtain Ring
+title: 3D Print Curtain Ring
 date: 2013-06-12
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology 3dprint
+tags: 3dmodel
 ---
 
-[![3D Print: Curtain
-Ring]({{%20site.baseurl%20}}/assets/curtainring-photo.png)](http://www.fabfabbers.com/models/id/167/curtainring-by-chrisjrob)
+<a href="/assets/curtainring.png"><img src="/assets/curtainring_300.png" class="image-right" alt="Curtain Ring"></a>
 
 Finally got around to putting curtains up in our guest room and the
 curtain rings had been lost. They did eventually turn up, but these
 printed rings worked perfectly until we did. Yes they're not pretty, but
 you really could not tell unless you got close.
 
--   [View on
-    FabFabbers](http://www.fabfabbers.com/models/id/167/curtainring-by-chrisjrob)
+<!--more-->
 
+For more information please:
+
+   * [View it on GitHub](https://github.com/chrisjrob/curtainring)

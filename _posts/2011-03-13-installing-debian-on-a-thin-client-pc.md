@@ -20,6 +20,8 @@ flash card. The RAM is plenty for Linux, so the main challenge was
 keeping the installation under 1GB, when modern Linux distros are
 probably 6gb or so.
 
+<!--more-->
+
 I decided to try installing a minimal version of Debian, running just
 the PekWM Window Manager and not much else. This would me the advantage
 of the enormous Debian repositories, with all the flexibility that this

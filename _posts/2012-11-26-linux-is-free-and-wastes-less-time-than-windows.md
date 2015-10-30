@@ -1,12 +1,12 @@
 --- 
 layout: post 
-title: Linux Is Free And Wastes Less Time Than Windows
+title: Linux is Free and Wastes Less Time Than Windows
 date: 2012-11-26
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology linux
+tags: windows
 ---
 
 It is commonly said, at least in Microsoft circles, that Linux is free
@@ -18,14 +18,16 @@ Profitplanner on our Windows 2003 server. This process was
 straightforward enough, just a ZIP download which needed extracting and
 installing.
 
+<!--more-->
+
 Whilst the install worked fine, it warned that I needed to install the
-Microsoft Visual J\# 2.0 Redistributable package, and gave me a link so
+Microsoft Visual J# 2.0 Redistributable package, and gave me a link so
 to do.
 
 Unfortunately the Download button on the Microsoft website would not
-work in Internet Explorer 8, forcing me to use Chrome instead.\
-\
- Having downloaded the executable I then tried to install it, but no
+work in Internet Explorer 8, forcing me to use Chrome instead.
+
+Having downloaded the executable I then tried to install it, but no
 good - it needed .NET installed first.
 
 The link provided did not take me to the application download page, but
@@ -47,7 +49,7 @@ I decided to attempt a fresh installation of the .NET Framework 4, but
 doing so merely told me what I already knew - that it was already
 installed. The conclusion had to be that that I needed an older version
 of .NET than that currently on my system, or perhaps a newer version of
-Visual J\#? I searched for the latter first, but 2.0 does indeed appear
+Visual J#? I searched for the latter first, but 2.0 does indeed appear
 to be the newest version.
 
 Going down the tack of installing an older version of .NET, a Google
@@ -59,28 +61,27 @@ which just kept restarting, possibly our proxy server getting in the
 way. I search again, this time for the redistributable package, and
 downloaded that.
 
-I then tried to install J\#, but again it insisted on 2.0 of the .NET
-Framework.\
- Only then did I realise that I had installed the .NET Compact
+I then tried to install J#, but again it insisted on 2.0 of the .NET
+Framework. Only then did I realise that I had installed the .NET Compact
 Framework.
 
 Yes this was completely my fault, but mistakes like this are inevitable
 when using the Microsoft Download Centre, as you are offered a
 bewildering array of similarly named downloads.
 
-I uninstall the .NET Compact Framework, and search again, eventually
+I uninstalled the .NET Compact Framework, and search again, eventually
 finding the 3.5 redistributable listed at the bottom of the .NET
 Framework 3.5 web installer page. The 197mb download (there are Linux
 distributions smaller than that) took a while to download and even
 longer to install. Eventually it completed successfully.
 
-Installing J\# now worked, so clearly 3.5 worked where 4.0 did not. With
-J\# installed I was then able to easily install Profitplanner.
+Installing J# now worked, so clearly 3.5 worked where 4.0 did not. With
+J# installed I was then able to easily install Profitplanner.
 
 Success at last.
 
 Having gone through the above craziness, it occurred to me that .NET is
-a supported CrossOver Linux application, and J\# is probably easily
+a supported CrossOver Linux application, and J# is probably easily
 installed as well... 10 minutes later I had a CrossOver bottle with a
 working copy of ProfitPlanner.
 

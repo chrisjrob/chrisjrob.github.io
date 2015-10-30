@@ -5,12 +5,11 @@ date: 2013-02-06
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: personal sailing
+tags: prop
 ---
 
-![Is your prop left or right
-handed?]({{%20site.baseurl%20}}/assets/dscf1895.jpg)
+<img src="/assets/prop.jpg" class="image-right" alt="Prop">
 
 I was a bit surprised to be asked if my prop was left or right-handed.
 Turns out that my boat is unusual in being left-handed, as the prop

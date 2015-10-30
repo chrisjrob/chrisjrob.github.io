@@ -1,23 +1,22 @@
 --- 
 layout: post 
-title: Fitting Msata Drive To The Novatech Nfinity N1410
+title: Fitting MSATA Drive To The Novatech Nfinity N1410
 date: 2013-03-22
 type: post 
 published: true 
 status: publish
 categories: technology
-tags: 
+tags: hardware msata novatech
 ---
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------
-  [![]({{%20site.baseurl%20}}/assets/NovatechNFinityN1410.jpg)](https://picasaweb.google.com/112653355770650909703/NovatechNFinityN1410?authuser=0&feat=embedwebsite)
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------
+<a href="https://picasaweb.google.com/112653355770650909703/NovatechNFinityN1410?authuser=0&feat=embedwebsite"><img src="/assets/NovatechNFinityN1410.jpg" class="image-right" alt="Novatech nFinity n1410"></a>
 
-As discussed in my earlier [The Novatech nFinity n1410
-Review](http://chrisjrob.com/2013/02/22/the-novatech-nfinity-n1410-review/ "The Novatech nFinity n1410 Review"),
+As discussed in my earlier [The Novatech nFinity n1410 Review]({% post_url 2013-02-22-the-novatech-nfinity-n1410-review %} "The Novatech nFinity n1410 Review"),
 I made a mistake in sticking with the default 128gb SSD. I promised to
 write up how I carried upgraded my Ultrabook by adding an mSATA drive,
 but time has passed and I failed to take any notes.
+
+<!--more-->
 
 The drive I ordered was a [Crucial CT256M4SSD3 256GB m4 mSATA 6Gb/s
 Internal
@@ -36,6 +35,6 @@ followed these steps:
 
 Apologies that these instructions are so poor, but hopefully the
 photographs in the [Picasaweb album
-opposite](https://picasaweb.google.com/112653355770650909703/NovatechNFinityN1410?authuser=0&amp;feat=embedwebsite)
+above](https://picasaweb.google.com/112653355770650909703/NovatechNFinityN1410?authuser=0&amp;feat=embedwebsite)
 will help.
 

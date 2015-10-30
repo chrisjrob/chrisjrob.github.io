@@ -20,6 +20,8 @@ KeePassX data into an encrypted text file and use the `gnupg.vim` Vim
 plugin to read and edit it. This post describes how to accomplish this
 in a very few steps.
 
+<!--more-->
+
 I first ran KeePassX and deleted the backup group (as I did not wish to
 export all my previous generations of passwords). I then exported the
 contents to a text file named "passwords" (you could be more

@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Freenx Nx Startup Session Failed
+title: FreeNX NX Startup Session Failed
 date: 2014-01-02
 type: post 
 published: true 
@@ -14,7 +14,7 @@ report an error "Startup Session Failed". Clicking on "Detail" shows
 that it is unable to find the server session file.
 
 Searching for solutions suggested a number of options, including
-removing the server /tmp/.X1\*\*\*-lock files, or simply removing FreeNX
+removing the server `/tmp/.X1\*\*\*-lock` files, or simply removing FreeNX
 and installing NoMachine's NXServer instead.
 
 In the end the solution proved remarkably simple:

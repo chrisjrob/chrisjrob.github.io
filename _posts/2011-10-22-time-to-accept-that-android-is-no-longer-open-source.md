@@ -16,6 +16,8 @@ yet, but I had expected 3.x to be open sourced at any moment. Now that
 4.x has been released and there is [still no sign of the 3.x or 4.x source code](http://source.android.com/ "Android Source Code"), I think
 we have to ask - is Android really open source now?
 
+<!--more-->
+
 Well [Google has given some reassurances that 4.x will be open sourced](http://www.theinquirer.net/inquirer/news/2119266/google-commits-source-android-calendar-api)
 *"We plan to release the source for the recently-announced Ice Cream
 Sandwich soon, once it's available on devices"*, but this lacks

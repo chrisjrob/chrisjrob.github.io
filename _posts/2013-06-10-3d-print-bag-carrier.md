@@ -5,16 +5,19 @@ date: 2013-06-10
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology 3dprint
+tags: 3dmodel
 ---
 
-[![3D Print: Bag
-Carrier]({{%20site.baseurl%20}}/assets/bagcarrier00.jpg)](http://www.fabfabbers.com/models/id/160/bagcarrier-by-chrisjrob)
+<a href="/assets/bag-carrier.jpg"><img src="/assets/bag-carrier_300.jpg" class="image-right" alt="Bag Carrier"></a>
 
 A friend saw a plastic bag carrier for sale and wondered if I could
 produce a 3D model suitable for printing. Here was the result. A simple
 handle with hooks to carry multiple bags at once.
 
--   [FabFabbers](http://www.fabfabbers.com/models/id/160/bagcarrier-by-chrisjrob)
+<!--more-->
+
+For more information please:
+
+   * [View it on GitHub](https://github.com/chrisjrob/bagcarrier)
 

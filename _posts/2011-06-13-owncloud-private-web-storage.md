@@ -14,6 +14,10 @@ ownCloud is a webdav based application allowing you to
 store files on your own personal server on the Internet and access them
 via http or webdav.
 
+<!--more-->
+
+For more information please:
+
   * [Read more on BSDNexus][BSDNexus]
   * [Visit ownCloud.org][ownCloud]
 

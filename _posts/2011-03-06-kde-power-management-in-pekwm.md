@@ -14,6 +14,8 @@ occasions, because I had failed to switch on the mains socket, I decided
 that something had to be done about the lack of power management in
 [pekwm](http://www.pekwm.org/).
 
+<!--more-->
+
 Hunting the 'net for anything to do with pekwm is a frustrating
 business. You can't help thinking that there are only a handful of us
 that use it. I may post something about why I think pekwm is great, but

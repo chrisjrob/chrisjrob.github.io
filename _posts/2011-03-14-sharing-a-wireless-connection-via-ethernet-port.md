@@ -19,6 +19,8 @@ we had a wired network which used his wireless connection as a gateway.
 I knew this was technically possible, but I had not actually seen it
 done before.
 
+<!--more-->
+
 So this morning I sought out suggestions from the 
 [Surrey LUG Mailing List](http://mailman.lug.org.uk/mailman/listinfo/surrey), and the
 following was the end result.

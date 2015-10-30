@@ -15,6 +15,8 @@ opinion this makes the blog easier and more pleasant to navigate.
  Unfortunately it seems that in trying to achieve this, I changed the
 RSS feed as well.
 
+<!--more-->
+
 My apologies for this error, it wasn't deliberate and I do appreciate
 that it is more convenient to read the whole text from within your
 chosen RSS aggregator.  Although it was nice having the additional page

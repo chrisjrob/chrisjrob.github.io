@@ -18,6 +18,8 @@ or the wonderful "find" utility to look for large files, but here is an
 interesting alternative that I had not come across before: ncdu (ncurses
 disk usage).
 
+<!--more-->
+
 Its name tells you pretty much everything you need to know. It can be
 installed with a simple `apt-get install ncdu` and then the man page is
 a useful guide. In simple terms it can just be run with:

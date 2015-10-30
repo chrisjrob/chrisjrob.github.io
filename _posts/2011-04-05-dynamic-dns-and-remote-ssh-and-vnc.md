@@ -16,6 +16,8 @@ security of ssh, and the fact that this approach is fully open source.
 Step 1: Sign up for Dynamic DNS
 -------------------------------
 
+<!--more-->
+
 The first problem is that most people's Internet service do not have a
 static IP address. In practice it is fairly static on modern broadband
 services, but, if you do not want to be fiddling about trying to find

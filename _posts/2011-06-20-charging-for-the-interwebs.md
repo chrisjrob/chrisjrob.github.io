@@ -5,8 +5,8 @@ date: 2011-06-20
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: internet
+categories: technology web
+tags: internet web
 ---
 
 One of the most wonderful things about the web and open source are that
@@ -16,9 +16,13 @@ equaliser - a teenager in his/her bedroom truly can reach out to the
 world with a service that is every bit as good as those created by
 billion-dollar companies and maybe better.
 
-Until now, in their infinite wisdom 
+Until now.
+
+<!--more-->
+
+In their infinite wisdom 
 [ICANN has enabled custom TLDs](http://www.theregister.co.uk/2011/06/20/icann_expands_gtlds/ "ICANN opens the domain floodgates")
-from \$185,000 plus \$25,000 per annum.
+from $185,000 plus $25,000 per annum.
 
 Needless to say, this limits their availability only to large companies.
 No longer is there a level playing field - large companies can pay for a

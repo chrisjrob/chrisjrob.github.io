@@ -9,10 +9,14 @@ categories: technology linux
 tags: wallpaper xkcd
 ---
 
+<a href="/assets/xkcd-wallpaper.png"><img src="/assets/xkcd-wallpaper_300.png" class="image-right" alt="XKCD Wallpaper"></a>
+
 I confess, I like [XKCD](http://xkcd.com/). Even though some of them are
 [unfunny](http://xkcd.com/871/) and others [beyond my understanding](http://xkcd.com/849/), 
 sometimes, just sometimes, they 
 [strike a chord](http://xkcd.com/208/).
+
+<!--more-->
 
 Once I [moved to pekwm](/tag/pekwm) I found myself with a black plain
 desktop, what could be better, I thought, than the current XKCD comic in

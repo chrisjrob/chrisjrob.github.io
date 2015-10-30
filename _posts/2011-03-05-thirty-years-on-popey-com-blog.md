@@ -9,10 +9,14 @@ categories: technology
 tags: zx81 spectrum
 ---
 
+<img src="/assets/Sinclair-ZX81.png" class="image-right" alt="Sinclair ZX81">
+
 [Apparently the ZX81 is 30 years' old](http://popey.com/blog/2011/03/05/thirty-years-on/), wow.  
 [The wedge-shaped box](http://en.wikipedia.org/wiki/ZX81 "Read about the ZX81 on Wikipedia")
 that started my interest in computers, and led inexorably to my love of
 Linux and tinkering with the command-line.
+
+<!--more-->
 
 Popey clearly has a better memory than I, but I do remember rushing up
 to my bedroom with

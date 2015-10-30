@@ -6,13 +6,15 @@ type: post
 published: true 
 status: publish
 categories: technology
-tags: wordpress
+tags: wordpress blog
 ---
 
-Finally registered chrisjrob.com for my blog. Update your bookmarks,
+I have finally registered chrisjrob.com for my blog. Please update your bookmarks,
 feeds, etc.
 
 <http://chrisjrob.com/>
+
+<!--more-->
 
 The old chrisjrob.wordpress.com will continue to work, but will redirect
 to chrisjrob.com. At least until the day I decide to leave Wordpress

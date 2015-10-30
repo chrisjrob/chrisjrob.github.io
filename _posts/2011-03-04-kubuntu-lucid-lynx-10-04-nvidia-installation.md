@@ -16,6 +16,8 @@ correct instructions, and all the instructions that I did find left out
 a crucial step.  I thought I would write up what I did largely for my
 own benefit:
 
+<!--more-->
+
 Firstly, I tried to load the nvidia module:
 
     NVIDIA: Failed to load the NVIDIA kernel module. Please check your

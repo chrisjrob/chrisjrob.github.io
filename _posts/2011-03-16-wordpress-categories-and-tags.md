@@ -20,6 +20,8 @@ committing to maintain, so if you are only interested in my posts on
 Linux, you can feel confident about changing your subscription to my
 Linux category.
 
+<!--more-->
+
 The remaining categories are:
 
   * <http://chrisjrob.com/category/personal/>

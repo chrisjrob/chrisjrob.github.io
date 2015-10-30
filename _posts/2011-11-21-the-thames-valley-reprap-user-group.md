@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: The Thames Valley REPRAP User Group
+title: The Thames Valley RepRap User Group
 date: 2011-11-21
 type: post 
 published: true 
@@ -12,9 +12,11 @@ tags: reprap tvrrug
 I was surprised to realise that I have not yet blogged about my latest
 project - building a Reprap 3D Printer.
 
-I have been following the [Reprap project](http://reprap.org "Reprap")
+I have been following the [RepRap project](http://reprap.org "Reprap")
 for some time, but it always seemed to me to require hardware hacking
 skills that were that little bit beyond me.
+
+<!--more-->
 
 At [Oggcamp 2011](http://oggcamp.org "Oggcamp") I watched 
 [a presentation by Malcolm Napier](http://www.youtube.com/watch?v=MiMC39iLsQY "Oggcamp 2011 Reprap Presentation by Malcolm Napier")

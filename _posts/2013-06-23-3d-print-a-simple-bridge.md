@@ -5,17 +5,17 @@ date: 2013-06-23
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology 3dprint
+tags: 3dmodel bridge
 ---
 
-[![3D Print: A Simple
-Bridge]({{%20site.baseurl%20}}/assets/dscf2173.jpg)](http://www.fabfabbers.com/models/id/174/bridge-by-chrisjrob)
+<a href="/assets/bridge.jpg"><img src="/assets/bridge_300.jpg" class="image-right" alt="A Simple Bridge"></a>
 
 My daughter needed a small bridge for a school project and I couldn't
 find anything suitable on-line. This was my very simple design, intended
 to be fully parametric, but probably only within certain limits.
 
--   [View on
-    FabFabbers](http://www.fabfabbers.com/models/id/174/bridge-by-chrisjrob)
+For more information please:
+
+   * [View it on GitHub](https://github.com/chrisjrob/bridge)
 

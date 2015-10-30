@@ -16,6 +16,8 @@ confusing advice on how to achieve this. The best information turned out
 to be the [Mutt manual](http://wiki.mutt.org/?MuttGuide/Macros) itself,
 which is a great example of how open source documentation should be.
 
+<!--more-->
+
 My folder layout is that I have a Spam folder, within which I have two
 folders - Spam/Ham and Spam/Verified. The Spam/Ham are good emails,
 particularly those that have been wrongly identified as Spam. The

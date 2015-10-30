@@ -9,13 +9,16 @@ categories: technology
 tags: 
 ---
 
-[![nfinityn1411]({{%20site.baseurl%20}}/assets/nfinityn1411.png?w=300)](http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html)After
-spending much time trying to choose the perfect Ultrabook, I came to the
-conclusion that it is either not made, or is prohibitively expensive. In
-the meantime I ordered a [Novatech nFinity
-n1410](http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html "Novatech nFinity n1410") (14"
-Intel Core i5 3317 Mobile Processor - 8GB DDR3 Memory) for just £450
-(plus VAT).
+<img src="/assets/nfinityn1411.png" class="image-right" alt="nFinity n1410">
+
+After spending much time trying to choose the perfect Ultrabook, I came to the
+conclusion that it is either not made, or is prohibitively expensive. In the
+meantime I ordered a [Novatech nFinity
+n1410](http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html
+"Novatech nFinity n1410") (14" Intel Core i5 3317 Mobile Processor - 8GB DDR3
+Memory) for just £450 (plus VAT).
+
+<!--more-->
 
 My expectations were fairly low, given the price, but I expected
 something that would be adequate and I was pleased to be able to buy a
@@ -52,7 +55,7 @@ This all seemed to good to be true, and it was, suddenly the wireless
 signal dropped out, despite my sitting less than a metre away from the
 wireless access point. And this kept happening. Googling for an answer I
 ended up adding the following line to the end of
-/etc/modprobe.d/iwlwifi.conf:
+`/etc/modprobe.d/iwlwifi.conf`:
 
     options iwlwifi 11n_disable=1 bt_coex_active=N
 

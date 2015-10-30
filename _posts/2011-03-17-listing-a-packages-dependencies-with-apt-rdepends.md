@@ -15,6 +15,8 @@ This question is usually quickly satisfied with a
 elegantly `$ sudo apt-get -s install packagename` to simulate the
 installation.
 
+<!--more-->
+
 This doesn't give you the entire picture, as it only lists the
 dependencies that you don't already have; which is usually all you care
 about, but there are occasions when you would like to list all of a

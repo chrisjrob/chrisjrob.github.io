@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 categories: technology linux
-tags: bandwidth wget apt
+tags: cli bandwidth wget apt
 ---
 
 I have to be careful about the bandwidth I use at work; so I limit the
@@ -15,7 +15,9 @@ bandwidth of apt-get and wget.
 apt-get
 -------
 
-For apt-get you just need to create a new file
+For apt-get you just need to create a new file:
+
+<!--more-->
 
     /etc/apt/apt.conf.d/76download
     

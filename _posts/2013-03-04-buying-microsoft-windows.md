@@ -5,8 +5,8 @@ date: 2013-03-04
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+categories: technology windows
+tags: licensing 
 ---
 
 Having purchased [my Novatech nFinity
@@ -21,6 +21,8 @@ Windows 7 or Windows XP.  Currys explained that they do not stock full
 copies of Windows, only the upgrades, and stated that this was not a
 Curry's issue, but that it was a Microsoft policy to only sell full
 versions of Windows via their website.
+
+<!--more-->
 
 So I found myself searching online for "[buy windows
 8](https://www.google.co.uk/search?q=microsoft+buy+windows+8 "Search Microsoft Buy Windows 8")"

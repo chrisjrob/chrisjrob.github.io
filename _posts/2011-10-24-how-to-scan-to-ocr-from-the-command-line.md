@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 categories: technology linux
-tags: ocr scan tesseract
+tags: cli ocr scan tesseract
 ---
 
 I just had to remind myself how to scan to OCR, and thought I would
@@ -14,6 +14,8 @@ share the results.
 
 Before you start, you need to have sane installed, and you also need
 tesseract-ocr - both should be available in your distros repositories.
+
+<!--more-->
 
     $ sudo apt-get install sane-utils tesseract-ocr
 
