@@ -24,3 +24,6 @@ social:
   plus:           https://plus.google.com/u/0/112653355770650909703/
   twitter:        https://twitter.com/chrisjrob/
   github:         https://github.com/chrisjrob/
+
+disqus:
+  shortname:      'chrisjrob'
