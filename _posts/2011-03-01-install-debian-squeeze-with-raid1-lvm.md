@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Install Debian Squeeze With Raid1lvm
+title: Install Debian Squeeze With Raid1 LVM
 date: 2011-03-01
 type: post 
 published: true 
@@ -9,11 +9,14 @@ categories: technology linux debian
 tags: hp n36l microserver
 ---
 
+<img src="/assets/hp-proliant-microserver-n36l.jpg" class="image-right" alt="HP Proliant Microserver N36L">
+
 I've just bought a new [HP N36L Microserver](http://h10010.www1.hp.com/wwpc/uk/en/sm/WF06a/15351-15351-4237916-4237917-4237917-4248009.html?jumpid=in_r2515_uk/en/smb/psg/psc404redirect-ot-xx-xx-/chev/ "HP N36L Microserver"),
-for £210 with £100 cashback (UPDATE: this promotion is still running
-even today 2011-12-06 for example at BT Business Direct and Ebuyer).  It
-came with a 250gb SATA, so I added a second 250gb SATA; so that I could
-have a simple software RAID array.  I also added 2gb of Crucial RAM.
+for £210 with £100 cashback.  It came with a 250gb SATA, so I added a second
+250gb SATA; so that I could have a simple software RAID array.  I also added
+2gb of Crucial RAM.
+
+<!--more-->
 
 When the server arrived, I was surprised to find it had RAID built into
 it, but my understanding is that this is FakeRAID and thus should be

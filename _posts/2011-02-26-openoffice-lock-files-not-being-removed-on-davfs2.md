@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Openoffice Lock Files Not Being Removed On Davfs2
+title: OpenOffice Lock Files Not Being Removed On DavFS2
 date: 2011-02-26
 type: post 
 published: true 
@@ -18,6 +18,8 @@ until you save and exit, whereon it is removed automatically.
 The mystery is that, at one of our branches, it reduces size to 0, but
 is never actually removed; after which time the file cannot be edited
 until that lock file is manually removed.
+
+<!--more-->
 
 Both servers have the same `davfs2.conf` and I have done a diff between
 the two servers:

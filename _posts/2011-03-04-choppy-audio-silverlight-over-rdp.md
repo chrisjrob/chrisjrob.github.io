@@ -1,12 +1,12 @@
 --- 
 layout: post 
-title: Choppy Audio Silverlight Over Rdp
+title: Choppy Audio Silverlight Over RDP
 date: 2011-03-04
 type: post 
 published: true 
 status: publish
 categories: technology linux
-tags: windows silverlight
+tags: windows silverlight rdp
 ---
 
 Following [my recent post]({% post_url 2011-03-03-problems-playing-silverlight-media-on-windows-server-2003 %})
@@ -15,6 +15,8 @@ audio starts, it sounds choppy with a double-echo or reverb.  In short
 it is unusable.  All other audio works fine, even on the same webpage,
 but as soon as you try and listen to a Silverlight widget it sounds
 terrible.
+
+<!--more-->
 
 Googling "silverlight rdp choppy" in desperation has not filled me with
 confidence, there are a number of posts including:

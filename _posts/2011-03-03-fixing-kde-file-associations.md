@@ -1,12 +1,12 @@
 --- 
 layout: post 
-title: Fixing Kde File Associations
+title: Fixing KDE File Associations
 date: 2011-03-03
 type: post 
 published: true 
 status: publish
 categories: technology linux kde
-tags: kiosktool files
+tags: kiosktool
 ---
 
 We have our file associations locked down using KDE Kiosktool, and yet
@@ -17,6 +17,8 @@ Open With an alternative application and select the checkbox to remember
 that association in future.  The only way around this would seem to be
 to disable the context sensitive menu, at a significant cost in
 functionality.
+
+<!--more-->
 
 So now this user's PDFs open in Acrobat Reader **on our Windows
 server**, instead of using Acrobat Reader on Linux.  That would not in

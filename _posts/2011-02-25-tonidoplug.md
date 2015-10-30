@@ -6,13 +6,17 @@ type: post
 published: true 
 status: publish
 categories: technology
-tags: 
+tags: hardware
 ---
+
+<img src="/assets/TonidoPlug.jpg" class="image-right" alt="The TonidoPlug">
 
 We've seen the various plug-in computers recently, but this one looks
 very good value:
 
  * [TonidoPlug [TND003SP1A03] - ₤65 : Tonido Store](https://store.tonido.com/index.php?main_page=product_info&cPath=1&products_id=1&zenid=cd8a2874aa1ce7a5db27eb22ed0ba120)
+
+<!--more-->
 
 It was discussed on Floss Weekly in [Episode 153](http://twit.tv/floss153 "Floss Weekly Episode 153").
 

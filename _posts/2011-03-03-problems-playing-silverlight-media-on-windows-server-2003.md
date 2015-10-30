@@ -17,6 +17,8 @@ Moonlight on Linux was impossible.
 The problem that we had was that when we clicked on the Play Media
 button, there were two pop ups stating *"This page has an unspecified potential security risk"* followed by another stating *"A problem was encountered with the media file specified."*
 
+<!--more-->
+
 I tried bypassing our proxy server;  I ensured that the Internet
 Enhanced Security was uninstalled; I tried adding the relevant sites to
 "Trusted sites"; I tried reducing Trusted Sites to "Low" security; I

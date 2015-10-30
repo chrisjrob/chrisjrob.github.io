@@ -18,6 +18,8 @@ learned about fcheck.
 
 Then I ended up at <http://news.debian.net/>, and what do I see but:
 
+<!--more-->
+
 > news.debian.net is closing. In the next days, the website will become
 > a static copy.
 >

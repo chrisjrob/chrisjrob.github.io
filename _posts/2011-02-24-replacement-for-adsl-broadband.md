@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Replacement For Adsl Broadband
+title: Replacement For ADSL Broadband
 date: 2011-02-24
 type: post 
 published: true 
@@ -18,6 +18,8 @@ speed is then limited to the upload connection - 700k.
 
 Today I had a meeting with a telecoms expert to advise us on our
 options, which seem to be:
+
+<!--more-->
 
  *  **LLU (Local Loop Unbundled)** - this would boost download bandwidth
     to up to 24mb, but leave the upload bandwidth unchanged, there might

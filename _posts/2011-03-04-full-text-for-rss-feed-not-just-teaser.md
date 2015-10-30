@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Full Text For Rss Feed Not Just Teaser
+title: Full Text For RSS Feed Not Just Teaser
 date: 2011-03-04
 type: post 
 published: true 

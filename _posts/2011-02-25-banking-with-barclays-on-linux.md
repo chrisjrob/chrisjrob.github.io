@@ -9,12 +9,14 @@ categories: technology linux
 tags: barclays banking
 ---
 
-Further to [my recent post](2011/02/23/barclays-on-line-banking/ "Barclays on-line banking")
+Further to [my recent post]({% post_url 2011-02-23-barclays-on-line-banking %} "Barclays on-line banking")
 on the subject, I have now found [more information](http://www.business.barclays.co.uk/BRC1/jsp/brccontrol?task=homefreevi8&value=10335&target=_blank&site=bbb "Barclays Corporate Internet Security") on the Barclays Corporate website:
 
 > To access Business Internet Banking you need four things present at
 > the same time:
->
+
+<!--more-->
+
 > 1.  A PC or laptop with the software that runs the smart card reader
 >     installed
 > 2.  A smart card reader. This is a hardware device, attached to your
