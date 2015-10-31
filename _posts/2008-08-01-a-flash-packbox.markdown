@@ -6,7 +6,7 @@ categories: technology linux ltsp
 tags: packbox
 ---
 
-![Packbox]({{ site.url }}/assets/pack_box_350.jpg)
+<img src="/assets/pack_box_350.jpg" class="image-right" alt="Packbox">
 
 Some time ago I bought the following kit:
 
@@ -16,6 +16,8 @@ Some time ago I bought the following kit:
    * [12V 60W AC Adapter](http://linitx.com/viewproduct.php?prodid=10346) &#163; 19.06
 
 With the intention of attaching them to the underside of showroom desks as an LTSP Client.  Unfortunately they don't provide anywhere for an optical drive, which our MD felt was essential.  So what to do with it?  Well, I decided to try and set it up as a low-wattage PC for potential use in a car, caravan, boat, or simple a green PC for home use.  To that end I purchased the following additional items:
+
+<!--more-->
 
    * [Compact Flash IDE Adapter on PCI Mounting Bracket](http://linitx.com/viewproduct.php?prodid=10448) &#163; 15.34
    * [Kingston 8GB Ultimate Compact Flash 266x](http://www.dabs4work.com/productview.aspx?QuickLinx=4S39) &#163; 63.47

@@ -6,7 +6,11 @@ categories: technology linux
 tags: monitoring hp proliant ipmi sensors
 ---
 
+<img src="/assets/hp-proliant-dl-380-g5.jpg" class="image-right" alt="HP Proliant DL-380 G5">
+
 I don't have the HP Management suite installed on my HP Proliant servers, largely because they proved to be a huge resource hog, but I would like to be able to monitor stuff.  On PCs I am used to being able to use lm-sensors, so thought I'd give that a go.  Installing it prompted me to install ipmitool, which in turn needs openipmi.
+
+<!--more-->
 
     # apt-get install lm-sensors openipmi ipmitool
 

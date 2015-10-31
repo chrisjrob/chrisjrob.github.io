@@ -10,6 +10,8 @@ Having a brand new HP ML115 Server which I bought new for £107, I decided to ha
 
 I downloaded the [Ubuntu Alternate CD][alternate] and burned it to disk.  I booted the server onto the CD, missed the fact that I needed to hit F4 Modes and select LTSP before selecting install, whereon I wasted an hour installing Ubuntu-ordinaire.
 
+<!--more-->
+
 Second attempt was pretty straightforward, but, only having a single network card, it warned me to edit `/etc/ltsp/dhcpd.conf`.  Booted into Ubuntu without a problem and opened my router's web interface and cribbed the DHCP settings and DNS settings into `/etc/ltsp/dhcpd.conf`.  Switched off the DHCP on my router.  Set-up the server static IP address via the Gnome network manager.  Restarted DHCP with `/etc/init.d/dhcp3-server restart`.
 
 Tested a client and got the "workstation not authorized".

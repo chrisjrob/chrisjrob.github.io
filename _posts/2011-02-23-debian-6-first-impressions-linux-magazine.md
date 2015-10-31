@@ -9,10 +9,14 @@ categories: technology linux debian
 tags: debian theme
 ---
 
+<a href="http://www.linux-mag.com/id/8188/"><img src="/assets/linux-magazine-debian6.png" class="image-right" alt="Linux Magazine: Debian 6"></a>
+
 Apparently I am not the only one that thinks that the Debian graphics
 are appalling:
 
 [Debian 6: First Impressions | Linux Magazine](http://www.linux-mag.com/id/8188/)
+
+<!--more-->
 
 Debian did have a design contest of sorts, well a brief mailing list
 thread that had the impossible task of voting the best out of just a

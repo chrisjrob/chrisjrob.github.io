@@ -10,6 +10,8 @@ One of the few things that we miss from the old Microsoft days is the "briefcase
 
 I got this working a few weeks ago and it was incredibly simple to get working and a joy to use.  I personally didn't really have a need for this software, but now that it's installed it just so convenient that I am finding myself using it regularly.
 
+<!--more-->
+
 My first set-up was with my home laptop ([Kubuntu](http://www.kubuntu.org/)) and our work server ([Debian](http://www.debian.org/) Etch).  I simply did an `apt-get install unison` on the server and `apt-get install unison unison-gtk` on the laptop.  The gtk gui is of course optional, Unison is perfectly happy working from the command line, and it does have the benefit then of being able to automate the process to some extent.
 
 On the laptop, I created a directory "unison" under my home to use as my local store and ditto on the server, so that I had `/home/chris/unison` on both home and server (they don't have to be the same username or path).

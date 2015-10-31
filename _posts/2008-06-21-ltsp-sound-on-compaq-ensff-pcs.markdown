@@ -10,6 +10,7 @@ We have a number of Compaq Deskpro ENSFF P450s for which sound stopped working s
 
 The bulk of the fix was simply changing SMODULE_01 to MODULE_01 in LTS.conf, although this particular PC was a little more involved.
 
+<!--more-->
 
 ## Configure Compaq Deskpro ENSFF for LTSP5 Sound
 

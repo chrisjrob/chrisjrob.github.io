@@ -10,6 +10,8 @@ I have always used the [W3Schools On-line XML validator](http://www.w3schools.co
 
 Thanks to Google I came across the following command (part of `libxml2-utils`):
 
+<!--more-->
+
     $ xmllint --noout --schema schema.xsd file.xml
 
 I find it amazing that all this time I had the perfect command pre-installed on my Linux desktop and I never knew.

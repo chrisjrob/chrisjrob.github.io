@@ -6,6 +6,8 @@ categories: technology linux mythtv
 tags: tv htpc asrock ion
 ---
 
+<img src="/assets/lian_li_pc_c37_muse_200.jpg" class="image-right" alt="Lian Li PC-37 Case">
+
 Just a reminder of what I was wanting for our HTPC:
 
    * Low power
@@ -17,6 +19,7 @@ Just a reminder of what I was wanting for our HTPC:
    * Needs to visually go with our HiFi amp and Blu-Ray player
    * Powerful enough graphics to support 1080p (or 720p if not possible)
 
+<!--more-->
 
 ## The Case: Lian Li PC-C37
 

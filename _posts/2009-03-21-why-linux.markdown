@@ -10,6 +10,8 @@ tags:
 
 In fact there is some shared parentage with these, for example all three are UNIX originated, and Apple Mac OS X has, as I understand it, come from BSD.  This means that all three of these operating systems have the power of a UNIX base, giving them many advantages over Microsoft Windows systems, including in my experience:
 
+<!--more-->
+
    * Free
    * Open source
    * Better performance for the same hardware

@@ -10,6 +10,8 @@ It's been bothering me for some time that I am using Kubuntu instead of Debian o
 
 The experience was pretty positive, really the only problem was that I needed to tweak the `xorg.conf` in order to get my keyboard and mouse working, other than that it was a pretty straightforward install.
 
+<!--more-->
+
     Section "ServerLayout"
         Identifier   "Default Layout"
         Screen       "Default Screen"

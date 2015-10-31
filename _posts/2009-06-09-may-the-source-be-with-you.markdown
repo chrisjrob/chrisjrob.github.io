@@ -8,6 +8,8 @@ tags: floss source
 
 From time to time I see the comment advocating a closed source program, with the response *"as I'm not a developer it doesn't bother me whether or not I have the source code"*.   I believe that that view is wrong, and that there are many occasions where non-developers will find benefit from having access to the source code.
 
+<!--more-->
+
 For example,I've just found that Kmail will not auto-complete email addresses from an LDAP KDE resource.  A [simple bug][1]; although strictly speaking it's not a bug, as it was a deliberate feature.  Fortunately [there is a fix][2],  with a modification made to one of the components.  Unfortunately this fix has not found its way into Debian Lenny or Squeeze, and Sid is now KDE4. 
 
 I could install from the KDE SVN repository, but that version has not been tested with Debian, and I don't really want to have such a significant part of a production server to have come from outside of Debian.  Perhaps I am being overly cautious.

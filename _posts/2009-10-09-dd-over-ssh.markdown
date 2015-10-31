@@ -10,4 +10,6 @@ Wow, can't believe my last post was 4 months ago, well a quick tip to get me bac
 
     $ dd if=/dev/sda bs=1M | ssh root@blah "cat > /root/disk.img"
 
-Haven't tried it yet, but it sounds incredible.  The bs=1M is essential or the copy will take forever.
+<!--more-->
+
+Haven't tried it yet, but it sounds incredible.  The `bs=1M` is essential or the copy will take forever.

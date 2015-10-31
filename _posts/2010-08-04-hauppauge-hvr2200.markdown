@@ -8,11 +8,13 @@ tags: htpc hauppauge hvr2200
 
 ## Introduction
 
-It seems that the HVR-2200 is something of a work-in-progress under Linux.  Plenty of people seem to have it working, but it is not simple to configure.  See the references at the end for further reading.  In particular, those new to MythTV should visit:
-
-   * [http://parker1.co.uk/mythtv_ubuntu.php](http://parker1.co.uk/mythtv_ubuntu.php)
+It seems that the HVR-2200 is something of a work-in-progress under Linux.  Plenty of people seem to have it working, but it is not simple to configure.  See the references at the end for further reading.  
 
 I now have this card working under MythTV, but I have not yet managed to get the programme guide updating via EIT (Freeview).
+
+<!--more-->
+
+Those new to MythTV should visit: <http://parker1.co.uk/mythtv_ubuntu.php>
 
 ## Installation
 

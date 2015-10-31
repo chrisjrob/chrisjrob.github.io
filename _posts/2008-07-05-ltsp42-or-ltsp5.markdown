@@ -5,11 +5,7 @@ date:   2008-07-05 00:00:00
 categories: technology linux ltsp 
 ---
 
-Having agonised about the correct version of LTSP to install, chosen the wrong one, and upgraded, I thought it would be worthwhile to type up my thoughts on the subject:
-
-## Choosing your version of LTSP
-
-There are two versions of LTSP currently available:
+Having agonised about the correct version of LTSP to install, chosen the wrong one, and upgraded, I thought it would be worthwhile to type up my thoughts on the subject. There are two versions of LTSP currently available:
 
    * LTSP4.2
    * LTSP5
@@ -17,6 +13,8 @@ There are two versions of LTSP currently available:
 If you visit the LTSP website, then you can't help but notice that *all* the information is on LTSP4.2.  If you do some Googling about LTSP5, you will quickly determine that LTSP5 is full of problems, at an early stage of development and best avoided.
 
 Wrong, wrong, wrong.  You are just about to make a mistake.
+
+<!--more-->
 
 In fact LTSP5 is the current version and has been since 2006.  Indeed, if you try and seek any help in respect of version 4.2, and you will invariably get the response - *"LTSP4.2 is obsolete, unmaintained and you are an idiot to have installed it"*.
 

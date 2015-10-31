@@ -8,6 +8,8 @@ tags: ruby rails
 
 I need a way of creating some quick and dirty web apps for internal use.  To this end, I decided to give Ruby on Rails a try.  Unfortunately it is in heavy development and the Debian packages have not kept up.  I decided to try and install from source, and, after several blind alleys, I ended up with quite a simple installation...
 
+<!--more-->
+
 ## Install Ruby on Rails3 on Debian Lenny
 
 ###  Warning

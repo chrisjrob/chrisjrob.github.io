@@ -6,7 +6,11 @@ categories: technology linux mythtv
 tags: tv mythtv
 ---
 
-We bought our current media centre in 2003, choosing Microsoft Windows XP Media Center Edition (XPMCE).  This was a disaster.  If it was an open source application, then I would say that the first edition of XPMCE was worse than Alpha quality, being utterly unusable.  We upgraded to 2004 at the first opportunity, it was marginally better, possibly Alpha quality.  At last we upgraded to 2005, and we had a barely usable system, Beta quality I would say.  It still crashed regularly, but it no longer lost all our channel set-up every day or two.  Those that say that Linux is free if your time is free have never spent evening after evening setting up XPMCE.
+We bought our current media centre in 2003, choosing Microsoft Windows XP Media Center Edition (XPMCE).  This was a disaster.  If it was an open source application, then I would say that the first edition of XPMCE was worse than Alpha quality, being utterly unusable.  We upgraded to 2004 at the first opportunity, it was marginally better, possibly Alpha quality.  At last we upgraded to 2005, and we had a barely usable system, Beta quality I would say.  It still crashed regularly, but it no longer lost all our channel set-up every day or two.
+
+Those that say that Linux is free if your time is free have never spent evening after evening setting up XPMCE.
+
+<!--more-->
 
 In 2008 we [upgraded to Mythbuntu 8.10]({% post_url 2009-03-01-mythbuntu %}).  My wife was easy to persuade, simply because she could not see how Linux could possibly be worse than Microsoft Windows XP Media Center Edition.  And so it proved, it wasn't perfect by any means, but it was just good enough that we never regretted the change.
 

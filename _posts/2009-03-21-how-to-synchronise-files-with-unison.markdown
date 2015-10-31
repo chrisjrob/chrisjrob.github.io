@@ -14,6 +14,8 @@ These instructions worked for the author - they may not work for you.
 
 You need to install unison on both machines, unison-gtk probably only on the client.
 
+<!--more-->
+
     $ sudo apt-get install unison unison-gtk
 
 N.B. unison-gtk is an optional component - if you are comfortable working from the command line.

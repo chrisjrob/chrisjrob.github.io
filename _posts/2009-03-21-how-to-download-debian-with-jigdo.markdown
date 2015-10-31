@@ -12,6 +12,8 @@ Just to an "sudo apt-get jigdo-file" and read the following:
 
    * [Debian Jigdo]
 
+<!--more-->
+
 ## Where to get downloads
 
 Download the appropriate .jigdo and .template file into a suitable directory on your system.

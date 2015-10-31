@@ -10,6 +10,8 @@ I finally persuaded one of my brothers to move to Linux.  I explained that he wo
 
 I warned him that there were issues connecting third party hardware (GPS, Phones etc), but he could see the benefits and felt able to cope with them.
 
+<!--more-->
+
 Then:
 
    * Q. *"Will it work with my iPod?"*

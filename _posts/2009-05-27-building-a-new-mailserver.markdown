@@ -8,6 +8,8 @@ tags:
 
 Our Debian Lenny LTSP5 Install has hit a road block: currently the site are using a Citrix server at another location over a 256k connection to pick up their emails.  I really didn't feel that I could ask them all to collect their emails over a 256k connection, so what are the alternatives?  Well I could upgrade the bandwidth by creating an inter-site VPN, but that will still only provide perhaps 600k (that being the upload bandwidth of the host site).  The solution is to move the mailserver onto the 'net, so that they can benefit from a full 8mb ADSL download.
 
+<!--more-->
+
 After seeking advice, I choose [Bytemark](http://bytemark.co.uk) as a trusted Debian VPS supplier, a day later I had my login to my new virtual server.  But what to install?  Advice pointed me in the direction of Postfix and Dovecot, which were not much more than an apt-get install:
 
    * [Debian Admin Mailserver](http://www.debianadmin.com/debian-mail-server-setup-with-postfix-dovecot-sasl-squirrel-mail.html)

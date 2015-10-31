@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Importance of Microsoft"
-date:   2008-06-24 00:00:00
+date:   2008-06-23 00:00:00
 categories: technology linux
 tags: microsoft opinion
 ---
@@ -18,6 +18,8 @@ as someone who has put the Linux desktop into a company, I can tell you that
 the biggest problem for me was in dealing with mission-critical applications
 that are Windows-only.  The solution for us was virtualising a Windows 2003 server
 - Microsoft wins again.
+
+<!--more-->
 
 I know, it's our fault for choosing Windows software, well, here's a newsflash,
 most software is written for Windows, and there aren't always Linux

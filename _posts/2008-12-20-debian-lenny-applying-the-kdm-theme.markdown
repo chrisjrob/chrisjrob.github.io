@@ -8,6 +8,8 @@ tags: lenny kde kdm theme
 
 If you install kde from a Debian base install, then it is likely that you do not have the attractive new Debian theming for the boot loader and KDM login.  The key to this is the installation of desktop-base, but you do need a few other packages, which don't currently get treated as dependencies.
 
+<!--more-->
+
 ## Install packages
 
     $ sudo aptitude install desktop-base ksplash-engine-moodin kdmtheme splashy splashy-themes

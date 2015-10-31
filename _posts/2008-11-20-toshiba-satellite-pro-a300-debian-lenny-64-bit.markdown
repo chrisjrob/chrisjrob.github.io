@@ -8,6 +8,8 @@ tags: toshiba laptop debian lenny 64-bit
 
 The battery on my ageing Dell Inspiron 8200 had to be replaced recently, then the charger, and then (perhaps damage from cheap charger/battery?) the laptop died completely with amperage warnings about a month later.
 
+<!--more-->
+
 So I researched a replacement laptop, and ordered a Toshiba Satellite Pro A300, with 3gb RAM and 250gb hard drive.  I ordered with downgrade media to XP Pro.  Yes, anyone who has read my previous postings will appreciate just how appallingly hypocritical that is; but given that I will need XP to run under VirtualBox, and given that you don't seem to save any money by not having it, it made sense (even if it irks to be constantly adding to MS profits).
 
 Tempted though I was to install Kubuntu 8.10 (my old laptop ran 8.04), I decided that the sensible thing to do (given KDE version) was to install Debian Lenny.  Obviously I had chosen a laptop which should be readily Linux compatible, so I did expect an easy time, and so it proved.  I decided to install the 64-bit version.

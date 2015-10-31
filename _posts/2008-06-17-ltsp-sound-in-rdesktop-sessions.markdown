@@ -11,6 +11,8 @@ Today I discovered that since our upgrade to LTSP5, sound has stopped working in
     rdesktop: pcm_params.c:2351: sndrv_pcm_hw_params: Assertion `err >= 0' failed.
     Aborted
 
+<!--more-->
+
 Under 4.2 it was working beautifully simply by prefixing rdesktop with esddsp, 
 e.g.
 

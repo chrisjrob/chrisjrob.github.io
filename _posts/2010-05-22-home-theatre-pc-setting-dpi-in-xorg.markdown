@@ -10,6 +10,8 @@ A second post on the same day, has hell frozen over?  No, actually I put the wro
 
 The DPI problem was fixed very easily by following the instructions on the link I provided in my previous post, I calculated that my Sony Bravia KDL 32S3000 had dimensions of 700mm x 390mm and a native resolution of 1366x768.
 
+<!--more-->
+
     $ xdpyinfo | grep dimensions
     $ xdpyinfo | grep "dots per inch"
 

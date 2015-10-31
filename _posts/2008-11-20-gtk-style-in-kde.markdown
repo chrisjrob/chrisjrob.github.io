@@ -10,4 +10,6 @@ GTK applications in KDE always look horrible.  In Kubuntu this is taken care of 
 
     $ sudo aptitude install gtk-qt-engine
 
+<!--more-->
+
 There are other ways of achieving this, e.g. qtcurve, but for me this seems perfectly satisfactory.  Having installed, you visit your control panel and you will find a new option under "Appearance & Themes" called "GTK Styles and Fonts" change this to use your KDE style for your GTK applications, and restart KDE.

@@ -10,6 +10,8 @@ Until I stumbled across [this page][howto] I was using [Kitty] to download Podca
 
 So I went hunting for an alternative to Amarok that would handle Podcasts, only to discover that Amarok itself supports Podcasts.  Basically all you need to do is under Playlists >> Podcasts right-click and Add Podcast, but [this link][howto] explains in more detail.
 
+<!--more-->
+
 In every other respect Amarok was perfect, so I could not be more delighted.  Well done [Amarok]!
 
 [amarok]: http://amarok.kde.org/

@@ -19,6 +19,8 @@ documents to our remote site, and [it seems I could](http://bio-geeks.com/?p=662
 headache for me, as we have two branches and a shared documents
 repository.
 
+<!--more-->
+
 I have previously tried using [Unison](http://www.cis.upenn.edu/~bcpierce/unison/ "Unison File Syncrhonizer")
 to synchronise between the branches, but this has created a lot of load
 on the master server, massively slowing down performance for all the

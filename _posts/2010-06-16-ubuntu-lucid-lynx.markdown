@@ -6,9 +6,11 @@ categories: technology linux ubuntu
 tags: broadcom unetbootin kde
 ---
 
-![Ubuntu 10.04]({{ site.url }}/assets/ubuntu1004_350.png)
+<img src="/assets/ubuntu1004_350.png" class="image-right" alt="Ubuntu 10.04">
 
 As a died-in-the-wool KDE user, I'm just coming to terms with KDE4 and mostly loving it.  A few niggles remain, but in the main it is very good indeed.  But I suppose I would hesitate to recommend it to a new user.  Having seen and heard much praise for the latest Ubuntu 10.04 Lucid Lynx, which uses the Gnome desktop, I thought I'd give it a go.
+
+<!--more-->
 
 I started by downloading the ISO image from the Ubuntu website and followed my instructions to Make A Linux USB Key, basically by formatting in super-floppy format (which I find to be the most consistently successful method) and using Unetbootin to write the ISO to the USB Key.  Using a USB key is more convenient, more portable and more environmentally friendly than burning a CD/DVD.
 

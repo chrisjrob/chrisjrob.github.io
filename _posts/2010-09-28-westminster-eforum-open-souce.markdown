@@ -6,11 +6,12 @@ categories: technology linux
 tags: westminster eforum
 ---
 
-![Westminster eForum Presentation]({{ site.url }}/assets/westminster_eforum.png)
 
-[Download presentation]({{ site.url }}/downloads/westminster_eforum_presentation.pdf}
+<a href="/downloads/westminster_eforum_presentation.pdf"><img src="/assets/westminster_eforum.png" class="image-right" alt="Westminster eForum"></a>
 
 Earlier this week I went up to the [Westminster eForum](http://www.westminstereforum.co.uk/) to speak at the Keynote Seminar *"Open source software: in business, in government"*.  The Westminster eForum provides an environment for policy makers in Parliament, Whitehall and government agencies to engage with key stakeholders.  The event was sponsored by [Sirius IT](http://www.siriusit.co.uk/), the company which advised us on our move to Linux and who now provide ongoing support for our Linux servers.  
+
+<!--more-->
 
 I caught a train from Woking, arriving promptly at 61 Whitehall at 0845.  I was greeted warmly by Bash, the person organising the seminar, who showed me around and took [my slideshow presentation]({{ site.url }}/downloads/westminster_eforum_presentation.pdf).
 

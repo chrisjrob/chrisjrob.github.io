@@ -12,6 +12,8 @@ First I removed OpenOffice:
 
     $ sudo apt-get --purge remove ".*openoffice.*"
 
+<!--more-->
+
 Then I visited [the Document Foundation LibreOffice website](http://download.documentfoundation.org/libreoffice/testing/) and downloaded:
 
    * LibO_3.3.0_beta2_Linux_x86_install-deb_en-US.tar.gz

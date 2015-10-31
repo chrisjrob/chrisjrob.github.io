@@ -6,11 +6,13 @@ categories: technology linux mythtv
 tags: nvidia hauppage hvr2200
 ---
 
-![Hauppage HVR2200]({{ site.url }}/assets/hvr2200_board_s_200.jpg)
+<img src="/assets/hvr2200_board_s_200.jpg" class="image-right" alt="Hauppauge HVR2200">
 
 Wow, this really is a second post in one day!
 
 Following on from the DPI issue, I decided to throw science to the wind and just set DPI to 96x96 rather than 50x50, and the login screen looks better and the font size is improved (slightly larger).
+
+<!--more-->
 
 Next, I decided that I ought to check that the TV Tuner was properly detected, but whilst it was detected correctly, it was unsure of the card number, and was unable to download the firmware.  This is not entirely surprising as this TV card is fairly recent and (as usual) Hauppauge do not themselves support Linux.
 

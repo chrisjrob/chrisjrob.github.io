@@ -19,6 +19,8 @@ that have effected me personally.  I know that the counter argument is
 that we want Linux to be used by these companies, and I appreciate that
 they may well be  contributing in other ways, but this still upsets me.
 
+<!--more-->
+
 My gripe is this - that these companies are taking the produce of the
 work done by Linux developers to make new products and thus generate
 profits, and then not allowing those same Linux developers to access

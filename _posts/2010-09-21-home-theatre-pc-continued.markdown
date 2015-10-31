@@ -8,6 +8,8 @@ tags: htpc
 
 I've been asked recently for an update on how my HTPC is performing.  Well the good news is that we are now using it as our main system, and pretty much everything is working perfectly, including:
 
+<!--more-->
+
    * Live TV - Pause Rewind etc
    * Programme Guide
    * Schedule Recordings

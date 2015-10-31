@@ -10,6 +10,8 @@ Why do we use Google?  Because it is lightweight and fast.  What could Google do
 
 And they have.
 
+<!--more-->
+
 I can only imagine Google are wanting to reduce their monopoly and increase competition in the search engine market, and perhaps that is to be applauded.
 
 Okay, so what can I use instead of Google?  I think I'll try Bing, supposedly their privacy policy is better as well.

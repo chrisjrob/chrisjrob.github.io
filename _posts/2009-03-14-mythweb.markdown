@@ -6,7 +6,11 @@ categories: technology linux mythtv
 tags: mythweb tv
 ---
 
+<img src="/assets/mythweb.png" class="image-right" alt="MythWeb">
+
 If, like me, you have your laptop permanently on whilst you watch TV, then MythWeb is going to be a shock, a delightful shock.  Imagine, from the comfort of your sofa, with your laptop on your lap:
+
+<!--more-->
 
    * What's on TV?  Open your browser and you have a beautifully formatted programme guide - far better than an on-TV guide.
    * Want to record something? Simply click on it, choose your options and submit.

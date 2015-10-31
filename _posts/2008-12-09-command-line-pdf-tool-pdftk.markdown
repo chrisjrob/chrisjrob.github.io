@@ -8,6 +8,8 @@ tags: pdftk
 
 I had a 25-page OpenOffice writer document that needed to be sent to as a pdf.  Obviously creating a pdf from OpenOffice is simple enough, but I wanted to insert within the final pdf additional pages from other documents (i.e. not just simply appended on the end).
 
+<!--more-->
+
 We often use pdftk for command line pdf, but I hadn't delved deeply into the features.  But using pdftk all I had to do was:
 
     $ pdftk A=main.pdf B=2nd.pdf C=3rd.pdf cat A1-24 B A25 C output final.pdf

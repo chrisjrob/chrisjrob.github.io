@@ -1,12 +1,16 @@
 ---
 layout: post
 title:  "Etherpad on Debian Squeeze"
-date:   2011-02-11 00:00:00
+date:   2011-02-07 00:00:00
 categories: technology linux debian
 tags: etherpad
 ---
 
+<img src="/assets/etherpad.png" class="image-right" alt="Etherpad">
+
 Just installed [Etherpad] on our openvz server.  Having created an openvz guest for the purpose, running Debian Squeeze, installing Etherpad proved no more difficult than adding the Etherpad repository to your `/etc/apt/sources.list`:
+
+<!--more-->
 
     $ sudo su
     # echo "deb http://apt.etherpad.org all ." &gt;&gt; /etc/apt/sources.list

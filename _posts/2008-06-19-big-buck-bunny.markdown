@@ -6,7 +6,11 @@ categories: technology blender
 tags: blender
 ---
 
+<img src="/assets/big-buck-bunny.jpg" class="image-right" alt="Big Buck Bunny">
+
 Finally managed to find the time to watch Big Buck Bunny.   Big Buck Bunny tells the story of a giant rabbit with a big heart. When one sunny day three rodents rudely harass him, something snaps, and...
+
+<!--more-->
 
    * [Visit Big Buck Bunny][bbb]
    * [Watch on YouTube][yt]

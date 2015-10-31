@@ -10,6 +10,8 @@ Which such cheap PCs now available, does it really make sense to build your own?
 
 Despite the cheap PCs, there are still some direct savings to be made, obviously Linux users can save the Microsoft licence, but there are other savings too.  For example you can re-use components from your existing PC, this might be a short-term way of you getting the PC that you want, and then replacing the components over time.
 
+<!--more-->
+
 Already have a keyboard, mouse and DVD/RW?  Reuse them - it's more environmentally friendly and, if they fail later, then you can always replace them and thus stagger the cost.  Why not plan to re-use your existing hard-drive, perhaps as a second drive or as a back-up drive, it'll make it easier to transfer data.  If you're trying to save money then you could build your PC using on-board graphics and then plan to buy a decent graphics card at a later stage.
 
 Another advantage to building your own PC is that you get to choose the compromises that are made.  The cheapest components are incredibly cheap, so for example if you were planning to keep the base unit behind the sofa, then you could specify a £15 case, instead of a £100 case.

@@ -8,6 +8,8 @@ tags: viglen xubuntu xfce uupc
 
 The Viglen MPC-L is a very small thin-client device, running Xubuntu with the XFCE desktop.  At &#163;99 including VAT, this is a very inexpensive PC.  I recently listened to a review of the device on the [Ubuntu UK Podcast](http://podcast.ubuntu-uk.org/).  They described the device as slow, but explained that the Viglen MPC-L is really intended as a thin client device anyway.  I decided to order a test unit for evaluation, in the hope that it would work as a thin client for our LTSP server.
 
+<!--more-->
+
 My test unit has arrived, and I have added a review to my site, and include below for your interest...
 
 First impressions are that the device is even smaller than I was expecting, it really is small enough to go on the back of a LCD panel; however the device is functional rather than attractive.  Sleek it is not.  Secondly I noticed that in common with many thin client devices there are no legacy keyboard and mouse ports, just USB (2 front and 2 back).  The device comes with a Viglen USB keyboard and Microsoft USB optical mouse, which are both fairly cheap and cheerful devices.

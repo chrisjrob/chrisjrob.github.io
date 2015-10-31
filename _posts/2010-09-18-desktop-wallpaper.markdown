@@ -8,6 +8,8 @@ tags: wallpaper
 
 When I launched our first LTSP server, I was very keen to make the system as pleasurable for the users as possible; to this end, I left users able to customise their desktop pretty much how they liked.  I decided that this free-for-all had gone too far, when I saw customers sitting in front of one user's computer, sporting a desktop wallpaper of his baby son.  At the time I just set a system default of a fairly neutral blue / dark blue radial gradient, and put an item on my to-do list to create a desktop wallpaper.
 
+<!--more-->
+
 Those who read [my earlier post regarding KDE Wallpaper]({% post_url 2010-06-26-kde-wallpaper %}) may have seen examples, and basically I created a red background with company logo and a few lighting affects, making suitable wallpapers for most of the common screen sizes.  It was when I went to implement these wallpapers that I realised that I had a problem - KDE only allows you to force one single wallpaper to all users, regardless of screen size.  I could allow the users to set their own wallpaper, from a select list, but it would be impossible to restrict them only to that list.  And what if they hop from one computer to another - the screen size will be wrong again.  No, I needed a way of changing the wallpaper at login to the correct wallpaper for their screensize, and that meant a perl script running at login.  The task could be broken into three parts:
 
  1. Determine screen size

@@ -8,6 +8,8 @@ tags:
 
 I finally obliterated Microsoft Windows XP Mediocre Centre from our living room.  I know one shouldn't indulge in Microsoft bashing, but I have earned the right after suffering with that atrocious system for the past five years.  I would go so far as to say that my experience with that machine over the past five years is the number one reason I use Linux on the desktop today.
 
+<!--more-->
+
 Anyway, decided to replace it with [Mythbuntu], because (1) it's Debian based, (2) it should provide a quicker install than Debian.
 
 My first impressions are that, if Ubuntu is Linux for human beings, [Mythbuntu] is Linux for human beings who have evolved into a higher form of intelligence.
