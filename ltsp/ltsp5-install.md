@@ -1,14 +1,21 @@
+---
+layout: page
+title: "LTSP | LTSP5 Install"
+menu: ltsp
+weight: 10
+---
+
 # LTSP5 Install
 
 ### Introduction
 
-Time to install a new server - yay!  The hardware is an HP Proliant DL360 G5, with a single quad-core processor and 4gb ram.  This page is about creating a complete desktop server and, as such, much of this is actually nothing to do with LTSP, but is all about setting up a functional and attractive desktop server.
+Time to install a new server - yay!  The hardware is an HP Proliant DL360 G5, with a single quad-core processor and 4GB ram.  This page is about creating a complete desktop server and, as such, much of this is actually nothing to do with LTSP, but is all about setting up a functional and attractive desktop server.
 
 ### Server Specification
 
 The following page, which I wrote for LTSP4.2, should largely hold true:
 
-   * Server Sizing
+   * [Server Sizing](/ltsp/server-sizing/)
 
 ### Server Set-up
 
@@ -35,7 +42,7 @@ In addition to the following, you will need to create a swap partition which sho
     /dev/cciss/c0d0p9      6728280    293660   6092840   5% /usr
     /dev/cciss/c0d0p10     2885780    256356   2482836  10% /var
 
-With an LTSP system it is sensible to have a separate /opt partition; it doesn't need to be as large as this, but I choose to use /opt for my virtual machines, 10 GB should be adequate.  On servers it is sensible to have separate /usr, /var and /tmp file systems.  The /srv is simply going to be for shared documents - so your requirements may be different - perhaps you have a NAS for that purpose.  A separate /home is recommended for all systems.  The /tmp partition here is HUGE, this is because I will be installing a virtualised Windows server using KVM in snapshot mode, which uses /tmp for working files; you should be able to get away with 0.5 GB.  Lastly the /rescue partition is optional, it should be a mirrored copy of /boot and then should be removed from /etc/fstab, as a rescue partition.
+With an LTSP system it is sensible to have a separate `/opt` partition; it doesn't need to be as large as this, but I choose to use `/opt` for my virtual machines, 10GB should be adequate.  On servers it is sensible to have separate `/usr`, `/var` and `/tmp` file systems.  The `/srv` is simply going to be for shared documents - so your requirements may be different - perhaps you have a NAS for that purpose.  A separate `/home` is recommended for all systems.  The `/tmp` partition here is HUGE, this is because I will be installing a virtualised Windows server using KVM in snapshot mode, which uses `/tmp` for working files; you should be able to get away with 0.5GB.  Lastly the `/rescue` partition is optional, it should be a mirrored copy of `/boot` and then should be removed from `/etc/fstab`, as a rescue partition.
 
 ### Installing Debian
 
@@ -57,9 +64,9 @@ Return to the comfort of your workstation and ssh into the server in the usual w
 
 We use KDE, so these instructions are specific to KDE; however you can simply change the install command below according to the desktop environment that you prefer.
 
-N.B. Note that I am installing the minimum software, if you prefer to have KDE in total, then just install "kde-desktop" instead of "kde-core kdm".
+N.B. Note that I am installing the minimum software, if you prefer to have KDE in total, then just install `kde-desktop` instead of `kde-core kdm`.
 
-N.B. Change kde-i18n-engb for the correct package for your language.
+N.B. Change `kde-i18n-engbi` for the correct package for your language.
 
     # apt-get install kde-core kdm kde-i18n-engb
 
@@ -85,9 +92,9 @@ N.B. Please note that there are now [lenny-backports](http://wiki.debian.org/LTS
 
     $ ltsp-build-client
 
-The ltsp-build-client command will download a complete Debian filesystem into `/opt/ltsp/i386` (or specify an alternate location with '--base') and install the ltsp-client and ldm packages (the LTSP Display Manager).
+The [ltsp-build-client](/ltsp/ltsp-build-client/) command will download a complete Debian filesystem into `/opt/ltsp/i386` (or specify an alternate location with '--base') and install the ltsp-client and ldm packages (the LTSP Display Manager).
 
-N.B. If you change the IP data after you have done the initial setup and run `ltsp-update-sshkeys` on the server.
+N.B. If you change the IP data after you have done the initial setup and run [ltsp-update-sshkeys](/ltsp/ltsp-update-ssh-keys/) on the server.
 
 N.B. The files the client will boot are installed on the server into `/var/lib/tftpboot`, unlike LTSP4.2 which installed in `/tftpboot`.
 
@@ -115,19 +122,19 @@ Now is the time to test that your client is booting okay.
 
 Next we need to set-up the audio, and to that end please follow the instructions on our LTSP5 Sound page:
 
-   * LTSP5 Sound
+   * [LTSP5 Sound](/ltsp/ltsp5-sound/)
 
 ### Local Devices Set-up
 
 Next we need to set-up local devices, and to that end please follow the instructions on our LTSP5 Local Devices page:
 
-   * LTSP5 Local Devices
+   * [LTSP5 Local Devices](/ltsp/ltsp5-local-devices/)
 
 ### Optional - Installing FreeNX
 
 If you wish to be able to remotely support your server with a GUI, then you may like to install freeNX:
 
-   * Install FreeNX
+   * [Install FreeNX](/howto/install-freenx/)
 
 Then visit the NoMachine website and download the client for your PC.
 
@@ -222,7 +229,7 @@ If you intend adding a virtualised Windows server on top of the LTSP server (not
 
 N.B. I suggest you right-click on the following link and Open in New Tab, so that you don't lose your place in this document.
 
-   * How to install KVM
+   * [How to install KVM](/howto/install-kvm/)
 
 ### Optional - UMask
 

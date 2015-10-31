@@ -1,8 +1,11 @@
-## Create a Custom LDM Theme
+---
+layout: page
+title: "LTSP | Create a Custom LDM Theme"
+menu: ltsp
+weight: 12
+---
 
-<<<---
-%TOC%
-<<<---
+## Create a Custom LDM Theme
 
 ### Paths
 
@@ -55,11 +58,9 @@ Firstly change the background colour to your desired background colour (personal
 
 You can change the colour of the background by opening the greeter-gtkrc in your theme and looking for the following line:
 
-%RAW%
 <pre>
         bg[NORMAL]        = "#efebe7"
 </pre>
-%RAW%
 
 Change the colour for whatever colour you wish.  Under KDE you can use the KColorChooser for this purpose, or indeed the colour picker in Gimp.
 
