@@ -258,3 +258,24 @@ a.sidebar-nav-item:focus {
     float: right;
     margin-left: 1em;
 }
+
+.share-page {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * $spacing-unit 0;
+}
+
+.share-page a {
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+
+}
+
+.share-page a:hover {
+    border-bottom: 1px dashed #fff;
+    text-decoration: none;
+}

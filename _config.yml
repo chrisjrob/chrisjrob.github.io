@@ -25,9 +25,10 @@ excerpt_separator: <!--more-->
 
 # Custom vars
 social:
-  plus:           https://plus.google.com/u/0/112653355770650909703/
-  twitter:        https://twitter.com/chrisjrob/
-  github:         https://github.com/chrisjrob/
+  plus:           112653355770650909703
+  twitter:        chrisjrob
+  github:         chrisjrob
+  facebook:       chrisjrob
 
 disqus:
   shortname:      'chrisjrob'
