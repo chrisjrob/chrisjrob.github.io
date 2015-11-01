@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:            chrisjrob
 tagline:          'GNU Linux, Perl and FLOSS'
-description:      ''
+description:      'GNU Linux, Perl and FLOSS'
 url:              http://chrisjrob.github.io
 baseurl:          /
 
