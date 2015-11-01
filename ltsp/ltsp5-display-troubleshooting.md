@@ -1,8 +1,11 @@
-## LTSP5 Display Troubleshooting
+---
+layout: page
+title: "LTSP | LTSP5 Display Troubleshooting"
+menu: ltsp
+weight: 10
+---
 
-<<<---
-%TOC%
-<<<---
+## LTSP5 Display Troubleshooting
 
 ### Warning
 
@@ -10,14 +13,10 @@ This is currently a few scrappy notes just to jog my memory as to things to try.
 
 Note that some of these commands may not exist on your system, if you need to install them, then remember to install into the chroot, e.g.:
 
-%RAW%
-<pre>
-# chroot /opt/ltsp/i386
-# apt-get update
-# apt-get install lshw
-# exit
-</pre>
-%RAW%
+    # chroot /opt/ltsp/i386
+    # apt-get update
+    # apt-get install lshw
+    # exit
 
 Erm, suppose I should mention this whole page was tested on Debian Lenny.
 
@@ -35,15 +34,11 @@ All of the following commands were run from an ssh session to the thin client it
 
 We need to be able to access the xserver from the console, so we need to set the XAUTHORITY:
 
-%RAW%
-<pre>
-ws198:~# export XAUTHORITY=`find /var/run -name Xauthority`
-ws198:~# echo $XAUTHORITY
-/var/run/ldm-xauth-qOQkpTdNp/Xauthority
-ws198: # export DISPLAY=:7
-ws198:~#
-</pre>
-%RAW%
+    # export XAUTHORITY=`find /var/run -name Xauthority`
+    # echo $XAUTHORITY
+    /var/run/ldm-xauth-qOQkpTdNp/Xauthority
+    # export DISPLAY=:7
+    #
 
 ### Useful Programs
 
@@ -51,12 +46,8 @@ ws198:~#
 
 In order to google your problems, you'll need to know the make and model of your graphics card, to find this out, run the lspci command:
 
-%RAW%
-<pre>
-# lspci
-# lspci -v | more
-</pre>
-%RAW%
+    # lspci
+    # lspci -v | more
 
 The first command is a summary, the second command gives you more information.  The "VGA compatible controller" is probably for what you're looking.
 
@@ -64,70 +55,46 @@ The first command is a summary, the second command gives you more information.  
 
 List Hardware will list all the hardware on your PC.
 
-%RAW%
-<pre>
-# lshw -C display
-</pre>
-%RAW%
+    # lshw -C display
 
 #### getltscfg
 
 Report all the settings from lts.conf which apply to this terminal.  This helps diagnose those occasions where the client is refusing to obey your lts.conf commands.
 
-%RAW%
-<pre>
-# getltscfg -a
-</pre>
-%RAW%
+    # getltscfg -a
 
 #### xvidtune
 
 xvidtune -show will report the current monitor settings as a modeline:
 
-%RAW%
-<pre>
-# xvidtune -show
-</pre>
-%RAW%
+    # xvidtune -show
 
 You can also run xvidtune as a localapp when logged into the thin client:
 
-"/usr/bin/ltsp-localapps xvidtune"
+    "/usr/bin/ltsp-localapps xvidtune"
 
 #### xdpyinfo
 
 xdpyinfo reports a great many details from the xserver, including resolution, colour depth etc:
 
-%RAW%
-<pre>
-# xdpyinfo | more
-</pre>
-%RAW%
+    # xdpyinfo | more
 
 #### gtf cvt
 
 There are two tools for creating a modeline - gtf and cvt.  My understanding is that cvt is the newer tool, in use from 2003, but tbh I really don't know which you should use.  Both tools work in the same way.  Some examples:
 
-%RAW%
-<pre>
-# gtf 1920 1080 60
-# cvt 1280 1024 75
-</pre>
-%RAW%
+    # gtf 1920 1080 60
+    # cvt 1280 1024 75
 
 #### xrandr
 
 To save rebooting endlessly you can test monitor settings on the fly with xrandr:
 
-%RAW%
-<pre>
-# xrandr
-# xrandr --newmode "1920x1080_60.00"  172.80  1920 2040 2248 2576  1080 1081 1084 1118  -HSync +Vsync
-# xrandr --addmode VGA "1920x1080_60.00"
-# xrandr --output VGA --mode "1920x1080_60.00"
-# xrandr --auto
-</pre>
-%RAW%
+    # xrandr
+    # xrandr --newmode "1920x1080_60.00"  172.80  1920 2040 2248 2576  1080 1081 1084 1118  -HSync +Vsync
+    # xrandr --addmode VGA "1920x1080_60.00"
+    # xrandr --output VGA --mode "1920x1080_60.00"
+    # xrandr --auto
 
 The first command provides you with useful information about your xserver, including the available modes, and most importantly the available "outputs" (these are your monitors/displays); in the above example my only output is a monitor called "VGA".  newmode creates the newmode (e.g. as output by gtf or cvt), addmode makes that mode applicable to the output, and the next command activates that mode.  The final command "auto" will reset your display automatically, probably your previous settings.
 

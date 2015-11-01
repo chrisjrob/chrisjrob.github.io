@@ -1,8 +1,11 @@
-## LTSP Client Hardware
+---
+layout: page
+title: "LTSP | LTSP Client Hardware"
+menu: ltsp
+weight: 10
+---
 
-<<<---
-%TOC%
-<<<---
+## LTSP Client Hardware
 
 ### Introduction
 
@@ -10,16 +13,16 @@ The selection of client hardware is an interesting topic, that causes much confu
 
 ### Options
 
-   * Existing PCs
-   * Thin clients designed for LTSP
-   * Thin clients designed for Citrix
-   * Barebones PCs
-   * Self-build PCs
-   * New PCs
+   * [Existing PCs](#existing-pcs)
+   * [Thin clients designed for LTSP](#thin-clients-designed-for-ltsp)
+   * [Thin clients designed for Citrix](#thin-clients-designed-for-citrix)
+   * [Barebones PCs](#barebones-pcs)
+   * [Self-build PCs](#self-build-pcs)
+   * [New PCs](#new-pcs)
 
 ### Existing PCs
 
-Well you obviously don't want to throw out all your existing hardware, but do bear in mind that the electrical cost is likely to be around &pound;40 a year, and so a replacement that brings this down to &pound;15 a year, might be easier to justify than you might imagine.  If you do want to keep your existing PCs, then do consider unplugging the hard drives.  Hard drives are not required on LTSP clients, and they consume unnecessary power.  They also can often be noisy, unplugging an old drive can miraculously silence an annoyingly loud older PC.
+Well you obviously don't want to throw out all your existing hardware, but do bear in mind that the electrical cost is likely to be around &pound;40 a year, and so a replacement that brings this down to &pound;15 a year, might be easier to justify than you might imagine.  If you do want to keep your existing PCs, then do consider unplugging the hard drives.  Hard drives are not required on LTSP clients and they consume unnecessary power.  They also can often be noisy, unplugging an old drive can miraculously silence an annoyingly loud older PC.
 
 ### Thin clients designed for LTSP
 
@@ -31,7 +34,7 @@ I have no experience of this route.  One option is to purchase from Diskless Wor
 
 I have had mixed success with thin clients that were designed for Citrix and/or Windows Terminal Services.  The Wyse terminals tend to be very sluggish and quirky, and I find that I cannot recommend them for LTSP.
 
-HP thin clients seem to work very much better, and are certainly an option.  Such devices tend to be very low power.  On the downside, they do tend to be surprisingly expensive, for what they provide.  That said, if you have a good hardware budget, I believe you could do very much worse that buy some HP Linux Thin Clients but, as with any client hardware, do buy one and test before committing yourself to considerable expenditure.
+HP thin clients seem to work very much better, and are certainly an option.  Such devices tend to be very low power.  On the downside, they do tend to be surprisingly expensive, for what they provide.  That said, if you have a good hardware budget, I believe you could do very much worse than buy some HP Linux Thin Clients but, as with any client hardware, do buy one and test before committing yourself to considerable expenditure.
 
 ### Barebones PCs
 
@@ -45,7 +48,7 @@ Such barebones PCs currently cost about &pound;125 (plus VAT), seem much less li
 
 ### Self-build PCs
 
-I have had great success building small Mini-ITX form factor PCs, on Via CPUs.  The hardware was all purchased from LinITX.com, who I found very helpful.  Build time was about an hour for the first, but this dropped to about 30 minutes for the remaining ones.  The result are stunningly attractive tiny PCs which grace our showroom.  Just do concentrate on low-power consumption and look where possible for "fanless".  LTSP uses very little of the local CPU, so heat is unlikely to be an issue.
+I have had great success building small Mini-ITX form factor PCs, on Via CPUs.  The hardware was all purchased from [LinITX.com](http://linitx.com), who I found very helpful.  Build time was about an hour for the first, but this dropped to about 30 minutes for the remaining ones.  The result are stunningly attractive tiny PCs which grace our showroom.  Just do concentrate on low-power consumption and look where possible for "fanless".  LTSP uses very little of the local CPU, so heat is unlikely to be an issue.
 
 ### New PCs
 

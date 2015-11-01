@@ -2,7 +2,7 @@
 layout: page
 title: About
 menu: main
-weight: 50
+weight: 99
 ---
 
 Chris is the Finance & IT Director at Trident Garages Ltd, Honda dealers in Surrey.

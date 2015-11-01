@@ -2,8 +2,10 @@
 layout: page
 title: LTSP
 menu: main
-weight: 40
+weight: 90
 ---
+
+We used LTSP for some eight years, between 2007 and 2015. The following information is largely outdated now, but may be of some residual interest.
 
   * ltsp  « you are here
     * [about ltsp](/ltsp/about/)
@@ -15,7 +17,7 @@ weight: 40
     * ltsp4.2
         * [ltsp4.2 scanning](/ltsp/ltsp4.2-scanning/)
         * [ltsp4.2 sound](/ltsp/ltsp4.2-sound/)
-        * [ltsp4.2 client sound](/ltsp/ltsp4.2-client-sound/)
+        * [ltsp4.2 client sound](/ltsp/ltsp4.2-sound-client/)
     * [ltsp4.2 or ltsp5](/ltsp/ltsp4.2-or-ltsp5/)
     * ltsp5 commands
         * [ltsp-build-client](/ltsp/ltsp-build-client/)
@@ -29,16 +31,16 @@ weight: 40
     * [ltsp5 nxclient](/ltsp/ltsp5-nx-client/)
     * [ltsp5 scanning](/ltsp/ltsp5-scanning/)
     * [ltsp5 sound](/ltsp/ltsp5-sound/)
-        * [ltsp5 client sound](/ltsp/ltsp5-client-sound/)
-            * [configure compaq deskpro ensff for ltsp5 sound](/ltsp/ltsp5-client-sound-configure-compaq-deskpro-ensff/)
-            * [unmute fix](/ltsp/ltsp5-client-sound-unmute-fix/)
-        * rdesktop sound
-    * ltsp5 troubleshooting
-    * ltsp5 display troubleshooting
-    * ltsp5 upgrade
-    * ltsp client hardware
-    * ltsp client root password
-    * ltsp client upgrade
-    * ltsp iceweasel hacks
-    * server sizing
-    * wireless access to ltsp
+        * [ltsp5 client sound](/ltsp/ltsp5-sound-client/)
+            * [configure compaq deskpro ensff for ltsp5 sound](/ltsp/ltsp5-sound-client-configure-compaq-deskpro-ensff/)
+            * [unmute fix](/ltsp/ltsp5-sound-client-unmute-fix/)
+        * [rdesktop sound](/ltsp/ltsp5-sound-rdesktop/)
+    * [ltsp5 troubleshooting](/ltsp/ltsp5-troubleshooting/)
+    * [ltsp5 display troubleshooting](/ltsp/ltsp5-display-troubleshooting/)
+    * [ltsp5 upgrade](/ltsp/ltsp5-upgrade/)
+    * [ltsp client hardware](/ltsp/client-hardware/)
+    * [ltsp client root password](/ltsp/client-root-password/)
+    * [ltsp client upgrade](/ltsp/client-upgrade/)
+    * [ltsp iceweasel hacks](/ltsp/iceweasel-hacks/)
+    * [ltsp server sizing](/ltsp/server-sizing/)
+    * [wireless access to ltsp](/ltsp/wireless-access-to-ltsp/)

@@ -1,24 +1,23 @@
-## Server Sizing
+---
+layout: page
+title: "LTSP | LTSP Server Sizing"
+menu: ltsp
+weight: 10
+---
 
-<<<---
-%TOC%
-<<<---
+## Server Sizing
 
 ### RAM
 
 LTSP website recommends 256mb for the core system plus 50mb per user:
 
-<pre>
-Total RAM = 256mb + (25 users x 50mb)
-          = 1506mb
-</pre>
+    Total RAM = 256mb + (25 users x 50mb)
+              = 1506mb
 
 However Edubuntu recommends a different formula:
 
-<pre>
-Total RAM = 150mb x 25 users
-          = 3750mb
-</pre>
+    Total RAM = 150mb x 25 users
+              = 3750mb
 
 We recommend you choose the greater of the two, and double-it if you can (see update below).
 
@@ -30,11 +29,9 @@ This memory has proved a little low, mainly because we are also virtualising Win
 
 LTSP website states that each user is likely to require around 3% of a CPU:
 
-<pre>
-Total CPU = 3% x 25
-          = 0.75
-          = 75% of a CPU
-</pre>
+    Total CPU = 3% x 25
+              = 0.75
+              = 75% of a CPU
 
 So a single processor should be sufficient; however this requirement doubles or even trebles if we opt to virtualise a Windows server on the installation.  We would say that a minimum of a quad-core would be sensible if virtualising Windows on the LTSP server.  If this is a problem for you, simply host the Windows server elsewhere; which is probably better anyway.
 
@@ -46,7 +43,7 @@ We have now upgraded both servers to dual quad-core, which is proving ample capa
 
 LTSP recommend a Gigabit connection for the server and fast Ethernet for the terminals.  Many fast ethernet switches include a gigabit connection, alternatively gigabit switches are becoming quite affordable.
 
-<?> There can be issues running LTSP via multiple switches - so if you're buying a new switch - consider the greatest number of ports that you are likely to require.
+**There can be issues running LTSP via multiple switches - so if you're buying a new switch - consider the greatest number of ports that you are likely to require.**
 
 #### Post install update
 

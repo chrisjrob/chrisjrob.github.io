@@ -112,3 +112,7 @@ A common Soundblaster compatible card is:
     #
     SMODULE_01 = "sb io=0x220 irq=5 dma=1"
 
+### Related Pages
+
+   * [LTSP5 Sound Client :: Configure Compaq Deskpro ENSFF](/ltsp/ltsp5-sound-client-configure-compaq-deskpro-ensff.md)
+   * [LTSP5 Sound Client :: Unmute Fix](/ltsp/ltsp5-sound-client-unmute-fix.md)

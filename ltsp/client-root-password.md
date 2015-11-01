@@ -1,8 +1,11 @@
-## LTSP Client Root Password
+---
+layout: page
+title: "LTSP | LTSP5 Client Root Password"
+menu: ltsp
+weight: 10
+---
 
-<<<---
-%TOC%
-<<<---
+## LTSP Client Root Password
 
 ### Introduction
 
@@ -12,14 +15,10 @@ Most GNU/Linux machines have 12 virtual consoles, which you can access by pressi
 
 However, for debugging purposes, you may want to set up root to log in on the thin client. You may need to do this if you're debugging problems with local devices, for example. Fortunately, it's easy to do: on the server, just chroot into the LTSP chroot, and set the password with passwd.
 
-%RAW%
-<pre>
-$ sudo chroot /opt/ltsp/i386
-# passwd
-# exit
-$ sudo ltsp-update-image
-</pre>
-%RAW%
+    $ sudo chroot /opt/ltsp/i386
+    # passwd
+    # exit
+    $ sudo ltsp-update-image
 
 ### Logging in
 

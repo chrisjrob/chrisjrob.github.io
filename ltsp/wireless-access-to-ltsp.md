@@ -1,8 +1,11 @@
-## Wireless access to LTSP
+---
+layout: page
+title: "LTSP | Wireless Access to LTSP"
+menu: ltsp
+weight: 10
+---
 
-<<<---
-%TOC%
-<<<---
+## Wireless access to LTSP
 
 ### The Issue
 
@@ -23,18 +26,18 @@ As it happened, I had an old Lucent Wireless Ethernet Converter, sadly only a 10
 
 ### Possible Wireless Bridges
 
-   * {ASUS WL330GE Wireless Access Point|http://www.expansys.com/d.aspx?i=156998}
-   * {Linksys model number WET54G|http://www.dabs4work.com/productview.aspx?Quicklinx=30HT}
-   * {Belkin Wireless G Ethernet Adapter F5D7330uk|http://www.dabs4work.com/productview.aspx?quicklinx=3XB9}
-   * {Buffalo Wireless Ethernet Controller WLI-TX4-G54HP-1|https://www.dabs4work.com/productview.aspx?QuickLinx=3XB9}
+   * [ASUS WL330GE Wireless Access Point](http://www.expansys.com/d.aspx?i=156998)
+   * [Linksys model number WET54G](http://www.dabs4work.com/productview.aspx?Quicklinx=30HT)
+   * [Belkin Wireless G Ethernet Adapter F5D7330uk](http://www.dabs4work.com/productview.aspx?quicklinx=3XB9)
+   * [Buffalo Wireless Ethernet Controller WLI-TX4-G54HP-1](https://www.dabs4work.com/productview.aspx?QuickLinx=3XB9)
 
 After initially opting for the Belkin, I ended up opting for the Buffalo, largely off the back of some decent reviews.
 
 ### Buffalo Wireless Ethernet Controller
 
-My {Buffalo Wireless Ethernet Controller WLI-TX4-G54HP-1|https://www.dabs4work.com/productview.aspx?QuickLinx=3XB9} arrived today, so I eagerly installed it at home.  As usual there is no configurator for Linux, so you have to use the web-admin page, this requires you to connect via a wired port configured for the same network 1.1.1.0/24.  Once done it was very simple to configure - I gave it a static IP (not sure whether that was really required) and rebooted into Edubuntu.
+My [Buffalo Wireless Ethernet Controller WLI-TX4-G54HP-1](https://www.dabs4work.com/productview.aspx?QuickLinx=3XB9) arrived today, so I eagerly installed it at home.  As usual there is no configurator for Linux, so you have to use the web-admin page, this requires you to connect via a wired port configured for the same network 1.1.1.0/24.  Once done it was very simple to configure - I gave it a static IP (not sure whether that was really required) and rebooted into Edubuntu.
 
-Very straightforward, but the performance, whilst infinitely better than my old Lucent Ethernet Converter described in my Proof of Concept, was less than stunning.  Launching Gcompris, struggled with the music, but once the music was switched off the moving images and sound seemed fine.  Gnome seems a little sluggish at times, but probably quicker than my ageing Dell Inspiron 8200 is normally!
+Very straightforward, but the performance, whilst infinitely better than my old Lucent Ethernet Converter described in my [Proof of Concept](#proof-of-concept), was less than stunning.  Launching Gcompris, struggled with the music, but once the music was switched off the moving images and sound seemed fine.  Gnome seems a little sluggish at times, but probably quicker than my ageing Dell Inspiron 8200 is normally!
 
 I guess I would describe performance of Edubuntu via Wireless as satisfactory - but if you require sound/video I think you'll struggle.  That said it is a useful additional method of accessing LTSP and will no doubt have its place at work, e.g. adhoc workstations.
 
