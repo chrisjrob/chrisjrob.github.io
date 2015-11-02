@@ -6,18 +6,18 @@ weight: 40
 ---
 
  * howto  « you are here
-    * add global openoffice.org extensions
-    * analyse boot speed
-    * apache ssl
-    * archive to dat
-    * apt-get
-    * configure iceweasel to print via kprinter
-    * configure knetworkmanager
-    * install printing
-    * connect kaddressbook to activedirectory
-    * convert dvr-ms to mpeg
-    * convert quicktime mov to avi
-    * convert xps to pdf
+    * [add global openoffice.org extensions](/howto/add-global-openoffice-org-extensions/)
+    * [analyse boot speed](/howto/analyse-boot-speed/)
+    * [apache ssl](/howto/apache-ssl/)
+    * [archive to dat](/howto/archive-to-dat)
+    * [configure apt-get](/howto/configure-apt-get)
+    * [configure iceweasel to print via kprinter](/howto/configure-iceweasel-to-print-via-kprinter/)
+    * [configure knetworkmanager](/howto/configure-knetwork-manager/)
+    * [install print system](/howto/install-print-system/)
+    * [connect kaddressbook to activedirectory](/howto/connect-kaddressbook-to-activedirectory/)
+    * [convert dvr-ms to mpeg](/howto/convert-dvr-ms-to-mpeg/)
+    * [convert quicktime mov to avi](/howto/convert-quicktime-mov-to-avi/)
+    * [convert xps to pdf](/howto/convert-xps-to-pdf/)
     * copy directories and preserve permissions
     * create nagios status map icons
     * create thumbnails from movies
