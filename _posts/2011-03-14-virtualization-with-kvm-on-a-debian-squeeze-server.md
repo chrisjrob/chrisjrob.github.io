@@ -5,7 +5,7 @@ date: 2011-03-14
 type: post 
 published: true 
 status: publish
-categories: technology linux debian
+category: technology linux debian
 tags: kvm
 ---
 

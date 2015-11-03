@@ -5,8 +5,8 @@ date: 2013-06-23
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 3dmodel bridge
+category: technology
+tags: [3dprint, 3dmodel, bridge, openscad, github]
 ---
 
 <a href="/assets/bridge.jpg"><img src="/assets/bridge_300.jpg" class="image-right" alt="A Simple Bridge"></a>

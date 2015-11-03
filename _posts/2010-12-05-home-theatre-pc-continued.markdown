@@ -2,8 +2,8 @@
 layout: post
 title:  "Home Theatre PC - Continued"
 date:   2010-12-05 00:00:00
-categories: technology linux mythtv
-tags: tv
+category: technology
+tags: [linux, mythtv, tv]
 ---
 
 A while ago I wrote:

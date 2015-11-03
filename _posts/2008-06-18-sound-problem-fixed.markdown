@@ -2,8 +2,8 @@
 layout: post
 title:  "LTSP sound problem fixed"
 date:   2008-06-18 00:00:00
-categories: technology linux ltsp
-tags: linux ltsp sound rdesktop
+category: technology 
+tags: [linux, ltsp, sound, rdesktop]
 ---
 
 It transpired that rdesktop uses `/dev/dsp` which is incompatible with alsa.  Specifying "oss" as the sound driver, instead of the default, worked fine.

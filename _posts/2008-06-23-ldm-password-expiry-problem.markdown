@@ -2,8 +2,8 @@
 layout: post
 title:  "LDM password expiry problem"
 date:   2008-06-23 00:00:00
-categories: technology linux ltsp
-tags: ltsp ldm password
+category: technology 
+tags: [linux, ltsp, ldm, password]
 ---
 
 I have had my first user's password expire since our LTSP5 Upgrade.

@@ -2,8 +2,8 @@
 layout: post
 title:  "Home Theatre PC - The Hardware"
 date:   2010-05-07 00:00:00
-categories: technology linux mythtv
-tags: tv htpc asrock ion
+category: technology
+tags: [linux, mythtv, tv, htpc, asrock, ion]
 ---
 
 <img src="/assets/lian_li_pc_c37_muse_200.jpg" class="image-right" alt="Lian Li PC-37 Case">

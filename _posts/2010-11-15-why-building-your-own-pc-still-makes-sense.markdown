@@ -2,8 +2,8 @@
 layout: post
 title:  "Why building your own PC still makes sense"
 date:   2010-11-15 00:00:00
-categories: technology
-tags: pc building
+category: technology
+tags: [pc]
 ---
 
 Which such cheap PCs now available, does it really make sense to build your own?  I think so, and these are the reasons why:

@@ -2,8 +2,8 @@
 layout: post
 title:  "Big Buck Bunny"
 date:   2008-06-19 00:00:00
-categories: technology blender
-tags: blender
+category: technology 
+tags: [blender]
 ---
 
 <img src="/assets/big-buck-bunny.jpg" class="image-right" alt="Big Buck Bunny">

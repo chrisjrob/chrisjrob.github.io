@@ -5,8 +5,8 @@ date: 2012-09-17
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: gps
+category: technology
+tags: [linux, cli, gps]
 ---
 
 <a href="http://www.amazon.co.uk/gp/product/B000PKX2KA/ref=as_li_ss_il?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000PKX2KA&linkCode=as2&tag=robsquadnet-21"><img src="/assets/gps-bu-353.jpg" class="image-right" alt="GPS Receiver BU-353"></a>

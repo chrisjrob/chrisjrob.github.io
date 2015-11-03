@@ -2,8 +2,8 @@
 layout: post
 title:  "Optimise Firefox"
 date:   2009-10-15 00:00:00
-categories: technology linux
-tags: firefox sqlite
+category: technology
+tags: [linux, firefox, sqlite]
 ---
 
 Apparently Firefox uses sqlite for its databases, maintaining several `*.sqlite` files in your `.mozilla/` profile directory.  Over time these become cluttered and it helps if you vacuum it:

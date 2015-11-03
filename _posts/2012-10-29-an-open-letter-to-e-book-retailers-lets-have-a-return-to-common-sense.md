@@ -5,8 +5,8 @@ date: 2012-10-29
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: ebook drm
+category: technology
+tags: [ebook, drm, rant]
 ---
 
 It astonishes me that so many people are prepared to go along with the

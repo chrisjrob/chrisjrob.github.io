@@ -2,8 +2,8 @@
 layout: post
 title:  "The Continuing Saga of LTSP Screen Shadowing"
 date:   2008-07-14 00:00:00
-categories: technology linux ltsp
-tags: x11vnc italc
+category: technology
+tags: [vnc, italc, linux, ltsp]
 ---
 
 This turned out to be a complete nightmare, and took several days to resolve.  I never did manage to get x11vnc working on the client, nor did I manage to get italc (which I think also uses x11vnc) working on the client.  In the end I settled for installing italc-client on the server, so that the client runs when users log onto the server, allocating each user a unique port, and putting a little green italc icon in their system tray.

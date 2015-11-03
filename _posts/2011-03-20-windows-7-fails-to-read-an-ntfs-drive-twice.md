@@ -5,7 +5,7 @@ date: 2011-03-20
 type: post 
 published: true 
 status: publish
-categories: technology windows
+category: technology windows
 tags: ntfs
 ---
 

@@ -5,8 +5,8 @@ date: 2013-07-04
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: ruby rkhunter rootkit unhide
+category: technology
+tags: [linux, ruby, rkhunter, rootkit, unhide, security]
 ---
 
 I have recently moved over to Rootkit Hunter (rkhunter) instead of using

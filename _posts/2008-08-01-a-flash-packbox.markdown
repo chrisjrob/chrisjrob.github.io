@@ -2,8 +2,8 @@
 layout: post
 title:  "A Flash Packbox"
 date:   2008-08-01 00:00:00
-categories: technology linux ltsp
-tags: packbox
+category: technology
+tags: [linux, ltsp, packbox]
 ---
 
 <img src="/assets/pack_box_350.jpg" class="image-right" alt="Packbox">

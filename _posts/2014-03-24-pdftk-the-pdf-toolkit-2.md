@@ -5,8 +5,8 @@ date: 2014-03-24
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: cli
+category: technology
+tags: [linux, cli, pdf, pdftk]
 ---
 
 [PDFTK - The PDF

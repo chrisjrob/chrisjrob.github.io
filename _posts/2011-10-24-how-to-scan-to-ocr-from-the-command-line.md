@@ -5,7 +5,7 @@ date: 2011-10-24
 type: post 
 published: true 
 status: publish
-categories: technology linux
+category: technology linux
 tags: cli ocr scan tesseract
 ---
 

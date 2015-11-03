@@ -2,8 +2,8 @@
 layout: post
 title:  "MD5 Checker"
 date:   2008-06-23 00:00:00
-categories: technology linux kde
-tags: md5
+category: technology 
+tags: [linux, kde, md5]
 ---
 
 Linux includes "md5sum" utility for checking MD5 values of downloaded applications.  I find it a nuisance having to drop into a command shell and execute...

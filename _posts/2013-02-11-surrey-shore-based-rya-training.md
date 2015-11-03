@@ -5,8 +5,8 @@ date: 2013-02-11
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+category: personal
+tags: [sailing, rya, training, recommendation]
 ---
 
 [Surrey Shore-based RYA

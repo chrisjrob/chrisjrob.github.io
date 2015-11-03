@@ -2,8 +2,8 @@
 layout: post
 title:  "The Green Icons are breeding"
 date:   2008-07-15 00:00:00
-categories: technology linux ltsp
-tags: italc vnc
+category: technology
+tags: [linux, ltsp, italc, vnc]
 ---
 
 Users reported that they had several green icons in their system tray.  This transpired to be the KDE session manager, which automatically restores all applications running at time of logging-off.  I have updated my Install Italc instructions to include excluding ica from KDE session manager.

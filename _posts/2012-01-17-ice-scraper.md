@@ -5,8 +5,8 @@ date: 2012-01-17
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 3dmodel
+category: technology
+tags: [3dprint, 3dmodel, openscad, github]
 ---
 
 <a href="/assets/icescraper1.png"><img src="/assets/icescraper1_300.png" class="image-right" alt="Ice-scraper"></a>

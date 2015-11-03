@@ -5,8 +5,8 @@ date: 2013-09-28
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: cli
+category: technology
+tags: [linux, cli]
 ---
 
 I thought that this [Linux Terminal Command

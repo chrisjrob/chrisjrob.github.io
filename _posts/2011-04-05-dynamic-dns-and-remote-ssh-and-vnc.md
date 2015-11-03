@@ -5,7 +5,7 @@ date: 2011-04-05
 type: post 
 published: true 
 status: publish
-categories: technology linux
+category: technology linux
 tags: vnc ssh dyndns
 ---
 

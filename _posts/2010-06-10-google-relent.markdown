@@ -2,8 +2,8 @@
 layout: post
 title:  "Google relent"
 date:   2010-06-10 00:00:00
-categories: technology
-tags: google rant
+category: technology
+tags: [google, rant]
 ---
 
 Apparently [it was a 24 hour experiment]({% post_url 2010-06-10-google-you-plonkers %}), but Google saw sense and ended it 10 hours early, after the twitterverse went beserk.

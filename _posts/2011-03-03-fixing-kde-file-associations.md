@@ -5,7 +5,7 @@ date: 2011-03-03
 type: post 
 published: true 
 status: publish
-categories: technology linux kde
+category: technology linux kde
 tags: kiosktool
 ---
 

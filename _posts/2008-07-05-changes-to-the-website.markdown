@@ -2,8 +2,8 @@
 layout: post
 title:  "Changes to the website"
 date:   2008-07-05 00:00:00
-categories: technology linux ltsp
-tags: printing
+category: technology 
+tags: [linux, ltsp, printing]
 ---
 
 I can't believe a week has passed, with no blog entry.  Apologies.

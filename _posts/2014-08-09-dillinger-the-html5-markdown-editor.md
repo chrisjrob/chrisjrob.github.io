@@ -5,8 +5,8 @@ date: 2014-08-09
 type: post 
 published: true 
 status: publish
-categories: technology linux ubuntu
-tags: dillinger markdown
+category: technology
+tags: [linux, ubuntu, dillinger, markdown, review, web]
 ---
 
 <a href="http://dillinger.io"><img src="/assets/dillinger.png" class="image-right" alt="Dillinger"></a>

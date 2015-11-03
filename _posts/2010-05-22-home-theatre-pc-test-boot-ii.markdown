@@ -2,8 +2,8 @@
 layout: post
 title:  "Home Theatre PC - Test Boot II"
 date:   2010-05-22 00:00:00
-categories: technology linux mythtv
-tags: nvidia hdmi
+category: technology
+tags: [linux, mythtv, nvidia, hdmi]
 ---
 
 Changing the connectors around corrected the problem, I had assumed that the arrows on the connectors indicated +ve, when clearly they must indicate -ve, fixed and the LEDs all work fine.

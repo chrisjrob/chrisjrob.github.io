@@ -2,8 +2,8 @@
 layout: post
 title:  "Home Theatre PC - Setting DPI in Xorg"
 date:   2010-05-22 00:00:01
-categories: technology linux mythtv
-tags: nvidia hdmi
+category: technology
+tags: [linux, mythtv, nvidia, hdmi, dpi, xorg]
 ---
 
 A second post on the same day, has hell frozen over?  No, actually I put the wrong date on yesterday's post.  Oops.

@@ -2,8 +2,8 @@
 layout: post
 title:  "Debian Lenny - applying the new kdm theme"
 date:   2008-12-20 00:00:00
-categories: technology linux debian
-tags: lenny kde kdm theme
+category: technology
+tags: [linux, debian, lenny, kde, kdm, theme]
 ---
 
 If you install kde from a Debian base install, then it is likely that you do not have the attractive new Debian theming for the boot loader and KDM login.  The key to this is the installation of desktop-base, but you do need a few other packages, which don't currently get treated as dependencies.

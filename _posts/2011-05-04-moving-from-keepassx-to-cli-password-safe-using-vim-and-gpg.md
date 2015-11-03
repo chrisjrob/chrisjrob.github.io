@@ -5,7 +5,7 @@ date: 2011-05-04
 type: post 
 published: true 
 status: publish
-categories: technology linux
+category: technology linux
 tags: password gpg keepassx gpg
 ---
 

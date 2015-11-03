@@ -5,8 +5,8 @@ date: 2014-01-02
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+category: technology
+tags: [linux, nx, freenx]
 ---
 
 Occasionally users are unable to connect to our FreeNX server, they

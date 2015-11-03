@@ -5,7 +5,7 @@ date: 2011-03-06
 type: post 
 published: true 
 status: publish
-categories: technology linux pekwm
+category: technology linux pekwm
 tags: power
 ---
 

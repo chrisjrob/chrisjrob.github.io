@@ -5,8 +5,8 @@ date: 2011-02-24
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: cli fsniper
+category: technology
+tags: [linux, cli, fsniper]
 ---
 
 I had never heard of fsniper until it was mentioned in a mailing list

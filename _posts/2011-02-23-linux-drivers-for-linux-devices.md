@@ -5,8 +5,8 @@ date: 2011-02-23
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: garmin driver
+category: technology
+tags: [linux, garmin, driver]
 ---
 
 Nothing annoys me more than this - companies that use the Linux

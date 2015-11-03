@@ -2,8 +2,8 @@
 layout: post
 title:  "How to Download Debian with Jigdo"
 date:   2009-03-21 00:00:00
-categories: technology linux debian
-tags: jigdo
+category: technology
+tags: [linux, debian, jigdo]
 ---
 
 ## Introduction

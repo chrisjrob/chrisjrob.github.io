@@ -5,8 +5,8 @@ date: 2013-06-10
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 3dmodel
+category: technology
+tags: [3dprint, 3dmodel, openscad, github]
 ---
 
 <a href="/assets/bag-carrier.jpg"><img src="/assets/bag-carrier_300.jpg" class="image-right" alt="Bag Carrier"></a>

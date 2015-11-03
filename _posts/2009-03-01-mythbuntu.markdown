@@ -2,8 +2,8 @@
 layout: post
 title:  "Mythbuntu"
 date:   2009-03-01 00:00:00
-categories: technology linux mythtv
-tags: 
+category: technology
+tags: [linux, mythtv] 
 ---
 
 I finally obliterated Microsoft Windows XP Mediocre Centre from our living room.  I know one shouldn't indulge in Microsoft bashing, but I have earned the right after suffering with that atrocious system for the past five years.  I would go so far as to say that my experience with that machine over the past five years is the number one reason I use Linux on the desktop today.

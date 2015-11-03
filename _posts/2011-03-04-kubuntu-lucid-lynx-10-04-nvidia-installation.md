@@ -5,7 +5,7 @@ date: 2011-03-04
 type: post 
 published: true 
 status: publish
-categories: technology linux mythtv
+category: technology linux mythtv
 tags: kubuntu mythbuntu nvidia
 ---
 

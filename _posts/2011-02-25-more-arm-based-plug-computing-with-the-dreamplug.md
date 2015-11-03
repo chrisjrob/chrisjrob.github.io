@@ -5,8 +5,8 @@ date: 2011-02-25
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: hardware
+category: technology
+tags: [hardware, arm, dreamplug]
 ---
 
 <img src="/assets/dreamplug.jpg" class="image-right" alt="Dreamplug">

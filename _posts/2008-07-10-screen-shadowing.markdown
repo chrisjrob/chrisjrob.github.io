@@ -2,8 +2,8 @@
 layout: post
 title:  "Screen Shadowing"
 date:   2008-07-10 00:00:00
-categories: technology linux ltsp
-tags: x11vnc italc
+category: technology
+tags: [vnc, italc, linux, ltsp]
 ---
 
 Something that we have become used to having under Citrix is the ability to shadow users, and I have been missing this since our forays into LTSP.  I know it is possible, and I have been attempting to use the KDE built-in Krfb Desktop Sharing module.  The problem with this has been that, all users being on the same hardware, it's difficult to know to which screen number to connect.  I guess there probably is a way, but when I used trial and error to find the right display, the performance was less than impressive.

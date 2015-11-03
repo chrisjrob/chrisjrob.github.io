@@ -2,8 +2,8 @@
 layout: post
 title:  "Home Theatre PC - Continued..."
 date:   2010-06-29 00:00:00
-categories: technology linux mythtv
-tags: htpc hauppage hvr2200 eit
+category: technology
+tags: [linux, mythtv, htpc, hauppauge, hvr-2200, eit]
 ---
 
 Finally spent a few hours on my HTPC.  Previously the Hauppauge HVR-2200 was working fine in Kaffeine, but was not working in MythTV.  I finally resolved this issue, and typed up some details here.

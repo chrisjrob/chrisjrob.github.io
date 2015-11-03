@@ -2,8 +2,8 @@
 layout: post
 title:  "Why Linux?"
 date:   2009-03-21 00:00:00
-categories: technology linux
-tags: 
+category: technology
+tags: [linux] 
 ---
 
 ## Benefits of Linux

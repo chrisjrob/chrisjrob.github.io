@@ -5,8 +5,8 @@ date: 2013-06-12
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: cli irc
+category: technology
+tags: [linux, cli, irc]
 ---
 
 Having migrated servers, my irssi tab-complete spell-check facility had

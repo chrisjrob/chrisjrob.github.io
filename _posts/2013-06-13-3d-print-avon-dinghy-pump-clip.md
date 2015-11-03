@@ -5,8 +5,8 @@ date: 2013-06-13
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 3dmodel avon dinghy
+category: technology
+tags: [3dprint, 3dmodel, avon, dinghy, openscad, github]
 ---
 
 <a href="/assets/avonpumpclip.jpg"><img src="/assets/avonpumpclip_300.jpg" class="image-right" alt="Avon Pump Clip"></a>

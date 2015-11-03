@@ -5,8 +5,8 @@ date: 2012-11-26
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: windows
+category: technology
+tags: [linux, windows, rant]
 ---
 
 It is commonly said, at least in Microsoft circles, that Linux is free

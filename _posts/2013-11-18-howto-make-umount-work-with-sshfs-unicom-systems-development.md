@@ -5,8 +5,8 @@ date: 2013-11-18
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: sshfs fstab
+category: technology
+tags: [linux, sshfs, fstab, cli]
 ---
 
 Having created an sshfs mount in `/etc/fstab`, I was frustrated that it

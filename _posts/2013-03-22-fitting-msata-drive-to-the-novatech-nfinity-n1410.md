@@ -5,8 +5,8 @@ date: 2013-03-22
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: hardware msata novatech
+category: technology
+tags: [hardware, msata, novatech]
 ---
 
 <a href="https://picasaweb.google.com/112653355770650909703/NovatechNFinityN1410?authuser=0&feat=embedwebsite"><img src="/assets/NovatechNFinityN1410.jpg" class="image-right" alt="Novatech nFinity n1410"></a>

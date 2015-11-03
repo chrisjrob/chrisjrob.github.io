@@ -5,8 +5,8 @@ date: 2013-02-20
 type: post 
 published: true 
 status: publish
-categories: technology windows
-tags: microsoft office licensing
+category: technology
+tags: [microsoft, windows, office, licensing]
 ---
 
 Whilst [my Company](http://www.tridenthonda.co.uk "Trident Honda") is

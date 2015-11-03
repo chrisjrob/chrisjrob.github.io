@@ -5,7 +5,7 @@ date: 2011-12-06
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
+category: technology 3dprint
 tags: reprap prusa
 ---
 

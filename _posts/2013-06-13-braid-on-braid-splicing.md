@@ -5,8 +5,8 @@ date: 2013-06-13
 type: post 
 published: true 
 status: publish
-categories: personal sailing
-tags: rope splice
+category: personal
+tags: [sailing, rope, splice]
 ---
 
 <a href="/assets/splicing.png"><img src="/assets/splicing_300.png" class="image-right" alt="Braid on Braid Splicing"></a>

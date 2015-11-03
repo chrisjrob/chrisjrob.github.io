@@ -5,8 +5,8 @@ date: 2011-02-26
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: openoffice davfs2
+category: technology
+tags: [linux, debian, openoffice, davfs2]
 ---
 
 I have a mystery - I have two Debian Lenny servers both running the same

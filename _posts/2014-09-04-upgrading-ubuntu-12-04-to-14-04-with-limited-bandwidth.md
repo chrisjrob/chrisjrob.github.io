@@ -5,8 +5,8 @@ date: 2014-09-04
 type: post 
 published: true 
 status: publish
-categories: technology linux ubuntu
-tags: apt-get bandwidth
+category: technology
+tags: [linux, ubuntu, apt-get, bandwidth, cli]
 ---
 
 <img src="/assets/ubuntu-1404-desktop.png" class="image-right" alt="Ubuntu 14.04 Desktop">

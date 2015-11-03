@@ -5,8 +5,8 @@ date: 2013-02-06
 type: post 
 published: true 
 status: publish
-categories: personal sailing
-tags: prop
+category: personal
+tags: [sailing, prop]
 ---
 
 <img src="/assets/prop.jpg" class="image-right" alt="Prop">

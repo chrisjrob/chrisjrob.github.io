@@ -5,8 +5,8 @@ date: 2014-01-04
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+category: technology
+tags: [linux, cli, crontab]
 ---
 
 [![Image]({{%20site.baseurl%20}}/assets/crontab.png?w=487)](http://chrisjrob.files.wordpress.com/2014/01/crontab.png)

@@ -2,8 +2,8 @@
 layout: post
 title:  "Ubuntu LTSP - how the other half live?"
 date:   2008-07-06 00:00:00
-categories: technology linux ltsp
-tags: linux ltsp ubuntu
+category: technology 
+tags: [linux, ltsp, ubuntu]
 ---
 
 Having a brand new HP ML115 Server which I bought new for £107, I decided to have a play with [Ubuntu] LTSP at home.  Actually I decided on [Edubuntu], as I wanted to investigate the thin client management which I believe are included.

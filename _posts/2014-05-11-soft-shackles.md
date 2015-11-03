@@ -5,8 +5,8 @@ date: 2014-05-11
 type: post 
 published: true 
 status: publish
-categories: personal sailing
-tags: rope
+category: personal
+tags: [sailing, rope, shackle, splice]
 ---
 
 <img src="/assets/soft-shackle.jpg" class="image-right" alt="Soft Shackle">

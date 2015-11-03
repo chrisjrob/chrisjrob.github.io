@@ -5,8 +5,8 @@ date: 2013-06-11
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 3dmodel
+category: technology
+tags: [3dprint, 3dmodel, openscad, github]
 ---
 
 <a href="/assets/shorepower-faceplate.jpg"><img src="/assets/shorepower-faceplate_300.jpg" class="image-right" alt="Shorepower Faceplate"></a>

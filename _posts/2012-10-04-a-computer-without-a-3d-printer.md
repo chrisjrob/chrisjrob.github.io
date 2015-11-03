@@ -5,8 +5,8 @@ date: 2012-10-04
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 
+category: technology
+tags: [3dprint, quote] 
 ---
 
 *"A computer without a 3D printer, is like a shark without a frikkin' laser."*  

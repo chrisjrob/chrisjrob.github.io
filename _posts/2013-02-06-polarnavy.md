@@ -5,8 +5,8 @@ date: 2013-02-06
 type: post 
 published: true 
 status: publish
-categories: personal sailing
-tags: navigation polarnavy gps
+category: personal
+tags: [sailing, navigation, polarnavy, gps]
 ---
 
 <img src="/assets/polar-navy.png" class="image-right" alt="Polar Navy">

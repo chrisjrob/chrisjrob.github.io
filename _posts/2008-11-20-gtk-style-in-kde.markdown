@@ -2,8 +2,8 @@
 layout: post
 title:  "GTK Style in KDE"
 date:   2008-11-20 00:00:00
-categories: technology linux
-tags: gtk kde
+category: technology
+tags: [linux, gtk, kde]
 ---
 
 GTK applications in KDE always look horrible.  In Kubuntu this is taken care of for you, but in Debian it is only a quick install away:

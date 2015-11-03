@@ -5,8 +5,8 @@ date: 2011-02-25
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: barclays banking
+category: technology
+tags: [linux, barclays, banking]
 ---
 
 Further to [my recent post]({% post_url 2011-02-23-barclays-on-line-banking %} "Barclays on-line banking")

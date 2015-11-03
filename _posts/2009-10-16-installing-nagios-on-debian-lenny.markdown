@@ -2,8 +2,8 @@
 layout: post
 title:  "Installing Nagios on Debian Lenny"
 date:   2009-10-16 00:00:00
-categories: technology linux
-tags: nagios
+category: technology
+tags: [linux, nagios]
 ---
 
 Turns out this is as simple as:

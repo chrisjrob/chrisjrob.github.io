@@ -2,8 +2,8 @@
 layout: post
 title:  "Toshiba Satellite Pro A300 / Debian Lenny 64-bit"
 date:   2008-11-20 00:00:00
-categories: technology linux
-tags: toshiba laptop debian lenny 64-bit
+category: technology
+tags: [linux, toshiba, laptop, debian, lenny, 64-bit]
 ---
 
 The battery on my ageing Dell Inspiron 8200 had to be replaced recently, then the charger, and then (perhaps damage from cheap charger/battery?) the laptop died completely with amperage warnings about a month later.

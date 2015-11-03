@@ -2,8 +2,8 @@
 layout: post
 title:  "Westminster eForum - Open Source"
 date:   2010-09-28 00:00:03
-categories: technology linux
-tags: westminster eforum
+category: technology
+tags: [linux, westminster, eforum]
 ---
 
 

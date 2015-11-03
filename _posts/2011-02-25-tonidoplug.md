@@ -5,8 +5,8 @@ date: 2011-02-25
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: hardware
+category: technology
+tags: [arm, linux, hardware]
 ---
 
 <img src="/assets/TonidoPlug.jpg" class="image-right" alt="The TonidoPlug">

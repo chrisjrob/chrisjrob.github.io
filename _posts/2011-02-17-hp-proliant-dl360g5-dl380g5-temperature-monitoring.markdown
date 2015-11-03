@@ -2,8 +2,8 @@
 layout: post
 title:  "HP Proliant DL360G5 / DL380G5 Temperature Monitoring"
 date:   2011-02-17 00:00:00
-categories: technology linux
-tags: monitoring hp proliant ipmi sensors
+category: technology
+tags: [linux, monitoring, hp, proliant, ipmi, sensors]
 ---
 
 <img src="/assets/hp-proliant-dl-380-g5.jpg" class="image-right" alt="HP Proliant DL-380 G5">

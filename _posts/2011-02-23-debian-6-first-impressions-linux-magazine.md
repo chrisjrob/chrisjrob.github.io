@@ -5,8 +5,8 @@ date: 2011-02-23
 type: post 
 published: true 
 status: publish
-categories: technology linux debian
-tags: debian theme
+category: technology
+tags: [linux, debian, theme]
 ---
 
 <a href="http://www.linux-mag.com/id/8188/"><img src="/assets/linux-magazine-debian6.png" class="image-right" alt="Linux Magazine: Debian 6"></a>

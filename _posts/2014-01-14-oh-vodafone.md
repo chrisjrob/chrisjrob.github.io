@@ -5,8 +5,8 @@ date: 2014-01-14
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+category: technology
+tags: [poetry, rant]
 ---
 
 *Oh Vodafone, please explain to me,*  

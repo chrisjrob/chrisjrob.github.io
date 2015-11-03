@@ -2,8 +2,8 @@
 layout: post
 title:  "Unison File Synchronisation"
 date:   2008-10-27 00:00:00
-categories: technology linux
-tags: unison sync
+category: technology
+tags: [linux, unison, sync]
 ---
 
 One of the few things that we miss from the old Microsoft days is the "briefcase".  In particular our MD used it every day and loved it.  On Linux the best open source alternative is probably Unison File Synchroniser.

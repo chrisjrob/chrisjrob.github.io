@@ -5,8 +5,8 @@ date: 2014-06-08
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 3dmodel reprap
+category: technology
+tags: [3dprint, 3dmodel, reprap, go-kart, openscad, github]
 ---
 
 <img src="/assets/gokart-08.jpg" class="image-right" alt="Go Kart">

@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [back, health]
+tags: [back, health, review]
 ---
 
 <img src="/assets/bac_posture_stand_300.jpg" class="image-right" alt="Bac Posture Stand">

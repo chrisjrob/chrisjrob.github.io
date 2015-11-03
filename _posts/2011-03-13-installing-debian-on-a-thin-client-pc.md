@@ -5,7 +5,7 @@ date: 2011-03-13
 type: post 
 published: true 
 status: publish
-categories: technology linux lug
+category: technology linux lug
 tags: 
 ---
 

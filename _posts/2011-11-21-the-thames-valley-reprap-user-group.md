@@ -5,7 +5,7 @@ date: 2011-11-21
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
+category: technology 3dprint
 tags: reprap tvrrug
 ---
 

@@ -5,8 +5,8 @@ date: 2013-05-31
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 3dmodel
+category: technology
+tags: [3dprint, 3dmodel, openscad, github]
 ---
 
 <a href="/assets/lockerclip.jpg"><img src="/assets/lockerclip_300.jpg" class="image-right" alt="Locker Clip"></a>

@@ -5,8 +5,8 @@ date: 2013-02-22
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+category: technology
+tags: [novatech, laptop, review]
 ---
 
 <img src="/assets/nfinityn1411.png" class="image-right" alt="nFinity n1410">

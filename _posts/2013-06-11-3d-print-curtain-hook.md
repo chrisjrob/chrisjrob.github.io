@@ -5,8 +5,8 @@ date: 2013-06-11
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 3dmodel
+category: technology
+tags: [3dprint, 3dmodel, openscad, github]
 ---
 
 <a href="/assets/curtain-hook.jpg"><img src="/assets/curtain-hook_300.jpg" class="image-right" alt="Curtain Hooks"></a>

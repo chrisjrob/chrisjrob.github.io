@@ -2,8 +2,8 @@
 layout: post
 title:  "Installing Ruby on Rails"
 date:   2010-10-18 00:00:00
-categories: technology linux debian
-tags: ruby rails
+category: technology
+tags: [linux, debian, ruby, rails]
 ---
 
 I need a way of creating some quick and dirty web apps for internal use.  To this end, I decided to give Ruby on Rails a try.  Unfortunately it is in heavy development and the Debian packages have not kept up.  I decided to try and install from source, and, after several blind alleys, I ended up with quite a simple installation...

@@ -5,7 +5,7 @@ date: 2011-10-22
 type: post 
 published: true 
 status: publish
-categories: technology
+category: technology
 tags: android floss
 ---
 

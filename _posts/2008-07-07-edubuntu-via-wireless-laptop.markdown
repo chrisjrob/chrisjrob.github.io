@@ -2,8 +2,8 @@
 layout: post
 title:  "Edubuntu via Wireless Laptop"
 date:   2008-07-07 00:00:00
-categories: technology linux ltsp
-tags: ltsp edubuntu
+category: technology 
+tags: [linux, ltsp, edubuntu]
 ---
 
 Tonight I installed edubuntu-desktop from the [Edubuntu] add-ons CD - didn't take very long and very pretty it was too, once I rebooted.

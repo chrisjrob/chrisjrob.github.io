@@ -5,8 +5,8 @@ date: 2013-03-05
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: cli pekwm
+category: technology
+tags: [linux, cli, pekwm]
 ---
 
 For some time it has irritated me that launching URLs from my terminal

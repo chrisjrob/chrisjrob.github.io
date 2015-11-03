@@ -5,8 +5,8 @@ date: 2012-03-08
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: wine
+category: technology
+tags: [linux, wine]
 ---
 
 I was delighted to read this morning that [Wine 1.4 stable had been released](http://www.winehq.org/news/2012030701 "Wine 1.4 Released"), a

@@ -2,8 +2,8 @@
 layout: post
 title:  "Kubuntu to Debian Sid"
 date:   2008-08-20 00:00:00
-categories: technology linux 
-tags: kubuntu debian sid xorg kde4
+category: technology
+tags: [linux, kubuntu, kde, kde4, debian, sid, xorg]
 ---
 
 It's been bothering me for some time that I am using Kubuntu instead of Debian on my work desktop PC.  Yesterday I had a drive failure necessitating a reinstall; what better excuse could there be?  Having decided to change to Debian, I decided to install Sid, and then I decided that, as KDE 4.1 is now out, why not go the whole hog.

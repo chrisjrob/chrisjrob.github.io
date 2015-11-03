@@ -5,7 +5,7 @@ date: 2011-03-05
 type: post 
 published: true 
 status: publish
-categories: technology
+category: technology
 tags: zx81 spectrum
 ---
 

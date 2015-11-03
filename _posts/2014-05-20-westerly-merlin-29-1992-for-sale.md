@@ -5,8 +5,8 @@ date: 2014-05-20
 type: post 
 published: true 
 status: publish
-categories: personal sailing
-tags: westerly merlin
+category: personal
+tags: [sailing, westerly, merlin, for sale]
 ---
 
 <a href="/assets/westerly-merlin.jpg"><img src="/assets/westerly-merlin_300.jpg" class="image-right" alt="Westerly Merlin 29"></a>

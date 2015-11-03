@@ -5,8 +5,8 @@ date: 2014-05-01
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: 
+category: personal
+tags: [local, supplier, recommendation, microwave]
 ---
 
 Our built-in De-Dietrich microwave over has been broken for weeks.

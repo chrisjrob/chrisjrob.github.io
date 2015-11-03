@@ -5,8 +5,8 @@ date: 2011-02-24
 type: post 
 published: true 
 status: publish
-categories: technology linux kde
-tags: konqueror disk
+category: technology
+tags: [linux, kde, konqueror, disk]
 ---
 
 <a href="/assets/konqueror-file-size-view.png"><img src="/assets/konqueror-file-size-view_300.png" class="image-right" alt="Konqueror File Size View"></a> 

@@ -5,7 +5,7 @@ date: 2011-06-13
 type: post 
 published: true 
 status: publish
-categories: technology
+category: technology
 tags: owncloud
 ---
 

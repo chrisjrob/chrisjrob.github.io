@@ -2,8 +2,8 @@
 layout: post
 title:  "May the source be with you"
 date:   2009-06-09 00:00:00
-categories: technology linux
-tags: floss source
+category: technology
+tags: [linux, floss, source]
 ---
 
 From time to time I see the comment advocating a closed source program, with the response *"as I'm not a developer it doesn't bother me whether or not I have the source code"*.   I believe that that view is wrong, and that there are many occasions where non-developers will find benefit from having access to the source code.

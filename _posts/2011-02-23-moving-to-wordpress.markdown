@@ -2,8 +2,8 @@
 layout: post
 title:  "Moving to Wordpress"
 date:   2011-02-23 00:00:00
-categories: technology web
-tags: wordpress
+category: technology
+tags: [web, wordpress]
 ---
 
 I've decided to move to a proper blogging platform, rather than continue to use my home grown solution.  Please update your feed reader to:

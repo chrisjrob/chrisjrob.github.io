@@ -2,8 +2,8 @@
 layout: post
 title:  "Home Theatre PC - Test Boot"
 date:   2010-05-13 00:00:00
-categories: technology linux mythtv
-tags: kubuntu nvidia hdmi
+category: technology
+tags: [linux, mythtv, kubuntu, nvidia, hdmi, sound]
 ---
 
 At last the 24-pin ATX PSU extension cable has arrived - enabling me to perform a test boot.

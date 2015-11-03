@@ -5,8 +5,8 @@ date: 2013-11-27
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: mailserver postfix imap dovecot ldap
+category: technology
+tags: [linux, mailserver, postfix, imap, dovecot, ldap]
 ---
 
 <a href="http://iredmail.org"><img src="/assets/dashboard_300.png" class="image-right" alt="iRedmail"></a>

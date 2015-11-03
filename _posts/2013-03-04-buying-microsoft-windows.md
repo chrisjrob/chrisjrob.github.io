@@ -5,8 +5,8 @@ date: 2013-03-04
 type: post 
 published: true 
 status: publish
-categories: technology windows
-tags: licensing 
+category: technology
+tags: [windows, licensing, rant] 
 ---
 
 Having purchased [my Novatech nFinity

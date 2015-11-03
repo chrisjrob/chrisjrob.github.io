@@ -5,7 +5,7 @@ date: 2011-03-21
 type: post 
 published: true 
 status: publish
-categories: technology linux
+category: technology linux
 tags: wallpaper xkcd
 ---
 

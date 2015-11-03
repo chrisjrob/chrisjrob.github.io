@@ -2,8 +2,8 @@
 layout: post
 title:  "Home Theatre PC"
 date:   2010-05-06 00:00:00
-categories: technology linux mythtv
-tags: tv mythtv
+category: technology
+tags: [linux, mythtv, tv]
 ---
 
 We bought our current media centre in 2003, choosing Microsoft Windows XP Media Center Edition (XPMCE).  This was a disaster.  If it was an open source application, then I would say that the first edition of XPMCE was worse than Alpha quality, being utterly unusable.  We upgraded to 2004 at the first opportunity, it was marginally better, possibly Alpha quality.  At last we upgraded to 2005, and we had a barely usable system, Beta quality I would say.  It still crashed regularly, but it no longer lost all our channel set-up every day or two.

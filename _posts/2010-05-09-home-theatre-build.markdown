@@ -2,8 +2,8 @@
 layout: post
 title:  "Home Theatre PC - The Build"
 date:   2010-05-09 00:00:00
-categories: technology linux mythtv
-tags: ion
+category: technology
+tags: [linux, mythtv, ion]
 ---
 
 Well the build went quite well. I encountered two problems:

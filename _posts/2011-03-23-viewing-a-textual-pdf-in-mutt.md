@@ -5,7 +5,7 @@ date: 2011-03-23
 type: post 
 published: true 
 status: publish
-categories: technology linux
+category: technology linux
 tags: mutt pdf
 ---
 

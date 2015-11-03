@@ -2,8 +2,8 @@
 layout: post
 title:  "Hauppauge HVR-2200"
 date:   2010-08-04 00:00:03
-categories: technology linux mythtv
-tags: htpc hauppauge hvr2200
+category: technology
+tags: [linux, mythtv, htpc, hauppauge, hvr-2200]
 ---
 
 ## Introduction

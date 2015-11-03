@@ -2,8 +2,8 @@
 layout: post
 title:  "Google you plonkers"
 date:   2010-06-10 00:00:00
-categories: technology
-tags: google rant
+category: technology
+tags: [google, rant]
 ---
 
 Why do we use Google?  Because it is lightweight and fast.  What could Google do to make themselves less appealing?  Well, I suppose they could add a desktop background that adds to the clutter of the page and requires everyone to download a pointless image, but they'd never do something that stupid, would they?

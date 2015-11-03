@@ -2,8 +2,8 @@
 layout: post
 title:  "QEMU-KVM Black Screen"
 date:   2010-09-28 00:00:03
-categories: technology linux debian
-tags: qemu kvm
+category: technology
+tags: [linux, debian, qemu, kvm, virtualisation]
 ---
 
 I upgraded one of our servers yesterday, including an upgrade from the Debian Stable kvm72 package, to the Debian Backports qemu-kvm version 0.12.4, whereon I could no longer start our Windows Server 2003 virtual machine.  As soon as the machine started, it locked up completely with just a black screen, and had to be terminated with a kill -9 signal. 

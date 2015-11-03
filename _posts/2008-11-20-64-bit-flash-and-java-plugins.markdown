@@ -2,8 +2,8 @@
 layout: post
 title:  "64-bit Flash and Java Plugins"
 date:   2008-11-20 00:00:00
-categories: technology linux
-tags: java flash icedtea adobe 
+category: technology
+tags: [linux, java, flash, icedtea, adobe] 
 ---
 
 Following on from [my recent installation of 64-bit Debian Lenny on my new Toshiba laptop]({% post_url 2008-11-20-toshiba-satellite-pro-a300-debian-lenny-64-bit %}), I was horrified to learn that neither Flash nor Java exist for 64-bit Linux.  But after some digging it transpired that all was not lost.  Whilst Java is not available, the IcedTea project has reinvented the Sun Java Plugin.

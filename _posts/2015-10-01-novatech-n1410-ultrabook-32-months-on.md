@@ -5,8 +5,8 @@ date: 2015-10-01 19:06:00.000000000 +01:00
 type: post
 published: true
 status: publish
-categories: technology
-tags: laptop novatech review
+category: technology
+tags: [laptop, novatech, review]
 ---
 
 <a href="/assets/nfinityn1411.png"><img src="/assets/nfinityn1411_300.png" class="image-right" alt="nFinity n1410"></a>

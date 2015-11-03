@@ -5,8 +5,8 @@ date: 2013-11-14
 type: post 
 published: true 
 status: publish
-categories: technology
-tags: novatech
+category: technology
+tags: [novatech, laptop, review]
 ---
 
 <a href="http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html"><img src="/assets/nfinityn1411.png" class="image-right" alt="Novatech nFinity n1410"></a>

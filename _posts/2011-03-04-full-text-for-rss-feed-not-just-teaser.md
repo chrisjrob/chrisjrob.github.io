@@ -5,7 +5,7 @@ date: 2011-03-04
 type: post 
 published: true 
 status: publish
-categories: blog
+category: blog
 tags: rss
 ---
 

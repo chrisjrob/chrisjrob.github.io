@@ -5,8 +5,8 @@ date: 2014-03-18
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: vpn openvpn networking
+category: technology
+tags: [linux, vpn, openvpn, networking]
 ---
 
 Anyone who has enjoyed the dubious benefits of working with IPSEC will

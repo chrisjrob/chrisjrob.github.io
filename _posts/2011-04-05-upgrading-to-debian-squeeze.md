@@ -5,7 +5,7 @@ date: 2011-04-05
 type: post 
 published: true 
 status: publish
-categories: technology linux debian
+category: technology linux debian
 tags: upgrade
 ---
 

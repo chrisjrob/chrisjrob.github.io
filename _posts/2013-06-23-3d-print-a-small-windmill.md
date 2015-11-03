@@ -5,8 +5,8 @@ date: 2013-06-23
 type: post 
 published: true 
 status: publish
-categories: technology 3dprint
-tags: 3dmodel windmill
+category: technology
+tags: [3dprint, 3dmodel, windmill, openscad, github]
 ---
 
 <a href="/assets/windmill.jpg"><img src="/assets/windmill_300.jpg" class="image-right" alt="A Small Windmill"></a>

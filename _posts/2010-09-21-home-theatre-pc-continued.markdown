@@ -2,8 +2,8 @@
 layout: post
 title:  "Home Theatre PC - Continued"
 date:   2010-09-21 00:00:00
-categories: technology linux mythtv
-tags: htpc
+category: technology
+tags: [linux, mythtv, htpc]
 ---
 
 I've been asked recently for an update on how my HTPC is performing.  Well the good news is that we are now using it as our main system, and pretty much everything is working perfectly, including:

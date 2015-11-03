@@ -5,7 +5,7 @@ date: 2011-06-20
 type: post 
 published: true 
 status: publish
-categories: technology web
+category: technology web
 tags: internet web
 ---
 

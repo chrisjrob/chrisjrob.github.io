@@ -5,8 +5,8 @@ date: 2011-02-23
 type: post 
 published: true 
 status: publish
-categories: technology linux
-tags: barclays banking businessmaster
+category: technology
+tags: [linux, barclays, banking, businessmaster]
 ---
 
 I have looked into moving to Barclays on-line business banking, but
