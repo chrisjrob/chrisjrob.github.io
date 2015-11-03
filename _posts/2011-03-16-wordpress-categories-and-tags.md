@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: wordpress
+tags: [blog, wordpress]
 ---
 
 After a couple of weeks on Wordpress, I have decided that I am using

@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP5 Client Sound | Configure Compaq Deskpro ENSFF"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## Configure Compaq Deskpro ENSFF for LTSP5 Sound

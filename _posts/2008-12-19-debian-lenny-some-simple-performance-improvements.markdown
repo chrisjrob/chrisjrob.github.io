@@ -3,7 +3,7 @@ layout: post
 title:  "Debian Lenny - Some simple performance improvements"
 date:   2008-12-19 00:00:00
 category: technology
-tags: [linux, debian, lenny]
+tags: [linux, debian]
 ---
 
 After setting up my Eee PC on Debian and following the tips (see [Lenny on Speed]({% post_url 2008-12-08-lenny-on-speed %}) to maximise performance, I have found the same tips quite effective on other Debian systems.  The key changes are as follows:

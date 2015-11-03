@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | Install X11VNC on LTSP5"
 menu: ltsp
 weight: 16
+category: technology
+tags: [ltsp]
 ---
 
 ## Install x11vnc on LTSP5

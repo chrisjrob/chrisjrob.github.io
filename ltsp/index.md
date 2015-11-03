@@ -3,6 +3,8 @@ layout: page
 title: LTSP
 menu: main
 weight: 90
+category: technology
+tags: [ltsp]
 ---
 
 We used LTSP for some eight years, between 2007 and 2015. The following information is largely outdated now, but may be of some residual interest.

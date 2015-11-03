@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, garmin, driver]
+tags: [linux, garmin]
 ---
 
 Nothing annoys me more than this - companies that use the Linux

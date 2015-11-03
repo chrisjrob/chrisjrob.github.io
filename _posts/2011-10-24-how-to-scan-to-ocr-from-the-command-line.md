@@ -5,8 +5,8 @@ date: 2011-10-24
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: cli ocr scan tesseract
+category: technology
+tags: [linux, cli, ocr, scan, tesseract]
 ---
 
 I just had to remind myself how to scan to OCR, and thought I would

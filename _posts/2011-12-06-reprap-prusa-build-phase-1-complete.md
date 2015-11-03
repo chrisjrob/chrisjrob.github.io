@@ -5,8 +5,8 @@ date: 2011-12-06
 type: post 
 published: true 
 status: publish
-category: technology 3dprint
-tags: reprap prusa
+category: technology
+tags: [3dprint, reprap, prusa]
 ---
 
 <a href="https://picasaweb.google.com/chrisjrob/RepRapPrusaBuildPhase1?authuser=0&feat=embedwebsite"><img src="/assets/RepRapPrusaBuildPhase1.jpg" class="image-right" alt="RepRap Prusa"></a>

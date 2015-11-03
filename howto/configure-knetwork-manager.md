@@ -3,6 +3,8 @@ layout: page
 title: Howto | Configure KNetwork Manager
 menu: howto
 weight: 40
+category: technology
+tags: [linux, knetwork-manager]
 ---
 
 ## Configure KNetworkManager

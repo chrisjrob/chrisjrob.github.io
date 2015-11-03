@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | Install iTalc on Debian Lenny"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## Install Italc on Debian Lenny

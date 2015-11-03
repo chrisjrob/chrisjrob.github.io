@@ -5,8 +5,8 @@ date: 2011-03-04
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: windows silverlight rdp
+category: technology
+tags: [linux, windows, silverlight, rdp]
 ---
 
 Following [my recent post]({% post_url 2011-03-03-problems-playing-silverlight-media-on-windows-server-2003 %})

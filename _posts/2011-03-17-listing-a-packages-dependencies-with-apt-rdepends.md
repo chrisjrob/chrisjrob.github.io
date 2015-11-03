@@ -5,8 +5,8 @@ date: 2011-03-17
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: cli
+category: technology
+tags: [linux, cli, apt]
 ---
 
 I sometimes find myself wondering what a package's dependencies are.

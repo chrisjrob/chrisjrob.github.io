@@ -5,8 +5,8 @@ date: 2011-03-14
 type: post 
 published: true 
 status: publish
-category: technology linux debian
-tags: kvm
+category: technology
+tags: [linux, debian, virtualisation]
 ---
 
 A nice how-to for KVM and libvirt on Debian Squeeze: [Virtualization With KVM On A Debian Squeeze Server][howto]

@@ -2,6 +2,6 @@
     {% for tag in site.tags %}
         {% assign t = tag | first %}
             {% assign posts = tag | last %}
-            {{t | downcase | replace:" ","-" }} ({{ posts | size }}) 
+            <a class="sidebar-tag-item" href="/tag/{{t | downcase | replace:" ","-" }}">{{t | downcase | replace:" ","-" }}&nbsp;({{ posts | size }})</a>
     {% endfor %}
 </div>

@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: google chrome flash
+tags: [linux, google, chrome, flash]
 ---
 
 Google Chrome started stating *"The Flash plug-in was blocked because it is out of date."*.

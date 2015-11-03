@@ -3,6 +3,8 @@ layout: page
 title: Howto | Add Global OpenOffice.org Extensions
 menu: howto
 weight: 40
+category: technology
+tags: [linux, openoffice]
 ---
 
 ## Add Global OpenOffice.org Extensions

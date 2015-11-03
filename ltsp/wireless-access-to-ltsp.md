@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | Wireless Access to LTSP"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## Wireless access to LTSP

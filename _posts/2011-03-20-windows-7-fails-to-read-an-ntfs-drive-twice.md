@@ -5,8 +5,8 @@ date: 2011-03-20
 type: post 
 published: true 
 status: publish
-category: technology windows
-tags: ntfs
+category: technology
+tags: [windows, ntfs]
 ---
 
 My brother-in-law's Buffalo HS-DH500GL NAS (network attached storage)

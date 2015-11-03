@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP Update Kernels"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## ltsp-update-kernels

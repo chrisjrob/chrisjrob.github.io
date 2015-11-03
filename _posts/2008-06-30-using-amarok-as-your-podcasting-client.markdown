@@ -3,7 +3,7 @@ layout: post
 title:  "Using Amarok as your Podcasting Client"
 date:   2008-06-30 00:00:00
 category: technology 
-tags: [linux, kde, amarok, podcast, kitty]
+tags: [linux, kde, amarok, podcast]
 ---
 
 Until I stumbled across [this page][howto] I was using [Kitty] to download Podcasts and [Amarok] to manage them thereafter.  Unfortunately I could not get on with Kitty and it is no longer being developed.  In any case, you really only want one application.

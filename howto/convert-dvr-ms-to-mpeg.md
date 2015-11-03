@@ -3,6 +3,8 @@ layout: page
 title: Howto | Convert DVR-MS to MPEG
 menu: howto
 weight: 40
+category: technology
+tags: [convert, cli, dvr-ms, mpeg]
 ---
 
 ## Convert dvr-ms to mpeg

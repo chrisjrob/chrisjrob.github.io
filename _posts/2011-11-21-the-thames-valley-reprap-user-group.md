@@ -5,8 +5,8 @@ date: 2011-11-21
 type: post 
 published: true 
 status: publish
-category: technology 3dprint
-tags: reprap tvrrug
+category: technology
+tags: [3dprint, reprap, tvrrug]
 ---
 
 I was surprised to realise that I have not yet blogged about my latest

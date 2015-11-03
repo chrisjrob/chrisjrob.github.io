@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | Create a Custom LDM Theme"
 menu: ltsp
 weight: 12
+category: technology
+tags: [ltsp]
 ---
 
 ## Create a Custom LDM Theme

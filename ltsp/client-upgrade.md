@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP Client Upgrade"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## LTSP Client Upgrade

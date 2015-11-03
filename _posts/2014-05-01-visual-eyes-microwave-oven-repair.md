@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: personal
-tags: [local, supplier, recommendation, microwave]
+tags: [supplier, recommendation]
 ---
 
 Our built-in De-Dietrich microwave over has been broken for weeks.

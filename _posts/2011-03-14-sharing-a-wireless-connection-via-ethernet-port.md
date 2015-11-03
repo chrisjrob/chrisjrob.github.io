@@ -5,8 +5,8 @@ date: 2011-03-14
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: network wireless
+category: technology
+tags: [linux, network, wireless]
 ---
 
 One of the challenges in 

@@ -3,6 +3,8 @@ layout: page
 title: Howto | Connect KAddressBook to ActiveDirectory
 menu: howto
 weight: 40
+category: technology
+tags: [linux, kaddressbook, activedirectory]
 ---
 
 ## Connect KAddressBook to ActiveDirectory

@@ -1,5 +1,5 @@
 ---
 layout: by_tag
-tag: health 
+tag: health
 permalink: /tag/health/
 ---

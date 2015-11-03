@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP Rdesktop Sound"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## Rdesktop Sound

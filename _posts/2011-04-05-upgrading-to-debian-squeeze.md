@@ -5,8 +5,8 @@ date: 2011-04-05
 type: post 
 published: true 
 status: publish
-category: technology linux debian
-tags: upgrade
+category: technology
+tags: [linux, debian, upgrade]
 ---
 
 I finally decided to upgrade my work desktop to Debian Squeeze.

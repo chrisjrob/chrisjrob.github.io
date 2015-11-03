@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP5 Client Sound | Unmute Fix"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## Unmute Fix

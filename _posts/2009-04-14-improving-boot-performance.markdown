@@ -3,7 +3,7 @@ layout: post
 title:  "Improving boot performance"
 date:   2009-04-14 00:00:00
 category: technology
-tags: [linux, boot, grub]
+tags: [linux, grub]
 ---
 
 <img src="/assets/bootchart_500.png" class="image-right" alt="Boot Chart">

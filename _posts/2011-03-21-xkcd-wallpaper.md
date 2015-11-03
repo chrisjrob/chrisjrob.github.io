@@ -5,8 +5,8 @@ date: 2011-03-21
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: wallpaper xkcd
+category: technology
+tags: [linux, wallpaper, xkcd]
 ---
 
 <a href="/assets/xkcd-wallpaper.png"><img src="/assets/xkcd-wallpaper_300.png" class="image-right" alt="XKCD Wallpaper"></a>

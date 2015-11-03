@@ -5,8 +5,8 @@ date: 2011-03-31
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: cli bandwidth wget apt
+category: technology
+tags: [linux, cli, bandwidth, wget, apt]
 ---
 
 I have to be careful about the bandwidth I use at work; so I limit the

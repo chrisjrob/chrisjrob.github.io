@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [broadband, adsl, fttc, llu, sdsl, efm, e1, les10, les100]
+tags: [broadband]
 ---
 
 We're currently running fully managed ADSL 8mb Max Premium broadband

@@ -5,8 +5,8 @@ date: 2011-03-07
 type: post 
 published: true 
 status: publish
-category: technology linux pekwm
-tags: tint2
+category: technology
+tags: [linux, pekwm, tint2]
 ---
 
 <a href="/assets/2011-03-pekwm-snapshot.png"><img src="/assets/pekwm-snapshot_300.png" class="image-right" alt="PekWM with Tint2 Panel"></a>

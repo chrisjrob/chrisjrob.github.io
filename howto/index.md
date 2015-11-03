@@ -3,6 +3,8 @@ layout: page
 title: Howto
 menu: main
 weight: 40
+category: technology
+tags: []
 ---
 
  * howto  « you are here

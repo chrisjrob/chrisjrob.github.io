@@ -3,6 +3,8 @@ layout: page
 title: Howto | Analyse Boot Speed
 menu: howto
 weight: 40
+category: technology
+tags: [linux, cli, bootchart, grub]
 ---
 
 <a href="/assets/bootchart.png"><img src="/assets/bootchart_500.png" class="image-right" alt="Boot Chart"></a>

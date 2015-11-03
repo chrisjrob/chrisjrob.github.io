@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: android floss
+tags: [android, floss]
 ---
 
 I read today that [Google and Samsung have unveiled Galaxy Nexus Android 4](http://arstechnica.com/gadgets/news/2011/10/google-and-samsung-unveil-galaxy-nexus-android-4-at-event.ars "Google and Samsung unveil Galaxy Nexus Android 4").

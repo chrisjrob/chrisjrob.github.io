@@ -5,8 +5,8 @@ date: 2011-03-03
 type: post 
 published: true 
 status: publish
-category: technology linux kde
-tags: kiosktool
+category: technology
+tags: [linux, kde, kiosktool]
 ---
 
 We have our file associations locked down using KDE Kiosktool, and yet

@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: wordpress blog
+tags: [wordpress, blog]
 ---
 
 I have finally registered chrisjrob.com for my blog. Please update your bookmarks,

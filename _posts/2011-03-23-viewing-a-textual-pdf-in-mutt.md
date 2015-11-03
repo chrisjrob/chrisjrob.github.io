@@ -5,8 +5,8 @@ date: 2011-03-23
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: mutt pdf
+category: technology
+tags: [linux, mutt, pdf]
 ---
 
 I think there must be something wrong with me. Why, in this age of

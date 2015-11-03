@@ -3,6 +3,8 @@ layout: page
 title: Howto | Apache SSL
 menu: howto
 weight: 40
+category: technology
+tags: [linux, cli, apache, ssl]
 ---
 
 ## Apache SSL

@@ -5,8 +5,8 @@ date: 2011-03-13
 type: post 
 published: true 
 status: publish
-category: technology linux lug
-tags: 
+category: technology
+tags: [linux, lug]
 ---
 
 This Saturday I attended the [Surrey Linux User Group meeting](http://surrey.lug.org.uk/bab20110312) 

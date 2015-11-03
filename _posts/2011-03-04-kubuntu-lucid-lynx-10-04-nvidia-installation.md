@@ -5,8 +5,8 @@ date: 2011-03-04
 type: post 
 published: true 
 status: publish
-category: technology linux mythtv
-tags: kubuntu mythbuntu nvidia
+category: technology
+tags: [linux, mythtv, kubuntu, mythbuntu, nvidia]
 ---
 
 After updating my Kubuntu Mythbuntu Home Theatre PC, it

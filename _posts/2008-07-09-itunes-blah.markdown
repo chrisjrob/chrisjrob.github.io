@@ -3,7 +3,7 @@ layout: post
 title:  "iTunes blah"
 date:   2008-07-09 00:00:00
 category: technology 
-tags: [linux, itunes, music, ipod, amarok, rant]
+tags: [linux, itunes, amarok, rant]
 ---
 
 I finally persuaded one of my brothers to move to Linux.  I explained that he would be able to continue using Firefox, Thunderbird, CD/DVD burning.  I waxed lyrical about the benefits in terms of reliability, virus-protection, ease of updating etc.  I showed him all the software, and in particular the Gcompris and KDE Education suites.

@@ -3,6 +3,8 @@ layout: page
 title: Howto | Configure Iceweasel to print via Kprinter
 menu: howto
 weight: 40
+category: technology
+tags: [linux, iceweasel, kprinter]
 ---
 
 ## Configure Iceweasel to print via Kprinter

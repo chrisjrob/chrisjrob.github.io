@@ -5,8 +5,8 @@ date: 2011-05-04
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: password gpg keepassx gpg
+category: technology
+tags: [linux, password, gpg, keepassx]
 ---
 
 The more that I work from the command line, the more of a nuisance I

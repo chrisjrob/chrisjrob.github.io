@@ -3,7 +3,7 @@ layout: post
 title:  "A Flash Packbox"
 date:   2008-08-01 00:00:00
 category: technology
-tags: [linux, ltsp, packbox]
+tags: [linux, ltsp, pc-build]
 ---
 
 <img src="/assets/pack_box_350.jpg" class="image-right" alt="Packbox">

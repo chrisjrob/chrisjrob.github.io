@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP Build Client"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## ltsp-build-client

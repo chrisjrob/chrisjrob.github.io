@@ -5,8 +5,8 @@ date: 2011-03-01
 type: post 
 published: true 
 status: publish
-category: technology linux debian
-tags: debaday
+category: technology
+tags: [linux, debian, debaday]
 ---
 
 I went to look for an article on fcheck, that I originally found on

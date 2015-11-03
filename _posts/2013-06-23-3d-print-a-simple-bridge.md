@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [3dprint, 3dmodel, bridge, openscad, github]
+tags: [3dprint, 3dmodel, openscad, github]
 ---
 
 <a href="/assets/bridge.jpg"><img src="/assets/bridge_300.jpg" class="image-right" alt="A Simple Bridge"></a>

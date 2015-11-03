@@ -3,6 +3,8 @@ layout: page
 title: Howto | Configure apt-get
 menu: howto
 weight: 40
+category: technology
+tags: [apt-get, debian, lenny, linux]
 ---
 
 ## apt-get

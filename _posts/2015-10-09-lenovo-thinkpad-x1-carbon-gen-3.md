@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 category: technology
-tags: [linux, lenovo, thinkpad, x1 carbon, ubuntu, review]
+tags: [linux, lenovo, thinkpad, ubuntu, review]
 --- 
 
 <a href="/assets/lenovo-laptop-thinkpad-x1-carbon-2-front-2.jpg"><img src="/assets/lenovo-laptop-thinkpad-x1-carbon-2-front-2_300.jpg" class="image-right" alt="Lenovo ThinkPad X1 Carbon Gen 3"></a>

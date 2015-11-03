@@ -3,6 +3,8 @@ layout: page
 title: Howto | Archive to DAT
 menu: howto
 weight: 40
+category: technology
+tags: [linux, cli, archive, dat, tar]
 ---
 
 ## Archive to DAT

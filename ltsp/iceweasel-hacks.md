@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP Iceweasel Hacks"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## LTSP Iceweasel Hacks

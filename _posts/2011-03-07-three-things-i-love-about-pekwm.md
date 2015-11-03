@@ -5,8 +5,8 @@ date: 2011-03-07
 type: post 
 published: true 
 status: publish
-category: technology linux pekwm
-tags:
+category: technology
+tags: [linux, pekwm]
 ---
 
 Three things I love about [pekwm](http://www.pekwm.org/ "PekWM"):

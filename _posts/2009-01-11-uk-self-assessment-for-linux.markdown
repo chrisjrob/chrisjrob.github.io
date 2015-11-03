@@ -3,7 +3,7 @@ layout: post
 title:  "UK Self-Assessment for Linux"
 date:   2009-01-11 00:00:00
 category: technology
-tags: [linux, tax, finance, self-assessment]
+tags: [linux, tax]
 ---
 
 This morning I have been trying to find a way to complete my UK Self-Assessment Tax Return under Linux.  Unfortunately only one application appears to exist for Linux, called FTax, and this application requires Adobe Reader, which is not available for 64-bit Linux.  If you're comfortable on how to run 32-bit applications under Linux, then this might not be an obstacle for you.  After going all round the houses, I ended up back on Windows XP.

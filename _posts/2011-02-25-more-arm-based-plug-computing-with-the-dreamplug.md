@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [hardware, arm, dreamplug]
+tags: [hardware]
 ---
 
 <img src="/assets/dreamplug.jpg" class="image-right" alt="Dreamplug">

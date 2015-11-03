@@ -3,6 +3,8 @@ layout: page
 title: Howto | Install Print System
 menu: howto
 weight: 40
+category: technology
+tags: [linux, cups, wine, print]
 ---
 
 ## Install Print System

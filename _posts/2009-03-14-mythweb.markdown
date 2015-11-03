@@ -3,7 +3,7 @@ layout: post
 title:  "MythWeb"
 date:   2009-03-14 00:00:00
 category: technology
-tags: [linux, mythtv, mythweb, tv]
+tags: [linux, mythtv, tv]
 ---
 
 <img src="/assets/mythweb.png" class="image-right" alt="MythWeb">

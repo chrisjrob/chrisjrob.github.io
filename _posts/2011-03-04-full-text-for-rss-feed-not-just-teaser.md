@@ -5,8 +5,8 @@ date: 2011-03-04
 type: post 
 published: true 
 status: publish
-category: blog
-tags: rss
+category: technology
+tags: [blog, rss]
 ---
 
 I wanted to change my blog so that the home page only has an opening

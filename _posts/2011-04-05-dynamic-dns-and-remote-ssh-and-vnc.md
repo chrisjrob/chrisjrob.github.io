@@ -5,8 +5,8 @@ date: 2011-04-05
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: vnc ssh dyndns
+category: technology
+tags: [linux, vnc, ssh, dyndns]
 ---
 
 I want to be able to support my father's PC remotely via SSH and VNC.

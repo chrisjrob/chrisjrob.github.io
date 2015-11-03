@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, barclays, banking, businessmaster]
+tags: [linux, banking]
 ---
 
 I have looked into moving to Barclays on-line business banking, but

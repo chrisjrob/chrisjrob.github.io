@@ -5,8 +5,8 @@ date: 2011-03-01
 type: post 
 published: true 
 status: publish
-category: technology linux debian
-tags: hp n36l microserver
+category: technology
+tags: [hp, n36l, microserver]
 ---
 
 <img src="/assets/hp-proliant-microserver-n36l.jpg" class="image-right" alt="HP Proliant Microserver N36L">

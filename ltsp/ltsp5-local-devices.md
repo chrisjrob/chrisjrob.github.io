@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP5 Local Devices"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## LTSP5 Local Devices

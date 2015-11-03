@@ -3,6 +3,8 @@ layout: page
 title: Howto | Convert XPS to PDF
 menu: howto
 weight: 40
+category: technology
+tags: [convert, xps, pdf, linux, cli]
 ---
 
 ## Convert XPS to PDF

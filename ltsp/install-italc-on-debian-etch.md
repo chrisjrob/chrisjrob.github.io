@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | Install iTalc on Debian Etch"
 menu: ltsp
 weight: 14
+category: technology
+tags: [ltsp]
 ---
 
 ## Install iTalc on Debian Etch

@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP4.2 Client Sound"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## LTSP4.2 Client Sound

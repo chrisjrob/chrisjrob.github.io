@@ -5,8 +5,8 @@ date: 2011-05-09
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: cli
+category: technology
+tags: [linux, cli]
 ---
 
 We all know that feeling when our disk fills up and you are left

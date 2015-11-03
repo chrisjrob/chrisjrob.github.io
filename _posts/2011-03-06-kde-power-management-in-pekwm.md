@@ -5,8 +5,8 @@ date: 2011-03-06
 type: post 
 published: true 
 status: publish
-category: technology linux pekwm
-tags: power
+category: technology
+tags: [linux, pekwm, power]
 ---
 
 After my laptop spontaneously switched off on **two** separate

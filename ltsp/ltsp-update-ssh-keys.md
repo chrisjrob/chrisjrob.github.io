@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP Update SSH Keys"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## ltsp-update-sshkeys

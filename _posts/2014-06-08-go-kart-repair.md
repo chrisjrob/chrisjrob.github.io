@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [3dprint, 3dmodel, reprap, go-kart, openscad, github]
+tags: [3dprint, 3dmodel, reprap, openscad, github]
 ---
 
 <img src="/assets/gokart-08.jpg" class="image-right" alt="Go Kart">

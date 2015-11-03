@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | About LTSP"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## About LTSP

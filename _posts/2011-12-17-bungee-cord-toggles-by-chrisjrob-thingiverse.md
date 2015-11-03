@@ -5,8 +5,8 @@ date: 2011-12-17
 type: post 
 published: true 
 status: publish
-category: technology 3dprint
-tags: 3dmodel
+category: technology
+tags: [3dprint, 3dmodel, openscad, github]
 ---
 
 <a href="/assets/toggle.png"><img src="/assets/toggle_300.png" class="image-right" alt="Bungee Cord Toggles"></a>

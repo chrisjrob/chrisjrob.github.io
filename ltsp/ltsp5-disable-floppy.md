@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP5 Disable Floppy"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## LTSP5 Disable Floppy

@@ -5,8 +5,8 @@ date: 2011-03-23
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: mutt email
+category: technology
+tags: [linux, mutt, email]
 ---
 
 I have been using Mutt for some time, but have always found it a pain

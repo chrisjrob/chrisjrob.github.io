@@ -5,8 +5,8 @@ date: 2011-03-03
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: windows silverlight
+category: technology
+tags: [linux, windows, silverlight, rdp]
 ---
 
 We have to be able to play Silverlight media on our two virtual Windows

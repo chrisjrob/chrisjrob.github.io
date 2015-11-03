@@ -5,8 +5,8 @@ date: 2011-10-17
 type: post 
 published: true 
 status: publish
-category: technology linux
-tags: openmediavault freenas nas
+category: technology
+tags: [linux, openmediavault, freenas, nas]
 ---
 
 Remember [the announcement that FreeNAS was moving to Debian from BSD](http://www.freenas.org/about/history.html)?

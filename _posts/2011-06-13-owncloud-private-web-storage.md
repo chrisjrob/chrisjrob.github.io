@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: owncloud
+tags: [owncloud]
 ---
 
 [An interesting blog post][BSDNexus] about [ownCloud][ownCloud]. 

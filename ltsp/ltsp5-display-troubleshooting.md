@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP5 Display Troubleshooting"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## LTSP5 Display Troubleshooting

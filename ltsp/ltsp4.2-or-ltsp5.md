@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP 4.2 or LTSP 5"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## LTSP4.2 or LTSP5

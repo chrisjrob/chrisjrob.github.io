@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "UK Self-assessment under Linux"
+title:  "UK Self-Assessment under Linux"
 date:   2010-01-15 00:00:00
 category: technology
-tags: [linux, hmrc, tax, self-assessment]
+tags: [linux, tax]
 ---
 
 Yes once again I come to complete my tax return, last time it was [a far from successful experience]({% post_url 2009-01-11-uk-self-assessment-for-linux %}).

@@ -3,6 +3,8 @@ layout: page
 title: "LTSP | LTSP Server Sizing"
 menu: ltsp
 weight: 10
+category: technology
+tags: [ltsp]
 ---
 
 ## Server Sizing
