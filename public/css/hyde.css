@@ -77,6 +77,12 @@ html {
 }
 
 /* About section */
+.sidebar-about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
