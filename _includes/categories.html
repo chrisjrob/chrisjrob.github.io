@@ -1,7 +1,5 @@
 <div class="categories">
-    <ul>
     {% for category in site.categories %}
-        <li>{{ category | first }}</li>
+        <a class="sidebar-nav-item" href="/category/{{ category | first}}">{{ category | first }}</a>
     {% endfor %}
-    </ul>
 </div>
