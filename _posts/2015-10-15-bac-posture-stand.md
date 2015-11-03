@@ -5,7 +5,7 @@ date: 2015-10-15 12:11:14.000000000 +01:00
 type: post 
 published: true 
 status: publish
-categories: technology
+category: technology
 tags: [back, health]
 ---
 
