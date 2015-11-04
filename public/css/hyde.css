@@ -297,7 +297,7 @@ a.sidebar-nav-item:focus {
     text-decoration: none;
 }
 
-#tags { line-height: 0.9; }
+#tags { line-height: 0.9; margin: auto; text-align: center; }
 #tagcloud { margin: 0; list-style: none; padding-left: 0; }
 #tagcloud li { display: inline; }
 #tagcloud a.tag1  { font-size: 0.5em; color: #f2f2f2; font-weight: 100; }
