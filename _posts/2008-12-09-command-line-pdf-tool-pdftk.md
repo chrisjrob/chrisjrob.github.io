@@ -3,7 +3,7 @@ layout: post
 title:  "Command line PDF tool pdftk"
 date:   2008-12-09 00:00:00
 category: technology
-tags: [linux, cli, pdftk]
+tags: [linux, cli, pdf]
 ---
 
 I had a 25-page OpenOffice writer document that needed to be sent to as a pdf.  Obviously creating a pdf from OpenOffice is simple enough, but I wanted to insert within the final pdf additional pages from other documents (i.e. not just simply appended on the end).

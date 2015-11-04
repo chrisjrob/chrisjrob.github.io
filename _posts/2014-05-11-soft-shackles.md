@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: personal
-tags: [sailing, rope, shackle, splice]
+tags: [sailing, rope, splice]
 ---
 
 <img src="/assets/soft-shackle.jpg" class="image-right" alt="Soft Shackle">

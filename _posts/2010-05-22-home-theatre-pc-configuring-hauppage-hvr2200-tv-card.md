@@ -3,7 +3,7 @@ layout: post
 title:  "Home Theatre PC - Configuring Hauppauge HVR2200 TV Card"
 date:   2010-05-22 00:00:02
 category: technology
-tags: [linux, mythtv, nvidia, hauppauge, hvr-2200]
+tags: [linux, mythtv, nvidia, hauppauge]
 ---
 
 <img src="/assets/hvr2200_board_s_200.jpg" class="image-right" alt="Hauppauge HVR2200">

@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [internet, web]
+tags: [web]
 ---
 
 One of the most wonderful things about the web and open source are that

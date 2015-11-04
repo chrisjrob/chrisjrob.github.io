@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: personal
-tags: [sailing, prop]
+tags: [sailing]
 ---
 
 <img src="/assets/prop.jpg" class="image-right" alt="Prop">

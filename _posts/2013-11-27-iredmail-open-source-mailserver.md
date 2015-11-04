@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, mailserver, postfix, imap, dovecot, ldap]
+tags: [linux, mailserver, imap, ldap]
 ---
 
 <a href="http://iredmail.org"><img src="/assets/dashboard_300.png" class="image-right" alt="iRedmail"></a>

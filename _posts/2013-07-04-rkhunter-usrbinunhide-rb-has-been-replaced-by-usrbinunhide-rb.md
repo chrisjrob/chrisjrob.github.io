@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, ruby, rkhunter, rootkit, unhide, security]
+tags: [linux, ruby, security]
 ---
 
 I have recently moved over to Rootkit Hunter (rkhunter) instead of using

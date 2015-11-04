@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, cli]
+tags: [linux, cli, disk]
 ---
 
 We all know that feeling when our disk fills up and you are left

@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: personal
-tags: [sailing, rya, training, recommendation]
+tags: [sailing, rya, recommendation]
 ---
 
 [Surrey Shore-based RYA

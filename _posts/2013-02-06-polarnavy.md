@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: personal
-tags: [sailing, navigation, polarnavy, gps]
+tags: [sailing, polarnavy, gps]
 ---
 
 <img src="/assets/polar-navy.png" class="image-right" alt="Polar Navy">

@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [hp, n36l, microserver]
+tags: [linux, debian, hp]
 ---
 
 <img src="/assets/hp-proliant-microserver-n36l.jpg" class="image-right" alt="HP Proliant Microserver N36L">

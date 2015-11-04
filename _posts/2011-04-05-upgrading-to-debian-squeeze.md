@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, debian, upgrade]
+tags: [linux, debian, apt]
 ---
 
 I finally decided to upgrade my work desktop to Debian Squeeze.

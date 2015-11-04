@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, ubuntu, skype, lync, im]
+tags: [linux, ubuntu, microsoft, skype, lync]
 ---
 
 I was surprised to learn that Ubuntu 14.04 can talk to Skype for

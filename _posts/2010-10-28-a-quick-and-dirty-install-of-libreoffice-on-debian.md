@@ -3,7 +3,7 @@ layout: post
 title:  "A quick and dirty install of LibreOffice on Debian"
 date:   2010-10-28 00:00:00
 category: technology
-tags: [linux, debian, libreoffice, openoffice, koffice]
+tags: [linux, debian, office]
 ---
 
 Following the forking of OpenOffice.org into LibreOffice under the auspices of the new Document Foundation, I decided that I should take a look.

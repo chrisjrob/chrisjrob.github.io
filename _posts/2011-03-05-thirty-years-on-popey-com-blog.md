@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [sinclair, zx81, spectrum]
+tags: [sinclair]
 ---
 
 <img src="/assets/Sinclair-ZX81.png" class="image-right" alt="Sinclair ZX81">

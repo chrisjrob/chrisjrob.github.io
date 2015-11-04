@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, vnc, ssh, dyndns]
+tags: [linux, vnc, ssh, dns]
 ---
 
 I want to be able to support my father's PC remotely via SSH and VNC.

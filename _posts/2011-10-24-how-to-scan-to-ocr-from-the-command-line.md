@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, cli, ocr, scan, tesseract]
+tags: [linux, cli, ocr, scan]
 ---
 
 I just had to remind myself how to scan to OCR, and thought I would

@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [3dprint, reprap, prusa]
+tags: [3dprint, reprap, hardware]
 ---
 
 <a href="https://picasaweb.google.com/chrisjrob/RepRapPrusaBuildPhase1?authuser=0&feat=embedwebsite"><img src="/assets/RepRapPrusaBuildPhase1.jpg" class="image-right" alt="RepRap Prusa"></a>

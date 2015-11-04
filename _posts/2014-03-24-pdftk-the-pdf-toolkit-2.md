@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, cli, pdf, pdftk]
+tags: [linux, cli, pdf]
 ---
 
 [PDFTK - The PDF

@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [poetry, rant]
+tags: [poetry, rant, vodafone]
 ---
 
 *Oh Vodafone, please explain to me,*  

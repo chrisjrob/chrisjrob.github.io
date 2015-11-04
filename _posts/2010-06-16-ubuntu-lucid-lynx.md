@@ -3,7 +3,7 @@ layout: post
 title:  "Ubuntu Lucid Lynx"
 date:   2010-06-16 00:00:00
 category: technology
-tags: [linux, ubuntu, broadcom, unetbootin, kde]
+tags: [linux, ubuntu, broadcom, usb, kde]
 ---
 
 <img src="/assets/ubuntu1004_350.png" class="image-right" alt="Ubuntu 10.04">
