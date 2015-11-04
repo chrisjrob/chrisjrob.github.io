@@ -1,7 +1,32 @@
-<div class="tags">
-    {% for tag in site.tags %}
+<div id="tags">
+    <ul id="tagcloud">
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
         {% assign t = tag | first %}
-            {% assign posts = tag | last %}
-            <a class="sidebar-tag-item" href="/tag/{{t | downcase | replace:" ","-" }}">{{t | downcase | replace:" ","-" }}&nbsp;({{ posts | size }})</a>
+        {% assign posts = tag | last %}
+        {% assign count = posts | size %}
+        {% if count > 100 %}
+            {% assign tagrank = "tag10" %}
+        {% elsif count > 90 %}
+            {% assign tagrank = "tag9" %}
+        {% elsif count > 70 %}
+            {% assign tagrank = "tag8" %}
+        {% elsif count > 50 %}
+            {% assign tagrank = "tag7" %}
+        {% elsif count > 32 %}
+            {% assign tagrank = "tag6" %}
+        {% elsif count > 16 %}
+            {% assign tagrank = "tag5" %}
+        {% elsif count >  8 %}
+            {% assign tagrank = "tag4" %}
+        {% elsif count >  4 %}
+            {% assign tagrank = "tag3" %}
+        {% elsif count >  2 %}
+            {% assign tagrank = "tag2" %}
+        {% elsif count >  0 %}
+            {% assign tagrank = "tag1" %}
+        {% endif %}
+        <li><a class="{{ tagrank }}" href="/tag/{{t | downcase | replace:" ","-" }}">{{t | downcase | replace:" ","-" }}</a></li>
     {% endfor %}
+</ul>
 </div>
