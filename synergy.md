@@ -7,6 +7,28 @@ tags: [synergy]
 weight: 10
 ---
 
+## 2015-11-04T16:15:37 - Client Died
+
+Stopped and Started Synergy client using a spare keyboard and mouse and it started working again.
+
+Server logs:
+
+    [2015-11-04T16:18:00] NOTE: client "asusi5" is dead
+    [2015-11-04T16:18:00] DEBUG: active sides: 2
+
+Client logs:
+
+    [2015-11-04T16:15:37] DEBUG:   available targets: STRING (31)
+    [2015-11-04T16:15:39] DEBUG: close clipboard 0
+    [2015-11-04T16:15:39] DEBUG: open clipboard 1
+    [2015-11-04T16:15:39] DEBUG: ICCCM fill clipboard 1
+    [2015-11-04T16:15:41] DEBUG:   available targets: TARGETS (436), SAVE_TARGETS (435), MULTIPLE (433), STRING (31)
+    [2015-11-04T16:15:43] DEBUG: close clipboard 1
+    [2015-11-04T16:17:45] INFO: entering screen
+    [2015-11-04T16:17:45] INFO: leaving screen
+    [2015-11-04T16:17:45] DEBUG: open clipboard 0
+    [2015-11-04T16:18:00] DEBUG: ssl connection closed
+
 ## 2015-11-04T15:47:53 - Client Died
 
 Stopped and Started Synergy client using a spare keyboard and mouse and it started working again.
