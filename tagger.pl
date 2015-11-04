@@ -93,8 +93,10 @@ sub find_cat_line_in_markdown_file {
     my $catline;
     open( my $fh_mdfile, '<', $mdfile ) or die "Cannot read $mdfile: $!";
     while (my $line = <$fh_mdfile>) {
-        if ($line =~ /^category:\s*(\S*)\s*$/) {
+        if ($line =~ /^category:\s*(.+)$/) {
             $catline = $1;
+            $catline =~ s/\s+$//g;
+            $catline =~ s/\s/-/g;
             last;
         }
     }
@@ -131,6 +133,10 @@ sub create_files_of {
 
 sub create_file_of {
     my ($type, $tag) = @_;
+
+    if ((not defined $tag) or ($tag !~ /\w/)) {
+        return;
+    }
 
     my $tagfilename = "./$type/$tag.md";
 
