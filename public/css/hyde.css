@@ -96,7 +96,7 @@ html {
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
+  line-height: 1.50;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -108,7 +108,7 @@ a.sidebar-nav-item:focus {
 
 .sidebar-category-item {
   display: block;
-  line-height: 1.75;
+  line-height: 1.50;
   font-size: 1rem;
 }
 
