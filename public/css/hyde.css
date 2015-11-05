@@ -87,6 +87,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
+  margin-bottom: 0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 3.25rem;
 }
@@ -298,7 +299,7 @@ a.sidebar-nav-item:focus {
     text-decoration: none;
 }
 
-#tags { line-height: 0.9; margin: auto; text-align: center; }
+#tags { line-height: 0.9; margin: auto auto 0.5em auto; text-align: center; }
 #tagcloud { margin: 0; list-style: none; padding-left: 0; }
 #tagcloud li { display: inline; }
 #tagcloud a.tag1  { font-size: 0.5em; color: #f2f2f2; font-weight: 100; }
@@ -316,5 +317,5 @@ a.sidebar-nav-item:focus {
   font-size: 1.00rem;
   font-weight: 300;
   margin-top: 1em;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.5em;
 }
