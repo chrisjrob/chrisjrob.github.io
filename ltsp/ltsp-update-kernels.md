@@ -7,9 +7,11 @@ category: technology
 tags: [ltsp]
 ---
 
-## ltsp-update-kernels
+## Command
 
-### Introduction
+    ltsp-update-kernels
+
+## Introduction
 
 The ltsp-update-kernels script copies it into the chroot environment and automatically updates the symlinks for the boot loader in the process.
 
@@ -17,7 +19,7 @@ ltsp-update-kernels updates the current client kernel by using the current kerne
 
 This command must be run each time the kernel changes in the chroot.  There should be no harm in running this command each time you update the chroot, just in case.
 
-### Man Page
+## Man Page
 
 You should see the man page appropriate for your system, but the Debian Lenny man page current states:
 

@@ -7,23 +7,21 @@ category: technology
 tags: [ltsp]
 ---
 
-## LTSP5 NXClient
-
-### Warning
+## Warning
 
 These instructions are for Debian Lenny.  They are my notes of what I did, and may contain errors or missed steps.
 
 This assumes you have FreeNX installed somewhere to which to connect.  You might like to see my [Install FreeNX](/howto/install-freenx/) for details.
 
-### Instructions
+## Instructions
 
 These instructions are for installing NoMachine's NX Client for Linux on LTSP, to enable connection to a FreeNX (or NX) server from a screen script.
 
-### Download NXClient
+## Download NXClient
 
 Visit [NoMachine.com](http://www.nomachine.com/download.php) and download the Debian .deb installation.  Copy the deb file into `/opt/ltsp/i386/root`.
 
-### Install NXClient in chroot
+## Install NXClient in chroot
 
     $ sudo chroot /opt/ltsp/i386
     # cd root
@@ -31,7 +29,7 @@ Visit [NoMachine.com](http://www.nomachine.com/download.php) and download the De
     # dpkg -i nxclient_3.3.0-6_i386.deb (or whatever the name of the file is)
     # exit
 
-### Install OpenBox in chroot
+## Install OpenBox in chroot
 
 Unfortunately running nxclient restarts X every time that it's about to connect.  The solution is to install a lightweight Window Manager like xfwm4 or openbox.
 
@@ -39,7 +37,7 @@ Unfortunately running nxclient restarts X every time that it's about to connect.
     # apt-get install openbox
     # exit
 
-### Create User Settings
+## Create User Settings
 
 Easiest way is to install NXClient on the server, and run it to create your settings, then copy your `/home/user/.nx` directory into the chroot.
 
@@ -47,13 +45,13 @@ Easiest way is to install NXClient on the server, and run it to create your sett
 
 Move your `/home/userid/.ssh/known_hosts` file sideways, and connect to any and all freenx servers that you wish to be able to use.  Then copy this file to `/opt/ltsp/i386/home/.ssh/`.
 
-### Edit nx settings
+## Edit nx settings
 
 Unfortunately these settings include duff information, change to `/opt/ltsp/i386/home/.nx/config` and edit `nxclient.cfg` file, change the location in the following line to:
 
     <option key="Personal NX dir" value="/home/.nx" />
 
-### Create Screen Script
+## Create Screen Script
 
 Create a new screen script:
 
@@ -76,7 +74,7 @@ And copy the following into it:
 
 This script will make the root user's home directory to be `/home`.  I probably should have set it to `/root`, but when I experimented with that it didn't work correctly, I suspect I should have persevered, but I did not, with the result that I am pointing everything to /home instead.
 
-### Make OpenBox Autostart NXClient
+## Make OpenBox Autostart NXClient
 
 Create the Openbox configuration directory:
 
@@ -94,15 +92,15 @@ And make it executable:
 
     $ sudo chmod a+x /opt/ltsp/i386/home/.config/openbox/autostart.sh
 
-### Update `lts.conf`
+## Update `lts.conf`
 
 In `lts.conf`, on the client you wish to test, just set `SCREEN_07 = openbox`.
 
-### Reboot Client
+## Reboot Client
 
 Reboot client the and test!
 
-### References
+## References
 
 None, sadly.  No-one to blame but me.
 

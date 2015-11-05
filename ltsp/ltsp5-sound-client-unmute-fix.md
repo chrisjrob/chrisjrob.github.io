@@ -7,9 +7,7 @@ category: technology
 tags: [ltsp]
 ---
 
-## Unmute Fix
-
-### Introduction
+## Introduction
 
 There is a problem with some sound cards that start up muted.  This installs a script which responds to settings in lts.conf.
 
@@ -21,7 +19,7 @@ If the main volume is at nil and there is "MM" (Muted left and Muted right) at t
 
 The only thing is that this fix will be lost next time you boot the client.
 
-### Step 1: Install Script
+## Step 1: Install Script
 
     #!/bin/bash
     #
@@ -87,14 +85,14 @@ The only thing is that this fix will be lost next time you boot the client.
 
     echo "Sound levels restored" >> /tmp/unmute.log
 
-### Step 2: Generate rc.d
+## Step 2: Generate rc.d
 
     $ sudo chroot /opt/ltsp/i386
     # update-rc.d unmute defaults
     # exit
     $ sudo ltsp-update-image
 
-### Step 3: Configure lts.conf
+## Step 3: Configure lts.conf
 
 Use the following settings for the particular client:
 
@@ -104,10 +102,10 @@ Use the following settings for the particular client:
     CD_VOLUME         = 100
     FRONT_VOLUME      = 100
 
-### Step 4: Reboot client
+## Step 4: Reboot client
 
 Reboot the client.  You can check that the script has run by looking at `/tmp/unmute.log` on the client.  You can get to the client by pressing Ctrl-Alt-F1 and logging in with the root password.
 
-### References
+## References
 
    * http://www.debian-administration.org/articles/28

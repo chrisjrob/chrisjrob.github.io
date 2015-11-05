@@ -7,13 +7,11 @@ category: technology
 tags: [ltsp]
 ---
 
-## LTSP5 Local Devices
-
-### Introduction
+## Introduction
 
 You've inserted a disk or memory stick in your thin client, and nothing happened, what next?
 
-### Check lts.conf
+## Check lts.conf
 
 Each user you wish to be able to access their local devices needs LOCALDEV = True in lts.conf, alternatively you may add to the '[default]' section to make this global.
 
@@ -21,7 +19,7 @@ Each user you wish to be able to access their local devices needs LOCALDEV = Tru
     # Joe Bloggs Desktop
         LOCALDEV             = True
 
-### Check user is in fuse group
+## Check user is in fuse group
 
     # groups userid
     userid satff users audio fuse
@@ -30,7 +28,7 @@ If they are not in the fuse group then:
 
     # adduser userid fuse
 
-### Check lts.conf settings are reaching client
+## Check lts.conf settings are reaching client
 
 A simple typo can mean that your carefully crafted lts.conf file is not reaching its target audience.  To test, boot up the thin client and ctrl+alt+f1 to get to the console, login as root and type the following:
 
@@ -40,13 +38,13 @@ See LTSP Client Root Password if you are unable to log into the client.
 
 This will give you a list of all the settings that apply to this particular client, including any default settings.  You need to check that you can see the above LOCALDEV="True" is visible.
 
-### Check logs on client
+## Check logs on client
 
     # tail -f /var/log/syslog
 
 Then try inserting the device, and you should see the detection - look for errors that might indicate what has gone wrong.
 
-### Check UDEV can see drive
+## Check UDEV can see drive
 
 Still on the client:
 
@@ -104,12 +102,12 @@ An example of a CDROM:
     E: ID_CDROM_MRW_W=1
     E: ID_PATH=pci-0000:00:1f.2-scsi-1:0:0:0
 
-### Check ltspfs is installed on the server
+## Check ltspfs is installed on the server
 
     # dpkg -l ltspfs | grep ^ii
     ii  ltspfs                                       0.6-1~bpo50+1                        Fuse based remote filesystem for LTSP thin clients
 
-### Check fuse is running
+## Check fuse is running
 
     # lsmod | grep fuse
     fuse                   47124  3 
@@ -120,11 +118,11 @@ If fuse is not running, then:
     # modprobe fuse
     # adduser USER fuse
 
-### KDE Desktop Icons
+## KDE Desktop Icons
 
    * [Local Device Icons on KDE Desktop](/ltsp/local-device-icons-on-kde-desktop/)
 
-### References
+## References
 
 For some additional troubleshooting, try: http://wiki.ubuntu.com/DebugLocalDev
 

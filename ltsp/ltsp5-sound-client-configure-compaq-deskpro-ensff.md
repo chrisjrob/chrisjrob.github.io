@@ -7,15 +7,13 @@ category: technology
 tags: [ltsp]
 ---
 
-## Configure Compaq Deskpro ENSFF for LTSP5 Sound
-
-### Introduction
+## Introduction
 
 We have a number of Compaq Deskpro EN-SFF P450 PCs.  These are small-form-factor Pentium IIIs with Compaq quality.  I believe these have the ESS1869 soundcard.
 
 **The BIOS settings on our PCs are io=0x220 irq=5 dma=1 dma16=5; your settings may be different!**
 
-### LTSP4.2
+## LTSP4.2
 
 They worked flawlessly under LTSP4.2 with the following LTS.conf configuration:
 
@@ -23,7 +21,7 @@ They worked flawlessly under LTSP4.2 with the following LTS.conf configuration:
 
 Since upgrading to LTSP5, sound has ceased to function.
 
-### Testing
+## Testing
 
 I booted the client and typed [Ctrl]+[Alt]+[F1] to bring up the client console and typed:
 
@@ -37,7 +35,7 @@ Next I tried typing:
     ESS AudioDrive ES18xx soundcard not found or device busy
     FATAL: Error inserting snd_es18xx (/lib/modules/2.6.18-6-486/kernel/sound/isa/snd-es18xx.ko): No such device
 
-### Research
+## Research
 
 Next I Googled "(ltsp5|edubuntu) snd-es18xx" which produced the following thread:
 
@@ -79,7 +77,7 @@ And the sound module loaded fine.  I then ran:
 
 And sound was working fine.
 
-### LTS.conf
+## LTS.conf
 
 So obviously all we need to do is to set in LTS.conf and we should be sorted:
 

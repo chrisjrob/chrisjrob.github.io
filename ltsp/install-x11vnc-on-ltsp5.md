@@ -7,13 +7,11 @@ category: technology
 tags: [ltsp]
 ---
 
-## Install x11vnc on LTSP5
-
-### Warning
+## Warning
 
 This is how I installed x11vnc on our Debian Lenny LTSP5 server, these are my notes, nothing more.  Use at your peril.
 
-### Installing x11vnc
+## Installing x11vnc
 
 Enter the chroot
 
@@ -24,7 +22,7 @@ And update the repositories that the ltsp environment uses for apt-get:
     # apt-get update
     # apt-get install x11vnc
 
-### Create start-up script
+## Create start-up script
 
 Still in the chroot, edit `/etc/init.d/x11vnc` and copy in the following script:
 
@@ -76,7 +74,7 @@ Still in the chroot, edit `/etc/init.d/x11vnc` and copy in the following script:
 
     exit 0
 
-### Finalise start-up script
+## Finalise start-up script
 
 Still in the chroot, make the script executable and link it into /etc/rc2.d:
 
@@ -84,7 +82,7 @@ Still in the chroot, make the script executable and link it into /etc/rc2.d:
     # update-rc.d x11vnc defaults
     # ls -al /etc/rc2.d/*x11vnc
 
-### Set x11vnc password
+## Set x11vnc password
 
 Finally, create the /etc/x11vncpassword file with the password you want to use to connect to your thin clients:
 
@@ -94,7 +92,7 @@ Finally, create the /etc/x11vncpassword file with the password you want to use t
 
 **Replace "thepassword" with your chosen password.**
 
-### Alternative Method
+## Alternative Method
 
 The issue with the above method is that if you user does not reboot their client after logging off, then x11vnc does not restart.  An alternative, remove the above symlink from `/etc/rc2.d/S99x11vnc` and instead use an ldm start up script by adding the following two scripts:
 
@@ -115,7 +113,7 @@ The "X" denotes that this script will be run upon logout, so this is closing dow
 
 This method will still not cope with X being terminated with ctrl+alt+backspace, in which scenario you can ssh onto the client and run `/etc/init.d/x11vnc condrestart` - you could also add this in as a local app to be accessible from the server desktop.
 
-### References
+## References
 
    * https://wiki.edubuntu.org/InstallX11VncOnLtspClients
 

@@ -7,15 +7,13 @@ category: technology
 tags: [ltsp]
 ---
 
-## LTSP5 Upgrade
-
-### Warning
+## Warning
 
 This page seems a little outdated, most importantly it refers to the LTSP Backports repository, which is now obsolete.  You should instead visit http://backports.org/ and add the Debian Lenny repository.  All references to alioth.debian.org are redundant.  You are probably best off going to this page:
 
    * http://wiki.debian.org/LTSP/Howto
 
-### Terms of Reference
+## Terms of Reference
 
 This is a guide to upgrading from Debian Etch and LTSP 4.2 to Debian Etch and LTSP 5.  This is largely based on the following page which should be your primary guidance on installation:
 
@@ -23,7 +21,7 @@ This is a guide to upgrading from Debian Etch and LTSP 4.2 to Debian Etch and LT
 
 Now that Debian Lenny has become the stable release, you should install that instead, see the above document for guidance, and/or my LTSP5 Install page.
 
-### Back-up /opt/ltsp
+## Back-up /opt/ltsp
 
 This will copy your entire `/opt/ltsp` to `/opt/ltsp42`.
 
@@ -32,7 +30,7 @@ This will copy your entire `/opt/ltsp` to `/opt/ltsp42`.
     # cd ltsp
     # tar cf - * | (cd /opt/ltsp42; tar xfp - )
 
-### Backup other configurations
+## Backup other configurations
 
     # cd /opt/ltsp42
     # mkdir conf
@@ -42,34 +40,34 @@ This will copy your entire `/opt/ltsp` to `/opt/ltsp42`.
 
 **This list is not exhaustive - if you can think of any other configurations outside of `/opt/ltsp` - back them up!**
 
-### Backup tftpboot
+## Backup tftpboot
 
     # cd /opt/ltsp42
     # mkdir tftpboot
     # cd /tftpboot
     # tar cf - * | (cd /opt/ltsp42/tftpboot; tar xfp - )
 
-### Remove lbe if installed
+## Remove lbe if installed
 
     # cd /usr/local
     # rm -r lbe
 
-### Add Backports Repository
+## Add Backports Repository
 
 **This section is outdated - the latest packages are simply in Debian Backports for Lenny.**
 
 Given that you have chosen to upgrade to LTSP5, it is probably that you want to have the new technologies, which are currently only available in Backports.  If you already have Backports listed in `/etc/apt/sources.list` then you may skip this stage.
 
-#### Add the key(s) for the repository to your keyring(after verifying that you trust them)
+### Add the key(s) for the repository to your keyring(after verifying that you trust them)
 
     # wget http://pkg-ltsp.alioth.debian.org/debian/pkg-ltsp-keyring
     # apt-key add pkg-ltsp-keyring 
 
-#### Add to /etc/apt/sources.list
+### Add to /etc/apt/sources.list
 
     deb http://pkg-ltsp.alioth.debian.org/debian etch-ltsp-backports main
 
-#### Configure pinning in /etc/apt/preferences
+### Configure pinning in /etc/apt/preferences
 
 If you do not have a preferences file, then an example one might be:
 
@@ -105,31 +103,31 @@ If you do not have a preferences file, then an example one might be:
     Pin: release o=Debian
     Pin-Priority: -1
 
-#### Apt-get Update:
+### Apt-get Update:
 
     # apt-get update
 
 
-### How you are logged in?
+## How you are logged in?
 
 You should be logged in either directly to the console, or via ssh (or perhaps FreeNX).  If you are logged in from an LTSP Client, then there is a likelihood that your client will be terminated during installation.
 
 The same clearly applies to your users.  In any case some of these processes are CPU intensive (e.g. ltsp-build-client) and it's a good idea to have everyone off the system (this may even be a necessity). 
 
-### Remove Old LTSP Packages
+## Remove Old LTSP Packages
 
     # apt-get --purge remove ltsp-utils atftpd
     # cd /opt
     # rm -r ltsp
 
-### Install new packages
+## Install new packages
 
     # apt-get -t 'etch-ltsp-backports' install ltsp-server-standalone ltsp-server
     # dpkg -l ltsp-server | awk '/^ii/{print $2" "$3}'
 
 **Make sure the version ltsp-server is 5.0.40~ or greater.**
 
-### Build the LTSP client environment
+## Build the LTSP client environment
 
 **The ltsp-build-client script needs a lot of time if you have an older server.**
 
@@ -147,7 +145,7 @@ The 2 ltsp configuration files inside the client are `/etc/lts.conf` and `/etc/d
 
 The files the client will boot are installed on the server into `/var/lib/tftpboot`, unlike LTSP4.2 which installed in `/tftpboot`.
 
-### Configure DHCP Server
+## Configure DHCP Server
 
 Edit `/etc/dhcp3/dhcpd.conf`.
 
@@ -155,31 +153,31 @@ As you already had DHCP working, under LTSP4.2, then it will just need some modi
 
 Specifically, you need to make the following changes:
 
-#### Root Path
+### Root Path
 
 Take the IP address out of your root-path statement as LTSP5 doesn't support that style of root-path
 
     option root-path  "/opt/ltsp/i386";
 
-#### Filename
+### Filename
 
 Change the filename entries to:
 
     filename   "/ltsp/i386/pxelinux.0";
 
-#### Next Server
+### Next Server
 
 Etch is still affected by: http://bugs.debian.org/416868 so you need to add this line if the dhcp server and tftp server are the same:
 
     next-server ip.address.of.server;
 
-#### Restart dhcp3-server
+### Restart dhcp3-server
 
     # /etc/init.d/dhcp3-server restart
 
 Watch for errors, if it will not restart then correct errors and try again.
 
-### Configure Exports
+## Configure Exports
 
 Edit `/etc/exports` to include the following line:
 
@@ -189,7 +187,7 @@ Then restart the NFS Kernel Server:
 
     # /etc/init.d/nfs-kernel-server restart
 
-### Start tftpd
+## Start tftpd
 
 By default, tftpd-hpa is started from inetd, so you may need to restart inetd after installing tftpd-hpa.
 
@@ -203,11 +201,11 @@ And then restart with:
 
     # /etc/init.d/tftpd-hpa restart
 
-### Test boot a client
+## Test boot a client
 
 Boot a PXE or Etherboot capable machine and enjoy!
 
-### Changing the Client
+## Changing the Client
 
 See the following page for details:  http://doc.ubuntu.com/edubuntu/edubuntu/handbook/C/customizing-thin-client.html
 
@@ -215,7 +213,7 @@ See the following page for details:  http://doc.ubuntu.com/edubuntu/edubuntu/han
     # apt-get install rdesktop
     # sudo ltsp-update-image
 
-### Setting root password for client
+## Setting root password for client
 
 Screen scripts are how LTSP determines what type of login will run on what virtual screen. Most GNU/Linux machines have 12 virtual consoles, which you can access by pressing Control-Alt-F1, through Control-Alt-F12. There is a text based getty that is started on screen 1, but you normally can't log into it, as there are no local users on the thin client.
 
@@ -224,13 +222,13 @@ However, for debugging purposes, you may want to set up root to log in on the th
     sudo chroot /opt/ltsp/i386
     passwd
 
-### Further information
+## Further information
 
    * [LTSP5 Sound](/ltsp/ltsp5-sound/)
    * [LTSP5 Local Devices](/ltsp/ltsp5-local-devices/)
    * [LTSP5 Workarounds](/ltsp/ltsp5-workarounds/)
 
-### References
+## References
 
    * http://wiki.debian.org/LTSP/Howto
       * http://doc.ubuntu.com/edubuntu/edubuntu/handbook/C/customizing-thin-client.html

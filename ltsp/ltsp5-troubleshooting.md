@@ -7,9 +7,7 @@ category: technology
 tags: [ltsp]
 ---
 
-## LTSP5 Troubleshooting
-
-### Job control turned off nbd0 not found
+## Job control turned off nbd0 not found
 
 **These instructions do not apply for Ubuntu.**
 
@@ -37,7 +35,7 @@ Hit CTRL-D to exit the chroot now. Make sure LTSP uses the new initramfs to boot
 
     $ sudo ltsp-update-kernels
 
-### Clients cannot login via LDM
+## Clients cannot login via LDM
 
 If your clients get to the LDM login page, but none of them can login, and particularly if you are aware of recent updates affecting ssh, then:
 
@@ -48,15 +46,15 @@ If your clients get to the LDM login page, but none of them can login, and parti
 
 See https://bugs.launchpad.net/ubuntu/+source/ltsp/+bug/144296  for more details (which may not be relevant for Debian).
 
-### No client sound
+## No client sound
 
 See [LTSP5 Client Sound](/ltsp/ltsp5-sound-client/).
 
-### Display Problems
+## Display Problems
 
 See [LTSP5 Display Troubleshooting](/ltsp/ltsp5-display-troubleshooting/).
 
-### Client has loud hissing noise
+## Client has loud hissing noise
 
 The microphone has likely been activated by default.  With normal PCs the user fixes the problem once and that fix it remembered, with LTSP the problem repeats on every boot.  The solution is to mute the microphone on every boot.  To achieve this we need to login to the client shell and run "alsamixer" to mute the microphone.  Silence, ah bliss.  Take a note of the name of the microphone audio channel.  The amixer program is also very helpful - see [LTSP5 Client Sound](/ltsp/ltsp5-sound-client/) for details of how to use this.
 
@@ -70,7 +68,7 @@ So, if you have a channel called "Front Mic", then FRONT_MIC_VOLUME should alrea
 
 Thanks to Gadi for explaining this on the LTSP mailing list.
 
-### LDM only prompts for password on login failure
+## LDM only prompts for password on login failure
 
 Login window asks for Username and then Password.  But, if you enter the username incorrectly then it says "Password incorrect. Try again.".  Of course, no password will work because the username is wrong.
 
@@ -86,7 +84,7 @@ Then reboot your thin client.
 
 Credit to Gavin McCullagh from the Edubuntu mailing list for this workaround ([read more](https://lists.ubuntu.com/archives/edubuntu-users/2007-November/002636.html)).
 
-### LDM password expiry loop
+## LDM password expiry loop
 
 There is an odd loop that arises with the LDM password expiry process:
 
@@ -105,37 +103,37 @@ If there is a bug, it may be related to the following thread:
 
    * [ldm problems with debian etch](http://marc.info/?t=121069447400001&r=1&w=2)
 
-### LDM login screen shows white background
+## LDM login screen shows white background
 
 In Debian Etch, the LDM login screen shows a white background with an ugly LTSP logo in the middle.  Actually the background is a light grey, but people describe it as white.  The LTSP logo was not designed to work with a light grey background, and that's the reason it looks so ugly.  This problem has been fixed in Debian Lenny, and you should now upgrade from Etch.
 
 No known workaround at this time, but see [How to Create a custom LDM theme](/ltsp/create-a-custom-ldm-theme/) for details of how to change the logo, which really is the only issue with the grey background.
 
-### LTSPFS mounts appear strange when running df
+## LTSPFS mounts appear strange when running df
 
 util-linux 2.13 fixed this bug; however it is still present in etch. workaround is to make `/etc/mtab` a symlink to `/proc/mounts`:
 
     # mv /etc/mtab /etc/mtab.old
     # ln -s /proc/mounts /etc/mtab
 
-### LTSP client hostname displays as (none)
+## LTSP client hostname displays as (none)
 
 Workaround set up dns on the thin-client network, or:
 
     # mv /etc/mtab /etc/mtab.old
     # ln -s /proc/mounts /etc/mtab
 
-### LDM support for mostly insecure logins (LDM_DIRECTX)
+## LDM support for mostly insecure logins (LDM_DIRECTX)
 
 Requires getting /root to be writeable:
 
     # echo 'copy_dirs="$copy_dirs /root"' >>/opt/ltsp/i386/etc/default/ltsp-client-setup
 
-### KDE local device icons on desktop
+## KDE local device icons on desktop
 
 In KDE there may not be any local device icons appearing on the desktop.  If you find this to be the case, but the device does exist under `/media`, then you may need to script `/usr/sbin/ltspfsmounter` code to create symlinks on `~/Desktop`.
 
-### X Configuration
+## X Configuration
 
 If X doesn't automatically configure properly (it uses X.org's built-in configuration, which doesn't work as well on the version on X.org in etch), you may want to switch back to the slower but more reliable X configuration using xdebconfigurator:
 

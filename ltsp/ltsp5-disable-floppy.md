@@ -7,8 +7,6 @@ category: technology
 tags: [ltsp]
 ---
 
-## LTSP5 Disable Floppy
-
 Local floppy drives do not seem to work well under LTSP, in any case they are obsolete technology.  This page describes how to disable under LTSP5.
 
 Find and edit the following file and comment out the legacy floppy drive command:

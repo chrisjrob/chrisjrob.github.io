@@ -7,9 +7,7 @@ category: technology
 tags: [ltsp]
 ---
 
-## LTSP4.2 or LTSP5
-
-### Choosing your version of LTSP
+## Choosing your version of LTSP
 
 There are two versions of LTSP currently available:
 
@@ -28,17 +26,17 @@ Good luck sorting *that* little problem out, for myself I upgraded to LTSP5 (see
 
 In short all his just fine and dandy in the world of LTSP5.  Always assuming it's been packaged for your distro, it has for Debian and Ubuntu, for the rest you'll need to make your own enquiries.
 
-### What you can expect from LTSP4.2
+## What you can expect from LTSP4.2
 
-#### Positives
+### Positives
 
 A working reliable system.  Sound (see [LTSP4.2 Sound](/ltsp/ltsp4.2-sound/)).  Local Devices that appear on the desktop when you plug them in.  Works particularly well for older clients (Pentium II with 32mb RAM).
 
-#### Negatives
+### Negatives
 
 Expect to fight any PC built in the last two or three years.  Expect to have battles getting sound working on your clients (usually solvable, usually you have wounds to lick afterwards).  I am told that USB keys don't work quite as well, although I never found any problem in this area.  Indeed I managed to get USB keys working better under LTSP4.2 than I have subsequently managed to do in LTSP5.
 
-### What you can expect from LTSP5
+## What you can expect from LTSP5
 
 A system that pretty much works as you expect.  Sound was simple to configure and works well.  Scanning took a little bit of working out (see [LTSP5 Scanning](/ltsp/ltsp5-scanning/)).  Local devices work just fine (with the exception of some incorrectly partitioned devices).  The client system works very well, although I am still learning exactly how it all hangs together.  Newer PCs work perfectly, and all but the oldest PCs seem fine.  The ones I did have to get rid of were no great loss; but if you feel differently then I understand it is technically possible to install LTSP4.2 and LTSP5 on the same server, and get the benefits of each.  You'll need to search the LTSP Mailing List to find out how.
 

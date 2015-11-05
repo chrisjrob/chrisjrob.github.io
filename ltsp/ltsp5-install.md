@@ -7,27 +7,25 @@ category: technology
 tags: [ltsp]
 ---
 
-# LTSP5 Install
-
-### Introduction
+## Introduction
 
 Time to install a new server - yay!  The hardware is an HP Proliant DL360 G5, with a single quad-core processor and 4GB ram.  This page is about creating a complete desktop server and, as such, much of this is actually nothing to do with LTSP, but is all about setting up a functional and attractive desktop server.
 
-### Server Specification
+## Server Specification
 
 The following page, which I wrote for LTSP4.2, should largely hold true:
 
    * [Server Sizing](/ltsp/server-sizing/)
 
-### Server Set-up
+## Server Set-up
 
 Physically install the server and plug the network into a Gigabit port on your network switch and install your disk drives and configure your RAID volume.
 
-### Debian Base Install
+## Debian Base Install
 
 Download the netinst ISO from Debian.  Burn the ISO to disk.  Insert the disk into the optical drive of your server and boot.  Follow the installer prompts, until you get to the section on partitioning.
 
-### Partitioning
+## Partitioning
 
 There is no way that I can tell you what to do here - there are just too many variables - but here is what I did:
 
@@ -46,11 +44,11 @@ In addition to the following, you will need to create a swap partition which sho
 
 With an LTSP system it is sensible to have a separate `/opt` partition; it doesn't need to be as large as this, but I choose to use `/opt` for my virtual machines, 10GB should be adequate.  On servers it is sensible to have separate `/usr`, `/var` and `/tmp` file systems.  The `/srv` is simply going to be for shared documents - so your requirements may be different - perhaps you have a NAS for that purpose.  A separate `/home` is recommended for all systems.  The `/tmp` partition here is HUGE, this is because I will be installing a virtualised Windows server using KVM in snapshot mode, which uses `/tmp` for working files; you should be able to get away with 0.5GB.  Lastly the `/rescue` partition is optional, it should be a mirrored copy of `/boot` and then should be removed from `/etc/fstab`, as a rescue partition.
 
-### Installing Debian
+## Installing Debian
 
 My personal preference is to install a base system only, unchecking even the "Standard system" when prompted.  This leaves you with a perfectly working system on which to build your LTSP server.  Follow the prompts to remove the install CD and reboot.
 
-### Install OpenSSH Server and Screen
+## Install OpenSSH Server and Screen
 
 These packages make it easy to remotely administer your server, openssh creates the connection, screen enables you to use multiple terminals and to disconnect and reconnect to each ([Simple Tutorial](http://www.kuro5hin.org/story/2004/3/9/16838/14935)).  Screen is optional but recommended, this tutorial will make no further mention of it, you should just use it as appropriate, or if you don't wish to use it, simply remove it from the following command.
 
@@ -62,7 +60,7 @@ You may need to create some static routes in `/etc/network/interfaces`, dependin
 
 Return to the comfort of your workstation and ssh into the server in the usual way (this isn't a tutorial on ssh!).
 
-### Install K Desktop Environment (KDE)
+## Install K Desktop Environment (KDE)
 
 We use KDE, so these instructions are specific to KDE; however you can simply change the install command below according to the desktop environment that you prefer.
 
@@ -74,11 +72,11 @@ N.B. Change `kde-i18n-engbi` for the correct package for your language.
 
 N.B. Even installing a base KDE will result in a large number of packages being downloaded, go get yourself a cup of coffee.
 
-### Reboot
+## Reboot
 
 Now reboot the server, and ensure that you get a graphical login on the console.
 
-### Install LTSP
+## Install LTSP
 
 N.B. Please read the [Debian LTSP Howto](http://wiki.debian.org/LTSP/Howto) before continuing.
 
@@ -88,7 +86,7 @@ N.B. Please note that there are now [lenny-backports](http://wiki.debian.org/LTS
 
 You can safely ignore the error message about DHCP server not being "authoritative", and don't worry that your DHCP server doesn't start - you need to configure it before it will start cleanly.
 
-### Build LTSP Client
+## Build LTSP Client
 
 N.B. Please note that there are now [lenny-backports](http://wiki.debian.org/LTSP/Howto/Lenny-With-Backports) available.
 
@@ -100,7 +98,7 @@ N.B. If you change the IP data after you have done the initial setup and run [lt
 
 N.B. The files the client will boot are installed on the server into `/var/lib/tftpboot`, unlike LTSP4.2 which installed in `/tftpboot`.
 
-### Set-up NFS Share
+## Set-up NFS Share
 
     $ nano /etc/exports
     /opt/ltsp       *(ro,no_root_squash,async,no_subtree_check)
@@ -108,7 +106,7 @@ N.B. The files the client will boot are installed on the server into `/var/lib/t
 
 The 2 ltsp configuration files inside the client are `/etc/lts.conf` and `/etc/default/ltsp-client-setup`. See the examples in `/usr/share/doc/ltsp-client*`. Also see the [Edubuntu wiki](http://doc.ubuntu.com/edubuntu/edubuntu/handbook/C/customizing-thin-client.html).
 
-### Configure DHCP Server
+## Configure DHCP Server
 
     # cp /etc/dhcp3/dhcpd.conf /etc/dhcp3/dhcpd.conf.lenny
     # cp /etc/ltsp/dhcpd.conf /etc/dhcp3/
@@ -116,23 +114,23 @@ The 2 ltsp configuration files inside the client are `/etc/lts.conf` and `/etc/d
 
 Edit `/etc/dhcp3/dhcpd.conf`, updating the IP addresses according for your network.
 
-### Test Client Boot 
+## Test Client Boot 
 
 Now is the time to test that your client is booting okay.
 
-### Audio Set-up
+## Audio Set-up
 
 Next we need to set-up the audio, and to that end please follow the instructions on our LTSP5 Sound page:
 
    * [LTSP5 Sound](/ltsp/ltsp5-sound/)
 
-### Local Devices Set-up
+## Local Devices Set-up
 
 Next we need to set-up local devices, and to that end please follow the instructions on our LTSP5 Local Devices page:
 
    * [LTSP5 Local Devices](/ltsp/ltsp5-local-devices/)
 
-### Optional - Installing FreeNX
+## Optional - Installing FreeNX
 
 If you wish to be able to remotely support your server with a GUI, then you may like to install freeNX:
 
@@ -140,25 +138,25 @@ If you wish to be able to remotely support your server with a GUI, then you may 
 
 Then visit the NoMachine website and download the client for your PC.
 
-### Optional - KDE Style Changes
+## Optional - KDE Style Changes
 
 N.B. These instructions will increase server load, but do make KDE look a great deal more attractive - your choice.
 
 I apologise in advance for this section; I know that "Bling" has no place on a server, but equally I know that getting Linux adopted in your workplace is tough, and a little bling goes a long way towards user acceptance.  Unfortunately these changes WILL increase the load on the server, if you are not happy with this, then simply skip this section.
 
-#### Crystal Windows Decoration
+### Crystal Windows Decoration
 
     # apt-get install kwin-style-crystal
 
 Go to the KDE Control Panel, Appearance & Themes and change the Windows Decorations to Crystal.  Then, under the General tab, make the top corners rounded, and increase the titlebar size to 21.  Under the Buttons tab, change the buttons to Kubuntu-Edgy.  Under the Background tab, I suggest you switch off transparency, which will but an unnecessary load on the server.  Under the Overlay tab, change both active and inactive to Simple Lighting.
 
-#### NuoveXT
+### NuoveXT
 
     # apt-get install kde-icons-nuovext
 
 Go to the KDE Control Panel, Appearance & Themes and change the Icons to nuoveXT.  Under the Advanced tab you may like to increase the Desktop icon size to 48, which suits these icons.
 
-#### Desktop Background
+### Desktop Background
 
 I believe one of the most attractive backgrounds is a simple two colour elliptic gradient.  To achieve this, simply go to KDE Control Panel, Appearance & Themes, Background. Change the Background picture to "No Picture" and set colours to Elliptic Gradient.  You can choose any two colours, but these two look good:
 
@@ -167,7 +165,7 @@ I believe one of the most attractive backgrounds is a simple two colour elliptic
 
 Other colours may not go well with the rest of my suggested changes.
 
-#### Panel
+### Panel
 
 The default panel doesn't look that great, you can download any number of Kicker Wallpapers from KDE Look, but one that I think looks very good is this one:
 
@@ -175,7 +173,7 @@ The default panel doesn't look that great, you can download any number of Kicker
 
 It looks plain on that page, but much better in KDE.
 
-### Add Debian Multimedia Repository
+## Add Debian Multimedia Repository
 
 The Debian Multimedia is a useful resource for multimedia codecs, converters and players.  In particularly it includes Adobe Flash Player.  This is not an official repository, although it is a very common one.  I have decided to take the risk of installing this software on my system, you may not agree!
 
@@ -190,7 +188,7 @@ Download and install the following:
     # dpkg -i debian-multimedia-keyring_2008.10.16_all.deb
     # aptitude update
 
-### Optional - Iceweasel
+## Optional - Iceweasel
 
 In my opinion, Konqueror, whilst an amazing piece of software, is not going to be suitable as your main web-browser.  Mozilla Firefox is the answer, and this is available in the Lenny repositories, named "Iceweasel".
 
@@ -198,7 +196,7 @@ In my opinion, Konqueror, whilst an amazing piece of software, is not going to b
 
 Unfortunately, being a GTK application (not native to KDE) it looks ghastly, so...
 
-### Optional - GTK Applications in KDE
+## Optional - GTK Applications in KDE
 
 GTK applications in KDE always look horrible. In Kubuntu this is taken care of for you, but in Debian it is only a quick install away:
 
@@ -206,7 +204,7 @@ GTK applications in KDE always look horrible. In Kubuntu this is taken care of f
 
 There are other ways of achieving this, e.g. qtcurve, but for me this seems perfectly satisfactory. Having installed, you visit your control panel and you will find a new option under "Appearance & Themes" called "GTK Styles and Fonts" change this to use your KDE style for your GTK applications, and restart KDE.
 
-### Optional - Other Applications
+## Optional - Other Applications
 
 Applications you might consider installing for your users are:
 
@@ -225,7 +223,7 @@ Applications you might consider installing for your users are:
    * **Ark** : `apt-get install ark`
    * **Dia** : `apt-get install dia`
 
-### Optional - Install KVM Virtualisation
+## Optional - Install KVM Virtualisation
 
 If you intend adding a virtualised Windows server on top of the LTSP server (not recommended - but we do it and it works well), then you need KVM (or an alternative) installed:
 
@@ -233,7 +231,7 @@ N.B. I suggest you right-click on the following link and Open in New Tab, so tha
 
    * [How to install KVM](/howto/install-kvm/)
 
-### Optional - UMask
+## Optional - UMask
 
 I dislike that every created file is given read access to all users, to change this behaviour we need to change `umask`.  In KDE the easiest way to achieve this system wide is by editing `/etc/profile` and changing the umask line from the default line of `umask 022` to your preferred setting.  We use `umask 007`, which gives full access to the user and group, but no access to other.
 
@@ -242,7 +240,7 @@ I dislike that every created file is given read access to all users, to change t
 
 Your view may well vary from mine.
 
-###  Set Client Root Password
+##  Set Client Root Password
 
 You will almost certainly need access to the client, in order to troubleshoot:
 
@@ -255,7 +253,7 @@ You will almost certainly need access to the client, in order to troubleshoot:
     exit
     # ltsp-update-image
 
-### References
+## References
 
    * [Debian LTSP](http://wiki.debian.org/LTSP)
       * [Debian Lenny Howto](http://wiki.debian.org/LTSP/Howto)

@@ -7,9 +7,7 @@ category: technology
 tags: [ltsp]
 ---
 
-## About LTSP
-
-### What is the Linux Terminal Server Project (LTSP)
+## What is the Linux Terminal Server Project (LTSP)
 
 If you come from a Windows background, you may be familiar with Windows Terminal Services and/or Citrix.  Windows Terminal Services basically enables users from different clients to connect to servers and work concurrently on them using the RDP (Remote Desktop) protocol.  Perhaps you've connected to your work PC using Remote Desktop - it's the same thing, just Terminal Services just allows multiple users to connect concurrently.  Citrix is just the same, but uses the ICA protocol.
 
@@ -19,7 +17,7 @@ LTSP goes a massive step further, in that it actually serves a complete operatin
 
 In contrast, a Windows thin client usually includes a flash disk with a local operating system.  LTSP does not need this, all LTSP requires is a PXE compatible network card and a pretty minimal amount of RAM and CPU (a Pentium II with 64mb is probably the minimum required).
 
-### Benefits of LTSP
+## Benefits of LTSP
 
    * Performance
       * LTSP requires around half the processing power - for same performance as Windows Server
@@ -43,7 +41,7 @@ In contrast, a Windows thin client usually includes a flash disk with a local op
       * Hardware-only cost
       * Can afford to over-spec the servers for phenomenal performance
 
-### Problems with LTSP
+## Problems with LTSP
 
    * Requires a fast-Ethernet or Gigabit network - Install FreeNX for serving desktops to remote locations
    * Incompatible with Windows applications - see Windows for Linux for guidance 

@@ -7,10 +7,6 @@ category: technology
 tags: [ltsp]
 ---
 
-## Local Device Icons on KDE Desktop
-
-### Introduction
-
 Read:
 
     /usr/share/doc/ltspfs/examples/kde-desktop-icons

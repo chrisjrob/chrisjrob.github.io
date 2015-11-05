@@ -7,9 +7,11 @@ category: technology
 tags: [ltsp]
 ---
 
-## ltsp-update-image
+## Command
 
-### Comment
+    ltsp-update-image
+
+## Comment
 
 For systems that use NBD (not Debian), this command will create a client image from the contents of `/opt/ltsp/i386`, and store it in `/opt/ltsp/i386/images`.
 
@@ -19,7 +21,7 @@ As Debian uses NFS, this command is not necessary, unless you have chosen to cha
 
 If you are on Debian and you have a directory `/opt/ltsp/i386/images`, then this is likely to mean that you have run this command by mistake.  This may trigger the clients to attempt to use NBD, so you should probably remove this directory, or explicitly tell your clients to use NFS - see LTSP5 Troubleshooting for details.
 
-### Man Page
+## Man Page
 
 You should see the man page appropriate for your system, but the Debian Lenny man page current states:
 

@@ -7,15 +7,13 @@ category: technology
 tags: [ltsp]
 ---
 
-## LTSP Iceweasel Hacks
-
-### Introduction
+## Introduction
 
 This is just a list of the hacks or fixes that I currently have in place on Iceweasel.  These were not my invention, and surely I owe a debt of thanks to various sites; unfortunately I have no way of knowing which sites.
 
 Some of these hacks are too facilitate system wide control, others help to maximise performance on a thin client system.
 
-### Iceweasel Global Preferences
+## Iceweasel Global Preferences
 
     /etc/iceweasel/pref/iceweasel.js
 
@@ -67,12 +65,12 @@ Some of these hacks are too facilitate system wide control, others help to maxim
     lockPref("app.update.enabled", false);
 
 
-### Iceweasel Image Caching
+## Iceweasel Image Caching
 
 I understand that, on websites with certain size of image, that the thin client xorg starts to take a ridiculous amount of memory, resulting xorg dieing and the thin client returning to the login page.  The following may help:
 
     $ sudo echo "MOZ_DISABLE_IMAGE_OPTIMIZE=1" >> /etc/profile
 
-### References
+## References
 
 I must apologise for the lack of references, if you recognise some of your work in the above, please do accept my apologies.

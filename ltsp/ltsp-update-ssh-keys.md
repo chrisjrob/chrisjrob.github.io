@@ -7,15 +7,17 @@ category: technology
 tags: [ltsp]
 ---
 
-## ltsp-update-sshkeys
+## Command
 
-### Introduction
+    ltsp-update-sshkeys
+
+## Introduction
 
 Secure Shell Handler or SSH is a network protocol that allows data to be exchanged using a secure channel between two computers.  LTSP uses it to enable secure communication between clients and the Server.  SSH uses public-key cryptography to authenticate the client, this command rebuilds the keys.
 
 You would run this command only at first install, or upon subsequent change of server IP addressing or DHCP or possibly hosts.  Basically if you get the "workstation not authorised" message, then you should run this command.
 
-### Man Page
+## Man Page
 
 You should see the man page appropriate for your system, but the Debian Lenny man page current states:
 

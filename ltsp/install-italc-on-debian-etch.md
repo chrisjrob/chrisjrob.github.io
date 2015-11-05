@@ -7,9 +7,7 @@ category: technology
 tags: [ltsp]
 ---
 
-## Install iTalc on Debian Etch
-
-### Introduction
+## Introduction
 
 **Stop!  I believe there are now instructions on the 'net for installing the client on the client instead of on the server**
 
@@ -21,31 +19,31 @@ The following is a description for installing from source; which largely the doc
 
    * <http://indianalinux.blogspot.com/2007/02/howto-install-italc-from-source-on.html>
 
-### Warnings
+## Warnings
 
 This is a description of how I personally installed iTalc on Debian Etch with KDE 3.55.
 
 The installation worked fine, except that iTalc kept bombing out every few seconds, making it completely useable.  It was quite obvious that this was down to Qt4, which Etch's version is too old for iTalc.  Unfortunately there was no backports, so I ended up installing Qt4 from Lenny; resulting in several additional packages needing to be installed.  This immediately resolved the stability issues.
 
-### Download source
+## Download source
 
 Navigate to the [italc download page](http://sourceforge.net/project/showfiles.php?group_id=132465) and copy the link to the latest tar.gz file.
 
     $ cd /usr/src
     $ sudo wget http://downloads.sourceforge.net/italc/italc-1.0.9-rc4.tar.bz2?modtime=1215423893&big_mirror=0
 
-### Extract
+## Extract
 
     $ sudo tar -xvvjf italc-1.0.9-rc4.tar.bz2
     $ cd italc*
 
-### Read installation notes
+## Read installation notes
 
 Yes, believe it or not you shouldn't follow howto's like this blindly, instead read the developer's installation instructions and make your own judgements!
 
     $ cat INSTALL | more
 
-### Install dependencies
+## Install dependencies
 
 At the time of writing the above install file stated the following dependencies, which you should now install:
 
@@ -61,7 +59,7 @@ And lastly, [this page](http://indianalinux.blogspot.com/2007/02/howto-install-i
 
     $ sudo apt-get install libxtst-dev
 
-### Compile and install
+## Compile and install
 
 As normal we need to ensure that we are in the source directory and then:
 
@@ -75,7 +73,7 @@ And, if that completes successfully, we can proceed to install:
 
     $ sudo make install
 
-### Client installation on the server
+## Client installation on the server
 
 The installation was done as part of the server install, so all we need to do is create the client keys:
 
@@ -103,7 +101,7 @@ This method has a problem in that all the clients are going to be coming from th
             ica -noshm
     fi
 
-### Autostart
+## Autostart
 
 We need the client to run automatically when users log in.  In KDE this means a .desktop file in /usr/share/autostart.  If you're unsure how to do this, then an example "italc.desktop" file is shown below:
 
@@ -138,7 +136,7 @@ You also need to exclude from session restoring for all users (if you use KDE se
 
 **Do the same for `/etc/skel/.kde/share/config/ksmserverrc` to effect new users when they are created.**
 
-### Alternative Method - client installation in chroot
+## Alternative Method - client installation in chroot
 
 In theory I would have liked to have the client installed in the chroot.  This should run quicker and provide full functionality of logon/logoff etc.  In practice I was unable to get this working, with very much the same results as I had with x11vnc, in that the software would run, but netstat would not show any ports opened.  A mystery.  After spending a couple of days on this, I decided to give up and instead run both client and server on the server.
 
@@ -154,7 +152,7 @@ And don't forget to update the image:
 
     $ sudo ltsp-update-image
 
-### References
+## References
 
    * http://italc.sourceforge.net/
       * http://italc.sourceforge.net/wiki/index.php?title=ITALC_in_a_ThinClient_environment

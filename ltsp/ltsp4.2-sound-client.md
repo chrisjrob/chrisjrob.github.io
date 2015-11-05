@@ -7,9 +7,7 @@ category: technology
 tags: [ltsp]
 ---
 
-## LTSP4.2 Client Sound
-
-### Step 1 - Switch on sound
+## Step 1 - Switch on sound
 
 Firstly, you need to switch sound on for the clients.
 
@@ -23,7 +21,7 @@ Firstly, you need to switch sound on for the clients.
     MIC_VOLUME              = 100 # Microphone volume
     CD_VOLUME               = 75  # CD Audio volume
 
-### Step 2 - Identify soundcard
+## Step 2 - Identify soundcard
 
 To determine what Soundcard is installed in your PC, add the line:
 
@@ -39,23 +37,23 @@ Look for a device stating "audio" and make a note of the salient details. For ex
 
 Intel 82801EB/ER AC97 IRQ5 IO Port d400 @ 256k and d800 @ 64k.
 
-### Step 3 - Check LTSP.org
+## Step 3 - Check LTSP.org
 
 Check the following website - you might strike lucky!
 
    * http://wiki.ltsp.org/twiki/bin/view/Ltsp/SoundCards
 
-### Step 4 - Determine appropriate driver
+## Step 4 - Determine appropriate driver
 
 To decide the appropriate driver to use, typing the following command on the server or functioning client, will give you a list of available drivers:
 
     $ find /opt/ltsp/i386/lib/modules/ | grep snd
 
-### Step 5 - Identify sound module with Knoppix
+## Step 5 - Identify sound module with Knoppix
 
 Boot the client with Knoppix and from a terminal window type "lsmod" to identify the sound module.
 
-### Step 6 - Trial and error
+## Step 6 - Trial and error
 
 At this point it's probably worth removing, or commenting out the sound options, so that the client boots without any sound modules loaded. Once booted key Ctrl+Alt+F2.
 
@@ -83,9 +81,9 @@ A common Soundblaster compatible card is:
     #
     SMODULE_01 = "sb io=0x220 irq=5 dma=1"
 
-### Other issues
+## Other issues
 
-#### Soundcard okay but no sound
+### Soundcard okay but no sound
 
 If you are confident that the soundcard is being identified correctly and there are no errors on boot-up, then perhaps the volume is muted. The only volume controls at our disposal are:
 
@@ -101,7 +99,7 @@ However from a client shell you can try the following:
     $ amixer sget Front             # To view each control
     $ amixer sset Front 75% unmute   # To set a control called Front to 75% volume
 
-### snd-hda-intel issues
+## snd-hda-intel issues
 
 Oh, so may issues. Try each of the following in `lts.conf`:
 
@@ -113,7 +111,7 @@ Oh, so may issues. Try each of the following in `lts.conf`:
     SMODULE_01              = "snd-hda-intel index=0 probe_mask=3 position_fix=3"
     SMODULE_01              = "snd-hda-intel position_fix=1 model=3stack"
 
-### Sound muted
+## Sound muted
 
 All working but sound muted. Save this script as "unmute" in `/opt/ltsp/i386/etc/rc.d`:
 
