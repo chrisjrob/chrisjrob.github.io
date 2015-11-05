@@ -7,6 +7,36 @@ tags: [synergy]
 weight: 10
 ---
 
+## 2015-11-05T13:07:13 - Client Died
+
+Stopped and Started Synergy on client using a spare keyboard and mouse and it started working again.
+
+Server logs:
+
+    [2015-11-05T13:07:02] INFO: switch from "allegro" to "asusi5" at 1919,494
+    [2015-11-05T13:07:02] INFO: leaving screen
+    [2015-11-05T13:07:03] INFO: switch from "asusi5" to "allegro" at 28,487
+    [2015-11-05T13:07:03] INFO: entering screen
+    [2015-11-05T13:07:03] INFO: switch from "allegro" to "asusi5" at 1919,411
+    [2015-11-05T13:07:03] INFO: leaving screen
+    [2015-11-05T13:07:13] NOTE: client "asusi5" is dead
+    [2015-11-05T13:07:13] INFO: jump from "asusi5" to "allegro" at 960,540
+    [2015-11-05T13:07:13] INFO: entering screen
+    [2015-11-05T13:07:13] DEBUG: active sides: 2
+
+Client logs:
+
+    [2015-11-05T13:06:28] INFO: entering screen
+    [2015-11-05T13:06:29] DEBUG: close clipboard 0
+    [2015-11-05T13:06:29] DEBUG: sending clipboard 0 seqnum=82
+    [2015-11-05T13:06:29] DEBUG: sent clipboard size=4
+    [2015-11-05T13:06:29] DEBUG: open clipboard 1
+    [2015-11-05T13:06:29] DEBUG: ICCCM fill clipboard 1
+    [2015-11-05T13:06:29] DEBUG:   available targets: STRING (31)
+    [2015-11-05T13:06:29] DEBUG: close clipboard 1
+    [2015-11-05T13:06:58] INFO: leaving screen
+    [2015-11-05T13:07:13] DEBUG: ssl connection closed
+
 ## 2015-11-05T12:04:17 - Client Died
 
 Stopped and Started Synergy on client using a spare keyboard and mouse and it started working again.
