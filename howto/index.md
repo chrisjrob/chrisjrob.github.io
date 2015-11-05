@@ -20,10 +20,10 @@ tags: []
     * [convert dvr-ms to mpeg](/howto/convert-dvr-ms-to-mpeg/)
     * [convert quicktime mov to avi](/howto/convert-quicktime-mov-to-avi/)
     * [convert xps to pdf](/howto/convert-xps-to-pdf/)
-    * copy directories and preserve permissions
-    * create nagios status map icons
-    * create thumbnails from movies
-    * debug debian sound
+    * [copy directories and preserve permissions](/howto/copy-directories-and-preserve-permissions/)
+    * [create nagios status map icons](/howto/create-nagios-statusmap-icons/)
+    * [create thumbnails from movies](/howto/create-thumbnails-from-movies/)
+    * [debug debian sound](/howto/debug-debian-sound/)
     * determine vendor-class-identifier
     * download debian with jigdo
     * fix kiosk-tool fish protocol stalls
