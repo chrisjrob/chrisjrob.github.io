@@ -7,6 +7,35 @@ tags: [synergy]
 weight: 10
 ---
 
+## 2015-11-05T12:04:17 - Client Died
+
+Stopped and Started Synergy on client using a spare keyboard and mouse and it started working again.
+
+Server logs:
+
+    [2015-11-05T12:04:07] INFO: switch from "allegro" to "asusi5" at 1919,819
+    [2015-11-05T12:04:07] INFO: leaving screen
+    [2015-11-05T12:04:07] DEBUG: open clipboard
+    [2015-11-05T12:04:07] DEBUG: close clipboard
+    [2015-11-05T12:04:07] DEBUG: ignored screen "allegro" update of clipboard 0 (unchanged)
+    [2015-11-05T12:04:17] NOTE: client "asusi5" is dead
+    [2015-11-05T12:04:17] INFO: jump from "asusi5" to "allegro" at 960,540
+    [2015-11-05T12:04:17] INFO: entering screen
+    [2015-11-05T12:04:17] DEBUG: active sides: 2
+
+Client logs:
+
+    [2015-11-05T12:01:49] INFO: entering screen
+    [2015-11-05T12:03:46] INFO: leaving screen
+    [2015-11-05T12:03:46] DEBUG: open clipboard 1
+    [2015-11-05T12:03:46] DEBUG: ICCCM fill clipboard 1
+    [2015-11-05T12:03:47] INFO: entering screen
+    [2015-11-05T12:03:47] DEBUG:   available targets: STRING (31)
+    [2015-11-05T12:03:48] DEBUG: close clipboard 1
+    [2015-11-05T12:03:59] INFO: leaving screen
+    [2015-11-05T12:04:03] INFO: entering screen
+    [2015-11-05T12:04:17] DEBUG: ssl connection closed
+
 ## 2015-11-05T11:20:31 - Client Died
 
 Synergy on server did not appear to be running, but starting it did not fix the problem. For some reason server logs had not been saving, possibly owing to the network path - changed to a local path.
