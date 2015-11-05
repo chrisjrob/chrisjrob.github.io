@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "How to Download Debian with Jigdo"
+title:  "Howto | Download Debian with Jigdo"
+menu: howto
+weight: 40
 date:   2009-03-21 00:00:00
 category: technology
 tags: [linux, debian, jigdo]
@@ -11,8 +13,6 @@ tags: [linux, debian, jigdo]
 Just to an "sudo apt-get jigdo-file" and read the following:
 
    * [Debian Jigdo]
-
-<!--more-->
 
 ## Where to get downloads
 

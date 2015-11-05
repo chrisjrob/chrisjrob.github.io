@@ -1,10 +1,13 @@
-## Fix kiosk-tool fish protocol stalls
+---
+layout: page
+title: Howto | Fix Kiosktool Fish Protocol Stalls
+menu: howto
+weight: 40
+category: technology
+tags: [linux, kde, kiosktool]
+---
 
-<<<---
-%TOC%
-<<<---
-
-### The Issue
+## The Issue
 
 When making changes to profiles under kiosktool, it stalls when uploading changes to the local machine using the fish protocol, see screenshots.
 
@@ -14,33 +17,27 @@ I understand it requires the fish protocol, even though it is editing the local 
 
 The fish protocol usually works fine in konqueror.
 
-Under our Kiosk configuration I have the base directory set as /etc/kde-profile and the option "On exit, upload profiles to a remote server" is unchecked.
+Under our Kiosk configuration I have the base directory set as `/etc/kde-profile` and the option "On exit, upload profiles to a remote server" is unchecked.
 
-### Screenshots
+## Screenshots
 
-{image_left|kiosk_1.gif}
+<img src="/assets/kiosk_1.gif">
+<img src="/assets/kiosk_2.gif">
+<img src="/assets/kiosk_3.gif">
 
-
-{image_left|kiosk_2.gif}
-
-
-{image_left|kiosk_3.gif}
-
-### Workaround
+## Workaround
 
 Keep cancelling the copy and then retry.
 
-<!> Never come out without successfully completing the copy, or you can end up with corruption in your personal desktop, or menus, or even end up unable to log in.  You have been warned.
+**Never come out without successfully completing the copy, or you can end up with corruption in your personal desktop, or menus, or even end up unable to log in.  You have been warned.**
 
-### The Solution
+## The Solution
 
 The solution seems to be to edit the menu entry for Kiosk-Tool and change it to:
 
-<pre>
-env KDE_FORK_SLAVES=true kiosktool
-</pre>
+    env KDE_FORK_SLAVES=true kiosktool
 
-### References
+## References
 
    * http://lists.kde.org/?t=111633283900002&r=1&w=2 (Similar problem under SUSE)
    * http://bugs.kde.org/show_bug.cgi?id=8137 (similar problem under FreeBSD)

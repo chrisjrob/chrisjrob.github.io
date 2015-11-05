@@ -7,8 +7,6 @@ category: technology
 tags: [linux, openoffice]
 ---
 
-## Add Global OpenOffice.org Extensions
-
     # unopkg add --shared sun-pdfimport.oxt
 
 For further information please visit:

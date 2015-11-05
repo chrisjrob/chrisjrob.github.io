@@ -7,6 +7,4 @@ category: technology
 tags: [convert, quicktime, mov, avi, ffmpeg]
 ---
 
-## Convert Quicktime MOV to AVI
-
     $ ffmpeg -i "source.mov" -sameq -vcodec msmpeg4v2 -acodec pcm_u8 "output.avi"

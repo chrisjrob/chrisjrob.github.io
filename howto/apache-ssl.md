@@ -7,10 +7,6 @@ category: technology
 tags: [linux, cli, apache, ssl]
 ---
 
-## Apache SSL
-
-### Simple
-
     # a2enmod ssl
     # cd /etc/apache2/
     # mkdir ssl

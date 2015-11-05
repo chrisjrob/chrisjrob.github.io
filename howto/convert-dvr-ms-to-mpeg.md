@@ -7,9 +7,7 @@ category: technology
 tags: [convert, cli, dvr-ms, mpeg]
 ---
 
-## Convert dvr-ms to mpeg
-
-### Simple bash script to convert all dvr-ms files in a directory
+## Simple bash script to convert all dvr-ms files in a directory
 
     #! /bin/bash
     for a in *.dvr-ms; do

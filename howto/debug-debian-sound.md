@@ -7,25 +7,23 @@ category: technology
 tags: [linux, debian, sound]
 ---
 
-## Debug Debian Sound
-
-### Warning
+## Warning
 
 Sound is one of those things in Linux which either works out-of-the-box, or drives you berserk. The following instructions did not solve my problems, but I leave them here for future reference.
 
-### References
+## References
 
 The gospel for sound according to Debian:
 
    * http://www.debianhelp.co.uk/sound.htm
 
-### Step 1: Make sure you have the sound system fully installed
+## Step 1: Make sure you have the sound system fully installed
 
     # apt-get install alsa-base alsa-oss alsa-source alsa-utils
     # apt-get install alsamixergui alsaplayer alsaplayer-common alsaplayer-gtk alsaplayer-jack
     # apt-get install alsaplayer-oss snd-gtk-alsa vlc-plugin-alsa alsaplayer-jack jack jackd
 
-### Step 2: Determine your sound card
+## Step 2: Determine your sound card
 
     # lspci -v | grep -A 6 Audio
     00:14.2 Audio device: ATI Technologies Inc SB600 Azalia
@@ -34,7 +32,7 @@ The gospel for sound according to Debian:
             Memory at fe020000 (64-bit, non-prefetchable) [size=16K]
             Capabilities: [50] Power Management version 2
 
-### Step 3: Run module-assistant
+## Step 3: Run module-assistant
 
     # apt-get install module-assistant
     # module-assistant
@@ -68,12 +66,12 @@ Then gunzip `/usr/share/doc/alsa-base/driver/ALSA-Configuration.txt.gz`. Open wi
 
 `options snd-hda-intel model=3stack` works for many motherboard integrated chips with shared surrounds. Sometimes it is also possible to use the more generic `options snd-hda-intel model=ref`, which the hda driver uses to load manufacturer specfic presets (SigmaTel, Realtek, etc.). The full list is available in ALSA-Configuration.txt in the driver tarball under alsa-kernel/Documentation/.
 
-### Restart sound system
+## Restart sound system
 
     # cd /etc/init.d
     # then ./alsasound restart
 
-### Play Test Sound
+## Play Test Sound
 
     # locate *.wav
     /usr/share/sounds/KDE_Beep_RingRing.wav
@@ -82,7 +80,7 @@ Then gunzip `/usr/share/doc/alsa-base/driver/ALSA-Configuration.txt.gz`. Open wi
     # aplay /usr/share/sounds/KDE_Beep_RingRing.wav
     Playing WAVE '/usr/share/sounds/KDE_Beep_RingRing.wav' : Unsigned 8 bit, Rate 22254 Hz, Mono
 
-### External references
+## External references
 
    * http://www.debianhelp.co.uk/sound.htm
    * http://ubuntuforums.org/showthread.php?t=205449

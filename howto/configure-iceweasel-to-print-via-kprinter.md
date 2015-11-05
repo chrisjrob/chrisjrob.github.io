@@ -7,9 +7,7 @@ category: technology
 tags: [linux, iceweasel, kprinter]
 ---
 
-## Configure Iceweasel to print via Kprinter
-
-### Introduction
+## Introduction
 
 Iceweasel and Firefox do not use the KDE Print system, but instead print directly to CUPs.  This works fine, but can be confusing, as it looks different and doesn't offer all the same functions, like PDF etc.
 
@@ -17,9 +15,9 @@ Trying to resolve this issue, I came across this posting:
 
    * [How To: Make Firefox / Thunderbird print to kprinter automatically in KDE / Kubuntu](http://ubuntuforums.org/showthread.php?t=205050) by msak007
 
-### Single User
+## Single User
 
-#### Step 1 Print to Postscript
+### Step 1 Print to Postscript
 
 First, if you haven't done so, you need to print to PostScript in order for the needed entry in `prefs.js` to be populated. This will be done automatically the first time you print. Open any web page and go to:
 
@@ -27,7 +25,7 @@ File &rarr; Print &rarr; choose PostScript/default (it should be the default if 
 
 Once you have done this and it prints, it'll add the PostScript entry you need to edit.
 
-#### Step 2 Change default postscript printer
+### Step 2 Change default postscript printer
 
 In the URL bar, open the config by typing:
 
@@ -49,7 +47,7 @@ to:
 
 Then click OK. This will make Iceweasek print to kprinter any time you select the "PostScript/default" printer.
 
-#### Step 3 Set it to print automatically
+### Step 3 Set it to print automatically
 
 Right-click anywhere in the white space, then click on "New &rarr; Boolean" to add a new Boolean entry. Type:
 
@@ -57,7 +55,7 @@ Right-click anywhere in the white space, then click on "New &rarr; Boolean" to a
 
 And set its value to "true". This will force Iceweasel to print to the default printer without prompting you.
 
-#### Step 4 Disable CUPs
+### Step 4 Disable CUPs
 
 If "PostScript/default" is the only printer you have and there are no local / network printers, it works great and you can stop here. But if you installed a printer through CUPS, it complicates things as Iceweasel will want to use that as a default and all your prints will go there without prompting you! So even if you don't have a local printer, it's a good idea to add the following line in case you add one later.
 
@@ -67,7 +65,7 @@ Once again, right-click and choose "New &rarr; Boolean". Type:
 
 And set its value to "false". That will disable CUPS printing in Iceweasel, and it will default to the "PostScript/default" printer. And since you've changed the output of that to kprinter, you'll see a "processing" dialog for a split second when you print, after which kprinter will open up. There you can choose all your printers, including PDF, PostScript, and any CUPS installed printers.
 
-### Multi-user
+## Multi-user
 
 There is a file that controls global settings, but it's not `prefs.js` - it's called (ironically) `firefox.js`, and is located in:
 

@@ -7,8 +7,6 @@ category: technology
 tags: [linux, kaddressbook, activedirectory]
 ---
 
-## Connect KAddressBook to ActiveDirectory
-
 In Kmail, under Contacts, in the lower half of the screen press button to [Add]. Select LDAP.
 
 | Name           | Value                                               |

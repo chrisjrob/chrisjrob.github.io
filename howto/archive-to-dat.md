@@ -7,23 +7,21 @@ category: technology
 tags: [linux, cli, archive, dat, tar]
 ---
 
-## Archive to DAT
-
-### Warning
+## Warning
 
 I am a rank amateur at both tar and mt.  This page constitutes no more than you could discover yourself by reading the manpages for tar and mt, or Googling.
 
 You have been warned!
 
-### Simple instructions
+## Simple instructions
 
-#### Rewind
+### Rewind
 
 **Use the rewind command before backup to ensure that you are overwriting previous backups.**
 
     # mt -f /dev/st0 rewind
 
-#### Backup
+### Backup
 
 E.g. directory `/www` and `/home` with tar command (z - compressed)
 
@@ -31,13 +29,13 @@ E.g. directory `/www` and `/home` with tar command (z - compressed)
 
 **Use -v to receive verbose feedback.**
 
-#### Backup with Verify
+### Backup with Verify
 
 If you do not compress your backup, then you can verify in the same process:
 
     # tar -cWf /dev/st0 /www /home
 
-#### Where
+### Where
 
 Find out what block you are at with mt command:
 
@@ -45,13 +43,13 @@ Find out what block you are at with mt command:
 
 This does not appear to work on my version of the software.  In theory the Status option has a line for `block number=`, but surprising after completing a backup it seems to still return 0.  If I ever work out why this is, I will update this entry.
 
-#### List
+### List
 
 Display list of files on tape drive:
 
     # tar -tzf /dev/st0
 
-#### Restore
+### Restore
 
 E.g. `/www` directory
 
@@ -65,9 +63,6 @@ E.g. `/home/test` directory
     # mt -f /dev/st0 rewind
     # tar --checkpoint -xvvzpkf /dev/st0 home/test
 
-Explanation
------------
-
     --checkpoint : provide occasional checkpoint messages
     -x : extract
     -v : verbosely
@@ -77,42 +72,41 @@ Explanation
     -k : leaving existing files alone
     -f /dev/st0 home/test
 
-
-#### Unload
+### Unload
 
 Unload the tape:
 
     # mt -f /dev/st0 offline
 
-#### Status
+### Status
 
 Display status information about the tape unit:
 
     # mt -f /dev/st0 status
 
-#### Erase
+### Erase
 
 Erasing the tape may take hours and there is not normally any need to do this; simply rewind the tape before performing backup, or use the mt command to position at the beginning of the tape.
 
     # mt -f /dev/st0 erase
 
-#### Moving about the tape
+### Moving about the tape
 
 You can go BACKWARD or FORWARD on tape with mt command itself
 
-##### Go to end of data
+#### Go to end of data
 
     # mt -f /dev/st0 eod
 
-##### Goto previous record
+#### Goto previous record
 
     # mt -f /dev/st0 bsfm 1
 
-##### Forward record
+#### Forward record
 
     # mt -f /dev/st0 fsf 1
 
-### Restore
+## Restore
 
 This code has not been checked or tested:
 
@@ -133,7 +127,7 @@ This code has not been checked or tested:
    * Extract your file(s): `tar -xvf /dev/st0 ~files~`
    * Rewind and eject tape: `mt -f /dev/st0 offline`
 
-### Hardware Compression
+## Hardware Compression
 
 It may be possible to switch off and on the hardware compression on the:
 
@@ -142,7 +136,7 @@ It may be possible to switch off and on the hardware compression on the:
 
 Other people report replacing the 0 with "off" and 1 with "on".
 
-### References
+## References
 
    * man tar
    * man mt

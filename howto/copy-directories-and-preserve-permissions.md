@@ -7,16 +7,14 @@ category: technology
 tags: [linux, cli]
 ---
 
-## Copy directories and preserve permissions
-
-### The Command
+## The Command
 
     $ cd /
     $ tar cf - opt | (cd /archive; tar xf - )
 
 **You cannot run this command as "sudo", if you need root access for your copy, then you will need to execute a "sudo su" or log in as root.**
 
-### What the command will do
+## What the command will do
 
 With any command that you are given by someone, you should always check what that command will do:
 

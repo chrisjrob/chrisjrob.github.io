@@ -7,9 +7,7 @@ category: technology
 tags: [apt-get, debian, lenny, linux]
 ---
 
-## apt-get
-
-### Remove CDROM installation
+## Remove CDROM installation
 
 Firstly comment out the CDROM installation from `/etc/apt/sources.list`.  This seems to be done automatically from Lenny.
 
@@ -17,11 +15,11 @@ Next change any references to "stable" are replaced with the name of the current
 
     $ apt-get update
 
-### Proxy Server
+## Proxy Server
 
 If it didn't work, then you may need to configure apt with your proxy server.
 
-#### Option 1 - Edit apt.conf
+### Option 1 - Edit apt.conf
 
 The usual method is to add the following line to `/etc/apt/apt.conf`:
 
@@ -31,7 +29,7 @@ The usual method is to add the following line to `/etc/apt/apt.conf`:
 
 Obviously it is not generally a good idea to have a username and password in plain text form in this way.
 
-#### Option 2 - Environment Variable
+### Option 2 - Environment Variable
 
 It is also possible to add the proxy server to the environment variables:
 
@@ -40,11 +38,11 @@ It is also possible to add the proxy server to the environment variables:
 
 Obviously this will be lost when you close the current console.  Again it is not a good idea to enter usernames and passwords as command line arguments, so you should clear your bash_history.
 
-#### Option 3 - Update Proxy Server
+### Option 3 - Update Proxy Server
 
 Ideally you need to change your proxy server to allow traffic without the need to specify a username and password.
 
-### Add Backports
+## Add Backports
 
 In many cases you will require newer packages than are afforded by stable alone, and for that purpose you need Debian Backports.  To add backports, visit:
 
@@ -52,7 +50,7 @@ In many cases you will require newer packages than are afforded by stable alone,
 
 And follow the instructions on that page to add the repository to your sources, and add the security keyring.
 
-### Pinning
+## Pinning
 
 If you have multiple sources in your sources.list, then in general the latest package will be selected by default.  You can change this behaviour by creating a file `/etc/apt/preferences`.  This is called "pinning".
 
@@ -82,7 +80,7 @@ For a fuller description of pinning see the following page:
 
    * http://wiki.debian.org/AptPinning
 
-### Saving and restoring package selections
+## Saving and restoring package selections
 
 To save your package selections:
 
