@@ -29,36 +29,37 @@ tags: []
     * [fix kiosktool fish protocol stalls](/howto/fix-kiosktool-fish-protocol-stalls/)
     * [install 2x client](/howto/install-2x-client/)
     * [install citrix presentation server client](/howto/install-citrix-presentation-server-client/)
-    * install courier-imap server
-    * install drupal6 from debian repositories
-    * install flashplayer
-    * install freenx
-        * fix nxclient arrow keys
-    * install ies4linux on ltsp
-    * install imagemagick
-    * install ipcop firewall
-        * huawei e220 3g usb modem
-    * install keepassx on debian etch
-    * install kiosktool
-    * install microsoft fonts
-    * install ntp time server or client
-    * install ruby on rails3 on debian lenny
-    * install samba to access windows shares
-    * install scanning in wine
-    * install smr2000 under wine
-    * install webdav on ispconfig
-    * install wine on ltsp
-    * make a linux usb key
-    * open multipage tiffs in kde
-    * openvz notes
-    * protect against rootkits
-    * reconfigure display settings
-    * recover data from a hard disk
-    * send files by email
-    * spellcheck in irssi
-    * submit a uk self-assessment return under linux
-    * synchronise files with unison
-    * transfer emails from windows to linux
-        * microsoft outlook
-    * uninstall applications installed from source
-    * unmount a share which fails
+    * [install courier-imap server](/howto/install-courier-imap-server/)
+    * [install flashplayer](/howto/install-flashplayer/)
+    * [install freenx](/howto/install-freenx/)
+        * [fix nxclient arrow keys](/howto/fix-nxclient-arrow-keys/)
+    * [install ies4linux on ltsp](/howto/install-ies4linux-on-ltsp/)
+    * [install imagemagick](/howto/install-imagemagick/)
+    * [install ipcop firewall](/howto/install-ipcop-firewall/)
+        * [huawei e220 3g usb modem](/howto/install-huawei-e220-3g-usb-modem/)
+    * [install keepassx on debian etch](/howto/install-keepassx-on-debian-etch/)
+    * [install kiosktool](/howto/install-kiosktool/)
+    * [install microsoft fonts](/howto/install-microsoft-fonts/)
+    * [install ntp time server or client](/howto/install-ntp-time-server-or-client/)
+
+
+    * [install ruby on rails3 on debian lenny](/howto/install-ruby-on-debian-lenny/)
+    * [install samba to access windows shares](/howto/install-samba-to-access-windows-shares/)
+    * [install scanning in wine](/howto/install-scanning-in-wine/)
+    * [install smr2000 under wine](/howto/install-smr2000-under-wine/)
+    * [install webdav on ispconfig](/howto/install-webdav-on-ispconfig/)
+    * [install wine on ltsp](/howto/install-wine-on-ltsp/)
+    * [make a linux usb key](/howto/make-a-linux-usb-key/)
+    * [open multipage tiffs in kde](/howto/open-multipage-tiffs-in-kde/)
+    * [openvz notes](/howto/openvz-notes/)
+    * [protect against rootkits](/howto/protect-against-rootkits/)
+    * [reconfigure display settings](/howto/reconfigure-display-settings/)
+    * [recover data from a hard disk](/howto/recover-data-from-a-hard-disk/)
+    * [send files by email](/howto/send-files-by-email/)
+    * [spellcheck in irssi](/howto/spellcheck-in-irssi/)
+    * [submit a uk self-assessment return under linux](/howto/submit-a-uk-self-assessment-return-under-linux/)
+    * [synchronise files with unison](/howto/synchronise-files-with-unison/)
+    * [transfer emails from windows to linux](/howto/transfer-emails-from-windows-to-linux/)
+        * [microsoft outlook](/howto/transfer-emails-from-outlook/)
+    * [uninstall applications installed from source](/howto/uninstall-applications-installed-from-source/)
+    * [unmount a share which fails](/howto/unmount-a-share-which-fails/)
