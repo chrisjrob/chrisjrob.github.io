@@ -27,8 +27,8 @@ tags: []
     * [determine vendor-class-identifier](/howto/determine-vendor-class-identifier/)
     * [download debian with jigdo](/howto/download-debian-with-jigdo/)
     * [fix kiosktool fish protocol stalls](/howto/fix-kiosktool-fish-protocol-stalls/)
-    * install 2x client
-    * install citrix presentation server client
+    * [install 2x client](/howto/install-2x-client/)
+    * [install citrix presentation server client](/howto/install-citrix-presentation-server-client/)
     * install courier-imap server
     * install drupal6 from debian repositories
     * install flashplayer
