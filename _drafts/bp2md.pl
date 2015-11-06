@@ -40,6 +40,9 @@ sub convert_file {
     # Remove exclamations and questions
     $outtext =~ s/^\<[!?]\>\s?(.*?)$/**$1**/gms;
 
+    # Convert hyperlinks
+    $outtext =~ s/{(.+?)\|(.+?)}/[$1]($2)/gms;
+
     # Grab title
     $outtext =~ s/^\#+\s*(.*?)\n+//ms;
     my $title = $1;
