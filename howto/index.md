@@ -41,12 +41,10 @@ tags: []
     * [install kiosktool](/howto/install-kiosktool/)
     * [install microsoft fonts](/howto/install-microsoft-fonts/)
     * [install ntp time server or client](/howto/install-ntp-time-server-or-client/)
-
-
-    * [install ruby on rails3 on debian lenny](/howto/install-ruby-on-debian-lenny/)
+    * [install ruby on rails3 on debian lenny](/howto/install-ruby-on-rails3-on-debian-lenny/)
     * [install samba to access windows shares](/howto/install-samba-to-access-windows-shares/)
     * [install scanning in wine](/howto/install-scanning-in-wine/)
-    * [install smr2000 under wine](/howto/install-smr2000-under-wine/)
+    * [install smr2000 on wine](/howto/install-smr2000-wine/)
     * [install webdav on ispconfig](/howto/install-webdav-on-ispconfig/)
     * [install wine on ltsp](/howto/install-wine-on-ltsp/)
     * [make a linux usb key](/howto/make-a-linux-usb-key/)
