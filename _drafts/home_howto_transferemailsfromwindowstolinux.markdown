@@ -1,11 +1,14 @@
-## Transfer Emails from Windows to Linux
+---
+layout: page
+title: Howto | Transfer Emails from Windows to Linux
+menu: howto
+weight: 40
+category: technology
+tags: [linux]
+---
 
-<<<---
-%TOC%
 %MENU%
-<<<---
-
-### Introduction
+## Introduction
 
 These instructions explain how to transfer emails from a Windows email client to Linux Kmail.  This document has a number of provisos:
 
@@ -18,11 +21,11 @@ These instructions explain how to transfer emails from a Windows email client to
    # If your Windows email client does not support IMAP, then you will need to upgrade it to a more recent version that does before proceeding.
    # If your Windows email client does support IMAP, then let's continue...
 
-### Install Courier-IMAP on server
+## Install Courier-IMAP on server
 
 See Install Courier-IMAP Server.
 
-### Create LTSP User
+## Create LTSP User
 
 In KUserManager create the user, and add to the following groups:
 
@@ -32,31 +35,27 @@ In KUserManager create the user, and add to the following groups:
    * Fuse (only if you want them to be able to access USB devices)
    * Saned (only if you want them to be able to use scanning)
 
-<?> Take a note of UID and GID before exiting KUserManager
+**Take a note of UID and GID before exiting KUserManager**
 
-### Create IMAP Account
+## Create IMAP Account
 
-<!> You need to have installed an IMAP server first - see page Install Courier-IMAP Server
+**You need to have installed an IMAP server first - see page Install Courier-IMAP Server**
 
-<pre>
-$ sudo userdb USERNAME set uid=9999 gid=9999 shell=/bin/bash home=/opt/imap-mail/USERNAME
-</pre>
+    $ sudo userdb USERNAME set uid=9999 gid=9999 shell=/bin/bash home=/opt/imap-mail/USERNAME
 *Replace USERNAME and 9999 for actual username, uid and gid
 
-<pre>
-$ sudo userdbpw -md5 | sudo userdb USERNAME set systempw
-$ sudo mkdir -p /opt/imap-mail/USERNAME
-$ sudo maildirmake /opt/imap-mail/USERNAME/Maildir
-$ sudo chown -R 9999:9999 /opt/imap-mail/USERNAME
-$ sudo makeuserdb
-$ sudo /etc/init.d/courier-authdaemon stop
-$ sudo /etc/init.d/courier-imap stop
-$ sudo /etc/init.d/courier-authdaemon start
-$ sudo /etc/init.d/courier-imap start
-</pre>
+    $ sudo userdbpw -md5 | sudo userdb USERNAME set systempw
+    $ sudo mkdir -p /opt/imap-mail/USERNAME
+    $ sudo maildirmake /opt/imap-mail/USERNAME/Maildir
+    $ sudo chown -R 9999:9999 /opt/imap-mail/USERNAME
+    $ sudo makeuserdb
+    $ sudo /etc/init.d/courier-authdaemon stop
+    $ sudo /etc/init.d/courier-imap stop
+    $ sudo /etc/init.d/courier-authdaemon start
+    $ sudo /etc/init.d/courier-imap start
 *Replace USERNAME and 9999 for actual username, uid and gid
 
-### Key steps
+## Key steps
 
 The rest of the process is simple enough, that hopefully I do not need to go through it in detail.  Briefly:
 
@@ -67,5 +66,5 @@ The rest of the process is simple enough, that hopefully I do not need to go thr
    * Transfer each mail folder into IMAP Inbox then transfer each IMAP folder into Kmail folder
    * Repeat last step for each folder
 
-<?> Change each client to work off-line between transfers - you don't really want both clients connected to the same IMAP mailbox at the same time
+**Change each client to work off-line between transfers - you don't really want both clients connected to the same IMAP mailbox at the same time**
 

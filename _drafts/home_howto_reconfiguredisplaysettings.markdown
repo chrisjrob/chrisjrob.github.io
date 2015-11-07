@@ -1,15 +1,16 @@
-## Reconfigure Display Settings
+---
+layout: page
+title: Howto | Reconfigure Display Settings
+menu: howto
+weight: 40
+category: technology
+tags: [linux]
+---
 
-<<<---
-%TOC%
-<<<---
-
-### Configuring your display
+## Configuring your display
 
 If the display resolution is VGA, the run:
 
-<pre>
-$ dpkg-reconfigure xserver-xorg
-</pre>
+    $ dpkg-reconfigure xserver-xorg
 
-<?> When configuring XORG, do ensure that the maximum resolution is as you want it, as this will be the default resolution for every boot.
+**When configuring XORG, do ensure that the maximum resolution is as you want it, as this will be the default resolution for every boot.**

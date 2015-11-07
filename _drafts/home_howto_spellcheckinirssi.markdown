@@ -1,49 +1,46 @@
-## Spellcheck in irssi
+---
+layout: page
+title: Howto | Spellcheck in irssi
+menu: howto
+weight: 40
+category: technology
+tags: [linux]
+---
 
-<<<---
-%TOC%
-<<<---
-
-### Introduction
+## Introduction
 
 This page explains how to set up spelling in Irssi on Debian Lenny.  It assumes that you have already installed irssi.
 
-### Install packages
+## Install packages
 
-<pre>
 # apt-get install aspell-en libaspell-dev aspell libtext-aspell-perl
-</pre>
 
 Don’t forget to change the localisation to match your own locale.
 
-### Create user's scripts folder
+## Create user's scripts folder
 
-<pre>
-$ mkdir -p ~/.irssi/scripts/autorun
-</pre>
+    $ mkdir -p */.irssi/scripts/autorun
 
-### Download the irssi script
+## Download the irssi script
 
-<pre>
-$ cd ~/.irssi/scripts
-$ wget http://www.mimir.ch/mimir/irssi/files/aspell_complete.pl
-$ cd autorun
-$ ln -s ../aspell_complete.pl
-</pre>
+    $ cd */.irssi/scripts
+    $ wget http://www.mimir.ch/mimir/irssi/files/aspell_complete.pl
+    $ cd autorun
+    $ ln -s ../aspell_complete.pl
 
-### Restart irssi
+## Restart irssi
 
 Quit irssi and restart it, you should see aspell loading and your locale mentioned.
 
-### Testing
+## Testing
 
 How the spelling functionality works is that you enter a word and then, before pressing spacebar, you hit the [TAB] key, whereon the preceding word will be spellchecked.
 
-### Troubleshooting
+## Troubleshooting
 
 If you have not installed the correct aspell localisation, then you may find that irssi segfaults.
 
-### References
+## References
 
    * http://www.mimir.ch/mimir/irssi/
    * http://www.eckrall.co.uk/?page_id=55

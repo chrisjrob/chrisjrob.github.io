@@ -1,20 +1,23 @@
-## Recover Data from a Hard Disk
+---
+layout: page
+title: Howto | Recover Data from a Hard Disk
+menu: howto
+weight: 40
+category: technology
+tags: [linux]
+---
 
-<<<---
-%TOC%
-<<<---
+## Warning
 
-### Warning
+**This is how I recovered data from an NTFS partitioned hard disk, I am not a recovery expert, and it would irresponsible of me to recommend that you follow these instructions.  I include some References at the end of this page; which may be of more use.**
 
-<!> This is how I recovered data from an NTFS partitioned hard disk, I am not a recovery expert, and it would irresponsible of me to recommend that you follow these instructions.  I include some References at the end of this page; which may be of more use.
-
-### Boot in Ubuntu Live CD
+## Boot in Ubuntu Live CD
 
    * Boot onto a live CD
    * Configure networking
    * Uncomment repositories in /etc/apt/sources.list
 
-### Mount destination drive
+## Mount destination drive
 
 You need access to a hard drive that is able to support large files.  I started with fat32 and came a cropper when it hit 4gb.  I replaced that with an NFS share on my desktop PC and it worked beautifully.  Mount it ready for action.
 
@@ -22,77 +25,55 @@ I will assume that the destination drive has been mounted at /mnt/destination
 
 Ensure that the source (broken) drive is not mounted (it shouldn't be unless you mounted it).
 
-### Determine source drive id
+## Determine source drive id
 
 You need to find out the id of the source drive.  This will be listed under /dev and if it's your primary drive will probably be /dev/sda or /dev/hda.  If you're not confident, do not proceed.
 
-### Install GNU ddrescue
+## Install GNU ddrescue
 
 Note for historical (and hysterical) reasons, the package is named gddrescue in Debian and Ubuntu.
 
-%RAW%
-<pre>
-$ sudo aptitude install gddrescue
-$ man ddrescue
-</pre>
-%RAW%
+    $ sudo aptitude install gddrescue
+    $ man ddrescue
 
-### Run GNU ddrescue
+## Run GNU ddrescue
 
 Replace "/dev/sda" for actual source drive, and "/mnt/destination" for action destination drive.
 
-%RAW%
-<pre>
-$ sudo ddrescue -n /dev/sda /mnt/destination/recovered.img /mnt/destination/recovered.log
-</pre>
-%RAW%
+    $ sudo ddrescue -n /dev/sda /mnt/destination/recovered.img /mnt/destination/recovered.log
 
 The "-n" should run faster as it will skip over the errors (although it seemed just as slow to me).
 
 Data recovered is not a fast process, and it will probably take a few days.  The great thing about ddrescue is that you can abort at any time and recommence from where you left off.  You can also skip forward by adding the switch "-i" followed by the number bytes into the disk, e.g. to start from 10gb:
 
-%RAW%
-<pre>
-$ sudo ddrescue -n -i 10000000000 /dev/sda /mnt/destination/recovered.img /mnt/destination/recovered.log
-</pre>
-%RAW%
+    $ sudo ddrescue -n -i 10000000000 /dev/sda /mnt/destination/recovered.img /mnt/destination/recovered.log
 
 My tip is to keep aborting (Ctrl+C) and skip forward until you pass the area of the disk which is causing problems.  Then, once the bulk of the drive has been recovered you can go back to the sections you skipped, or just move onto the second pass (see next section).
 
 ddrescue will not replace data already recovered, so you can do this safely.
 
-### Run GNU ddrescue again
+## Run GNU ddrescue again
 
 This time replacing the -n with "-r 1" or perhaps "-r 3" to try more than once to recover the data.
 
-%RAW%
-<pre>
-$ sudo ddrescue -r 1 /dev/sda /mnt/destination/recovered.img /mnt/destination/recovered.log
-</pre>
-%RAW%
+    $ sudo ddrescue -r 1 /dev/sda /mnt/destination/recovered.img /mnt/destination/recovered.log
 
-### Copy the destination image
+## Copy the destination image
 
 You don't want to mess up your hard earned image - so copy it and work on the copy.
 
-### Install sleuthkit
+## Install sleuthkit
 
 On the destination PC, install sleuthkit:
 
-%RAW%
-<pre>
-$ sudo aptitude install sleuthkit
-$ man mmls
-</pre>
-%RAW%
+    $ sudo aptitude install sleuthkit
+    $ man mmls
 
-### Run mmls
+## Run mmls
 
 Simply 
 
-%RAW%
-<pre>
-$ sudo mmls copy.img
+    $ sudo mmls copy.img
 
 DOS Partition Table
 Offset Sector: 0
@@ -103,48 +84,33 @@ Units are in 512-byte sectors
 01:  -----   0000000001   0000000062   0000000062   Unallocated
 02:  00:00   0000000063   0117195119   0117195057   NTFS (0x07)
 03:  -----   0117195120   0117210239   0000015120   Unallocated
-</pre>
-%RAW%
 
-### Calculate Offset
+## Calculate Offset
 
 This shows several partitions. In this example, we want to mount the NTFS partition starting at block 63. To calculate the number of bytes, multiply by 512:
 
 63 x 512 = 32256
 
-### Mount partition
+## Mount partition
 
 For a DOS partition:
 
-%RAW%
-<pre>
-$ sudo mount -o loop,offset=16384 copy.img mountpoint
-</pre>
-%RAW%
+    $ sudo mount -o loop,offset=16384 copy.img mountpoint
 
 For an NTFS partition:
 
-%RAW%
-<pre>
-$ sudo aptitude install ntfs-3g
-$ sudo mount -t ntfs-3g -o ro,force,loop,offset=32256 copy.img mountpoint
-</pre>
-%RAW%
+    $ sudo aptitude install ntfs-3g
+    $ sudo mount -t ntfs-3g -o ro,force,loop,offset=32256 copy.img mountpoint
 * I appreciate that ntfs-3g provides write access, which we do not need, but "-t ntfs" sinmply would not mount the image.
 
 If it won't mount, then the NTFS partition is probably corrupted (not surprisingly).  Try installing testdisk and then running:
 
-%RAW%
-<pre>
-$ testdisk copy.img
-</pre>
-%RAW%
+    $ testdisk copy.img
 
-### Extracting files from the disk image
+## Extracting files from the disk image
 
 >>>
-##### Foremost directory contents
-<pre>
+#### Foremost directory contents
 drwxr-xr-x 30 root root   4096 2009-01-08 18:04 .
 drwxrwxrwx  5 root root   4096 2009-01-08 18:03 ..
 -rw-r--r--  1 root root 888832 2009-01-08 18:15 audit.txt
@@ -176,22 +142,15 @@ drwxr-xr--  2 root root  12288 2009-01-08 18:15 wav
 drwxr-xr--  2 root root   4096 2009-01-08 18:15 wmv
 drwxr-xr--  2 root root   4096 2009-01-08 18:13 xls
 drwxr-xr--  2 root root   4096 2009-01-08 18:14 zip
-</pre>
 >>>
 
 If it still won't mount, then the general advice seems to be to copy the image to clean hardware and use a Windows recovery disk to boot.  Failing that, all is not lost, there are a number of tools that will search disk images for files.  I played with photorec, but whilst it recovered loads of cached images from IE, it failed to recover more than a handful of proper photos.  Foremost on the other hand seemed to be more successful.
 
-%RAW%
-<pre>
-$ foremost -i copy.img -o output-folder
-</pre>
-%RAW%
+    $ foremost -i copy.img -o output-folder
 
 With luck this will give you a folder that looks like the one to the right.
 
-### References
+## References
 
-%RAW%
 <script type="text/javascript" src="http://feeds.delicious.com/v2/js/chrisjrob/rescue?title=Saved%20Links:&icon=m&count=5&bullet=%E2%80%A2&sort=date&tags&extended"></script>
-%RAW%
 
