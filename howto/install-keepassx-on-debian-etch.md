@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: Howto | Install KeePassX on Debian Etch
 menu: howto
+date: 2009-03-21 06:03:30
 weight: 40
 category: technology
-tags: [linux, keepassx]
+tags: [linux, keepassx, debian]
 ---
 
 ## Introduction
@@ -49,7 +50,7 @@ You may need to add the lenny source repositories to `/etc/apt/sources.list`:
     Project MESSAGE: *** Start make now.
     $ make
 
-**If you downloaded the source from [KeePassX](http://www.keepassx.org/) itself, then you will probably need to cd into the src directory, delete the Makefile that was created and run qmake-qt4 again from there (ie: `qmake-qt4; cd src; rm Makefile ; qmake-qt4 ; cd ..`).**
+**If you downloaded the source from [KeePassX](http://www.keepassx.org/) itself, then you will probably need to cd into the src directory, delete the Makefile that was created and run qmake-qt4 again from there (ie: qmake-qt4; cd src; rm Makefile ; qmake-qt4 ; cd ..**
 
 ### Errors
 
@@ -58,7 +59,7 @@ If the above still gives an error about libXtst (and mind didn't), you can eithe
     $ sudo ln -s /usr/lib/libXtst.so.6 /usr/lib/libXtst.so
     $ make
 
-**This section has not been tested by the author.**
+**This section has not been tested by the author**
 
 ### Install
 

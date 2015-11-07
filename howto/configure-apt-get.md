@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Configure apt-get
 menu: howto
+date: 2009-03-21 05:55:33
 weight: 40
 category: technology
 tags: [apt-get, debian, lenny, linux]

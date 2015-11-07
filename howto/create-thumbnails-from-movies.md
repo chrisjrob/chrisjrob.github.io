@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Create Thumbnails from Movies
 menu: howto
+date: 2009-03-15 20:08:39
 weight: 40
 category: technology
 tags: [linux, cli, ffmpeg]

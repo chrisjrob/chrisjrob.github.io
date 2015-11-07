@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install WebDAV on ISPConfig
 menu: howto
+date: 2009-03-21 06:16:34
 weight: 40
 category: technology
 tags: [linux, ispconfig, webdav]

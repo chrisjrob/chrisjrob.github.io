@@ -3,7 +3,7 @@ layout: post
 title:  "Howto | Download Debian with Jigdo"
 menu: howto
 weight: 40
-date:   2009-03-21 00:00:00
+date: 2009-03-21 05:59:30
 category: technology
 tags: [linux, debian, jigdo]
 ---

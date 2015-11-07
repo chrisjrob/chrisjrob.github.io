@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install Samba to Access Windows Shares
 menu: howto
+date: 2009-03-21 06:15:07
 weight: 40
 category: technology
 tags: [linux, samba, ldap]

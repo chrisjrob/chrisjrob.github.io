@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Fix Kiosktool Fish Protocol Stalls
 menu: howto
+date: 2010-09-29 10:05:41
 weight: 40
 category: technology
 tags: [linux, kde, kiosktool]

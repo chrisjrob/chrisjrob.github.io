@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: Howto | Spellcheck in irssi
 menu: howto
+date: 2014-07-09 11:34:11
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, irc, irssi]
 ---
 
 ## Introduction
@@ -13,9 +14,9 @@ This page explains how to set up spelling in Irssi on Debian Lenny.  It assumes 
 
 ## Install packages
 
-# apt-get install aspell-en libaspell-dev aspell libtext-aspell-perl
+    # apt-get install aspell-en libaspell-dev aspell libtext-aspell-perl
 
-Don’t forget to change the localisation to match your own locale.
+Don't forget to change the localisation to match your own locale.
 
 ## Create user's scripts folder
 

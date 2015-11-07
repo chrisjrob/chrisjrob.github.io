@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Determine vendor-class-identifier
 menu: howto
+date: 2009-04-14 07:49:13 
 weight: 40
 category: technology
 tags: [linux, dhcp]

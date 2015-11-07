@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Convert Quicktime MOV to AVI
 menu: howto
+date: 2009-03-21 05:57:44
 weight: 40
 category: technology
 tags: [convert, quicktime, mov, avi, ffmpeg]

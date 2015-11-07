@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Add Global OpenOffice.org Extensions
 menu: howto
+date: 2009-11-21 11:33:43
 weight: 40
 category: technology
 tags: [linux, openoffice]

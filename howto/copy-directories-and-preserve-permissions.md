@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Copy Directories & Preserve Permissions
 menu: howto
+date: 2009-03-21 05:58:15
 weight: 40
 category: technology
 tags: [linux, cli]

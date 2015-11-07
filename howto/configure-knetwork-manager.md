@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Configure KNetwork Manager
 menu: howto
+date: 2009-03-21 05:57:01
 weight: 40
 category: technology
 tags: [linux, knetwork-manager]

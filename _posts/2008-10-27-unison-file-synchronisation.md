@@ -41,7 +41,7 @@ Unison will now follow the symbolic links (not .desktop files - only actual symb
 
 Update: I have written these instructions into a simple howto:
 
-   * [Synchronise files with Unison]({% post_url 2009-03-21-how-to-synchronise-files-with-unison %})
+   * [Howto | Synchronise files with Unison](/howto/synchronise-files-with-unison/)
 
 
 [Unison]: http://www.cis.upenn.edu/~bcpierce/unison/

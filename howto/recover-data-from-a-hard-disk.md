@@ -1,33 +1,34 @@
 ---
-layout: page
+layout: post
 title: Howto | Recover Data from a Hard Disk
 menu: howto
+date: 2009-03-21 06:21:01
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, dd, recovery, disk]
 ---
 
 ## Warning
 
-**This is how I recovered data from an NTFS partitioned hard disk, I am not a recovery expert, and it would irresponsible of me to recommend that you follow these instructions.  I include some References at the end of this page; which may be of more use.**
+**This is how I recovered data from an NTFS partitioned hard disk, I am not a recovery expert, and it would irresponsible of me to recommend that you follow these instructions.**
 
 ## Boot in Ubuntu Live CD
 
    * Boot onto a live CD
    * Configure networking
-   * Uncomment repositories in /etc/apt/sources.list
+   * Uncomment repositories in `/etc/apt/sources.list`
 
 ## Mount destination drive
 
 You need access to a hard drive that is able to support large files.  I started with fat32 and came a cropper when it hit 4gb.  I replaced that with an NFS share on my desktop PC and it worked beautifully.  Mount it ready for action.
 
-I will assume that the destination drive has been mounted at /mnt/destination
+I will assume that the destination drive has been mounted at `/mnt/destination`
 
 Ensure that the source (broken) drive is not mounted (it shouldn't be unless you mounted it).
 
 ## Determine source drive id
 
-You need to find out the id of the source drive.  This will be listed under /dev and if it's your primary drive will probably be /dev/sda or /dev/hda.  If you're not confident, do not proceed.
+You need to find out the id of the source drive.  This will be listed under `/dev` and if it's your primary drive will probably be `/dev/sda` or `/dev/hda`.  If you're not confident, do not proceed.
 
 ## Install GNU ddrescue
 
@@ -38,7 +39,7 @@ Note for historical (and hysterical) reasons, the package is named gddrescue in 
 
 ## Run GNU ddrescue
 
-Replace "/dev/sda" for actual source drive, and "/mnt/destination" for action destination drive.
+Replace `/dev/sda` for actual source drive, and `/mnt/destination` for action destination drive.
 
     $ sudo ddrescue -n /dev/sda /mnt/destination/recovered.img /mnt/destination/recovered.log
 
@@ -75,21 +76,21 @@ Simply
 
     $ sudo mmls copy.img
 
-DOS Partition Table
-Offset Sector: 0
-Units are in 512-byte sectors
+    DOS Partition Table
+    Offset Sector: 0
+    Units are in 512-byte sectors
 
-     Slot    Start        End          Length       Description
-00:  -----   0000000000   0000000000   0000000001   Primary Table (#0)
-01:  -----   0000000001   0000000062   0000000062   Unallocated
-02:  00:00   0000000063   0117195119   0117195057   NTFS (0x07)
-03:  -----   0117195120   0117210239   0000015120   Unallocated
+        Slot    Start        End          Length       Description
+    00:  -----   0000000000   0000000000   0000000001   Primary Table (#0)
+    01:  -----   0000000001   0000000062   0000000062   Unallocated
+    02:  00:00   0000000063   0117195119   0117195057   NTFS (0x07)
+    03:  -----   0117195120   0117210239   0000015120   Unallocated
 
 ## Calculate Offset
 
 This shows several partitions. In this example, we want to mount the NTFS partition starting at block 63. To calculate the number of bytes, multiply by 512:
 
-63 x 512 = 32256
+    63 x 512 = 32256
 
 ## Mount partition
 
@@ -101,7 +102,8 @@ For an NTFS partition:
 
     $ sudo aptitude install ntfs-3g
     $ sudo mount -t ntfs-3g -o ro,force,loop,offset=32256 copy.img mountpoint
-* I appreciate that ntfs-3g provides write access, which we do not need, but "-t ntfs" sinmply would not mount the image.
+
+I appreciate that ntfs-3g provides write access, which we do not need, but "-t ntfs" sinmply would not mount the image.
 
 If it won't mount, then the NTFS partition is probably corrupted (not surprisingly).  Try installing testdisk and then running:
 
@@ -109,48 +111,42 @@ If it won't mount, then the NTFS partition is probably corrupted (not surprising
 
 ## Extracting files from the disk image
 
->>>
-#### Foremost directory contents
-drwxr-xr-x 30 root root   4096 2009-01-08 18:04 .
-drwxrwxrwx  5 root root   4096 2009-01-08 18:03 ..
--rw-r--r--  1 root root 888832 2009-01-08 18:15 audit.txt
-drwxr-xr--  2 root root  12288 2009-01-08 18:15 avi
-drwxr-xr--  2 root root  12288 2009-01-08 18:15 bmp
-drwxr-xr--  2 root root  69632 2009-01-08 18:15 dll
-drwxr-xr--  2 root root   4096 2009-01-08 18:10 doc
-drwxr-xr--  2 root root  20480 2009-01-08 18:15 exe
-drwxr-xr--  2 root root 139264 2009-01-08 18:15 gif
-drwxr-xr--  2 root root  20480 2009-01-08 18:15 htm
-drwxr-xr--  2 root root   4096 2009-01-08 18:13 jar
-drwxr-xr--  2 root root 135168 2009-01-08 18:15 jpg
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 mbd
-drwxr-xr--  2 root root   4096 2009-01-08 18:15 mov
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 mpg
-drwxr-xr--  2 root root   4096 2009-01-08 18:14 ole
-drwxr-xr--  2 root root   4096 2009-01-08 18:14 pdf
-drwxr-xr--  2 root root  57344 2009-01-08 18:15 png
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 ppt
-drwxr-xr--  2 root root   4096 2009-01-08 18:14 rar
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 rif
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 sdw
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 sx
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 sxc
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 sxi
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 sxw
-drwxr-xr--  2 root root   4096 2009-01-08 18:04 vis
-drwxr-xr--  2 root root  12288 2009-01-08 18:15 wav
-drwxr-xr--  2 root root   4096 2009-01-08 18:15 wmv
-drwxr-xr--  2 root root   4096 2009-01-08 18:13 xls
-drwxr-xr--  2 root root   4096 2009-01-08 18:14 zip
->>>
+    #### Foremost directory contents
+    drwxr-xr-x 30 root root   4096 2009-01-08 18:04 .
+    drwxrwxrwx  5 root root   4096 2009-01-08 18:03 ..
+    -rw-r--r--  1 root root 888832 2009-01-08 18:15 audit.txt
+    drwxr-xr--  2 root root  12288 2009-01-08 18:15 avi
+    drwxr-xr--  2 root root  12288 2009-01-08 18:15 bmp
+    drwxr-xr--  2 root root  69632 2009-01-08 18:15 dll
+    drwxr-xr--  2 root root   4096 2009-01-08 18:10 doc
+    drwxr-xr--  2 root root  20480 2009-01-08 18:15 exe
+    drwxr-xr--  2 root root 139264 2009-01-08 18:15 gif
+    drwxr-xr--  2 root root  20480 2009-01-08 18:15 htm
+    drwxr-xr--  2 root root   4096 2009-01-08 18:13 jar
+    drwxr-xr--  2 root root 135168 2009-01-08 18:15 jpg
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 mbd
+    drwxr-xr--  2 root root   4096 2009-01-08 18:15 mov
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 mpg
+    drwxr-xr--  2 root root   4096 2009-01-08 18:14 ole
+    drwxr-xr--  2 root root   4096 2009-01-08 18:14 pdf
+    drwxr-xr--  2 root root  57344 2009-01-08 18:15 png
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 ppt
+    drwxr-xr--  2 root root   4096 2009-01-08 18:14 rar
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 rif
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 sdw
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 sx
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 sxc
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 sxi
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 sxw
+    drwxr-xr--  2 root root   4096 2009-01-08 18:04 vis
+    drwxr-xr--  2 root root  12288 2009-01-08 18:15 wav
+    drwxr-xr--  2 root root   4096 2009-01-08 18:15 wmv
+    drwxr-xr--  2 root root   4096 2009-01-08 18:13 xls
+    drwxr-xr--  2 root root   4096 2009-01-08 18:14 zip
 
 If it still won't mount, then the general advice seems to be to copy the image to clean hardware and use a Windows recovery disk to boot.  Failing that, all is not lost, there are a number of tools that will search disk images for files.  I played with photorec, but whilst it recovered loads of cached images from IE, it failed to recover more than a handful of proper photos.  Foremost on the other hand seemed to be more successful.
 
     $ foremost -i copy.img -o output-folder
 
 With luck this will give you a folder that looks like the one to the right.
-
-## References
-
-<script type="text/javascript" src="http://feeds.delicious.com/v2/js/chrisjrob/rescue?title=Saved%20Links:&icon=m&count=5&bullet=%E2%80%A2&sort=date&tags&extended"></script>
 

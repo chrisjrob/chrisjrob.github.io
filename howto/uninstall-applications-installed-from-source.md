@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Uninstall applications installed from source
 menu: howto
+date: 2009-04-03 09:21:03
 weight: 40
 category: technology
 tags: [linux]
@@ -18,13 +19,13 @@ Sometimes you have to compile and install packages from source.  Other times you
 
 This will probably fail with make:
 
-*** No rule to make target `uninstall'.  Stop.
+    *** No rule to make target `uninstall'.  Stop.
 
 ## Manual uninstall method
 
 In which case your only recourse is to manually unpick the application. One way to do this is to run the following:
 
-    $ cd /usr/src/package <= assuming you still have the source
+    $ cd /usr/src/package &larr; assuming you still have the source
     $ sudo make -n install > install.log
 
 I.e. reinstall the application (if you still have the source code) and then read the install.log file and work backwards unpicking the changes made by the installation.

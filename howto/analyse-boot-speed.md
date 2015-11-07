@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Analyse Boot Speed
 menu: howto
+date: 2009-04-29 19:45:16
 weight: 40
 category: technology
 tags: [linux, cli, bootchart, grub]

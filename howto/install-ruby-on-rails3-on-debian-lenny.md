@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install Ruby on Rails3 on Debian Lenny
 menu: howto
+date: 2010-11-20 16:15:40
 weight: 40
 category: technology
 tags: [linux, debian, ispconfig, apache, ruby]

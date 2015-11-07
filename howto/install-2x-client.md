@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install 2x Client
 menu: howto
+date: 2009-03-21 05:59:44
 weight: 40
 category: technology
 tags: [linux, 2x]

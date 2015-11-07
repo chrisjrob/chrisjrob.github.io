@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: Howto | Send Files by Email
 menu: howto
+date: 2009-03-21 06:21:16
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, email]
 ---
 
 ## Explanation
@@ -15,17 +16,14 @@ These instructions are for Kmail, if you are not using Kmail (or KDE Kontact PIM
 
 ## Installation
 
-Create the following file and save as "kmail.desktop" in the folder "/usr/share/apps/konqueror/servicemenus" (for all users on your system).
+Create the following file and save as "kmail.desktop" in the folder `/usr/share/apps/konqueror/servicemenus` (for all users on your system).
 
-[Desktop Entry]
-Encoding=UTF-8
-ServiceTypes=all/allfiles
-Actions=Email;
+    [Desktop Entry]
+    Encoding=UTF-8
+    ServiceTypes=all/allfiles
+    Actions=Email;
 
-[Desktop Action Email]
-Name=Send file(s) with KMail
-Exec=kmail --attach %F
-Icon=kmail
-</PRE>
-
- 
+    [Desktop Action Email]
+    Name=Send file(s) with KMail
+    Exec=kmail --attach %F
+    Icon=kmail

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install IES4Linux on LTSP
 menu: howto
+date: 2009-03-21 06:02:07
 weight: 40
 category: technology
 tags: [linux, ie, ltsp, wine]

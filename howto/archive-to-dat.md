@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Archive to DAT
 menu: howto
+date: 2010-11-23 16:25:08
 weight: 40
 category: technology
 tags: [linux, cli, archive, dat, tar]

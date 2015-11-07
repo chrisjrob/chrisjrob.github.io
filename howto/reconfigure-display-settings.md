@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: Howto | Reconfigure Display Settings
 menu: howto
+date: 2009-03-21 06:20:45
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, xorg]
 ---
 
 ## Configuring your display

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install NTP time server or client
 menu: howto
+date: 2009-03-21 06:06:08
 weight: 40
 category: technology
 tags: [linux, ntp]

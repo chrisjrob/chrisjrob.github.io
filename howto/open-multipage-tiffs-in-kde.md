@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: Howto | Open Multipage TIFFs in KDE
 menu: howto
+date: 2009-03-21 06:19:53
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, tiff]
 ---
 
 ## The Issue

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Apache SSL
 menu: howto
+date: 2009-05-19 12:02:19
 weight: 40
 category: technology
 tags: [linux, cli, apache, ssl]

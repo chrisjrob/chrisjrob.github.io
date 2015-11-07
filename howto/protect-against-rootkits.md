@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: Howto | Protect against rootkits
 menu: howto
+date: 2009-03-21 06:20:17
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, debian, rootkit, security]
 ---
 
 ## Warning
@@ -15,17 +16,15 @@ tags: [linux]
 
 Apparently `rootkits` are a major problem in the linux world.  Unlike viruses, you are much more likely to be infected without realising that you even have a problem.  The purpose of this document is twofold:
 
-   # Check for existing infection
-   # Protect against future infection
+    # Check for existing infection
+    # Protect against future infection
 
 Before proceeding, please read the Wikipedia page on `rootkits`;
 
 ## Step 1: rkhunter
 
-I suggest you visit the rkhunter website at:
-
-   * http://rkhunter.sourceforge.net/
-
+I suggest you visit the rkhunter website at: http://rkhunter.sourceforge.net/
+ 
     $ sudo apt-get install rkhunter
     $ sudo rkhunter --upgrade
     $ sudo rkhunter --checkall --createlogfile
@@ -45,17 +44,17 @@ In particular, [the FAQS](http://www.chkrootkit.org/faq/#9) would suggest that y
 
 ## Step 4: tripwire
 
-Tripwire creates a database of your system files and then tracks any changes to them.
-
    * http://sourceforge.net/projects/tripwire/
+
+Tripwire creates a database of your system files and then tracks any changes to them.
 
     $ sudo apt-get install tripwire
 
 Follow all the prompts, which will require you to create a Site Key Pass-phrase and a Local key Pass-phrase.  Next we need to create the database:
 
     $ sudo tripwire --init
-Wrote database file: /var/lib/tripwire/hostname.domain.com.twd
-The database was successfully generated.
+    Wrote database file: /var/lib/tripwire/hostname.domain.com.twd
+    The database was successfully generated.
 
 Next we run a first check:
 

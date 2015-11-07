@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install Courier-IMAP Server
 menu: howto
+date: 2009-03-21 06:00:37
 weight: 40
 category: technology
 tags: [linux, imap, mailserver]

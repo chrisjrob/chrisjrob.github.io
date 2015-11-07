@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Create Nagios Status Map Icons
 menu: howto
+date: 2010-09-16 09:42:07
 weight: 40
 category: technology
 tags: [linux, nagios]

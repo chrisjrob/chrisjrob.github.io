@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install Kiosktool
 menu: howto
+date: 2010-09-29 10:06:35
 weight: 40
 category: technology
 tags: [linux, kde, kiosktool]

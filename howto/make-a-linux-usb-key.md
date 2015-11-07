@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: Howto | Make a Linux USB Key
 menu: howto
+date: 2010-04-30 11:59:28
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, usb]
 ---
 
 ## Introduction
@@ -21,7 +22,7 @@ Open a terminal and type:
 
     $ mount
 
-This will list your current mounts, including your USB key (if mounted).  Take a note of the mount point (e.g. "/media/disk") and type:
+This will list your current mounts, including your USB key (if mounted).  Take a note of the mount point (e.g. `/media/disk`) and type:
 
     $ sudo umount /media/disk
 
@@ -33,19 +34,19 @@ Find you USB key by typing:
 
     $ sudo fdisk -l
 
-Disk /dev/sdc: 64 MB, 64487424 bytes
-4 heads, 32 sectors/track, 984 cylinders
-Units = cylinders of 128 * 512 = 65536 bytes
-Disk identifier: 0x5187ef1e
+    Disk /dev/sdc: 64 MB, 64487424 bytes
+    4 heads, 32 sectors/track, 984 cylinders
+    Units = cylinders of 128 * 512 = 65536 bytes
+    Disk identifier: 0x5187ef1e
 
-   Device Boot      Start         End      Blocks   Id  System
-/dev/sdc1   *           1         983       62896    6  FAT16
+    Device Boot      Start         End      Blocks   Id  System
+    /dev/sdc1   *           1         983       62896    6  FAT16
 
 ## Step 3: Delete the old partitions
 
 **This will lose any data on this drive!!!**
 
-Ignore the number after the letter, so in the above example the device is /dev/sdc, not /dev/sdc1; the 1 is partition 1, but fdisk works on the whole drive, not just a single partition.
+Ignore the number after the letter, so in the above example the device is `/dev/sdc`, not `/dev/sdc1`; the 1 is partition 1, but fdisk works on the whole drive, not just a single partition.
 
     $ sudo fdisk /dev/sdX
 
@@ -66,13 +67,15 @@ At this point, nothing has *really* happened, you can "q" to quit and nothing wi
    * Press [enter] again to accept the default last cylinder
    * Type "p" to view what you have done
 
-Disk /dev/sdc: 64 MB, 64487424 bytes
-4 heads, 32 sectors/track, 984 cylinders
-Units = cylinders of 128 * 512 = 65536 bytes
-Disk identifier: 0x5187ef1e
+This should display the current configuration of your drive:
 
-   Device Boot      Start         End      Blocks   Id  System
-/dev/sdc1               1         984       62960   83  Linux
+    Disk /dev/sdc: 64 MB, 64487424 bytes
+    4 heads, 32 sectors/track, 984 cylinders
+    Units = cylinders of 128 * 512 = 65536 bytes
+    Disk identifier: 0x5187ef1e
+
+    Device Boot      Start         End      Blocks   Id  System
+    /dev/sdc1               1         984       62960   83  Linux
 
 ## Step 5: Change partition to W95 Fat32
 
@@ -117,7 +120,7 @@ For most systems, this can be easily achieved by simply unplugging and repluggin
 
 ## Step 10: Use Unetbootin
 
-[image_right](unetbooting_350x350.gif)
+<img src="/assets/unetbooting_350.gif" class="image-right">
 
 Run Unetbootin from your menu, either select a distribution and version, or take the option to install an already downloaded disk image.
 
@@ -147,11 +150,11 @@ See Alternative Methods for other options.
 
 I understand that the problem with USB booting, is that many BIOS's understand the superfloppy format - i.e. a formatted but unpartitioned drive.  This is easy enough to create under Linux, simply delete the partitions in fdisk and format with:
 
-mkdosfs -I /dev/sdx
+    # mkdosfs -I /dev/sdx
 
 or possibly on older hardware:
 
-mkdosfs -v -F 16 -I /dev/sdx
+    # mkdosfs -v -F 16 -I /dev/sdx
 
 The problem is that superfloppies will not be auto-mounted under Linux, with the result that Unetbootin cannot write to them.  But you can mount superfloppies manually:
 
@@ -181,16 +184,3 @@ Also, it is possible to obtain disk images that can be written to a usb key dire
    * [Debian Wiki USB Boot](http://wiki.debian.org/BootUsb)
    * [Debian EeePC Install](http://wiki.debian.org/DebianEeePC/HowTo/Install)
 
-## Comments
-
-%FORM%
-Name*:       [                                                         ]
-Email*:      [                                                         ] Will not be published
-Subject*:    [                                                         ]
-Comment*:    [                                                         .....]
-%FORM%
-
-%RESULTS%
-#### {mandatory_subject} by {mandatory_name} on {timestamp}:
-"{mandatory_comment}"
-%RESULTS%

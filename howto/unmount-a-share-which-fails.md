@@ -1,15 +1,16 @@
 ---
-layout: page
+layout: post
 title: Howto | Unmount a share which fails
 menu: howto
+date: 2009-03-21 06:23:50
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, file]
 ---
 
 ## Unmounting a share fails with error message
 
-Could not unmount <PATH>: Device or resource busy
+    Could not unmount <PATH>: Device or resource busy
 
 First of all, check that you do not access any directory or file of the share with any program. If this isn't the case, you might have encountered a problem, that is known but not related to Smb4K. It seems that under certain circumstances (that we could not figure out exactly) kdeinit background processes access files and/or directories of the share and keep them open (KDE < 3.4). Unmounting is not possible unless you send 
 

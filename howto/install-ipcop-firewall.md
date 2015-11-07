@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install IPCop Firewall
 menu: howto
+date: 2009-10-12 11:42:39
 weight: 40
 category: technology
 tags: [linux, firewall]

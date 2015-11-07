@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: Howto | Microsoft Outlook
 menu: howto
+date: 2009-03-21 06:23:08
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, email]
 ---
 
 ## Introduction
@@ -55,7 +56,7 @@ Access the Thunderbird address book, click into the correct folder, so that you 
 
 ## Step 5 Transfer to Linux
 
-Transfer the exported iCalendar file, the exported LDIF address book, and the Thunderbird data store (e.g. 'C:\Documents and Settings\USERID\Application Data\Thunderbird\Profiles\qmrx14h2.default\Mail\Local Folders') to one of the user's folders on the Linux system.  You'll need to be able to access these from the user's account, so somewhere logical might be /home/username/imported.
+Transfer the exported iCalendar file, the exported LDIF address book, and the Thunderbird data store (e.g. `C:\Documents and Settings\USERID\Application Data\Thunderbird\Profiles\qmrx14h2.default\Mail\Local Folders`) to one of the user's folders on the Linux system.  You'll need to be able to access these from the user's account, so somewhere logical might be /home/username/imported.
 
 ## Step 6 Convert Address Book
 
@@ -70,7 +71,7 @@ You can change these manually, or a simple script:
 
 The following script will replace "company: " with "organization: " and will update "cn: " with a formatted name in the format "sn, givenName", if givenName is available, or fall back on just "sn" if not. This worked for us, but you might have to tailor this to your requirements.
 
-<PRE>
+```pl
 #!/usr/bin/perl
 # thunder2kab
 # Converts Thunderbird LDIF file into Kmail LDIF format
@@ -118,7 +119,7 @@ close (OUT) || die "Cannot close $ARGV[1]: $!";
 close (IN) || die "Cannot close $ARGV[0]: $!";
 
 exit;
-</PRE>
+```
 
 **Please change the PrivoxyWindowOpen command for just a plain "open" - this is just our http proxy trying to protect us and getting it wrong!**
 

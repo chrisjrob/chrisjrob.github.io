@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install FreeNX
 menu: howto
+date: 2010-07-08 16:01:27
 weight: 40
 category: technology
 tags: [linux, debian, nx]

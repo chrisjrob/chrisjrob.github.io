@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Install Wine on LTSP
 menu: howto
+date: 2010-10-06 15:29:55
 weight: 40
 category: technology
 tags: [linux, wine, ltsp]
@@ -17,7 +18,12 @@ Please visit for instructions on how to install Wine:
 
    * http://www.winehq.org/site/download
 
-**If you get a problem with applications appearing without any text, then simply download and install some Windows fonts in Wine, e.g. from <http://sourceforge.net/projects/corefonts/>**
+If you get a problem with applications appearing without any text, then you need to install some Windows fonts in Wine. 
+One option is to simply download them from <http://sourceforge.net/projects/corefonts/>. You may also be able to install via a debian installer package:
+
+    $ sudo apt-get ttf-mscorefonts-installer
+
+Install Wine packages:
 
     $ sudo apt-get install libwine libwine-print libwine-sane libwine-alsa
 

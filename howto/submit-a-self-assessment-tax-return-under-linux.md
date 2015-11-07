@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: Howto | Submit a UK Self-Assessment Return under Linux
 menu: howto
+date: 2010-01-15 10:48:27
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, tax]
 ---
 
 ## Introduction
@@ -40,7 +41,7 @@ The list updated as at January 2010 is as follows:
    * [Sage (UK) Ltd](http://www.sage.co.uk/accountants/welcome.aspx) - Professional only
    * [Thomson Reuters](http://www.digita.com/) - Not seemingly available for download
 
-* The comments are my own personal impression at the time of visiting the websites, these opinions may be wrong and you should make your own enquiries before making a decision.
+**The comments are my own personal impression at the time of visiting the websites, these opinions may be wrong and you should make your own enquiries before making a decision.**
 
 Some of these, like Sage, are clearly not consumer level products, and my impression is that the above list is somewhat misleading, as in practice TaxCalc seems to have the personal market pretty much sown up.  Am I wrong?  Let me know in the Comments section at the bottom.
 
@@ -62,7 +63,7 @@ Nevertheless, this is probably a good option, judging from the on-line demo:
 
 However, the system requirements for this service state:
 
-*"If you use HMRC’s tax software and; or the Data Provisioning Service, you will also need a minimum browser level, Internet Explorer 5.0 (Windows users) Safari 2.0.4 (Mac users) or Opera 7.0 (Windows or Mac) Your Internet browser must have JavaScript and cookies enabled and be capable of supporting 128-bit SSL. Other operating systems and browsers, such as Mozilla Firefox, may allow you to access the site and use the pages but might not display the site as designed or allow you to access all the functionality."*
+*"If you use HMRC's tax software and; or the Data Provisioning Service, you will also need a minimum browser level, Internet Explorer 5.0 (Windows users) Safari 2.0.4 (Mac users) or Opera 7.0 (Windows or Mac) Your Internet browser must have JavaScript and cookies enabled and be capable of supporting 128-bit SSL. Other operating systems and browsers, such as Mozilla Firefox, may allow you to access the site and use the pages but might not display the site as designed or allow you to access all the functionality."*
 
 Okay, so it doesn't mention Linux, but I wouldn't be unduly concerned about that.  No the issue seems to be the browser, and, reading between the lines, this would suggest to me that the site is using extensive Javascript, which is largely blocked (quite rightly) by Firefox.  The chances are that there would be issues; although it wouldn't be massive problem for me to fallback on IE under a Virtual Machine, your mileage may vary.
 
@@ -94,16 +95,3 @@ So what have I decided?  Well this year I will again continue with TaxCalc, inst
 
 So the best hope for Linux users is HMRC's own on-line service.  It is web-based and free, and whilst it does not promise Firefox support, I suspect that may not be an issue.  If you would like to be able to use TaxCalc natively under Linux, then why not let them know: by emailing them at sales@taxcalc.com.
 
-## Comments
-
-%FORM%
-Name*:       [                                                         ]
-Email*:      [                                                         ] Will not be published
-Subject*:    [                                                         ]
-Comment*:    [                                                         .....]
-%FORM%
-
-%RESULTS%
-#### {mandatory_subject} by {mandatory_name} on {timestamp}:
-"{mandatory_comment}"
-%RESULTS%

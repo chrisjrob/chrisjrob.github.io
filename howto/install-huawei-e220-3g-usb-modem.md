@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Howto | Huawei E220 3G USB Modem
 menu: howto
+date: 2009-05-11 08:34:15
 weight: 40
 category: technology
 tags: [linux, ipcop, vodafone]
