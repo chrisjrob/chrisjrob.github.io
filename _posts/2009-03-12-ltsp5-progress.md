@@ -12,5 +12,5 @@ After a week spent trying to install our Debian Lenny LTSP server, with the clie
 
 And a lesson learned: don't invest too much time in an install, without testing that the fundamentals are in place!
 
-   * [LTSP5 Install](/ltsp/ltsp5-install/)
+   * [LTSP5 Install]({% post_url 2010-03-30-ltsp5-install %})
 

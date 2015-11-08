@@ -18,9 +18,9 @@ The bulk of the fix was simply changing SMODULE_01 to MODULE_01 in LTS.conf, alt
 
 We have a number of Compaq Deskpro EN-SFF P450 PCs.  These are small-form-factor Pentium IIIs with Compaq quality.  I believe these have the ESS1869 soundcard.
 
-The BIOS settings on our PCs are io=0x220 irq=5 dma=1 dma16=5; your settings may be different!
+**The BIOS settings on our PCs are io=0x220 irq=5 dma=1 dma16=5; your settings may be different!**
 
-### LTSP4.2
+## LTSP4.2
 
 They worked flawlessly under LTSP4.2 with the following LTS.conf configuration:
 
@@ -28,7 +28,7 @@ They worked flawlessly under LTSP4.2 with the following LTS.conf configuration:
 
 Since upgrading to LTSP5, sound has ceased to function.
 
-### Testing
+## Testing
 
 I booted the client and typed [Ctrl]+[Alt]+[F1] to bring up the client console and typed:
 
@@ -42,9 +42,13 @@ Next I tried typing:
     ESS AudioDrive ES18xx soundcard not found or device busy
     FATAL: Error inserting snd_es18xx (/lib/modules/2.6.18-6-486/kernel/sound/isa/snd-es18xx.ko): No such device
 
-### Research
+## Research
 
-Next I Googled `(ltsp5|edubuntu) snd-es18xx` which found [this thread](http://ubuntuforums.org/showthread.php?t=148077). This was not specific to LTSP5, nevertheless it gave a useful configuration:
+Next I Googled "(ltsp5|edubuntu) snd-es18xx" which produced the following thread:
+
+   * http://ubuntuforums.org/showthread.php?t=148077
+
+This was not specific to LTSP5, nevertheless it gave a useful configuration:
 
     /etc/modprobe.d/alsa-base
 
@@ -80,7 +84,7 @@ And the sound module loaded fine.  I then ran:
 
 And sound was working fine.
 
-### LTS.conf
+## LTS.conf
 
 So obviously all we need to do is to set in LTS.conf and we should be sorted:
 
@@ -99,4 +103,3 @@ And it *still* didn't work.  For some reason, that I cannot find documented, SMO
     MODULE_01         = "snd-es18xx isapnp=0"
 
 All now working.
-

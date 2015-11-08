@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "About LTSP"
+title:  "LTSP | About LTSP"
 date:   2008-06-24 00:00:00
 category: technology 
 tags: [linux, ltsp]

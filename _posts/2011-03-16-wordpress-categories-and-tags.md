@@ -49,8 +49,8 @@ maintain tags, the tags are by their nature more anarchic. But
 nevertheless if you wanted to watch my posts on the dreamplug (random
 example) you would just visit:
 
-  * Web: <http://chrisjrob.wordpress.com/tag/dreamplug/>
-  * Feed: <http://chrisjrob.wordpress.com/tag/dreamplug/feed/>
+  * Web: <http://chrisjrob.com/tag/dreamplug/>
+  * Feed: <http://chrisjrob.com/tag/dreamplug/feed/>
 
 Just don't be surprised if there are no further posts on dreamplug.
 There probably won't be.

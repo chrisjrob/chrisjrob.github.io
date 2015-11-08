@@ -18,6 +18,8 @@ Please visit for instructions on how to install Wine:
 
    * http://www.winehq.org/site/download
 
+<!--more-->
+
 If you get a problem with applications appearing without any text, then you need to install some Windows fonts in Wine. 
 One option is to simply download them from <http://sourceforge.net/projects/corefonts/>. You may also be able to install via a debian installer package:
 

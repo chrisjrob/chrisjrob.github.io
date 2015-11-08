@@ -8,11 +8,17 @@ category: technology
 tags: [howto, linux, ie, ltsp, wine]
 ---
 
+## IES4Linux
+
+Internet Explorer for Linux
+
 ## Recent developments
 
 ### Bugs
 
 Versions of Wine greater than 0.92 seem to cause IES4Linux to consume vast amounts of CPU both for wineserver and iexplore.exe. This problem seems to occur when accessing SSL pages (possibly Active-X pages).  Bugs have been [logged with Ubuntu](https://bugs.launchpad.net/bugs/205895) which was quite rightly [redirected to Wine](http://bugs.winehq.org/show_bug.cgi?id=13687), which was rejected pending a [regression test](http://bugs.winehq.org/show_bug.cgi?id=13734), which in turn was redirected to IES4Linux.  The issue seems to be that Wine do not support native DLLs, but these are essential in making IE work under Linux.
+
+<!--more-->
 
 ### Deb package
 
