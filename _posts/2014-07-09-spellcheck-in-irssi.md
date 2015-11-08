@@ -18,6 +18,8 @@ This page explains how to set up spelling in Irssi on Debian Lenny.  It assumes 
 
 Don't forget to change the localisation to match your own locale.
 
+<!--more-->
+
 ## Create user's scripts folder
 
     $ mkdir -p */.irssi/scripts/autorun
