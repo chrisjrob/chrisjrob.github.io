@@ -79,7 +79,7 @@ After installation you should have a menu entry for it in System -> KIOSK Admin 
 
 You may find that a copying dialog crops up at regular intervals and that often it will stall, please read:
 
-   * [Fix kiosktool fish protocol stalls](/howto/fix-kiosktool-fish-protocol-stalls/)
+   * [Fix kiosktool fish protocol stalls]({% post_url 2010-09-29-fix-kiosktool-fish-protocol-stalls %})
 
 ## References
 

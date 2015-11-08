@@ -10,7 +10,7 @@ Some weeks ago the hard drive on my work PC failed, with a temperature error on 
 
 <!--more-->
 
-I downloaded the ISO using Jigdo (see [How to Download Debian with Jigdo](/howto/download-debian-with-jigdo/)) and ran the installer.  It really was simplicity itself and, except for the lack of a live CD, the installation was at least as simple and maybe simpler than Kubuntu.  In particular I love the fact that the partitioner gives you intelligent options, rather than the Kubuntu installer's all-or-nothing approach.  
+I downloaded the ISO using Jigdo (see [How to Download Debian with Jigdo]({% post_url 2009-03-21-download-debian-with-jigdo %})) and ran the installer.  It really was simplicity itself and, except for the lack of a live CD, the installation was at least as simple and maybe simpler than Kubuntu.  In particular I love the fact that the partitioner gives you intelligent options, rather than the Kubuntu installer's all-or-nothing approach.  
 
 Having installed Debian Lenny, I was struck by just how like Kubuntu it is, hardly surprising given the Debian parentage of Kubuntu.  What was surprising though, was just how easy everything was - I simply added non-free and contrib to the repositories, installed Java, Flash, the Win32 Codecs, and the MS Fonts.  To improve its looks I simply did:
 

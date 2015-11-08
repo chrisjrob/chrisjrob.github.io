@@ -26,7 +26,7 @@ Installing from Ubuntu onto Debian Lenny seems sub-optimal, but is quick and dir
 
 To connect, you need to download the NoMachine client.  If you have issues with the arrow/cursor keys, please see:
 
-   * [Fix nxclient arrow keys](/howto/fix-nxclient-arrow-keys/)
+   * [Fix nxclient arrow keys]({% post_url 2010-07-08-fix-nxclient-arrow-keys %})
 
 ## References
 

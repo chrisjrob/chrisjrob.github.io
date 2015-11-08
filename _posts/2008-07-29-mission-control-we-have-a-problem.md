@@ -10,5 +10,5 @@ Our ADSL connection went down yesterday morning, taking with it our websites, em
 
 Thinking that our Internet access could be out for days, I decided to try and utilise my laptop's Vodafone 3G modem.  After a little research on my Eee PC I discovered that IPCop firewall can only handle a single WAN interface, so I decided to build a temporary IPCop firewall for the purpose:
 
-   *  [Install IPCop Firewall](/howto/install-ipcop-firewall/)
+   *  [Install IPCop Firewall]({% post_url 2009-10-12-install-ipcop-firewall %})
 

@@ -14,7 +14,7 @@ These instructions explain how to transfer emails from a Windows email client to
 
  1. If your mailserver is running IMAP, then what are you doing here?  Just connect your Linux mail client to your IMAP server and you're good to go!
  2. If you are running a common mail client on Windows, then consider installing Mozilla Thunderbird on Windows and importing your emails into that...
-    a. See [Transfer Emails from Microsoft Outlook](/howto/transfer-emails-from-microsoft-outlook/)
+    a. See [Transfer Emails from Microsoft Outlook]({% post_url 2009-03-21-transfer-emails-from-microsoft-outlook %})
  3. If you are running Mozilla Thunderbird on Windows, then you can simply copy the files onto Linux and use Mozilla Thunderbird on Linux - job done.
  4. If your Windows email client stores in mbox format (unlikely) then again you should be able to simply copy the mail store to Linux.
  5. Check whether you have any export options and see if you can export into an easier format, e.g. Thunderbird/MBOX.
@@ -23,7 +23,7 @@ These instructions explain how to transfer emails from a Windows email client to
 
 ## Install Courier-IMAP on server
 
-See [Install Courier-IMAP Server](/howto/install-courier-imap-server/).
+See [Install Courier-IMAP Server]({% post_url 2009-03-21-install-courier-imap-server %})
 
 ## Create LTSP User
 
