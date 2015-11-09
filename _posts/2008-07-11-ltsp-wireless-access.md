@@ -8,9 +8,13 @@ category: technology
 tags: [ltsp, wireless]
 ---
 
+<img src="/assets/lucent-ethernet-converter.jpg" class="image-right" alt="Lucent Wireless Converter">
+
 ## The Issue
 
 Currently the only method of accessing LTSP from a wireless device (e.g. laptop) is by running the local operating system and installing NoMachine on the client.  It would be extremely useful to boot laptops directly into LTSP.
+
+<!--more-->
 
 ## The Options
 
@@ -20,8 +24,6 @@ The following two pages would seem to outline the possibilities:
       * http://www.ltsp.org/twiki/bin/view/Ltsp/WirelessLTSPClientsUsingAnEthernetBridge
 
 I cannot help but conclude that, time being an important factor, the Ethernet Bridge option is the sensible course to take.
-
-<!--more-->
 
 ## Proof of Concept
 

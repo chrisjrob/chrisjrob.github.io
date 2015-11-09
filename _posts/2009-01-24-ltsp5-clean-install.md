@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LTSP5 Clean Install"
+title:  "LTSP | LTSP5 Clean Install"
 date:   2009-01-24 00:00:00
 category: technology
 tags: [linux, ltsp] 

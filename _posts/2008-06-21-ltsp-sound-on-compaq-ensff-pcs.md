@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "LTSP Sound on Compaq ENSFF PCs"
+title:  "LTSP | Sound on Compaq ENSFF PCs"
 date:   2008-06-21 00:00:00
 category: technology 
 tags: [ltsp, sound]
 ---
 
-We have a number of Compaq Deskpro ENSFF P450s for which sound stopped working since our LTSP5 Upgrade.  I spent some time this morning solving this problem and have detailed [my solution below](#configure-compaq-deskpro-ensff-for-ltsp5-sound).
+We have a number of Compaq Deskpro ENSFF P450s for which sound stopped working since our [LTSP5 Upgrade]({% post_url 2010-06-25-ltsp5-upgrade %}).  I spent some time this morning solving this problem and have detailed [my solution below](#configure-compaq-deskpro-ensff-for-ltsp5-sound).
 
-The bulk of the fix was simply changing SMODULE_01 to MODULE_01 in LTS.conf, although this particular PC was a little more involved.
+The bulk of the fix was simply changing `SMODULE_01` to `MODULE_01` in LTS.conf, although this particular PC was a little more involved.
 
 <!--more-->
 

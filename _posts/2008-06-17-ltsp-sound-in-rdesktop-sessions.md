@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LTSP sound in rdesktop sessions"
+title:  "LTSP | Sound in rdesktop sessions"
 date:   2008-06-17 00:00:00
 category: technology
 tags: [linux, ltsp, sound, rdp]
@@ -26,5 +26,5 @@ I have even tried pointing padsp at the client pulseaudio device...
 
     $ padsp -d -s 192.168.0.41:4713 -n rdesktop rdesktop -r sound:local 192.168.0.1
 
-I have posted this as a question on the LTSP Mailing List and am hopeful of a solution!
+I have posted this as [a question on the LTSP Mailing List](http://sourceforge.net/p/ltsp/mailman/message/19679055/) and am hopeful of a solution!
 

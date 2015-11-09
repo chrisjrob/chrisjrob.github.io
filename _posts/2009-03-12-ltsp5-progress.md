@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LTSP5 Progress"
+title:  "LTSP | LTSP5 Progress"
 date:   2009-03-12 00:00:00
 category: technology
 tags: [linux, ltsp] 

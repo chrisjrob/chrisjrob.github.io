@@ -8,7 +8,7 @@ tags: [linux, kde, amarok, podcast]
 
 Until I stumbled across [this page][howto] I was using [Kitty] to download Podcasts and [Amarok] to manage them thereafter.  Unfortunately I could not get on with Kitty and it is no longer being developed.  In any case, you really only want one application.
 
-So I went hunting for an alternative to Amarok that would handle Podcasts, only to discover that Amarok itself supports Podcasts.  Basically all you need to do is under Playlists >> Podcasts right-click and Add Podcast, but [this link][howto] explains in more detail.
+So I went hunting for an alternative to Amarok that would handle Podcasts, only to discover that Amarok itself supports Podcasts.  Basically all you need to do is under Playlists &rarr; Podcasts right-click and Add Podcast, but [this link][howto] explains in more detail.
 
 <!--more-->
 

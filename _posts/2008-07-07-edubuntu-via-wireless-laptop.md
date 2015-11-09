@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Edubuntu via Wireless Laptop"
+title:  "LTSP | Edubuntu via Wireless Laptop"
 date:   2008-07-07 00:00:00
 category: technology 
 tags: [linux, ltsp, edubuntu]
 ---
+
+<img src="/assets/lucent-ethernet-converter.jpg" class="image-right" alt="The Lucent Ethernet Converter">
 
 Tonight I installed edubuntu-desktop from the [Edubuntu] add-ons CD - didn't take very long and very pretty it was too, once I rebooted.
 

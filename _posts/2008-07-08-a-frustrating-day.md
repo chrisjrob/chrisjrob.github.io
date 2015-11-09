@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A frustrating day"
-date:   2008-07-08 00:00:00
+title: "A frustrating day"
+date: 2008-07-08 00:00:00
 category: technology
 tags: [linux, ltsp]
 ---
@@ -17,5 +17,5 @@ So the day ended with two additional items for my to-do list:
    1. Fix scanning
    2. Sort out Windows load
 
-On the plus side I did manage to get somewhere with a long-standing issue of open multipage tiffs in kde.
+On the plus side I did manage to get somewhere with a long-standing issue of [open multipage tiffs in kde]({% post_url 2009-03-21-open-multipage-tiffs-in-kde %}).
 

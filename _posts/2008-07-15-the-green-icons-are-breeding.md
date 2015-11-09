@@ -6,7 +6,9 @@ category: technology
 tags: [linux, ltsp, italc, vnc]
 ---
 
-Users reported that they had several green icons in their system tray.  This transpired to be the KDE session manager, which automatically restores all applications running at time of logging-off.  I have updated my Install Italc instructions to include excluding ica from KDE session manager.
+<img src="/assets/italc_icon.png" class="image-right" alt="italc green icon">
+
+Following the [installation of Italc on our LTSP Server]({% post_url 2009-04-24-ltsp-install-italc-on-debian-etch %}), users reported that they had several green icons in their system tray.  This transpired to be the KDE session manager, which automatically restores all applications running at time of logging-off.  I have updated my Install Italc instructions to include excluding ica from KDE session manager.
 
 <!--more-->
 

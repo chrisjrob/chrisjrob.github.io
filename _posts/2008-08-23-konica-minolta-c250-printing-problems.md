@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Konica Minolta C250 Printing Problems"
-date:   2008-08-23 00:00:00
+title: "Konica Minolta C250 Printing Problems"
+date: 2008-08-23 00:00:00
 category: technology
 tags: [linux, printing, cups] 
 ---
+
+<img src="/assets/c250.png" class="image-right" alt="The Konica Minolta C250">
 
 A month ago I wrote about [our problems printing to our colour photocopier]({% post_url 2008-07-23-konica-minolta-c250-printing-problems %}).  Well this problem is still hurting us.  I have tried setting up cups to work by lpr, ipp, http, socket and jetdirect.  Amazingly I was able to print CUPS test pages from most of these, but without it making any difference to the problem.  I have tried switching off CUPS in Iceweasel, so that it prints via kprinter (see Configure Iceweasel to print via kprinter), but amazingly the problem continues.
 
