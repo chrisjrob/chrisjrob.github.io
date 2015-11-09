@@ -6,6 +6,8 @@ category: technology
 tags: [linux, toshiba, debian, eeepc]
 ---
 
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
+
 Okay, to be quite honest my Debian Lenny 64-bit Toshiba Satellite Pro A300 laptop is really fast.  Certainly the fastest machine that I've ever used, problem is that makes you hungry for more speed.  So far I have followed several of the suggestions included in this [Debian EeePC page](http://wiki.debian.org/DebianEeePC/TipsAndTricks), for example adding the `relatime` option to the disks.
 
 <!--more-->

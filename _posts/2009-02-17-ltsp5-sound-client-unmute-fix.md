@@ -8,7 +8,7 @@ category: technology
 tags: [ltsp, sound]
 ---
 
-<img src="/assets/mute.svg" class="image-right" alt="Mute icon">
+<img src="/assets/mute.png" class="image-right" alt="Mute icon">
 
 ## Introduction
 

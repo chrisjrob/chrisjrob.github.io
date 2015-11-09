@@ -6,6 +6,9 @@ category: technology
 tags: [linux, kubuntu, kde, debian, xorg]
 ---
 
+
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
+
 It's been bothering me for some time that I am using Kubuntu instead of Debian on my work desktop PC.  Yesterday I had a drive failure necessitating a reinstall; what better excuse could there be?  Having decided to change to Debian, I decided to install Sid, and then I decided that, as KDE 4.1 is now out, why not go the whole hog.
 
 The experience was pretty positive, really the only problem was that I needed to tweak the `xorg.conf` in order to get my keyboard and mouse working, other than that it was a pretty straightforward install.

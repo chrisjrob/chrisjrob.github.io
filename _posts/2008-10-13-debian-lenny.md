@@ -6,6 +6,9 @@ category: technology
 tags: [linux, debian]
 ---
 
+
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
+
 Some weeks ago the hard drive on my work PC failed, with a temperature error on the hard drive.  I swapped the drive out but then had to decide which distro to install.  I had started my Linux life with [Kubuntu](http://www.kubuntu.org/), experimented with [Debian Sid](https://www.debian.org/releases/sid/) + [Experimental](https://wiki.debian.org/DebianExperimental), before returning to Kubuntu.  Given [Debian Lenny](https://www.debian.org/releases/lenny/)'s imminent release, the logical progression was to try that.
 
 <!--more-->
