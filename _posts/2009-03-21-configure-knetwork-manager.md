@@ -19,6 +19,8 @@ Comment out all but the following from your `/etc/network/interfaces`:
     auto lo
     iface lo inet loopback
 
+<!--more-->
+
 Add the user to the `netdev` group:
 
     $ sudo adduser your_username netdev

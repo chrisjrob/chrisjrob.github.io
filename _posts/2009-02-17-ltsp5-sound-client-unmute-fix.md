@@ -8,6 +8,8 @@ category: technology
 tags: [ltsp, sound]
 ---
 
+<img src="/assets/mute.svg" class="image-right" alt="Mute icon">
+
 ## Introduction
 
 There is a problem with some sound cards that start up muted.  This installs a script which responds to settings in lts.conf.
@@ -16,11 +18,11 @@ To test this, whilst logged onto the client type:
 
     # alsamixer
 
+<!--more-->
+
 If the main volume is at nil and there is "MM" (Muted left and Muted right) at the bottom of the slider, then pressing M to unmute, and the cursor keys to increase the volume, will resolve the problem.  You can experiment with the different channels, like PCM, FRONT and MASTER.  Play to your heart's content, any changes will be lost on reboot.
 
 The only thing is that this fix will be lost next time you boot the client.
-
-<!--more-->
 
 ## Step 1: Install Script
 

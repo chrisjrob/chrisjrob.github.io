@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Debian Lenny - applying the new kdm theme"
+title:  "Debian Lenny - applying the new KDM theme"
 date:   2008-12-20 00:00:00
 category: technology
 tags: [linux, debian, kde, theme]
 ---
+
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian">
 
 If you install kde from a Debian base install, then it is likely that you do not have the attractive new Debian theming for the boot loader and KDM login.  The key to this is the installation of desktop-base, but you do need a few other packages, which don't currently get treated as dependencies.
 
@@ -16,9 +18,9 @@ If you install kde from a Debian base install, then it is likely that you do not
 
 ## Add splashy to grub
 
-Look for the kopt line in /boot/grub/menu.lst and add "quiet splash vga=791":
+Look for the kopt line in `/boot/grub/menu.lst` and add `quiet splash vga=791`:
 
-N.B.  vga=791 is suitable for 1024x768, if your monitor resolution is below this, then you should change this number by reference to the table below.
+N.B.  `vga=791` is suitable for 1024x768, if your monitor resolution is below this, then you should change this number by reference to the table below.
 
     /boot/grub/menu.lst:
     # kopt=root=/dev/sda1 ro quiet splash vga=791

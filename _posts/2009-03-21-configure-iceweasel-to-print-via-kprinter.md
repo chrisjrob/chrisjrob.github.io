@@ -16,6 +16,8 @@ Trying to resolve this issue, I came across this posting:
 
    * [How To: Make Firefox / Thunderbird print to kprinter automatically in KDE / Kubuntu](http://ubuntuforums.org/showthread.php?t=205050) by msak007
 
+<!--more-->
+
 ## Single User
 
 ### Step 1 Print to Postscript

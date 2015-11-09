@@ -16,6 +16,8 @@ Next change any references to "stable" are replaced with the name of the current
 
     $ apt-get update
 
+<!--more-->
+
 ## Proxy Server
 
 If it didn't work, then you may need to configure apt with your proxy server.
