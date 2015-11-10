@@ -8,6 +8,8 @@ category: technology
 tags: [howto, linux, kde, kiosktool]
 ---
 
+<img src="/assets/kiosktool3.png" class="image-right" alt="KDE Kiosktool">
+
 ## Introduction
 
 First let's take a look at where KDE squirrels away all these settings. KDE is complex, but it's well-organised, and there is always a method to whatever KDE madness you find yourself in.
@@ -15,6 +17,8 @@ First let's take a look at where KDE squirrels away all these settings. KDE is c
    * `/etc/kderc` :  This points to the file locations where configuration profiles are stored. 
    * `/etc/kde3` : Global configuration files are here. 
    * `/home/~username~/.kde` : User's individual settings go here.
+
+<!--more-->
 
 You can see for yourself where your particular KDE installation is going to look for configuration files: 
 

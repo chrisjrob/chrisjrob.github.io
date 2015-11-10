@@ -14,6 +14,8 @@ Courier-IMAP is quick and easy to install, but is probably not your best option 
 
 ## Install IMAP
 
+<!--more-->
+
     $ sudo apt-get install courier-imap
 
 This will prompt whether to create files for use by the web interfaces; it is safe to select "No" here.

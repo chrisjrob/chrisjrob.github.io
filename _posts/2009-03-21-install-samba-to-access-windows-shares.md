@@ -16,6 +16,8 @@ tags: [howto, linux, samba, ldap]
 
     # apt-get install smbfs smbclient
 
+<!--more-->
+
 ## Create password file
 
     $ echo "username=abc" >> /home/username/.smbpassword

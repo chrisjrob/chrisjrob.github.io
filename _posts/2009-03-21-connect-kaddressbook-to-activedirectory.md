@@ -10,6 +10,8 @@ tags: [howto, linux, kaddressbook, activedirectory]
 
 In Kmail, under Contacts, in the lower half of the screen press button to [Add]. Select LDAP.
 
+<!--more-->
+
 | Name           | Value                                               |
 |----------------+-----------------------------------------------------|
 | Name           | Enter the resource name here                        |

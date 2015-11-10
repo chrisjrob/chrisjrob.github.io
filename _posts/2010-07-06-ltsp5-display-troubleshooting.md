@@ -8,11 +8,15 @@ category: technology
 tags: [ltsp, xorg]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
+
 ## Warning
 
 This is currently a few scrappy notes just to jog my memory as to things to try.  Messing about with monitor settings can blow your monitor, graphics card and probably both; although in practice sensible use should ensure that never happens to you.
 
 Note that some of these commands may not exist on your system, if you need to install them, then remember to install into the chroot, e.g.:
+
+<!--more-->
 
     # chroot /opt/ltsp/i386
     # apt-get update
@@ -20,8 +24,6 @@ Note that some of these commands may not exist on your system, if you need to in
     # exit
 
 Erm, suppose I should mention this whole page was tested on Debian Lenny.
-
-<!--more-->
 
 ## Cables
 

@@ -8,13 +8,15 @@ category: technology
 tags: [ltsp]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
+
 ## Warning
 
 All the following commands are entered on the server.  Normally this would be having logged into your normal LTSP desktop and opened a terminal session, but it could equally be from an ssh session to the server.  The key thing is that you do not run these commands from a client shell, as the client system is read-only.
 
-These instructions are for Debian, Ubuntu users will also need to update the client image afterwards.  
-
 <!--more-->
+
+These instructions are for Debian, Ubuntu users will also need to update the client image afterwards.  
 
 ## Step by Step Process
 

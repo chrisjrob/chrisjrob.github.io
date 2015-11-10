@@ -14,6 +14,8 @@ All the advice about DHCP and PXEClient tells you about the ability to configure
 
 ## Step 1 - Update DHCP Server
 
+<!--more-->
+
 Simply modify `/etc/dhcp3/dhcpd.conf` on your DHCP server and add the following somewhere near the top:
 
     # So that the vendor-class-identifier shows in dhcpd.leases file

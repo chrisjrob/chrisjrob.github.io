@@ -16,6 +16,8 @@ This is not an ISPConfig tutorial, so it is supposed that you know how to do thi
 
 **Probably sensible to make the site a maximum size.**
 
+<!--more-->
+
 ## Step 2: Create data folder
 
     $ mkdir /var/www/webXX/web/webdav

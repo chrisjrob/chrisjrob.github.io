@@ -17,6 +17,8 @@ Installing from Ubuntu onto Debian Lenny seems sub-optimal, but is quick and dir
     # deb http://ppa.launchpad.net/freenx-team/ppa/ubuntu intrepid main
     # deb-src http://ppa.launchpad.net/freenx-team/ppa/ubuntu intrepid main
 
+<!--more-->
+
 ## Step 2 - Install FreeNX in Debian
 
     # aptitude update

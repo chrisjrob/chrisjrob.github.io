@@ -8,6 +8,8 @@ category: technology
 tags: [ltsp, scan]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
+
 ## Scanning with LTSP 5 in Debian Etch or Lenny
 
 At the time of writing these instructions worked for Etch, but have not been completed for Lenny.
@@ -16,9 +18,9 @@ At the time of writing these instructions worked for Etch, but have not been com
 
 **This is a description for a scanner physically connected to a terminal (not to the server).**
 
-For LTSP scanning to work, you just need to remember that the roles are reversed - that is the client is the scanning server and the server is the scanning client.  With the exception of the fact that you have to chroot to get at the client, the set-up is an ordinary Linux network scanning set-up.
-
 <!--more-->
+
+For LTSP scanning to work, you just need to remember that the roles are reversed - that is the client is the scanning server and the server is the scanning client.  With the exception of the fact that you have to chroot to get at the client, the set-up is an ordinary Linux network scanning set-up.
 
 ## Configure client
 

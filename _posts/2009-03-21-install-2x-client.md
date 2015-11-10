@@ -16,6 +16,8 @@ At the time of writing there are no Debian-based packages, so download the RPM c
 
 ## Installing 2x Client
 
+<!--more-->
+
 ### Alien Installation
 
 In order to convert the RPM package into a DEB package, we need to install alien:

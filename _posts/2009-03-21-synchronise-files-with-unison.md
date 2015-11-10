@@ -6,9 +6,7 @@ category: technology
 tags: [howto, linux, unison, sync]
 ---
 
-## Warning
-
-These instructions worked for the author - they may not work for you.
+<img src="/assets/unison_logo.png" class="image-right" alt="Unison logo">
 
 ## Installing Unison
 

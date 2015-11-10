@@ -15,6 +15,8 @@ tags: [howto, linux, cli]
 
 **You cannot run this command as "sudo", if you need root access for your copy, then you will need to execute a "sudo su" or log in as root.**
 
+<!--more-->
+
 ## What the command will do
 
 With any command that you are given by someone, you should always check what that command will do:

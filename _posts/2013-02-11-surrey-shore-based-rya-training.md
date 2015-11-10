@@ -9,6 +9,8 @@ category: personal
 tags: [sailing, rya, recommendation]
 ---
 
+<img src="/assets/rya_training.jpg" class="image-right" alt="RYA Training">
+
 [Surrey Shore-based RYA
 Training](http://www.surrey-shorebased.co.uk "Surrey Shore-based RYA Training")
 

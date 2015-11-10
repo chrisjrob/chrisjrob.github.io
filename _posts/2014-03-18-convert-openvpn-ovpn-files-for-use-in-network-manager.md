@@ -14,7 +14,7 @@ find [OpenVPN](http://openvpn.net/ "OpenVPN") a delight, but what do you
 do with your client.ovpn file once you have it?
 
 If you spend most of your time in a terminal anyway, then I would
-suggest just putting all your client.ovpn files into \~/.openvpn,
+suggest just putting all your client.ovpn files into `~/.openvpn`,
 renaming them in some appropriate way, and then using them simply by
 typing:
 

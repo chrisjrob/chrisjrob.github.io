@@ -8,17 +8,19 @@ category: technology
 tags: [ltsp, nx]
 ---
 
-## Warning
-
-These instructions are for Debian Lenny.  They are my notes of what I did, and may contain errors or missed steps.
-
-This assumes you have FreeNX installed somewhere to which to connect.  You might like to see my [Install FreeNX]({% post_url 2010-07-08-install-freenx %}) for details.
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
 
 ## Instructions
 
 These instructions are for installing NoMachine's NX Client for Linux on LTSP, to enable connection to a FreeNX (or NX) server from a screen script.
 
 <!--more-->
+
+## Warning
+
+These instructions are for Debian Lenny.  They are my notes of what I did, and may contain errors or missed steps.
+
+This assumes you have FreeNX installed somewhere to which to connect.  You might like to see my [Install FreeNX]({% post_url 2010-07-08-install-freenx %}) for details.
 
 ## Download NXClient
 

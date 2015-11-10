@@ -18,6 +18,8 @@ tags: [howto, linux, dd, recovery, disk]
    * Configure networking
    * Uncomment repositories in `/etc/apt/sources.list`
 
+<!--more-->
+
 ## Mount destination drive
 
 You need access to a hard drive that is able to support large files.  I started with fat32 and came a cropper when it hit 4gb.  I replaced that with an NFS share on my desktop PC and it worked beautifully.  Mount it ready for action.

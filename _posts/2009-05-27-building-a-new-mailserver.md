@@ -6,7 +6,9 @@ category: technology
 tags: [linux, debian, ltsp, email] 
 ---
 
-Our Debian Lenny LTSP5 Install has hit a road block: currently the site are using a Citrix server at another location over a 256k connection to pick up their emails.  I really didn't feel that I could ask them all to collect their emails over a 256k connection, so what are the alternatives?  Well I could upgrade the bandwidth by creating an inter-site VPN, but that will still only provide perhaps 600k (that being the upload bandwidth of the host site).  The solution is to move the mailserver onto the 'net, so that they can benefit from a full 8mb ADSL download.
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian Logo">
+
+Our Debian Lenny [LTSP5 Install]({% post_url 2009-01-24-ltsp5-clean-install %}) has hit a road block: currently the site are using a Citrix server at another location over a 256k connection to pick up their emails.  I really didn't feel that I could ask them all to collect their emails over a 256k connection, so what are the alternatives?  Well I could upgrade the bandwidth by creating an inter-site VPN, but that will still only provide perhaps 600k (that being the upload bandwidth of the host site).  The solution is to move the mailserver onto the 'net, so that they can benefit from a full 8mb ADSL download.
 
 <!--more-->
 

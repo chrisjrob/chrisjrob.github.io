@@ -8,6 +8,8 @@ category: technology
 tags: [ltsp, vnc]
 ---
 
+<img src="/assets/italc_icon.png" class="image-right" alt="Italc Logo">
+
 ## Warning
 
 After completing this installation, the clients received an error on login about port 5900 already in use.  Upgrading italc-client (by temporarily adding the sid repository to `/etc/apt/source.list` in the chroot and re-installing italc-client) fixed this problem.

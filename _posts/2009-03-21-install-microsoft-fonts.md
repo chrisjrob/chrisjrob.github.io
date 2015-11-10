@@ -15,6 +15,8 @@ Should be able to install simply by:
     # apt-get install msttcorefonts
     # dpkg-reconfigure --force msttcorefonts
 
+<!--more-->
+
 ## Manual Installation
 
 Alternatively download each font as an .exe file and extract TTF contents (Konqueror &rarr; Actions &rarr; Extract):

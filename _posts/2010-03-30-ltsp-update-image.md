@@ -8,6 +8,8 @@ category: technology
 tags: [ltsp]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
+
 ## Command
 
     ltsp-update-image
@@ -20,9 +22,9 @@ Any change you make in the chroot will only take effect for the clients after yo
 
 As Debian uses NFS, this command is not necessary, unless you have chosen to change to NBD, in which case you presumably know that you are "different".
 
-If you are on Debian and you have a directory `/opt/ltsp/i386/images`, then this is likely to mean that you have run this command by mistake.  This may trigger the clients to attempt to use NBD, so you should probably remove this directory, or explicitly tell your clients to use NFS - see LTSP5 Troubleshooting for details.
-
 <!--more-->
+
+If you are on Debian and you have a directory `/opt/ltsp/i386/images`, then this is likely to mean that you have run this command by mistake.  This may trigger the clients to attempt to use NBD, so you should probably remove this directory, or explicitly tell your clients to use NFS - see LTSP5 Troubleshooting for details.
 
 ## Man Page
 

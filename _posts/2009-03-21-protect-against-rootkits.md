@@ -8,10 +8,6 @@ category: technology
 tags: [howto, linux, debian, rootkit, security]
 ---
 
-## Warning
-
-**This is how I checked and protected against rootkits and is not how I would recommend that anyone else should do so.**
-
 ## Introduction
 
 Apparently `rootkits` are a major problem in the linux world.  Unlike viruses, you are much more likely to be infected without realising that you even have a problem.  The purpose of this document is twofold:
@@ -20,6 +16,12 @@ Apparently `rootkits` are a major problem in the linux world.  Unlike viruses, y
     # Protect against future infection
 
 Before proceeding, please read the Wikipedia page on `rootkits`;
+
+<!--more-->
+
+## Warning
+
+**This is how I checked and protected against rootkits and is not how I would recommend that anyone else should do so.**
 
 ## Step 1: rkhunter
 

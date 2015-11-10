@@ -8,19 +8,21 @@ category: technology
 tags: [ltsp]
 ---
 
+<img src="/assets/italc_icon.png" class="image-right" alt="italc icons">
+
 ## Introduction
 
 **Stop!  I believe there are now instructions on the 'net for installing the client on the client instead of on the server**
 
 iTalc is a "teacher tool" including screen shadowing functionality.  It has replaced Thin Client Manager in Edubuntu 8.04.
 
-The problem with italc is that the documentation is, I believe, for LTSP4.2, not LTSP5.  Worse, the [Download >> Debian](http://italc.sourceforge.net/wiki/index.php?title=Download:Debian) points at a defunct location, and goes on to state that the official Debian repositories contain out-of-date packages.
+<!--more-->
+
+The problem with italc is that the documentation is, I believe, for LTSP4.2, not LTSP5.  Worse, the [Download &rarr; Debian](http://italc.sourceforge.net/wiki/index.php?title=Download:Debian) points at a defunct location, and goes on to state that the official Debian repositories contain out-of-date packages.
 
 The following is a description for installing from source; which largely the document I followed, and you should read it in conjunction with this:
 
    * <http://indianalinux.blogspot.com/2007/02/howto-install-italc-from-source-on.html>
-
-<!--more-->
 
 ## Warnings
 

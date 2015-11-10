@@ -8,9 +8,7 @@ category: technology
 tags: [howto, linux, ipcop, vodafone]
 ---
 
-## Warning
-
-These are my own personal notes, they relate to a UK Vodafone install, you would need to alter instructions for your location and telco.
+<img src="/assets/huawei-e220.jpg" class="image-right" alt="Huawei E220 3G USB Modem">
 
 ## Introduction
 
@@ -21,6 +19,10 @@ There were many instructions on the Internet, but in reality it proved to be qui
    * [http://www.richs.me.uk/content/view/132/51/](http://www.richs.me.uk/content/view/132/51/)
 
 This was tested on IPCOP version 1.4.18, older versions may not work.
+
+## Warning
+
+These are my own personal notes, they relate to a UK Vodafone install, you would need to alter instructions for your location and telco.
 
 ## Configure Kernel modules
 

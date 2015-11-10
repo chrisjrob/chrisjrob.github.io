@@ -14,6 +14,8 @@ You should be able to install from Backports:
 
     $ apt-get -t "etch-backports" install flashplugin-nonfree
 
+<!--more-->
+
 If this fails, then leave it installed and manually download from Adobe:
 
    * http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash&P2_Platform=Linux

@@ -8,6 +8,8 @@ category: technology
 tags: [ltsp]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
+
 ## Introduction
 
 You've inserted a disk or memory stick in your thin client, and nothing happened, what next?
@@ -16,11 +18,11 @@ You've inserted a disk or memory stick in your thin client, and nothing happened
 
 Each user you wish to be able to access their local devices needs LOCALDEV = True in lts.conf, alternatively you may add to the '[default]' section to make this global.
 
+<!--more-->
+
     [192.168.1.198]
     # Joe Bloggs Desktop
         LOCALDEV             = True
-
-<!--more-->
 
 ## Check user is in fuse group
 

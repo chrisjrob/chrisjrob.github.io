@@ -15,6 +15,8 @@ tags: [howto, linux, imagemagick]
 
 See Testing below.
 
+<!--more-->
+
 ## Manual Installation
 
 ### References

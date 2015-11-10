@@ -8,11 +8,15 @@ category: technology
 tags: [ltsp]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
+
 ## Paths
 
 The ldm-theme is loaded from a symlink at:
 
     /opt/ltsp/i386/usr/share/ldm/themes/default
+
+<!--more-->
 
 Which points to further symlink at:
 
@@ -21,8 +25,6 @@ Which points to further symlink at:
 Which points back to :
 
     /opt/ltsp/i386/usr/share/ldm/themes/ltsp
-
-<!--more-->
 
 ## Copy existing theme
 

@@ -8,6 +8,8 @@ category: technology
 tags: [howto, linux, debian, ispconfig, apache, ruby]
 ---
 
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian">
+
 ## Warning
 
 I know nothing about Ruby on Rails, but this is how I ended up successfully (I think!) installing it.  There may be better ways.
@@ -17,6 +19,8 @@ I know nothing about Ruby on Rails, but this is how I ended up successfully (I t
 At the time of writing, the current version is 1.9.2
 
    * http://www.ruby-lang.org/en/downloads/
+
+<!--more-->
 
 I tend to use checkinstall wherever possible, so that I can manage the package via apt-get and dpkg.
 

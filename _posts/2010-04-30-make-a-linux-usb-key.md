@@ -12,6 +12,8 @@ tags: [howto, linux, usb]
 
 Despite all the fantastic tools around, making a Linux USB key seems to be inconsistent.  Modern hardware seems to be fairly good, but older hardware may need fat 16 or fat 32 or superfloppy format.  The eee pc 701 for example seemed to need superfloppy format to work.
 
+<!--more-->
+
 ## The Shortcut
 
 Try erasing the contents of your USB key, then skipping down to Install Unetbootin below.  You could be lucky, and save yourself some fiddling about!

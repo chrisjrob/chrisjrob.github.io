@@ -8,9 +8,7 @@ category: technology
 tags: [ltsp, sound]
 ---
 
-## Warning
-
-This document is the LTSP 4.2 Client Sound document, which I am in the process of migrating to LTSP 5.  I think it's pretty much there now down to the last step, which may or may not be appropriate for LTSP 5.
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
 
 ## Background
 
@@ -19,6 +17,10 @@ On Ubuntu and Debian sound on the client gets started automatically during boot 
 **The pulse server only runs on the client, it has nothing to do with sound but being the transport endpoint... do not play with any pulse audio on the server, it's all ALSA.**
 
 <!--more-->
+
+## Warning
+
+This document is the LTSP 4.2 Client Sound document, which I am in the process of migrating to LTSP 5.  I think it's pretty much there now down to the last step, which may or may not be appropriate for LTSP 5.
 
 ## Step 1 - Ensure users are in the audio group
 

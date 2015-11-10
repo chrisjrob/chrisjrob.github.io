@@ -21,6 +21,8 @@ These instructions explain how to transfer emails from a Windows email client to
  6. If your Windows email client does not support IMAP, then you will need to upgrade it to a more recent version that does before proceeding.
  7. If your Windows email client does support IMAP, then let's continue...
 
+<!--more-->
+
 ## Install Courier-IMAP on server
 
 See [Install Courier-IMAP Server]({% post_url 2009-03-21-install-courier-imap-server %})

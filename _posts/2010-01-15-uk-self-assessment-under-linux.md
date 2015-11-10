@@ -6,6 +6,8 @@ category: technology
 tags: [linux, tax]
 ---
 
+<img src="/assets/hmrc.jpg" class="image-right" alt="HMRC">
+
 Yes once again I come to complete my tax return, last time it was [a far from successful experience]({% post_url 2009-01-11-uk-self-assessment-for-linux %}).
 
 Given that that page is now a year old and my next year's return is required, I thought it was an opportune time to update it.  Unfortunately nothing much has changed, the list of personal tax applications has shrunk, as TaxCalc's market domination continues.  The only Linux-compatible competitor seems to still be ftax and it requires Acrobat Reader, which isn't available for 64-bit Linux.

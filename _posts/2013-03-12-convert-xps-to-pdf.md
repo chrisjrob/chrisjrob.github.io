@@ -14,6 +14,8 @@ XPS is Microsoft's attempt to replace PDF, the only difference is that everyone 
 
 These instructions were tested in Debian Lenny.  These instructions worked for our specific systems YMMV.
 
+<!--more-->
+
 ## Building from source
 
     $ sudo apt-get install libxext-dev libxt-dev

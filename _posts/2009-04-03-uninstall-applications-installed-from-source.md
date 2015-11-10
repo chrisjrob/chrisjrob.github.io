@@ -17,6 +17,8 @@ Sometimes you have to compile and install packages from source.  Other times you
     $ cd /usr/src/<yourapp>
     $ make uninstall
 
+<!--more-->
+
 This will probably fail with make:
 
     *** No rule to make target `uninstall'.  Stop.

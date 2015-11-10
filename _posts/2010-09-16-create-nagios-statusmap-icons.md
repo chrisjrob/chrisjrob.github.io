@@ -14,6 +14,8 @@ tags: [howto, linux, nagios]
 
 ## Create image in Gimp
 
+<!--more-->
+
 Create a suitable image in Gimp, ensuring that it has a transparent rather than a white background.
 
 From the menu - Image &rarr; Mode &rarr; Indexed and "Generate Optimum Palette" with "Maximum number of colours: 255".

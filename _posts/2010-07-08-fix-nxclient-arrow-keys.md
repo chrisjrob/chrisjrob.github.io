@@ -14,6 +14,8 @@ I recently that the arrow keys on my laptop were not working correctly, usually 
 
    * http://wiki.laptop.org/go/Remote_Desktop
 
+<!--more-->
+
 ## Keyboard mapping
 
 The UK keyboard layout of my laptop is not correctly mapped by the nxclient (which sees it as pc102 instead of pc105). For instance, on a KDE session, the arrow keys are not working, and the Up key thinks it is a PrntScr key and starts ksnapshot! Not really handy... Here is a manual workaround.

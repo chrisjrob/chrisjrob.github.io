@@ -16,6 +16,8 @@ Before installing Citrix presentation server, you need to install OpenMotif.
 
 Unfortunately this is not available in Etch, so you have to get it from unstable. Add unstable to the source.list and install as follows:
 
+<!--more-->
+
     $ apt-get -t "sid" libmotif3
 
 ## Create a dummy libXm.so.4

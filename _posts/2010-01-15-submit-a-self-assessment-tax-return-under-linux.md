@@ -8,6 +8,8 @@ category: technology
 tags: [howto, linux, tax]
 ---
 
+<img src="/assets/hmrc.jpg" class="image-right" alt="HMRC Logo">
+
 ## Introduction
 
 I created this page when completing my tax return for 2007/8, and am now updating it for 2008/09 tax year (January 2010).  I currently use TaxCalc running on Linux under my Windows virtual machine (in VirtualBox OSE), I would like to stop relying on Windows; so what are the options for submitting a UK Self-assessment tax return under Linux?
@@ -16,6 +18,8 @@ I created this page when completing my tax return for 2007/8, and am now updatin
    * HMRC On-line Self-Assessment
    * Install TaxCalc under Wine
    * Run TaxCalc in VirtualBox
+
+<!--more-->
 
 ## Linux Alternatives
 

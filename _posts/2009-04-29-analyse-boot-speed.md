@@ -14,6 +14,8 @@ tags: [howto, linux, cli, bootchart, grub]
 
     # aptitude install bootchart
 
+<!--more-->
+
 ## Step 2 - Update Grub
 
     # nano /boot/grub/menu.lst

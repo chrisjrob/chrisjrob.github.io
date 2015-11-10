@@ -8,11 +8,15 @@ category: technology
 tags: [howto, linux, debian, jigdo]
 ---
 
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
+
 ## Introduction
 
 Just to an "sudo apt-get jigdo-file" and read the following:
 
    * [Debian Jigdo]
+
+<!--more-->
 
 ## Where to get downloads
 

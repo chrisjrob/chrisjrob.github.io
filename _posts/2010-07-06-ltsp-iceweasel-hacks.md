@@ -8,17 +8,21 @@ category: technology
 tags: [ltsp, web]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
+
 ## Introduction
 
 This is just a list of the hacks or fixes that I currently have in place on Iceweasel.  These were not my invention, and surely I owe a debt of thanks to various sites; unfortunately I have no way of knowing which sites.
 
 Some of these hacks are too facilitate system wide control, others help to maximise performance on a thin client system.
 
+<!--more-->
+
 ## Iceweasel Global Preferences
 
-```js
-/etc/iceweasel/pref/iceweasel.js
+`/etc/iceweasel/pref/iceweasel.js`
 
+```js
 // This is the Debian specific preferences file for Iceweasel
 // You can make any change in here, it is the purpose of this file.
 // You can, with this file and all files present in the

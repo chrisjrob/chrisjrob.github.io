@@ -14,6 +14,8 @@ Outlook email cannot be easily transferred into Kontact (at least at the time of
 
 **This method can only be performed on a Windows system, with Outlook installed and working on the same client as you install Thunderbird.  This is because Thunderbird uses Outlook itself to perform the data exchange.  This means that you cannot just copy across a PST and expect Thunderbird to be able to import it - you must have a running Outlook session on the client.**
 
+<!--more-->
+
 ## Step 1 Prepare Outlook
 
 Move any emails, calendar entries, tasks, contacts etc that are currently in your archive folder back into your main "Outlook today" Personal Folder.

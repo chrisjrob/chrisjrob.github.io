@@ -8,11 +8,17 @@ category: technology
 tags: [howto, linux, firewall]
 ---
 
+<img src="/assets/ipcop_logo.png" class="image-right" alt="IPCop Logo">
+
 ## Introduction
 
 This document is for the purpose of building in IPCop Firewall onto a MSI Axis 700 barebones PC.  The firewall will also be used as a NTP time-server, Content-filtering proxy server and OpenVPN server.
 
 ## Requirements
+
+<!--more-->
+
+<img src="/assets/msi-axis-700.jpg" class="image-right" alt="MSI Axis 700">
 
    * MSI C7 VIA CN700 5.1 Audio Lan DDRII quicklinx:[4FY9WS](https://www.dabs4work.com/productview.aspx?Quicklinx=4FY9)
    * D-Link DFE 580TX - network adapter - 4 ports quicklinx:[1YH9WS](https://www.dabs4work.com/productview.aspx?QuickLinx=1YH9)

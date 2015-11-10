@@ -14,6 +14,8 @@ Oddly enough, there is no option, when browsing folders, to right-click and send
 
 These instructions are for Kmail, if you are not using Kmail (or KDE Kontact PIM) then these instructions will need to be modified for the command line of your email client.
 
+<!--more-->
+
 ## Installation
 
 Create the following file and save as "kmail.desktop" in the folder `/usr/share/apps/konqueror/servicemenus` (for all users on your system).

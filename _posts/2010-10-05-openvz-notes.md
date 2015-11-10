@@ -23,6 +23,8 @@ This is just an aide-memoire, please don't try and follow it.
     EOF
     # chmod a+x /etc/rc2.d/S15ssh_gen_host_keys
 
+<!--more-->
+
 ## Tip re. freenx-server
 
 You will need to reconfigure the freenx-server:
