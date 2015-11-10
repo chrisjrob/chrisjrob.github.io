@@ -14,6 +14,8 @@ When making changes to profiles under kiosktool, it stalls when uploading change
 
 Persistently clicking cancel followed by retry does deliver the goods, but sometimes it can take ten attempts or more, with the load average quickly escalating to ten times the server's usual level.
 
+<!--more-->
+
 I understand it requires the fish protocol, even though it is editing the local machine, because kiosk has to be run as a standard user, but requires root access to edit the profile.
 
 The fish protocol usually works fine in konqueror.
