@@ -20,6 +20,8 @@ The gospel for sound according to Debian:
 
    * http://www.debianhelp.co.uk/sound.htm
 
+<!--more-->
+
 ## Step 1: Make sure you have the sound system fully installed
 
     # apt-get install alsa-base alsa-oss alsa-source alsa-utils

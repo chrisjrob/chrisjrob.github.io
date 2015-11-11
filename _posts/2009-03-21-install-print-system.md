@@ -8,9 +8,7 @@ category: technology
 tags: [howto, linux, cups, wine, print]
 ---
 
-## Warning
-
-**This document is certainly incomplete and possible inaccurate.**
+This document is certainly incomplete and possible inaccurate, please proceed with caution:
 
 ## Install Cups Print System
 

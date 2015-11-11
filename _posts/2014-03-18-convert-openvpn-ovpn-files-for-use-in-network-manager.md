@@ -9,6 +9,8 @@ category: technology
 tags: [linux, vpn, openvpn, networking]
 ---
 
+<a href="http://openvpn.net/"><img src="/assets/openvpn.png" class="image-right" alt="OpenVPN Logo"></a>
+
 Anyone who has enjoyed the dubious benefits of working with IPSEC will
 find [OpenVPN](http://openvpn.net/ "OpenVPN") a delight, but what do you
 do with your client.ovpn file once you have it?
@@ -18,9 +20,9 @@ suggest just putting all your client.ovpn files into `~/.openvpn`,
 renaming them in some appropriate way, and then using them simply by
 typing:
 
-    $ sudo openvpn client.ovpn
-
 <!--more-->
+
+    $ sudo openvpn client.ovpn
 
 If, on the other hand, you live in a more graphically orientated world,
 then you might like to integrate them into Network Manager. Sadly, the

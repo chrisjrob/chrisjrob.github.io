@@ -8,9 +8,7 @@ category: technology
 tags: [howto, linux, samba, ldap]
 ---
 
-## Warning
-
-**If you are looking for a full Samba LDAP installation, please look elsewhere, this is a simple set-up to access files from an existing Windows or Samba server.**
+If you are looking for a full Samba LDAP installation, please look elsewhere, this is a simple set-up to access files from an existing Windows or Samba server.
 
 ## Installation
 

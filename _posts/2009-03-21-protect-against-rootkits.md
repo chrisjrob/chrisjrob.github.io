@@ -12,8 +12,8 @@ tags: [howto, linux, debian, rootkit, security]
 
 Apparently `rootkits` are a major problem in the linux world.  Unlike viruses, you are much more likely to be infected without realising that you even have a problem.  The purpose of this document is twofold:
 
-    # Check for existing infection
-    # Protect against future infection
+ 1. Check for existing infection
+ 2. Protect against future infection
 
 Before proceeding, please read the Wikipedia page on `rootkits`;
 

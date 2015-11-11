@@ -9,6 +9,8 @@ category: technology
 tags: [linux, barclays, banking]
 ---
 
+<img src="/assets/barclays.jpg" class="image-right" alt="Barclays logo">
+
 Further to [my recent post]({% post_url 2011-02-23-barclays-on-line-banking %} "Barclays on-line banking")
 on the subject, I have now found [more information](http://www.business.barclays.co.uk/BRC1/jsp/brccontrol?task=homefreevi8&value=10335&target=_blank&site=bbb "Barclays Corporate Internet Security") on the Barclays Corporate website:
 

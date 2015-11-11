@@ -18,13 +18,13 @@ would cause, along with the need for malware protection. It would also
 have pushed up the cost, a laptop capable of pushing Windows along
 reasonably decently, would have cost a few hundred pounds at least.
 
+<!--more-->
+
 Generally I would just have purchased a low-end Lenovo laptop and
 installed [Ubuntu](http://ubuntu.com "Ubuntu") onto it, but I was aware
 that Ebuyer had recently launched an 
 [HP255 G1 Laptop with Ubuntu pre-installed](http://www.ebuyer.com/620311-hp-255-g1-laptop-with-ubuntu-h6q17ea-abu "HP 255 G1 Laptop with Ubuntu")
 for £219.99 inc. vat (just £183 if you can reclaim the VAT).
-
-<!--more-->
 
 Buying pre-installed with Ubuntu afforded me the comfort of knowing that
 everything would work. Whilst Ubuntu generally does install very easily,

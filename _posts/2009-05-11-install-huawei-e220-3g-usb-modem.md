@@ -14,6 +14,8 @@ tags: [howto, linux, ipcop, vodafone]
 
 Following a failure of our Internet connection, I hastily cobbled together a new proxy server using my 3G modem.  The reason I did not simply add the modem to our existing IPCop solution, was because IPCop currently only supports a single Red/WAN interface.  The IPCop FAQs specifically warn against attempting multiple interfaces.
 
+<!--more-->
+
 There were many instructions on the Internet, but in reality it proved to be quite straightforward.  I followed these instructions, varying them slightly for Vodafone:
 
    * [http://www.richs.me.uk/content/view/132/51/](http://www.richs.me.uk/content/view/132/51/)

@@ -9,6 +9,8 @@ category: technology
 tags: [linux, windows, silverlight, rdp]
 ---
 
+<img src="/assets/silverlight.jpg" class="image-right" alt="Silverlight logo">
+
 Following [my recent post]({% post_url 2011-03-03-problems-playing-silverlight-media-on-windows-server-2003 %})
 regarding Silverlight, unfortunately I have hit disaster.  When the
 audio starts, it sounds choppy with a double-echo or reverb.  In short

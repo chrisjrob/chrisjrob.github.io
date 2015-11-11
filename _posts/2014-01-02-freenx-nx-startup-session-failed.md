@@ -9,6 +9,8 @@ category: technology
 tags: [linux, nx, freenx]
 ---
 
+<img src="/assets/freenx.png" class="image-right" alt="FreeNX Logo">
+
 Occasionally users are unable to connect to our FreeNX server, they
 report an error "Startup Session Failed". Clicking on "Detail" shows
 that it is unable to find the server session file.
@@ -17,9 +19,9 @@ Searching for solutions suggested a number of options, including
 removing the server `/tmp/.X1\*\*\*-lock` files, or simply removing FreeNX
 and installing NoMachine's NXServer instead.
 
-In the end the solution proved remarkably simple:
-
 <!--more-->
+
+In the end the solution proved remarkably simple:
 
 On the server run:
 

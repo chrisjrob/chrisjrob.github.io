@@ -8,15 +8,17 @@ category: technology
 tags: [ltsp]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP logo">
+
 ## Introduction
 
 This is a guide to upgrading from Debian Etch and LTSP 4.2 to Debian Etch and LTSP 5.  This is largely based on the following page which should be your primary guidance on installation:
 
    * http://wiki.debian.org/LTSP/Howto
 
-Now that Debian Lenny has become the stable release, you should install that instead, see the above document for guidance, and/or my LTSP5 Install page.
-
 <!--more-->
+
+Now that Debian Lenny has become the stable release, you should install that instead, see the above document for guidance, and/or my LTSP5 Install page.
 
 ## Warning
 

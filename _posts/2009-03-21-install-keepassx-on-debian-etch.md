@@ -14,8 +14,8 @@ tags: [howto, linux, keepassx, debian]
 
 KeePassX cannot be installed on Debian Etch, because of some dependency issues:
 
-Version: 0.3.1-1
-Depends: libc6 (>= 2.7-1), libgcc1 (>= 1:4.1.1-21), libqt4-core (>= 4.3.4), libqt4-gui (>= 4.3.4), libstdc++6 (>= 4.2.1-4), libx11-6, libxtst6
+    Version: 0.3.1-1
+    Depends: libc6 (>= 2.7-1), libgcc1 (>= 1:4.1.1-21), libqt4-core (>= 4.3.4), libqt4-gui (>= 4.3.4), libstdc++6 (>= 4.2.1-4), libx11-6, libxtst6
 
 <!--more-->
 

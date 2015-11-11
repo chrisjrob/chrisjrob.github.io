@@ -9,6 +9,8 @@ category: technology
 tags: [linux, windows, silverlight, rdp]
 ---
 
+<img src="/assets/silverlight.jpg" class="image-right" alt="Silverlight">
+
 We have to be able to play Silverlight media on our two virtual Windows
 Server 2003 servers.  This is completely unavoidable, because you first
 need to authenticate via an Active-X website, so any option of using

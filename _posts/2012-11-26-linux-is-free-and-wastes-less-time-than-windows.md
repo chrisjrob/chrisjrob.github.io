@@ -9,6 +9,9 @@ category: technology
 tags: [linux, windows, rant]
 ---
 
+
+<img src="/assets/linux-tux.jpg" class="image-right" alt="Linux Tux">
+
 It is commonly said, at least in Microsoft circles, that Linux is free
 if you do not value your time. But is that really true, given the ease
 of installing and updating software under Linux?

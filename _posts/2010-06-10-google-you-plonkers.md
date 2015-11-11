@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Google you plonkers"
-date:   2010-06-10 00:00:00
+date:   2010-06-10 09:00:00
 category: technology
 tags: [google, rant]
 ---

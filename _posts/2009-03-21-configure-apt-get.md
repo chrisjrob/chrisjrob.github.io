@@ -8,15 +8,17 @@ category: technology
 tags: [howto, apt-get, debian, lenny, linux]
 ---
 
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian">
+
 ## Remove CDROM installation
 
 Firstly comment out the CDROM installation from `/etc/apt/sources.list`.  This seems to be done automatically from Lenny.
 
 Next change any references to "stable" are replaced with the name of the current stable release, currently "Lenny".  If we don't do this, then when the next release "Squeeze" goes "stable", suddenly your system will be upgraded next time you do an apt-get upgrade.
 
-    $ apt-get update
-
 <!--more-->
+
+    $ apt-get update
 
 ## Proxy Server
 

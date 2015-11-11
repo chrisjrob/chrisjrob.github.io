@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: An Open Letter To E Book Retailers Lets Have A Return To Common Sense
+title: An Open Letter To E-Book Retailers Lets Have A Return To Common Sense
 date: 2012-10-29
 type: post 
 published: true 

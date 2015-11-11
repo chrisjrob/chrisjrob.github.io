@@ -9,6 +9,8 @@ category: technology
 tags: [linux, banking]
 ---
 
+<img src="/assets/barclays.jpg" class="image-right" alt="Barclays logo">
+
 I have looked into moving to Barclays on-line business banking, but
 apparently it requires a hardware card reader that only works on Windows
 and Mac. This is a major problem as we run Linux everywhere and only

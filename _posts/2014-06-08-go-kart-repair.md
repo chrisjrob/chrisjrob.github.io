@@ -17,13 +17,13 @@ had broken off and the Chinese supplier refused to supply only the
 steering wheel. I accepted the challenge, but did warn that PLA was not
 the ideal plastic for such a repair, being somewhat brittle.
 
+<!--more-->
+
 I decided to approach the problem by removing all the broken plastic
 from the back of the steering wheel, and [designing a new
 part](http://www.fabfabbers.com/models/id/203/gokart-repair-by-chrisjrob "FabFabbers - Go-kart repair")
 to slot over the steering column nut and bolt onto the remains of the
 steering wheel.
-
-<!--more-->
 
 <table>
   <tr>

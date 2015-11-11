@@ -20,9 +20,9 @@ For systems that use NBD (not Debian), this command will create a client image f
 
 Any change you make in the chroot will only take effect for the clients after you run ltsp-update-image.  As such, this is the command that you will run most often.
 
-As Debian uses NFS, this command is not necessary, unless you have chosen to change to NBD, in which case you presumably know that you are "different".
-
 <!--more-->
+
+As Debian uses NFS, this command is not necessary, unless you have chosen to change to NBD, in which case you presumably know that you are "different".
 
 If you are on Debian and you have a directory `/opt/ltsp/i386/images`, then this is likely to mean that you have run this command by mistake.  This may trigger the clients to attempt to use NBD, so you should probably remove this directory, or explicitly tell your clients to use NFS - see LTSP5 Troubleshooting for details.
 

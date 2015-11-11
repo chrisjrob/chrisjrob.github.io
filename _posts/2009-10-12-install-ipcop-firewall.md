@@ -14,9 +14,9 @@ tags: [howto, linux, firewall]
 
 This document is for the purpose of building in IPCop Firewall onto a MSI Axis 700 barebones PC.  The firewall will also be used as a NTP time-server, Content-filtering proxy server and OpenVPN server.
 
-## Requirements
-
 <!--more-->
+
+## Requirements
 
 <img src="/assets/msi-axis-700.jpg" class="image-right" alt="MSI Axis 700">
 

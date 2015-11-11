@@ -8,6 +8,8 @@ category: technology
 tags: [ltsp]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
+
 ## Introduction
 
 The selection of client hardware is an interesting topic, that causes much confusion for those unfamiliar with LTSP.  When you start out with LTSP, the likelihood is that one of your motivations is to extend the life of your existing clients.  But you'd be lucky indeed not to require a few new clients, and of course over time you will need to purchase replacements for hardware failures.  So what are your options?

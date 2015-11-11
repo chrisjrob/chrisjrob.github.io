@@ -8,6 +8,8 @@ category: technology
 tags: [howto, linux, wine, ltsp]
 ---
 
+<img src="/assets/winehq_logo_glass.png" class="image-right" alt="Wine">
+
 ## Warning
 
 **These instructions have not been tested since re-writing, in particular there will be permissions issues.**
@@ -16,9 +18,9 @@ tags: [howto, linux, wine, ltsp]
 
 Please visit for instructions on how to install Wine:
 
-   * http://www.winehq.org/site/download
-
 <!--more-->
+
+   * http://www.winehq.org/site/download
 
 If you get a problem with applications appearing without any text, then you need to install some Windows fonts in Wine. 
 One option is to simply download them from <http://sourceforge.net/projects/corefonts/>. You may also be able to install via a debian installer package:

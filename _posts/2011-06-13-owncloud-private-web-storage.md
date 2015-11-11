@@ -9,7 +9,7 @@ category: technology
 tags: [owncloud]
 ---
 
-<img src="/assets/owncloud.png" class="image-right" alt="ownCloud Logo">
+<a href="http://owncloud.org/"><img src="/assets/owncloud.png" class="image-right" alt="ownCloud Logo"></a>
 
 [An interesting blog post][BSDNexus] about [ownCloud][ownCloud]. 
 ownCloud is a webdav based application allowing you to

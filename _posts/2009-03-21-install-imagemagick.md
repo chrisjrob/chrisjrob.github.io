@@ -13,7 +13,7 @@ tags: [howto, linux, imagemagick]
     # apt-get build-dep imagemagick
     # apt-get install imagemagick perlmagick html2ps lpr libwmf-bin
 
-See Testing below.
+See [Testing](#testing) below.
 
 <!--more-->
 

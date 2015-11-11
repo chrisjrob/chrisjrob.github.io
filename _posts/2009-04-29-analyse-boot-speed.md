@@ -14,11 +14,11 @@ tags: [howto, linux, cli, bootchart, grub]
 
     # aptitude install bootchart
 
-<!--more-->
-
 ## Step 2 - Update Grub
 
     # nano /boot/grub/menu.lst
+
+<!--more-->
 
 Look for a line that looks like this:
 

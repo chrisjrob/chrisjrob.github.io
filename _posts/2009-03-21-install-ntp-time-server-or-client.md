@@ -10,4 +10,4 @@ tags: [howto, linux, ntp]
 
 I am not going to reinvent the wheel - the following link is excellent:
 
-   * http://www.debianadmin.com/ntp-server-and-client-configuration-in-debian.html
+   * [NTP Server and Client Configuration in Debian](http://www.debianadmin.com/ntp-server-and-client-configuration-in-debian.html)

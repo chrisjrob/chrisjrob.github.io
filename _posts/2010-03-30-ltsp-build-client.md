@@ -8,6 +8,8 @@ category: technology
 tags: [ltsp]
 ---
 
+<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP">
+
 ## Command
 
     ltsp-build-client
@@ -16,9 +18,9 @@ tags: [ltsp]
 
 The ltsp-build-client command will download a complete Debian filesystem into `/opt/ltsp/i386` (or specify an alternate location with `--base`) and install the ltsp-client and ldm (LTSP Display Manager) packages.  As such, you will probably only run this command the first time you install LTSP5.
 
-You should move `/opt/ltsp` to `/opt/ltsp_old` before you start.
-
 <!--more-->
+
+You should move `/opt/ltsp` to `/opt/ltsp_old` before you start.
 
 ## Man Page
 

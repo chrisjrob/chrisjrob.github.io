@@ -12,9 +12,7 @@ tags: [howto, linux, ispconfig, webdav]
 
 This is not an ISPConfig tutorial, so it is supposed that you know how to do this.
 
-**Use the ISPConfig web interface.**
-
-**Probably sensible to make the site a maximum size.**
+**Use the ISPConfig web interface. Probably sensible to make the site a maximum size.**
 
 <!--more-->
 

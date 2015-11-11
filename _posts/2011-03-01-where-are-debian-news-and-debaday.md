@@ -9,6 +9,8 @@ category: technology
 tags: [linux, debian, debaday]
 ---
 
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
+
 I went to look for an article on fcheck, that I originally found on
 <http://debaday.debian.net>, only to find the site down, there is 
 [a related bug](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=543343 "Debian Bug 543343"),

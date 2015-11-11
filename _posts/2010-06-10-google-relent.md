@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Google relent"
-date:   2010-06-10 00:00:00
+date:   2010-06-10 12:30:00
 category: technology
 tags: [google, rant]
 ---

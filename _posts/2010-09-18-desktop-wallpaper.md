@@ -6,6 +6,8 @@ category: technology
 tags: [linux, ltsp, wallpaper]
 ---
 
+<img src="/assets/trident-wallpaper-300.png" class="image-right" alt="Trident Wallpaper">
+
 When I launched our first LTSP server, I was very keen to make the system as pleasurable for the users as possible; to this end, I left users able to customise their desktop pretty much how they liked.  I decided that this free-for-all had gone too far, when I saw customers sitting in front of one user's computer, sporting a desktop wallpaper of his baby son.  At the time I just set a system default of a fairly neutral blue / dark blue radial gradient, and put an item on my to-do list to create a desktop wallpaper.
 
 <!--more-->
@@ -18,12 +20,14 @@ Those who read [my earlier post regarding KDE Wallpaper]({% post_url 2010-06-26-
 
 To determine the screen size, I used a small Perl Tk routine:
 
-    sub get_screen_size {
-            use Tk;
-            my $mw=tkinit;
-            $mw->withdraw;
-            return($mw->screenwidth, $mw->screenheight, $mw->screendepth);
-    }
+```pl
+sub get_screen_size {
+    use Tk;
+    my $mw=tkinit;
+    $mw->withdraw;
+    return($mw->screenwidth, $mw->screenheight, $mw->screendepth);
+}
+```
 
 To select the best wallpaper, I found this far more complicated that I would have liked - the issue is that NX users have screen sizes that are non-standard, so I couldn't rely on exact matches.  In any case, if I relied on perfect matches I would have been creating new wallpapers for each and every obscure monitor resolution.  The best approach I found was to score each wallpaper based on aspect, width and height, calculating the percentage error for each compared to the users screen size, summing the errors and picking the wallpaper with the lowest error.  Logically aspect would be far more important that the other errors, so I trebled the aspect error to make that the dominant criteria.
 

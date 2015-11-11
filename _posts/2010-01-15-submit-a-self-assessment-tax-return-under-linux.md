@@ -10,6 +10,17 @@ tags: [howto, linux, tax]
 
 <img src="/assets/hmrc.jpg" class="image-right" alt="HMRC Logo">
 
+Yes once again I come to complete my tax return, last time it was [a far from successful experience]({% post_url 2009-01-11-uk-self-assessment-for-linux %}).
+
+Given that that page is now a year old and my next year's return is required, I thought it was an opportune time to update it.  Unfortunately nothing much has changed, the list of personal tax applications has shrunk, as TaxCalc's market domination continues.  The only Linux-compatible competitor seems to still be ftax and it requires Acrobat Reader, which isn't available for 64-bit Linux.
+
+<!--more-->
+
+The problem is that you don't really want to mess about with your personal tax, especially when that includes on-line submission.  You need to have faith in the company that offers the product, and you need them to have sufficient numbers of customers that, if there is a problem, it gets fixed quickly.
+
+In short, the only meaninful competition for TaxCalc would seem to be HMRC's own web-based offering.  If it weren't for my positive experiences in using TaxCalc, the convenience of being able to import the previous year's return, and the fact that I have a Windows virtual-machine on my laptop, I would probably try out the HMRC system.  As it is, sadly, the Windows-only TaxCalc wins again.
+
+
 ## Introduction
 
 I created this page when completing my tax return for 2007/8, and am now updating it for 2008/09 tax year (January 2010).  I currently use TaxCalc running on Linux under my Windows virtual machine (in VirtualBox OSE), I would like to stop relying on Windows; so what are the options for submitting a UK Self-assessment tax return under Linux?
@@ -19,7 +30,6 @@ I created this page when completing my tax return for 2007/8, and am now updatin
    * Install TaxCalc under Wine
    * Run TaxCalc in VirtualBox
 
-<!--more-->
 
 ## Linux Alternatives
 
@@ -55,6 +65,7 @@ If you are going to try ftax, then you will notice the lack of any help for Linu
 
    * [google "site:ftax.co.uk linux"](http://www.google.co.uk/search?hl=en&source=hp&q=site:ftax.co.uk+linux)
 
+
 ## HMRC On-line Self-Assessment
 
 Another option is to use HMRC's own software, which I believe is web-based.  The only issue with this is that it appears that you need to enrol in the on-line service, even if you have previously used TaxCalc (or other Internet-filing service); see the following page for details:
@@ -70,6 +81,7 @@ However, the system requirements for this service state:
 *"If you use HMRC's tax software and; or the Data Provisioning Service, you will also need a minimum browser level, Internet Explorer 5.0 (Windows users) Safari 2.0.4 (Mac users) or Opera 7.0 (Windows or Mac) Your Internet browser must have JavaScript and cookies enabled and be capable of supporting 128-bit SSL. Other operating systems and browsers, such as Mozilla Firefox, may allow you to access the site and use the pages but might not display the site as designed or allow you to access all the functionality."*
 
 Okay, so it doesn't mention Linux, but I wouldn't be unduly concerned about that.  No the issue seems to be the browser, and, reading between the lines, this would suggest to me that the site is using extensive Javascript, which is largely blocked (quite rightly) by Firefox.  The chances are that there would be issues; although it wouldn't be massive problem for me to fallback on IE under a Virtual Machine, your mileage may vary.
+
 
 ## Install TaxCalc under Wine
 
@@ -89,9 +101,11 @@ A quick search on the [WineHQ AppDB](http://appdb.winehq.org) showed that someon
 
    * [TaxCalc 2009 under Wine](http://appdb.winehq.org/objectManager.php?sClass=version&iId=18299&iTestingId=46244)
 
+
 ## Run TaxCalc in VirtualBox
 
 It is outside of the scope of this document to describe this in detail, suffice to say it works flawlessly.  The downside is that you are effectively running under Windows, which can hardly be considered a success.
+
 
 ## Conclusion
 

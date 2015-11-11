@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Synchronise files with Unison"
+title: "Howto | Synchronise files with Unison"
 date: 2009-03-21 06:22:37
 category: technology
 tags: [howto, linux, unison, sync]
@@ -13,6 +13,8 @@ tags: [howto, linux, unison, sync]
 You need to install unison on both machines, unison-gtk probably only on the client.
 
     $ sudo apt-get install unison unison-gtk
+
+<!--more-->
 
 N.B. unison-gtk is an optional component - if you are comfortable working from the command line.
 
