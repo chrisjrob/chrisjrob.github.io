@@ -9,6 +9,8 @@ category: technology
 tags: [linux, debian, apt]
 ---
 
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian Logo">
+
 I finally decided to upgrade my work desktop to Debian Squeeze.
 
 Preparing for the Upgrade

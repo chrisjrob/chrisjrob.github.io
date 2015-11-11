@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Time To Accept That Android Is No Longer Open Source
+title: Time To Accept That Android Is No Longer Open Source?
 date: 2011-10-22
 type: post 
 published: true 

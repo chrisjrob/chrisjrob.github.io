@@ -8,6 +8,8 @@ category: technology
 tags: [howto, linux, irc, irssi]
 ---
 
+<img src="/assets/irssi.png" class="image-right" alt="IRSSI">
+
 ## Introduction
 
 This page explains how to set up spelling in Irssi on Debian Lenny.  It assumes that you have already installed irssi.
@@ -33,7 +35,11 @@ Don't forget to change the localisation to match your own locale.
 
 ## Restart irssi
 
-Quit irssi and restart it, you should see aspell loading and your locale mentioned.
+Lastly, either restart IRSSI, or, in type:
+
+    /script load ~/.irssi/scripts/autorun/aspell_complete.pl
+
+You should see aspell loading and your locale mentioned.
 
 ## Testing
 

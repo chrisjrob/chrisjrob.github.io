@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Owncloud Private Web Storage
+title: ownCloud Private Web Storage
 date: 2011-06-13
 type: post 
 published: true 
@@ -8,6 +8,8 @@ status: publish
 category: technology
 tags: [owncloud]
 ---
+
+<img src="/assets/owncloud.png" class="image-right" alt="ownCloud Logo">
 
 [An interesting blog post][BSDNexus] about [ownCloud][ownCloud]. 
 ownCloud is a webdav based application allowing you to

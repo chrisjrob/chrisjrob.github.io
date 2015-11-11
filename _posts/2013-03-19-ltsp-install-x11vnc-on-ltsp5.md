@@ -10,17 +10,15 @@ tags: [ltsp, vnc]
 
 <img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
 
-## Warning
-
-This is how I installed x11vnc on our Debian Lenny LTSP5 server, these are my notes, nothing more.  Use at your peril.
+This is how I installed x11vnc on our Debian Lenny LTSP5 server, these are my notes, nothing more.  Use at your peril!
 
 ## Installing x11vnc
+
+<!--more-->
 
 Enter the chroot
 
     $ sudo chroot /opt/ltsp/i386
-
-<!--more-->
 
 And update the repositories that the ltsp environment uses for apt-get:
 

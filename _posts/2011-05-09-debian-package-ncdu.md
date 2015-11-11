@@ -9,6 +9,8 @@ category: technology
 tags: [linux, cli, disk]
 ---
 
+<img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
+
 We all know that feeling when our disk fills up and you are left
 desperately scrabbling around to find out where your disk space has
 gone. In 

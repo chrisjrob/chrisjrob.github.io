@@ -9,6 +9,8 @@ category: technology
 tags: [linux, ubuntu, microsoft, skype, lync]
 ---
 
+<img src="/assets/pidgin.png" class="image-right" alt="Pidgin Instant Messenger">
+
 I was surprised to learn that Ubuntu 14.04 can talk to Skype for
 Business AKA Lync 2013 using the Pidgin Instant Messaging client. The
 general steps were:

@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Wine 1 4 On Debian Wheezy
+title: Wine 1.4 On Debian Wheezy
 date: 2012-03-08
 type: post 
 published: true 
@@ -8,6 +8,8 @@ status: publish
 category: technology
 tags: [linux, wine]
 ---
+
+<img src="/assets/winehq_logo_glass.png" class="image-right" alt="Wine logo">
 
 I was delighted to read this morning that [Wine 1.4 stable had been released](http://www.winehq.org/news/2012030701 "Wine 1.4 Released"), a
 quick `dpkg -l wine` revealed that my Debian Wheezy install was running version 1.0.1,

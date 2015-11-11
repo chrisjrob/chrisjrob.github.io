@@ -12,9 +12,9 @@ tags: [howto, convert, xps, pdf, linux, cli]
 
 XPS is Microsoft's attempt to replace PDF, the only difference is that everyone can read PDFs, and not everyone can read XPS.  I understand that KDE 4 versions of Okular will support XPS, which may make these instructions unnecessary, although having a tool for conversion readily at hand is always useful!
 
-These instructions were tested in Debian Lenny.  These instructions worked for our specific systems YMMV.
-
 <!--more-->
+
+These instructions were tested in Debian Lenny.  These instructions worked for our specific systems YMMV.
 
 ## Building from source
 
