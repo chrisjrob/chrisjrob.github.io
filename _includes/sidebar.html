@@ -10,15 +10,17 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
-    {% include search.html %}
-
     <nav class="sidebar-nav">
+
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
       {% include navbar.html menuLevel="main" %}
 
       <p class="sublead">Categories</p>
       {% include categories.html %}
+
+      <p class="sublead">Search</p>
+      {% include search_box.html %}
 
       <p class="sublead">Tag Cloud</p>
       {% include tags.html %}
