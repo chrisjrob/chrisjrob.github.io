@@ -10,8 +10,6 @@ tags: [howto, linux, keepassx, debian]
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
 
-## Introduction
-
 KeePassX cannot be installed on Debian Etch, because of some dependency issues:
 
     Version: 0.3.1-1
@@ -19,9 +17,9 @@ KeePassX cannot be installed on Debian Etch, because of some dependency issues:
 
 <!--more-->
 
-## Solution
+## The Solution
 
-Install from source.  These instructions were borrowed from the following comment (thank you "John"):
+The solution is to install from source.  These instructions were borrowed from the following comment (thank you "John"):
 
    * http://www.keepassx.org/howto/setup/inst_source_tar#comment-15355
 

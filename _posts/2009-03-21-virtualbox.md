@@ -1,40 +1,43 @@
-## VirtualBox
+---
+layout: post
+title: Howto | VirtualBox
+menu: howto
+date: 2009-03-21 05:32:58
+weight: 40
+category: technology
+tags: [linux, howto, virtualisation]
+---
 
-<<<---
-%TOC%
-%MENU%
-<<<---
+**The VirtualBox Open Source Edition is now in the Debian and Ubuntu repositories, so these instructions are largely redundant.**
 
-
-
-<!> The VirtualBox Open Source Edition is now in the Debian and Ubuntu repositories, so these instructions are largely redundant.
-
-### Licensing
+## Licensing
 
 The full product is not open source, only free for personal and evaluation use. They do offer an open source version, but this requires compiling from source and does not include headless VRDP or automated set-up, nor USB support.
 
-### Performance
+<!--more-->
+
+## Performance
 
 The good news is that VirtualBox is very fast indeed, and you can activate the CPU virtual threading to make it even faster.
 
-### Installing the Full Product
+## Installing the Full Product
 
 So simple, in comparison to the alternatives.
 
-   # Either download from http://www.virtualbox.org/wiki/Downloads or follow instructions to add to apt sources
-   # Install in the normal Debian way
+ 1. Either download from http://www.virtualbox.org/wiki/Downloads or follow instructions to add to apt sources
+ 2. Install in the normal Debian way
 
-### Creating a virtual machine
+## Creating a virtual machine
 
 So intuitive, you can work it out for yourself.
 
-<?> VirtualBox requires ISO files. If you have IMG files, they can simply be renamed
+**VirtualBox requires ISO files. If you have IMG files, they can simply be renamed**
 
-<?> Don't forget to turn on CPU virtual threading, if you have a suitable CPU
+**Don't forget to turn on CPU virtual threading, if you have a suitable CPU**
 
-### Simple networking
+## Simple networking
 
-See {Step 3: Simple networking in KVM} for more information on this method.
+See [Simple networking in KVM]({% post_url 2009-03-21-simple-networking-in-kvm %}) for more information on this method.
 
 Simply add the two scripts below to your .VirtualBox folder (or a place of your choosing) and in the VirtualBox GUI interface, edit the settings of your virtual machine and change the networking to host networking, give the interface the name "tap0" and add the scripts below in the relevant fields.
 
@@ -42,9 +45,9 @@ Simply add the two scripts below to your .VirtualBox folder (or a place of your 
    * TUN Interface IP: 192.168.0.18
    * Guest Interface IP: 192.168.0.19
 
-#### Create interface
+### Create interface
 
-<pre>
+```sh
 #!/bin/sh
 # vbox-ifup.sh
 
@@ -62,11 +65,11 @@ sudo bash -c 'echo 1 > /proc/sys/net/ipv4/conf/tap0/proxy_arp'
 
 # set "spoofed" arp address
 sudo arp -Ds 192.168.0.19 eth0 pub
-</pre>
+```
 
-#### Close interface
+### Close interface
 
-<pre>
+```sh
 #!/bin/sh
 # vbox-ifdown.sh
 
@@ -84,18 +87,18 @@ sudo bash -c 'echo 0 > /proc/sys/net/ipv4/ip_forward'
 
 # remove tun0 device (UML and newer versions of Qemu use tap0 here!)
 sudo /sbin/ifconfig $1 down
-</pre>
+```
 
-### References
+## References
 
-   * {Build VirtualBox|https://help.ubuntu.com/community/VirtualBox#head-ac88c03223e773c78dbb46b4b13c109de1143a03}
-   * {Complete Host Networking|http://ubuntuforums.org/archive/index.php/t-346185.html}
-   * {Install SeamlessRDP|http://www.cendio.com/seamlessrdp/}
-   * {Configure for seamless and headless operation|http://ubuntuforums.org/showthread.php?t=433359}
-   * {Fix for multiple windows|http://ubuntuforums.org/showthread.php?t=433359&page=11}
+   * [Build VirtualBox](https://help.ubuntu.com/community/VirtualBox#head-ac88c03223e773c78dbb46b4b13c109de1143a03)
+   * [Complete Host Networking](http://ubuntuforums.org/archive/index.php/t-346185.html)
+   * [Install SeamlessRDP](http://www.cendio.com/seamlessrdp/)
+   * [Configure for seamless and headless operation](http://ubuntuforums.org/showthread.php?t=433359)
+   * [Fix for multiple windows](http://ubuntuforums.org/showthread.php?t=433359&page=11)
       * http://ubuntuforums.org/showthread.php?t=224212
       * http://www.fontis.com.au/rdesktop
-   * {VirtualBox Manual|http://www.virtualbox.org/download/UserManual.pdf}
-   * {Concurrent Users|http://sig9.com/articles/concurrent-remote-desktop}
+   * [VirtualBox Manual](http://www.virtualbox.org/download/UserManual.pdf)
+   * [Concurrent Users](http://sig9.com/articles/concurrent-remote-desktop)
       * http://concurrentremotesessions.netfirms.com/
       * http://sala.pri.ee/terminal-server-patch/

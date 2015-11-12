@@ -8,9 +8,7 @@ category: technology
 tags: [howto, linux, dd, recovery, disk]
 ---
 
-## Warning
-
-**This is how I recovered data from an NTFS partitioned hard disk, I am not a recovery expert, and it would irresponsible of me to recommend that you follow these instructions.**
+This is how I recovered data from an NTFS partitioned hard disk, I am not a recovery expert, and it would irresponsible of me to recommend that you follow these instructions.
 
 ## Boot in Ubuntu Live CD
 

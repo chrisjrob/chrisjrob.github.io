@@ -8,14 +8,12 @@ category: technology
 tags: [howto, linux, debian, rootkit, security]
 ---
 
-## Introduction
-
-Apparently `rootkits` are a major problem in the linux world.  Unlike viruses, you are much more likely to be infected without realising that you even have a problem.  The purpose of this document is twofold:
+Apparently **Rootkits** are a major problem in the linux world.  Unlike viruses, you are much more likely to be infected without realising that you even have a problem.  The purpose of this document is twofold:
 
  1. Check for existing infection
  2. Protect against future infection
 
-Before proceeding, please read the Wikipedia page on `rootkits`;
+If you are unsure what a Rootkit is, then please read the [Rootkit Wikipedia page](https://en.wikipedia.org/wiki/Rootkit) before continuing.
 
 <!--more-->
 

@@ -8,8 +8,6 @@ category: technology
 tags: [howto, linux, email, mailserver]
 ---
 
-## Introduction
-
 These instructions explain how to transfer emails from a Windows email client to Linux Kmail.  This document has a number of provisos:
 
  1. If your mailserver is running IMAP, then what are you doing here?  Just connect your Linux mail client to your IMAP server and you're good to go!

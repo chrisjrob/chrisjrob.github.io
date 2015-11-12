@@ -9,14 +9,16 @@ category: technology
 tags: [linux, debian, virtualisation]
 ---
 
-A nice how-to for KVM and libvirt on Debian Squeeze: [Virtualization With KVM On A Debian Squeeze Server][howto]
+A nice how-to for KVM and libvirt on Debian Squeeze:
+
+ * [Virtualization With KVM On A Debian Squeeze Server][howto]
+
+<!--more-->
 
 I have used KVM, but never with libvirt.  I understand that libvirt is a
 standard api for managing various virtualisation technologies, e.g. KVM,
 QEMU, Xen and others, giving you a common way of managing your guests
 regardless of the technology in use.
-
-<!--more-->
 
 For more information please visit:
 
