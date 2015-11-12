@@ -95,6 +95,9 @@ html {
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .sidebar-nav-item {
   display: block;
@@ -318,5 +321,12 @@ a.sidebar-nav-item:focus {
   font-weight: 300;
   margin-top: 1em;
   margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
+#search_box {
+    margin: auto auto 0.5em auto;
+    text-align: center;
+}
