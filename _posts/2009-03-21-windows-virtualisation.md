@@ -5,7 +5,7 @@ menu: linux
 date: 2009-03-21 05:31:50
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, windows, virtualisation]
 ---
 
 The area of virtualisation is one of rapid development and you should investigate more widely before making any decisions.

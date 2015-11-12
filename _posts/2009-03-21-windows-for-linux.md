@@ -5,7 +5,7 @@ menu: linux
 date: 2009-03-21 05:31:36
 weight: 40
 category: technology
-tags: [linux]
+tags: [linux, windows]
 ---
 
 <img src="/assets/linux-tux.jpg" class="image-right" alt="Tux">

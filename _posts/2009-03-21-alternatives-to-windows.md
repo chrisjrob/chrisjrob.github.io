@@ -3,7 +3,7 @@ layout: post
 title: Alternatives to Windows
 date: 2009-03-21 05:33:57
 category: technology
-tags: [linux]
+tags: [linux, windows]
 ---
 
 I have been repeatedly astonished by the number of people who have no idea that any alternative to Microsoft Windows actually exists.  Here is a list of just a few with Links to their respective Wikipedia pages:
