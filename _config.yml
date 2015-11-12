@@ -5,7 +5,8 @@ redcarpet:
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+# permalink:        pretty
+permalink:        /:year/:month/:title/
 
 # Setup
 title:            chrisjrob
