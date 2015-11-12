@@ -5,7 +5,7 @@ menu: ltsp
 date: 2010-07-06 15:06:17
 weight: 10
 category: technology
-tags: [ltsp, web]
+tags: [ltsp, web, iceweasel]
 ---
 
 <img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
