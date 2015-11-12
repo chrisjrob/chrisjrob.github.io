@@ -26,7 +26,7 @@ Various studies concluded that so called Personal Firewall software is flawed in
 
    * [Personal Firewall](https://en.wikipedia.org/wiki/Personal_firewall)
 
-The good news is that combined modem, router, network switch and Wireless access point can be purchased for less than £50.  Linksys and Draytek have a great reputation, and I personally have had no problems with Netgear.  Just try and get a personal recommendation, and ensure that it does have a built-in firewall.
+The good news is that combined modem, router, network switch and Wireless access point can be purchased for less than &#163;50.  Linksys and Draytek have a great reputation, and I personally have had no problems with Netgear.  Just try and get a personal recommendation, and ensure that it does have a built-in firewall.
 
 ### Encrypt your Wireless
 
