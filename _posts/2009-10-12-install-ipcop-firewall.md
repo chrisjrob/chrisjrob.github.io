@@ -5,7 +5,7 @@ menu: howto
 date: 2009-10-12 11:42:39
 weight: 40
 category: technology
-tags: [howto, linux, firewall]
+tags: [howto, linux, firewall, ipcop]
 ---
 
 <img src="/assets/ipcop_logo.png" class="image-right" alt="IPCop Logo">

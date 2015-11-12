@@ -5,7 +5,7 @@ menu: howto
 date: 2010-10-05 13:09:30
 weight: 40
 category: technology
-tags: [howto, linux, openvz]
+tags: [howto, linux, openvz, virtualisation]
 ---
 
 ## Warning
