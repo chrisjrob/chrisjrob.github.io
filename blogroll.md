@@ -5,6 +5,16 @@ menu: main
 weight: 95
 ---
 
+## My Blogs
+
+These should all ultimately converge upon this one.
+
+ * [Wordpress](http://chrisjrob.wordpress.com/)
+ * [GitHub](http://chrisjrob.github.io/)
+ * [Bootpolish](http://bootpolish.net)
+
+## Other Recommended Blogs
+
  * [Andy Smith Blog](http://strugglers.net/~andy/blog/)
  * [As days pass by, by Stuart Langridge](http://www.kryogenix.org/)
  * [BSDNexus](http://www.bsdnexus.com/blog/)
