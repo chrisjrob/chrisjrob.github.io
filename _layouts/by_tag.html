@@ -7,7 +7,7 @@ layout: default
     {% if site.tags[page.tag] %}
         {% assign sorted_posts = site.tags[page.tag] | sort: 'title', 'last' %}   
         {% for post in sorted_posts %}
-            <a href="{{ post.url }}/">{{ post.title }}</a><br />
+            <a href="{{ post.url }}">{{ post.title }}</a><br />
         {% endfor %}
     {% else %}
         <p>There are no posts for this tag.</p>
