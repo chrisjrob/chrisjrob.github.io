@@ -6,7 +6,7 @@ highlighter:      pygments
 
 # Permalinks
 # permalink:        pretty
-permalink:        /:year/:month/:title/
+permalink:        /:year/:month/:day/:title/
 
 # Setup
 title:            chrisjrob
