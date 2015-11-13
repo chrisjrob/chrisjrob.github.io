@@ -4,6 +4,7 @@ title:  "LTSP | LTSP5 Clean Install"
 date:   2009-01-24 00:00:00
 category: technology
 tags: [linux, ltsp] 
+image: ltsp_logo.png
 ---
 
 <img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">

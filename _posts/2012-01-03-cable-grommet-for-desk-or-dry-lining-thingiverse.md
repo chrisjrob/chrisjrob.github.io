@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, grommet, github]
+image: grommet_300.jpg
 ---
 
 <a href="/assets/grommet.jpg"><img src="/assets/grommet_300.jpg" class="image-right" alt="Cable Grommet"></a>

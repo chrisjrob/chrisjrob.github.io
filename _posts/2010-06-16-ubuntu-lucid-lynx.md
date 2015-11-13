@@ -4,6 +4,7 @@ title:  "Ubuntu Lucid Lynx"
 date:   2010-06-16 00:00:00
 category: technology
 tags: [linux, ubuntu, broadcom, usb, kde]
+image: ubuntu1004_350.png
 ---
 
 <img src="/assets/ubuntu1004_350.png" class="image-right" alt="Ubuntu 10.04">

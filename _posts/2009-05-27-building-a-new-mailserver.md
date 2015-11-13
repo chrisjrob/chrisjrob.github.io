@@ -4,6 +4,7 @@ title:  "Building a new mailserver"
 date:   2009-05-27 00:00:00
 category: technology
 tags: [linux, debian, ltsp, email] 
+image: debian_logo.png
 ---
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian Logo">

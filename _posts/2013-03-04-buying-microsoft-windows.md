@@ -10,7 +10,7 @@ tags: [windows, licensing, rant]
 ---
 
 Having purchased [my Novatech nFinity
-n1410](/2013/02/22/the-novatech-nfinity-n1410-review/ "Review of the Novatech nFinity n1410"),
+n1410]({% post_url 2013-02-22-the-novatech-nfinity-n1410-review %} "Review of the Novatech nFinity n1410"),
 I thought that I would install Windows as a virtual machine. Nothing
 easier, I thought, and trotted off to my local Currys.
 

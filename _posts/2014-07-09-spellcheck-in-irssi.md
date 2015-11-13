@@ -6,6 +6,7 @@ date: 2014-07-09 11:34:11
 weight: 40
 category: technology
 tags: [howto, linux, irc, irssi]
+image: irssi.png
 ---
 
 <img src="/assets/irssi.png" class="image-right" alt="IRSSI">

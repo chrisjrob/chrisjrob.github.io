@@ -7,6 +7,7 @@ published: true
 status: publish
 category: personal
 tags: [sailing, rope, splice]
+image: splicing_300.png
 ---
 
 <a href="/assets/splicing.png"><img src="/assets/splicing_300.png" class="image-right" alt="Braid on Braid Splicing"></a>

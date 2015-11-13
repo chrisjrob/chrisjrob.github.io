@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, debian, theme]
+image: linux-magazine-debian6.png
 ---
 
 <a href="http://www.linux-mag.com/id/8188/"><img src="/assets/linux-magazine-debian6.png" class="image-right" alt="Linux Magazine: Debian 6"></a>

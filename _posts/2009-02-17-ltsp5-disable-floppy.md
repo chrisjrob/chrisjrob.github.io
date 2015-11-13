@@ -6,6 +6,7 @@ date: 2009-02-17 17:04:58
 weight: 10
 category: technology
 tags: [ltsp]
+image: ltsp_logo.png
 ---
 
 <img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP">

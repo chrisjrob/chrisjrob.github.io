@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, wallpaper, xkcd]
+image: xkcd-wallpaper_300.png
 ---
 
 <a href="/assets/xkcd-wallpaper.png"><img src="/assets/xkcd-wallpaper_300.png" class="image-right" alt="XKCD Wallpaper"></a>

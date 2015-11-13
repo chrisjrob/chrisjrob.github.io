@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, windows, silverlight, rdp]
+image: silverlight.jpg
 ---
 
 <img src="/assets/silverlight.jpg" class="image-right" alt="Silverlight">

@@ -4,6 +4,7 @@ title:  "Desktop Wallpaper"
 date:   2010-09-18 00:00:03
 category: technology
 tags: [linux, ltsp, wallpaper]
+image: trident-wallpaper-300.png
 ---
 
 <img src="/assets/trident-wallpaper-300.png" class="image-right" alt="Trident Wallpaper">

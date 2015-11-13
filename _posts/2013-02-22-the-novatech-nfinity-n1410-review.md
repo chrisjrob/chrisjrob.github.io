@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [novatech, laptop, review]
+image: nfinityn1411.png
 ---
 
 <img src="/assets/nfinityn1411.png" class="image-right" alt="nFinity n1410">

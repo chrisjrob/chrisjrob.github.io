@@ -7,6 +7,7 @@ published: true
 status: publish
 category: personal
 tags: [sailing]
+image: westerly-merlin_300.jpg
 ---
 
 <a href="/assets/westerly-merlin.jpg"><img src="/assets/westerly-merlin_300.jpg" class="image-right" alt="Westerly Merlin 29"></a>

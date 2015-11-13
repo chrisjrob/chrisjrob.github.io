@@ -4,6 +4,7 @@ title:  "LTSP | The Continuing Saga of LTSP Screen Shadowing"
 date:   2008-07-14 00:00:00
 category: technology
 tags: [vnc, italc, linux, ltsp]
+image: italc.jpg
 ---
 
 <img src="/assets/italc.jpg" class="image-right" alt="italc desktop">

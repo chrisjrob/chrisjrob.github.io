@@ -6,6 +6,7 @@ date: 2009-03-21 06:28:35
 weight: 10
 category: technology
 tags: [ltsp, sound, rdp]
+image: ltsp_logo.png
 ---
 
 <img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">

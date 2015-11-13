@@ -4,6 +4,7 @@ title:  "Toshiba Satellite Pro A300 / Debian Lenny 64-bit"
 date:   2008-11-20 00:00:00
 category: technology
 tags: [linux, toshiba, laptop, debian, 64-bit]
+image: toshiba-satellite-pro-a300.jpg
 ---
 
 <img src="/assets/toshiba-satellite-pro-a300.jpg" class="image-right" alt="Toshiba Satellite Pro A300">

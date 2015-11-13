@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, ubuntu, dillinger, markdown, review, web]
+image: dillinger.png
 ---
 
 <a href="http://dillinger.io"><img src="/assets/dillinger.png" class="image-right" alt="Dillinger"></a>

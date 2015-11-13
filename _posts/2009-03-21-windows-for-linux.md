@@ -6,6 +6,7 @@ date: 2009-03-21 05:31:36
 weight: 40
 category: technology
 tags: [linux, windows]
+image: linux-tux.jpg
 ---
 
 <img src="/assets/linux-tux.jpg" class="image-right" alt="Tux">

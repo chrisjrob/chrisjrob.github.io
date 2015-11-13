@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, windows, rant]
+image: linux-tux.jpg
 ---
 
 

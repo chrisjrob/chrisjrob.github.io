@@ -6,6 +6,7 @@ date: 2010-02-15 15:09:47
 weight: 10
 category: technology
 tags: [ltsp]
+image: ltsp_logo.png
 ---
 
 ## RAM

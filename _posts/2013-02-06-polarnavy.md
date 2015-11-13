@@ -7,6 +7,7 @@ published: true
 status: publish
 category: personal
 tags: [sailing, polarnavy, gps]
+image: polar-navy.png
 ---
 
 <img src="/assets/polar-navy.png" class="image-right" alt="Polar Navy">

@@ -4,6 +4,7 @@ title:  "The Green Icons are breeding"
 date:   2008-07-15 00:00:00
 category: technology
 tags: [linux, ltsp, italc, vnc]
+image: italc_icon.png
 ---
 
 <img src="/assets/italc_icon.png" class="image-right" alt="italc green icon">

@@ -4,6 +4,7 @@ title: "Konica Minolta C250 Printing Problems"
 date: 2008-08-23 00:00:00
 category: technology
 tags: [linux, printing, cups] 
+image: c250.png
 ---
 
 <img src="/assets/c250.png" class="image-right" alt="The Konica Minolta C250">

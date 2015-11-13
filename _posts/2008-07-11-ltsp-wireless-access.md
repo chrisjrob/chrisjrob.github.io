@@ -6,6 +6,7 @@ date: 2008-07-11 07:38:51
 weight: 10
 category: technology
 tags: [ltsp, wireless]
+image: lucent-ethernet-converter.jpg
 ---
 
 <img src="/assets/lucent-ethernet-converter.jpg" class="image-right" alt="Lucent Wireless Converter">

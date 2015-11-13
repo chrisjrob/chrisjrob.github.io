@@ -4,6 +4,7 @@ title:  "Unison File Synchronisation"
 date:   2008-10-27 00:00:00
 category: technology
 tags: [linux, unison, sync]
+image: unison_logo.png
 ---
 
 <img src="/assets/unison_logo.png" class="image-right" alt="Unison Logo">

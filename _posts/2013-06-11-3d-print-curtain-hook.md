@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, openscad, github]
+image: curtain-hook_300.jpg
 ---
 
 <a href="/assets/curtain-hook.jpg"><img src="/assets/curtain-hook_300.jpg" class="image-right" alt="Curtain Hooks"></a>

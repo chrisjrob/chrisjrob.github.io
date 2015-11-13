@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [android, amazon, kindle]
+image: kindle-fire.jpg
 ---
 
 <a href="http://www.amazon.co.uk/gp/product/B0083Q04M2/ref=as_li_ss_tl?ie=UTF8&tag=robsquadnet-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=B0083Q04M2"><img src="/assets/kindle-fire.jpg" class="image-right" alt="The Kindle Fire"></a>

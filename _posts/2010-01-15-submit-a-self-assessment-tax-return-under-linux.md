@@ -6,6 +6,7 @@ date: 2010-01-15 10:48:27
 weight: 40
 category: technology
 tags: [howto, linux, tax]
+image: hmrc.jpg
 ---
 
 <img src="/assets/hmrc.jpg" class="image-right" alt="HMRC Logo">

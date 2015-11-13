@@ -6,6 +6,7 @@ date: 2009-02-17 16:22:15
 weight: 10
 category: technology
 tags: [ltsp, sound]
+image: mute.png
 ---
 
 <img src="/assets/mute.png" class="image-right" alt="Mute icon">

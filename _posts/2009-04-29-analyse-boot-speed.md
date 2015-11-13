@@ -6,6 +6,7 @@ date: 2009-04-29 19:45:16
 weight: 40
 category: technology
 tags: [howto, linux, cli, bootchart, grub]
+image: bootchart.png
 ---
 
 <a href="/assets/bootchart.png"><img src="/assets/bootchart_500.png" class="image-right" alt="Boot Chart"></a>

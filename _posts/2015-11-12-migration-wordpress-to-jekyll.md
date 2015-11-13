@@ -7,6 +7,7 @@ published: true
 status: publish
 categories: technology
 tags: [blog]
+image: jekyll.png
 ---
 
 <img src="/assets/jekyll.png" class="image-right" alt="Jekyll logo">

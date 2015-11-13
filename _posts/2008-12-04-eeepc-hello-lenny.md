@@ -4,6 +4,7 @@ title:  "EeePC - Hello Lenny"
 date:   2008-12-04 00:00:00
 category: technology
 tags: [linux, eeepc, debian]
+image: eee-pc-701.jpg
 ---
 
 <img src="/assets/eee-pc-701.jpg" class="image-right" alt="EEE PC 701">

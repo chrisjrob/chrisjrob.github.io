@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, ubuntu, microsoft, skype, lync]
+image: pidgin.png
 ---
 
 <img src="/assets/pidgin.png" class="image-right" alt="Pidgin Instant Messenger">

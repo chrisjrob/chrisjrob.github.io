@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [arm, linux, hardware]
+image: TonidoPlug.jpg
 ---
 
 <img src="/assets/TonidoPlug.jpg" class="image-right" alt="The TonidoPlug">

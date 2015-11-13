@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, ubuntu, hp, laptop, review]
+image: ubuntu-laptop-000.jpg
 ---
 
 <a href="http://www.ebuyer.com/620311-hp-255-g1-laptop-with-ubuntu-h6q17ea-abu"><img src="/assets/ubuntu-laptop-000.jpg" class="image-left" alt="HP 255 G1 Laptop with Ubuntu"></a>

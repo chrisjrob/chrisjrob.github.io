@@ -7,9 +7,10 @@ published: true
 status: publish
 category: technology
 tags: [linux, cli, crontab]
+image: crontab.png
 ---
 
-[![Image]({{%20site.baseurl%20}}/assets/crontab.png?w=487)](http://chrisjrob.files.wordpress.com/2014/01/crontab.png)
+<img src="/assets/crontab.png" class="image-right" alt="Crontab">
 
 Very early on in my Linux life, I came across this suggested header for
 crontab and I've used it ever since. So much so that I am always

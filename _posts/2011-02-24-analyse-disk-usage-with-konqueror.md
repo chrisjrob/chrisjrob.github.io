@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, kde, konqueror, disk]
+image: konqueror-file-size-view_300.png
 ---
 
 <a href="/assets/konqueror-file-size-view.png"><img src="/assets/konqueror-file-size-view_300.png" class="image-right" alt="Konqueror File Size View"></a> 

@@ -4,6 +4,7 @@ title:  "Changes to the website"
 date:   2008-07-05 00:00:00
 category: technology 
 tags: [linux, ltsp, printing]
+image: ltsp_logo.png
 ---
 
 I can't believe a week has passed, with no blog entry.  Apologies.

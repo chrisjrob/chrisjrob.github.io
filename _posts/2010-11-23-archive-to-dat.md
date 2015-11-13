@@ -6,6 +6,7 @@ date: 2010-11-23 16:25:08
 weight: 40
 category: technology
 tags: [howto, linux, cli, archive, dat, tar]
+image: freecom-dat.jpg
 ---
 
 <img src="/assets/freecom-dat.jpg" class="image-right" alt="Freecom DAT Drive">

@@ -4,6 +4,7 @@ title:  "Toshiba Satellite Pro A300 and Compiz"
 date:   2008-12-07 00:00:00
 category: technology
 tags: [linux, toshiba, compiz, kde]
+image: toshiba-satellite-pro-a300.jpg
 ---
 
 

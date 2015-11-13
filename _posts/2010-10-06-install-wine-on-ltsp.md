@@ -6,6 +6,7 @@ date: 2010-10-06 15:29:55
 weight: 40
 category: technology
 tags: [howto, linux, wine, ltsp]
+image: winehq_logo_glass.png
 ---
 
 <img src="/assets/winehq_logo_glass.png" class="image-right" alt="Wine">

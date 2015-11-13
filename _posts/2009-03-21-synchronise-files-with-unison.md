@@ -4,6 +4,7 @@ title: "Howto | Synchronise files with Unison"
 date: 2009-03-21 06:22:37
 category: technology
 tags: [howto, linux, unison, sync]
+image: unison_logo.png
 ---
 
 <img src="/assets/unison_logo.png" class="image-right" alt="Unison logo">

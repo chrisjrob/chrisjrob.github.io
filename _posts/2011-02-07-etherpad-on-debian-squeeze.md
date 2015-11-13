@@ -4,6 +4,7 @@ title:  "Etherpad on Debian Squeeze"
 date:   2011-02-07 00:00:00
 category: technology
 tags: [linux, debian, etherpad]
+image: etherpad.png
 ---
 
 <img src="/assets/etherpad.png" class="image-right" alt="Etherpad">

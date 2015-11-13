@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, barclays, banking]
+image: barclays.jpg
 ---
 
 <img src="/assets/barclays.jpg" class="image-right" alt="Barclays logo">

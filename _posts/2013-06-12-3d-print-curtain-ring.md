@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, openscad, github]
+image: curtainring_300.png
 ---
 
 <a href="/assets/curtainring.png"><img src="/assets/curtainring_300.png" class="image-right" alt="Curtain Ring"></a>

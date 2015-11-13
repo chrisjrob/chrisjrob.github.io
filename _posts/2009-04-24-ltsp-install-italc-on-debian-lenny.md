@@ -6,6 +6,7 @@ date: 2009-04-24 13:35:12
 weight: 10
 category: technology
 tags: [ltsp, vnc]
+image: italc_icon.png
 ---
 
 <img src="/assets/italc_icon.png" class="image-right" alt="Italc Logo">

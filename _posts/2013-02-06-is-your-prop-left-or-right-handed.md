@@ -7,6 +7,7 @@ published: true
 status: publish
 category: personal
 tags: [sailing]
+image: prop.jpg
 ---
 
 <img src="/assets/prop.jpg" class="image-right" alt="Prop">

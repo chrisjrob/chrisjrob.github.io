@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, ubuntu, apt, bandwidth, cli]
+image: ubuntu-1404-desktop.png
 ---
 
 <img src="/assets/ubuntu-1404-desktop.png" class="image-right" alt="Ubuntu 14.04 Desktop">

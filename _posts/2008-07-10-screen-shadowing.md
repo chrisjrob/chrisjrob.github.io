@@ -4,6 +4,7 @@ title:  "LTSP | Screen Shadowing"
 date:   2008-07-10 00:00:00
 category: technology
 tags: [vnc, italc, linux, ltsp]
+image: ltsp_logo.png
 ---
 
 <img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP">

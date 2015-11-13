@@ -4,6 +4,7 @@ title:  "Debian Lenny"
 date:   2008-10-13 00:00:00
 category: technology
 tags: [linux, debian]
+image: debian_logo.png
 ---
 
 

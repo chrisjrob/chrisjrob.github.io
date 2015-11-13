@@ -6,6 +6,7 @@ date: 2010-09-29 10:06:35
 weight: 40
 category: technology
 tags: [howto, linux, kde, kiosktool]
+image: kiosktool3.png
 ---
 
 <img src="/assets/kiosktool3.png" class="image-right" alt="KDE Kiosktool">

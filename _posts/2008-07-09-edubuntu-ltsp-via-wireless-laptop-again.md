@@ -4,6 +4,7 @@ title:  "Edubuntu LTSP via Wireless Laptop Again"
 date:   2008-07-09 00:00:00
 category: technology 
 tags: [linux, ltsp, wireless, edubuntu]
+image: buffalo-wireless-controller.jpg
 ---
 
 <img src="/assets/buffalo-wireless-controller.jpg" class="image-right" alt="Buffalo Wireless Controller">

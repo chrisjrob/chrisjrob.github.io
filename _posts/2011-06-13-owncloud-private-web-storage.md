@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [owncloud]
+image: owncloud.png
 ---
 
 <a href="http://owncloud.org/"><img src="/assets/owncloud.png" class="image-right" alt="ownCloud Logo"></a>

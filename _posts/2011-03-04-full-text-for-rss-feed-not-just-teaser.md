@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [blog, rss]
+image: rss.png
 ---
 
 <img src="/assets/rss.png" class="image-right" alt="RSS Logo">

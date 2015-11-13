@@ -6,6 +6,7 @@ date: 2009-03-21 06:03:30
 weight: 40
 category: technology
 tags: [howto, linux, keepassx, debian]
+image: debian_logo.png
 ---
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">

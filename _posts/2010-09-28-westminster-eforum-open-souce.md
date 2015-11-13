@@ -4,8 +4,8 @@ title:  "Westminster eForum - Open Source"
 date:   2010-09-28 00:00:03
 category: technology
 tags: [linux, eforum]
+image: westminster_eforum.png
 ---
-
 
 <a href="/downloads/westminster_eforum_presentation.pdf"><img src="/assets/westminster_eforum.png" class="image-right" alt="Westminster eForum"></a>
 

@@ -4,6 +4,7 @@ title:  "Debian Lenny - Some simple performance improvements"
 date:   2008-12-19 00:00:00
 category: technology
 tags: [linux, debian]
+image: debian_logo.png
 ---
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian">

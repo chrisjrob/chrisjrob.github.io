@@ -4,6 +4,7 @@ title:  "LTSP | Edubuntu via Wireless Laptop"
 date:   2008-07-07 00:00:00
 category: technology 
 tags: [linux, ltsp, edubuntu]
+image: lucent-ethernet-converter.jpg
 ---
 
 <img src="/assets/lucent-ethernet-converter.jpg" class="image-right" alt="The Lucent Ethernet Converter">

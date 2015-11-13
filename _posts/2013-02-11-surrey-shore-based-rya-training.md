@@ -7,6 +7,7 @@ published: true
 status: publish
 category: personal
 tags: [sailing, rya, recommendation]
+image: rya_training.jpg
 ---
 
 <img src="/assets/rya_training.jpg" class="image-right" alt="RYA Training">

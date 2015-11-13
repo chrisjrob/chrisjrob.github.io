@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, pekwm]
+image: pekwm-snapshot_300.png
 ---
 
 <a href="/assets/2011-03-pekwm-snapshot.png"><img src="/assets/pekwm-snapshot_300.png" class="image-right" alt="PekWM with Tint2 Panel"></a>

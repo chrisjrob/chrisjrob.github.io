@@ -4,6 +4,7 @@ title:  "Debian Lenny - applying the new KDM theme"
 date:   2008-12-20 00:00:00
 category: technology
 tags: [linux, debian, kde, theme]
+image: debian_logo.png
 ---
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian">

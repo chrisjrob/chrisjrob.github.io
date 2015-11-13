@@ -4,6 +4,7 @@ title:  "Amazon MP3 Downloads"
 date:   2009-01-06 00:00:00
 category: technology
 tags: [linux, amazon, music, 64-bit]
+image: amazon-music.png
 ---
 
 <img src="/assets/amazon-music.png" class="image-right" alt="Amazon Music">

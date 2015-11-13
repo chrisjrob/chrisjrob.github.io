@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, password, gpg, keepassx]
+image: vim_logo.png
 ---
 
 <img src="/assets/vim_logo.png" class="image-right" alt="Vim Logo">

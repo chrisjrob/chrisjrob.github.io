@@ -6,6 +6,7 @@ date: 2009-03-21 05:55:33
 weight: 40
 category: technology
 tags: [howto, apt-get, debian, lenny, linux]
+image: debian_logo.png
 ---
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian">

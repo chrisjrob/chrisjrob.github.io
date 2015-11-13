@@ -6,6 +6,7 @@ date: 2013-03-19 11:49:39
 weight: 16
 category: technology
 tags: [ltsp, vnc]
+image: ltsp_logo.png
 ---
 
 <img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">

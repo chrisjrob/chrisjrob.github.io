@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, cli, disk]
+image: debian_logo.png
 ---
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">

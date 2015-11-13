@@ -4,6 +4,7 @@ title:  "Lenny on Speed"
 date:   2008-12-08 00:00:00
 category: technology
 tags: [linux, toshiba, debian, eeepc]
+image: debian_logo.png
 ---
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">

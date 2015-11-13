@@ -6,6 +6,7 @@ date: 2009-05-11 08:34:15
 weight: 40
 category: technology
 tags: [howto, linux, ipcop, vodafone]
+image: huawei-e220.jpg
 ---
 
 <img src="/assets/huawei-e220.jpg" class="image-right" alt="Huawei E220 3G USB Modem">

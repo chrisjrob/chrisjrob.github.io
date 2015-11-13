@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, vpn, openvpn, networking]
+image: openvpn.png
 ---
 
 <a href="http://openvpn.net/"><img src="/assets/openvpn.png" class="image-right" alt="OpenVPN Logo"></a>

@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, mailserver, imap, ldap]
+image: dashboard_300.png
 ---
 
 <a href="http://iredmail.org"><img src="/assets/dashboard_300.png" class="image-right" alt="iRedmail"></a>

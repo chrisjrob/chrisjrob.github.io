@@ -4,6 +4,7 @@ title:  "UK Self-Assessment for Linux"
 date:   2009-01-11 00:00:00
 category: technology
 tags: [linux, tax]
+image: hmrc.jpg
 ---
 
 <img src="/assets/hmrc.jpg" class="image-right" alt="UK Self-Assessment for Linux">

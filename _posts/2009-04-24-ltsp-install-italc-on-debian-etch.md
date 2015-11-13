@@ -6,6 +6,7 @@ date: 2009-04-24 13:34:25
 weight: 14
 category: technology
 tags: [ltsp]
+image: italc_icon.png
 ---
 
 <img src="/assets/italc_icon.png" class="image-right" alt="italc icons">

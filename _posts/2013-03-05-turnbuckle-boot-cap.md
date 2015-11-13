@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, openscad, github]
+image: shroudcap_preview_featured_300.jpg
 ---
 
 <a href="/assets/shroudcap_preview_featured.jpg"><img src="/assets/shroudcap_preview_featured_300.jpg" class="image-right" alt="Turnbuckle Boot Cap"></a>

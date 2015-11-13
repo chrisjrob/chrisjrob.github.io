@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, openscad, github]
+image: bag-carrier_300.jpg
 ---
 
 <a href="/assets/bag-carrier.jpg"><img src="/assets/bag-carrier_300.jpg" class="image-right" alt="Bag Carrier"></a>

@@ -4,6 +4,7 @@ title:  "Big Buck Bunny"
 date:   2008-06-19 00:00:00
 category: technology 
 tags: [blender]
+image: big-buck-bunny.jpg
 ---
 
 <img src="/assets/big-buck-bunny.jpg" class="image-right" alt="Big Buck Bunny">

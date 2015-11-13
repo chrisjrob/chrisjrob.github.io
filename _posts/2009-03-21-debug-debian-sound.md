@@ -6,6 +6,7 @@ date: 2009-03-21 05:58:43
 weight: 40
 category: technology
 tags: [howto, linux, debian, sound]
+image: debian_logo.png
 ---
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">

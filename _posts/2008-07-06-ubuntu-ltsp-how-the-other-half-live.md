@@ -4,6 +4,7 @@ title:  "Ubuntu LTSP - how the other half live?"
 date:   2008-07-06 00:00:00
 category: technology 
 tags: [linux, ltsp, ubuntu]
+image: edubuntu_8.04.png
 ---
 
 <img src="/assets/edubuntu_8.04.png" class="image-right" alt="Edubuntu 8.04">

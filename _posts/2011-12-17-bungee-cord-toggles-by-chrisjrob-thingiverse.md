@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, openscad, github]
+image: toggle_300.png
 ---
 
 <a href="/assets/toggle.png"><img src="/assets/toggle_300.png" class="image-right" alt="Bungee Cord Toggles"></a>

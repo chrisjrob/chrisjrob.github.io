@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [sinclair]
+image: Sinclair-ZX81.png
 ---
 
 <img src="/assets/Sinclair-ZX81.png" class="image-right" alt="Sinclair ZX81">

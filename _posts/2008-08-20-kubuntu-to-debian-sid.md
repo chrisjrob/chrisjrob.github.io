@@ -4,6 +4,7 @@ title:  "Kubuntu to Debian Sid"
 date:   2008-08-20 00:00:00
 category: technology
 tags: [linux, kubuntu, kde, debian, xorg]
+image: debian_logo.png
 ---
 
 

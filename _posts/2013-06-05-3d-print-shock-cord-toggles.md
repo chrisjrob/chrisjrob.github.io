@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, openscad, github]
+image: toggle_300.jpg
 ---
 
 <a href="/assets/toggle.jpg"><img src="/assets/toggle_300.jpg" class="image-right" alt="Toggle"></a>

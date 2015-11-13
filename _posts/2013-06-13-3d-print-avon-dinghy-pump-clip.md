@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, avon, openscad, github]
+image: avonpumpclip_300.jpg
 ---
 
 <a href="/assets/avonpumpclip.jpg"><img src="/assets/avonpumpclip_300.jpg" class="image-right" alt="Avon Pump Clip"></a>

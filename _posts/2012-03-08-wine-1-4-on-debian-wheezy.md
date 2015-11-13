@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, wine]
+image: winehq_logo_glass.png
 ---
 
 <img src="/assets/winehq_logo_glass.png" class="image-right" alt="Wine logo">

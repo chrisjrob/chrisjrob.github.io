@@ -4,6 +4,7 @@ title:  "Improving boot performance"
 date:   2009-04-14 00:00:00
 category: technology
 tags: [linux, grub]
+image: bootchart_500.png
 ---
 
 <img src="/assets/bootchart_500.png" class="image-right" alt="Boot Chart">

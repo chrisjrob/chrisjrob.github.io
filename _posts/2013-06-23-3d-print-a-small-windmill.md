@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, openscad, github]
+image: windmill_300.jpg
 ---
 
 <a href="/assets/windmill.jpg"><img src="/assets/windmill_300.jpg" class="image-right" alt="A Small Windmill"></a>

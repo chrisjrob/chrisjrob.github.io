@@ -4,6 +4,7 @@ title:  "LTSP | Sound in rdesktop sessions"
 date:   2008-06-17 00:00:00
 category: technology
 tags: [linux, ltsp, sound, rdp]
+image: ltsp_logo.png
 ---
 
 Today I discovered that since our upgrade to LTSP5, sound has stopped working in rdesktop sessions.  Worse, it bombs users out of their Windows session with the error:

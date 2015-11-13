@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [linux, nx, freenx]
+image: freenx.png
 ---
 
 <img src="/assets/freenx.png" class="image-right" alt="FreeNX Logo">

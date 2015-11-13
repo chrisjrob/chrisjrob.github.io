@@ -4,6 +4,7 @@ title:  "Think Python"
 date:   2008-12-08 00:00:00
 category: technology
 tags: [linux, python, perl, learn]
+image: think_python.png
 ---
 
 

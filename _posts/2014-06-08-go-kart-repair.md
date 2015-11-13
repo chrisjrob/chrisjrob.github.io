@@ -7,6 +7,7 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, 3dmodel, reprap, openscad, github]
+image: gokart-08.jpg
 ---
 
 <img src="/assets/gokart-08.jpg" class="image-right" alt="Go Kart">

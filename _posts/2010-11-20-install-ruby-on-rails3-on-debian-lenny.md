@@ -6,6 +6,7 @@ date: 2010-11-20 16:15:40
 weight: 40
 category: technology
 tags: [howto, linux, debian, ispconfig, apache, ruby]
+image: debian_logo.png
 ---
 
 <img src="/assets/debian_logo.png" class="image-right" alt="Debian">

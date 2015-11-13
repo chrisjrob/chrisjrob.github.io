@@ -6,6 +6,7 @@ date: 2010-09-29 10:05:41
 weight: 40
 category: technology
 tags: [howto, linux, kde, kiosktool]
+image: kiosk_1.gif
 ---
 
 ## The Issue
