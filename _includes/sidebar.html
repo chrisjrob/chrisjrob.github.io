@@ -10,6 +10,8 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
+    {% include search_box.html %}
+
     <nav class="sidebar-nav">
 
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
@@ -18,9 +20,6 @@
 
       <p class="sublead">Categories</p>
       {% include categories.html %}
-
-      <p class="sublead">Search</p>
-      {% include search_box.html %}
 
       <p class="sublead">Tag Cloud</p>
       {% include tags.html %}
@@ -31,7 +30,7 @@
       <a class="sidebar-nav-item" href="https://github.com/{{ site.social.github }}">GitHub</a>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p class="sublead">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
 
   </div>
 </div>
