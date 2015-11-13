@@ -16,7 +16,8 @@ url:              http://chrisjrob.com
 baseurl:          /
 
 author:
-  name:           'Christopher Roberts'
+  name:           'Chris Roberts'
+  email:          'chrisjrob@gmail.com'
   url:            https://twitter.com/chrisjrob
 
 paginate:         10
