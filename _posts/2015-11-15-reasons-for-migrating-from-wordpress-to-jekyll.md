@@ -35,7 +35,7 @@ I would imagine most people start using Markdown so that can continue to use the
 At work I have found myself using it in preference to a word-processor, I have written a simple `md2pdf` perl script, so that in vim I can simply type `:md2pdf %` to have my document saved as a PDF. 
 And the PDFs that Pandoc produces are beautiful and headings and sub-headings are automatically converted into PDF Bookmarks, giving your documents an effortless professionalism.
 
-For complicated documents are sometimes start in Markdown and then move to LaTeX, but increasingly I am finding myself able to do virtually everything in Markdown, including simple images and hyperlinks. 
+For complicated documents I sometimes start in Markdown and then move to LaTeX, but increasingly I am finding myself able to do virtually everything in Markdown, including simple images and hyperlinks. 
 But you also have the option of extending plain markdown with HTML tags.
 
 So in simplest terms Jekyll is just an automated way of creating Markdown files and converting them to HTML.
@@ -93,6 +93,8 @@ That said, I now have my Markdown files in a format under my control.
 I can move those files to any Jekyll provider, or indeed to any web provider and have them hosted.
 
 In short, I am hoping that this is the last time I will move platforms!
+
+Lastly, if you're unfamiliar with Markdown, you can [view the Markdown version of this page](https://raw.githubusercontent.com/chrisjrob/chrisjrob.github.io/master/_posts/2015-11-15-reasons-for-migrating-from-wordpress-to-jekyll.md).
 
 
 [jekyll]: http://jekyllrb.com
