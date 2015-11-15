@@ -13,7 +13,7 @@ image: dreamplug.jpg
 <img src="/assets/dreamplug.jpg" class="image-right" alt="Dreamplug">
 
 Further to my recent post on the
-[TonidoPlug]({% post_url 2011-02-25-tonidoplug-tnd003sp1a03-£65-tonido-store %} "TonidoPlug")
+[TonidoPlug]({% post_url 2011-02-25-tonidoplug-tnd003sp1a03-₤65-tonido-store %} "TonidoPlug")
 the following has been sent to me:
 
  *  [DreamPlug ARM box boosts plug computing thinq](http://www.thinq.co.uk/2011/2/1/new-it-announces-dreamplug-arm-box/)
