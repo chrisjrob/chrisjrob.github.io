@@ -38,9 +38,9 @@
   {% endif %}
 
   {% if page.image %}
-    <meta content="/assets/{{ page.image }}" property="og:image">
+    <meta content="{{ site.url }}/assets/{{ page.image }}" property="og:image">
   {% else %}
-    <meta content="/assets/profile-202020.jpg" property="og:image">
+    <meta content="{{ site.url }}/assets/profile-202020.jpg" property="og:image">
   {% endif %}
 
   {% if page.categories %}
