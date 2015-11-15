@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 categories: technology
-tags: [blog]
+tags: [blog, jekyll, github]
 image: jekyll.png
 ---
 
