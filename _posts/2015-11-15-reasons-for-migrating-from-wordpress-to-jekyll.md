@@ -4,7 +4,8 @@ title: Reasons For Migrating from Wordpress to Jekyll
 date: 2015-11-15 15.45
 type: post 
 category: technology
-tags: [jekyll, wordpress]
+tags: [blog, jekyll, wordpress, markdown]
+image: jekyll.png
 ---
 
 <img src="/assets/jekyll.png" class="image-right" alt="Jekyll icon">
