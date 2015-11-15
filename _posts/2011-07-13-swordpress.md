@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Wordpress
+title: s/wordpress\.//
 date: 2011-07-13
 type: post 
 published: true 
