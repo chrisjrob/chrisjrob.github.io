@@ -1,10 +1,9 @@
 --- 
 layout: post 
-title: ~TITLE~
-date: ~DATE~
+title: 
+date: 
 type: post 
-published: true 
-status: publish
-categories: technology
-tags: 
+category: technology
+tags: [ ]
+image: 
 ---
