@@ -23,6 +23,7 @@ These should all ultimately converge upon this one.
  * [Dreamfish.org.uk](http://dreamfish.org.uk/)
  * [Ian Murdock](http://ianmurdock.com/)
  * [Kenwa Solutions](http://www.kenwa-solutions.co.uk/)
+ * [Leo Adamek](https://leo.adamek.me/)
  * [Linus Torvalds](http://torvalds-family.blogspot.com/)
  * [Planet Debian](http://planet.debian.org/)
  * [aseigo](http://aseigo.blogspot.com/)
