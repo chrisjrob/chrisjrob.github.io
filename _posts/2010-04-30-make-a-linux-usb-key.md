@@ -8,8 +8,6 @@ category: technology
 tags: [howto, linux, usb]
 ---
 
-## Introduction
-
 Despite all the fantastic tools around, making a Linux USB key seems to be inconsistent.  Modern hardware seems to be fairly good, but older hardware may need fat 16 or fat 32 or superfloppy format.  The eee pc 701 for example seemed to need superfloppy format to work.
 
 <!--more-->

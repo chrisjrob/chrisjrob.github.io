@@ -9,8 +9,6 @@ tags: [ltsp]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP">
-
 ## Command
 
     ltsp-build-client

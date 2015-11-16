@@ -10,8 +10,6 @@ tags: [3dprint, 3dmodel, avon, openscad, github]
 image: avonpumpclip_300.jpg
 ---
 
-<a href="/assets/avonpumpclip.jpg"><img src="/assets/avonpumpclip_300.jpg" class="image-right" alt="Avon Pump Clip"></a>
-
 Having bought an inflatable Avon Redcrest dinghy on eBay, I found that
 the pump no longer had a clip holding the two halves together. I knew
 that the older models used to have a piece of leather attached to one

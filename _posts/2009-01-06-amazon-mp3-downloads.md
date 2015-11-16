@@ -7,8 +7,6 @@ tags: [linux, amazon, music, 64-bit]
 image: amazon-music.png
 ---
 
-<img src="/assets/amazon-music.png" class="image-right" alt="Amazon Music">
-
 Fantastic, Amazon have opened their MP3 download site for the UK.  Better still they support Linux, offering clients for Debian, Ubuntu and Fedora.  Once again we see companies choosing to support Linux from day one.  Unfortunately there is no 64-bit version, as I found out last night.  This really is the problem for companies producing proprietary software for an open platform.  Which distros do they support?  Which architectures?  Which desktop environment?
 
 <!--more-->

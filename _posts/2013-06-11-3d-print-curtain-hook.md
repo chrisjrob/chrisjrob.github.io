@@ -10,8 +10,6 @@ tags: [3dprint, 3dmodel, openscad, github]
 image: curtain-hook_300.jpg
 ---
 
-<a href="/assets/curtain-hook.jpg"><img src="/assets/curtain-hook_300.jpg" class="image-right" alt="Curtain Hooks"></a>
-
 My mother-in-law's curtains were pulled down by a Great Dane, breaking
 many of the curtain hooks. They seemed to be an unusual design and she
 asked if I might be able to print them on my RepRap.

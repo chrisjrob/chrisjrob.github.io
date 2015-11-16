@@ -9,8 +9,6 @@ tags: [ltsp, sound, rdp]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
 ## Background
 
 Rdesktop is a problem, because it uses `/dev/dsp` as the sound device (for version 1.5 at least).  This is incompatible with ALSA.

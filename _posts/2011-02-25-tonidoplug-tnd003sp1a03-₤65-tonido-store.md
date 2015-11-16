@@ -10,8 +10,6 @@ tags: [arm, linux, hardware]
 image: TonidoPlug.jpg
 ---
 
-<img src="/assets/TonidoPlug.jpg" class="image-right" alt="The TonidoPlug">
-
 We've seen the various plug-in computers recently, but this one looks
 very good value:
 

@@ -9,8 +9,6 @@ tags: [ltsp, vnc]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
 This is how I installed x11vnc on our Debian Lenny LTSP5 server, these are my notes, nothing more.  Use at your peril!
 
 ## Installing x11vnc

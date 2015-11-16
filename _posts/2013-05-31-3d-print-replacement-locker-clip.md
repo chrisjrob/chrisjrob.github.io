@@ -10,8 +10,6 @@ tags: [3dprint, 3dmodel, openscad, github]
 image: lockerclip_300.jpg
 ---
 
-<a href="/assets/lockerclip.jpg"><img src="/assets/lockerclip_300.jpg" class="image-right" alt="Locker Clip"></a>
-
 On my boat there was a locker below the cooker that was not closing
 properly. The problem was that the retaining clip was broken. Normally
 the only solution would be to buy a new clip, but this is the perfect

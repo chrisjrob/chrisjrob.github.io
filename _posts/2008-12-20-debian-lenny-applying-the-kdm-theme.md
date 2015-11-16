@@ -7,8 +7,6 @@ tags: [linux, debian, kde, theme]
 image: debian_logo.png
 ---
 
-<img src="/assets/debian_logo.png" class="image-right" alt="Debian">
-
 If you install kde from a Debian base install, then it is likely that you do not have the attractive new Debian theming for the boot loader and KDM login.  The key to this is the installation of desktop-base, but you do need a few other packages, which don't currently get treated as dependencies.
 
 <!--more-->

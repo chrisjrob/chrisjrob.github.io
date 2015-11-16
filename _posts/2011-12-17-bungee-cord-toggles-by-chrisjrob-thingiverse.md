@@ -10,8 +10,6 @@ tags: [3dprint, 3dmodel, openscad, github]
 image: toggle_300.png
 ---
 
-<a href="/assets/toggle.png"><img src="/assets/toggle_300.png" class="image-right" alt="Bungee Cord Toggles"></a>
-
 I have just created my first OpenSCAD design - 
 [Bungee Cord Toggles](https://github.com/chrisjrob/toggle/blob/master/toggle-dbl.stl). I
 don't actually know if it will print, but will have to wait until my

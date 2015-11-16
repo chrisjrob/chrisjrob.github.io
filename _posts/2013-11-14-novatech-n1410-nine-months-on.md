@@ -10,15 +10,13 @@ tags: [novatech, laptop, review]
 image: nfinityn1411.png
 ---
 
-<a href="http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html"><img src="/assets/nfinityn1411.png" class="image-right" alt="Novatech nFinity n1410"></a>
-
 The power switch remains a momentary petty irritation, but the poor
 quality keyboard and intrusive trackpad are harder to live with. The
 wireless is pretty poor, but it generally connects fine and rarely
 actually causes me any problems.
 
-But the Novatech remains a good-looking, lightweight laptop with a great
-battery life, and highly portable. And it was undeniably great value.
+But the [Novatech n1410] remains a good-looking, lightweight laptop with a
+great battery life, and highly portable. And it was undeniably great value.
 
 <!--more-->
 
@@ -64,3 +62,5 @@ another on [Hotkey
 Debugging](https://wiki.ubuntu.com/Hotkeys/Troubleshooting "Hotkeys Debugging"),
 both of which I will be following at some point.
 
+
+[Novatech n1410]: http://www.novatech.co.uk/laptop/range/novatechnfinityn1410.html

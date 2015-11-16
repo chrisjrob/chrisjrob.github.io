@@ -7,8 +7,6 @@ tags: [linux, mythtv, tv, ion]
 image: lian_li_pc_c37_muse_200.jpg
 ---
 
-<img src="/assets/lian_li_pc_c37_muse_200.jpg" class="image-right" alt="Lian Li PC-37 Case">
-
 Just a reminder of what I was wanting for our HTPC:
 
    * Low power

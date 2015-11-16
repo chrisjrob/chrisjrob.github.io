@@ -9,8 +9,6 @@ tags: [ltsp]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
 ## Job control turned off nbd0 not found
 
 **These instructions do not apply for Ubuntu.**

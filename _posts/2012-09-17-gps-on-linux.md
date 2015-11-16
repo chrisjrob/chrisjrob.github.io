@@ -10,8 +10,6 @@ tags: [linux, cli, gps]
 image: gps-bu-353.jpg
 ---
 
-<a href="http://www.amazon.co.uk/gp/product/B000PKX2KA/ref=as_li_ss_il?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000PKX2KA&linkCode=as2&tag=robsquadnet-21"><img src="/assets/gps-bu-353.jpg" class="image-right" alt="GPS Receiver BU-353"></a>
-
 I have bought myself a [GPS Receiver BU-353](http://www.amazon.co.uk/gp/product/B000PKX2KA/ref=as_li_ss_il?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000PKX2KA&linkCode=as2&tag=robsquadnet-21).
 Having plugged in the device into my Debian Wheezy workstation, I wanted
 to test that it was working.

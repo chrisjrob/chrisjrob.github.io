@@ -30,6 +30,10 @@ layout: default
       Tagged: {{ tags_content }}
   </p>
 
+  {% if post.image %}
+    <img src="/assets/{{ post.image }}" class="image-right">
+  {% endif %}
+
   {{ content }}
 
   {% include share-page.html %}

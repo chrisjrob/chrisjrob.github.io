@@ -10,8 +10,6 @@ tags: [linux, password, gpg, keepassx]
 image: vim_logo.png
 ---
 
-<img src="/assets/vim_logo.png" class="image-right" alt="Vim Logo">
-
 The more that I work from the command line, the more of a nuisance I
 find it that all my passwords are in
 [KeePassX](http://www.keepassx.org "KeePassX") - an excellent GUI

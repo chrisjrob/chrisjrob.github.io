@@ -9,8 +9,6 @@ tags: [howto, apt-get, debian, lenny, linux]
 image: debian_logo.png
 ---
 
-<img src="/assets/debian_logo.png" class="image-right" alt="Debian">
-
 ## Remove CDROM installation
 
 Firstly comment out the CDROM installation from `/etc/apt/sources.list`.  This seems to be done automatically from Lenny.

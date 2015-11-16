@@ -7,8 +7,6 @@ tags: [linux, toshiba, laptop, debian, 64-bit]
 image: toshiba-satellite-pro-a300.jpg
 ---
 
-<img src="/assets/toshiba-satellite-pro-a300.jpg" class="image-right" alt="Toshiba Satellite Pro A300">
-
 The battery on my ageing Dell Inspiron 8200 had to be replaced recently, then the charger, and then (perhaps damage from cheap charger/battery?) the laptop died completely with amperage warnings about a month later.
 
 <!--more-->

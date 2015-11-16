@@ -7,8 +7,6 @@ tags: [linux, ltsp, pc-build]
 image: pack_box_350.jpg
 ---
 
-<img src="/assets/pack_box_350.jpg" class="image-right" alt="Packbox">
-
 Some time ago I bought the following kit:
 
    * [Pack-box](http://linitx.com/viewproduct.php?prodid=11791) &#163; 38.26

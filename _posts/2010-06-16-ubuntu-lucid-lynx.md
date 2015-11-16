@@ -7,8 +7,6 @@ tags: [linux, ubuntu, broadcom, usb, kde]
 image: ubuntu1004_350.png
 ---
 
-<img src="/assets/ubuntu1004_350.png" class="image-right" alt="Ubuntu 10.04">
-
 As a died-in-the-wool KDE user, I'm just coming to terms with KDE4 and mostly loving it.  A few niggles remain, but in the main it is very good indeed.  But I suppose I would hesitate to recommend it to a new user.  Having seen and heard much praise for the latest Ubuntu 10.04 Lucid Lynx, which uses the Gnome desktop, I thought I'd give it a go.
 
 <!--more-->

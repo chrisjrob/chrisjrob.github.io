@@ -9,8 +9,6 @@ tags: [howto, linux, debian, sound]
 image: debian_logo.png
 ---
 
-<img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
-
 Sound is one of those things in Linux which either works out-of-the-box, or drives you berserk. The following instructions did not solve my problems, but I leave them here for future reference.
 
 The gospel for sound according to Debian:

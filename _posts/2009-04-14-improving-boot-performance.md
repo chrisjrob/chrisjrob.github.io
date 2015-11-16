@@ -7,8 +7,6 @@ tags: [linux, grub]
 image: bootchart_500.png
 ---
 
-<img src="/assets/bootchart_500.png" class="image-right" alt="Boot Chart">
-
 One thing you need to know about me is that I am rarely satisfied.  For example, my laptop boots up in a very acceptable 25 seconds, but still I am looking for better.  So far I have not managed to improve matters, but I did find a great tool for graphing your boot performance, and a very neat way of adding it as a grub boot option, read the following article for how to set this up:
 
 <!--more-->

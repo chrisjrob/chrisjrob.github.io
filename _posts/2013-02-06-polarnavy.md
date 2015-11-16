@@ -10,8 +10,6 @@ tags: [sailing, polarnavy, gps]
 image: polar-navy.png
 ---
 
-<img src="/assets/polar-navy.png" class="image-right" alt="Polar Navy">
-
 Following [an earlier post on using GPS]({% post_url 2012-09-17-gps-on-linux %} "GPS on Linux") under Ubuntu, I have been
 trying to get [PolarNavy](http://www.polarnavy.com/ "Polar Navy")
 working under Ubuntu 12.10. Polar Navy is the only Linux chart

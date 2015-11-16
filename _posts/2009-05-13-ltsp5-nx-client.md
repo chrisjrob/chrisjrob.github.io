@@ -9,8 +9,6 @@ tags: [ltsp, nx]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
 ## Instructions
 
 These instructions are for installing NoMachine's NX Client for Linux on LTSP, to enable connection to a FreeNX (or NX) server from a screen script.

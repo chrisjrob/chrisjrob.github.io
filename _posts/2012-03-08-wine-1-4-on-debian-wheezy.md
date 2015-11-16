@@ -10,8 +10,6 @@ tags: [linux, wine]
 image: winehq_logo_glass.png
 ---
 
-<img src="/assets/winehq_logo_glass.png" class="image-right" alt="Wine logo">
-
 I was delighted to read this morning that [Wine 1.4 stable had been released](http://www.winehq.org/news/2012030701 "Wine 1.4 Released"), a
 quick `dpkg -l wine` revealed that my Debian Wheezy install was running version 1.0.1,
 several significant versions old.  There may be good stability reasons

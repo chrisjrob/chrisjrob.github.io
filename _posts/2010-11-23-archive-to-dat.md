@@ -9,10 +9,6 @@ tags: [howto, linux, cli, archive, dat, tar]
 image: freecom-dat.jpg
 ---
 
-<img src="/assets/freecom-dat.jpg" class="image-right" alt="Freecom DAT Drive">
-
-## Warning
-
 I am a rank amateur at both tar and mt.  This page constitutes no more than you could discover yourself by reading the manpages for tar and mt, or Googling.
 
 You have been warned!

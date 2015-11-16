@@ -10,8 +10,6 @@ tags: [linux, debian, hp]
 image: hp-proliant-microserver-n36l.jpg
 ---
 
-<img src="/assets/hp-proliant-microserver-n36l.jpg" class="image-right" alt="HP Proliant Microserver N36L">
-
 I've just bought a new [HP N36L Microserver](http://h10010.www1.hp.com/wwpc/uk/en/sm/WF06a/15351-15351-4237916-4237917-4237917-4248009.html?jumpid=in_r2515_uk/en/smb/psg/psc404redirect-ot-xx-xx-/chev/ "HP N36L Microserver"),
 for £210 with £100 cashback.  It came with a 250gb SATA, so I added a second
 250gb SATA; so that I could have a simple software RAID array.  I also added

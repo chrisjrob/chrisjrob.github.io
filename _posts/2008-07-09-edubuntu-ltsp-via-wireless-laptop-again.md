@@ -7,8 +7,6 @@ tags: [linux, ltsp, wireless, edubuntu]
 image: buffalo-wireless-controller.jpg
 ---
 
-<img src="/assets/buffalo-wireless-controller.jpg" class="image-right" alt="Buffalo Wireless Controller">
-
 My [Buffalo Wireless Ethernet Controller WLI-TX4-G54HP-1](https://www.dabs4work.com/productview.aspx?QuickLinx=3XB9) arrived today, so I eagerly installed it at home.  As usual there is no configurator for Linux, so you have to use the web-admin page, this requires you to connect via a wired port configured for the same network 1.1.1.0/24.  Once done it was very simple to configure - I gave it a static IP (not sure whether that was really required) and rebooted into Edubuntu.
 
 <!--more-->

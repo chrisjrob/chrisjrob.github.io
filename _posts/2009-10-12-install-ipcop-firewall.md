@@ -9,10 +9,6 @@ tags: [howto, linux, firewall, ipcop]
 image: ipcop_logo.png
 ---
 
-<img src="/assets/ipcop_logo.png" class="image-right" alt="IPCop Logo">
-
-## Introduction
-
 This document is for the purpose of building in IPCop Firewall onto a MSI Axis 700 barebones PC.  The firewall will also be used as a NTP time-server, Content-filtering proxy server and OpenVPN server.
 
 <!--more-->

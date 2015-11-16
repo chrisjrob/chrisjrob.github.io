@@ -9,10 +9,6 @@ tags: [ltsp]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
-## Introduction
-
 You've inserted a disk or memory stick in your thin client, and nothing happened, what next?
 
 ## Check lts.conf

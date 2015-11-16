@@ -7,8 +7,6 @@ tags: [linux, printing, cups, wip]
 image: c250.png
 ---
 
-<img src="/assets/c250.png" class="image-right" alt="The Konica Minolta C250">
-
 ## The Issue
 
 From Linux, only simple print jobs will print, more complicated print jobs never come through, the data light flashes indefinitely and the photocopier needs to be rebooted.

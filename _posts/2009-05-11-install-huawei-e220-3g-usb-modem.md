@@ -9,8 +9,6 @@ tags: [howto, linux, ipcop, vodafone]
 image: huawei-e220.jpg
 ---
 
-<img src="/assets/huawei-e220.jpg" class="image-right" alt="Huawei E220 3G USB Modem">
-
 ## Introduction
 
 Following a failure of our Internet connection, I hastily cobbled together a new proxy server using my 3G modem.  The reason I did not simply add the modem to our existing IPCop solution, was because IPCop currently only supports a single Red/WAN interface.  The IPCop FAQs specifically warn against attempting multiple interfaces.

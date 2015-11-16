@@ -9,8 +9,6 @@ tags: [ltsp, sound]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
 ## Background
 
 On Ubuntu and Debian sound on the client gets started automatically during boot by default (the distros udev and the alsa scripts will detect your soundcard and start all needed services if a soundcard was detected on your client).  LDM (the default display manager we use in ltsp5) then sets up a virtual ALSA device in the users session during login.  The tunnel ALSA uses as endpoint is set up through LDM by setting the `PULSE_SERVER` variable, it should point to the clients IP at port 4713 (check that by runing "env" in a terminal when logged in).

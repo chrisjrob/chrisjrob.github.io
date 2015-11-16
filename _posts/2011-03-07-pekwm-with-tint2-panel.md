@@ -10,8 +10,6 @@ tags: [linux, pekwm]
 image: pekwm-snapshot_300.png
 ---
 
-<a href="/assets/2011-03-pekwm-snapshot.png"><img src="/assets/pekwm-snapshot_300.png" class="image-right" alt="PekWM with Tint2 Panel"></a>
-
 I have just been recommended to try the "tint2" panel. It looks lovely
 and minimalist, and has happily taken the kwalletmanager system tray
 icon; so hopefully will work on my laptop with battery and wireless

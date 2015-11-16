@@ -10,8 +10,6 @@ tags: [linux, nx, freenx]
 image: freenx.png
 ---
 
-<img src="/assets/freenx.png" class="image-right" alt="FreeNX Logo">
-
 Occasionally users are unable to connect to our FreeNX server, they
 report an error "Startup Session Failed". Clicking on "Detail" shows
 that it is unable to find the server session file.

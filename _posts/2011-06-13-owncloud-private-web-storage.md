@@ -10,8 +10,6 @@ tags: [owncloud]
 image: owncloud.png
 ---
 
-<a href="http://owncloud.org/"><img src="/assets/owncloud.png" class="image-right" alt="ownCloud Logo"></a>
-
 [An interesting blog post][BSDNexus] about [ownCloud][ownCloud]. 
 ownCloud is a webdav based application allowing you to
 store files on your own personal server on the Internet and access them

@@ -9,8 +9,6 @@ tags: [ltsp]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP logo">
-
 ## Introduction
 
 This is a guide to upgrading from Debian Etch and LTSP 4.2 to Debian Etch and LTSP 5.  This is largely based on the following page which should be your primary guidance on installation:

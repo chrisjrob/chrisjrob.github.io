@@ -7,13 +7,14 @@ published: true
 status: publish
 category: technology
 tags: [3dprint, reprap, hardware]
+image: RepRapPrusaBuildPhase1.jpg
 ---
-
-<a href="https://picasaweb.google.com/chrisjrob/RepRapPrusaBuildPhase1?authuser=0&feat=embedwebsite"><img src="/assets/RepRapPrusaBuildPhase1.jpg" class="image-right" alt="RepRap Prusa"></a>
 
 Phase 1 of the build of my RepRap Prusa is now complete and I have
 photographed it thoroughly, to assist others with their build and for
-general interest (there are more photos behind this one).
+general interest.
+
+<a href="https://picasaweb.google.com/chrisjrob/RepRapPrusaBuildPhase1?authuser=0&feat=embedwebsite">View Album on PicasaWeb</a>
 
 I have even taken a brief video, apologies for the lack of lighting:
 

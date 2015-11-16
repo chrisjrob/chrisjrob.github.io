@@ -9,8 +9,6 @@ tags: [ltsp]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
 ## Paths
 
 The ldm-theme is loaded from a symlink at:

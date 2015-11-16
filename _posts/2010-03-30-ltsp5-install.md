@@ -9,8 +9,6 @@ tags: [ltsp]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
 ## Introduction
 
 Time to install a new server - yay!  The hardware is an HP Proliant DL360 G5, with a single quad-core processor and 4GB ram.  This page is about creating a complete desktop server and, as such, much of this is actually nothing to do with LTSP, but is all about setting up a functional and attractive desktop server.

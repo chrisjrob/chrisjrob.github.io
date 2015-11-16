@@ -7,8 +7,6 @@ tags: [linux, debian, ltsp, email]
 image: debian_logo.png
 ---
 
-<img src="/assets/debian_logo.png" class="image-right" alt="Debian Logo">
-
 Our Debian Lenny [LTSP5 Install]({% post_url 2009-01-24-ltsp5-clean-install %}) has hit a road block: currently the site are using a Citrix server at another location over a 256k connection to pick up their emails.  I really didn't feel that I could ask them all to collect their emails over a 256k connection, so what are the alternatives?
 
 <!--more-->

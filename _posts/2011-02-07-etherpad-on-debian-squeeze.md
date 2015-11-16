@@ -7,8 +7,6 @@ tags: [linux, debian, etherpad]
 image: etherpad.png
 ---
 
-<img src="/assets/etherpad.png" class="image-right" alt="Etherpad">
-
 Just installed [Etherpad] on our openvz server.  Having created an openvz guest for the purpose, running Debian Squeeze, installing Etherpad proved no more difficult than adding the Etherpad repository to your `/etc/apt/sources.list`:
 
 <!--more-->

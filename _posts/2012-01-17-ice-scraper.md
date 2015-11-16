@@ -10,8 +10,6 @@ tags: [3dprint, 3dmodel, openscad, github]
 image: icescraper1_300.png
 ---
 
-<a href="/assets/icescraper1.png"><img src="/assets/icescraper1_300.png" class="image-right" alt="Ice-scraper"></a>
-
 I was scraping the ice off my car yesterday and thought to myself that
 an ice-scraper was just the sort of thing that you ought to be able to
 print using a 3D printer. Surprisingly though, I could not find a single

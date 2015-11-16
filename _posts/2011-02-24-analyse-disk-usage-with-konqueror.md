@@ -10,8 +10,6 @@ tags: [linux, kde, konqueror, disk]
 image: konqueror-file-size-view_300.png
 ---
 
-<a href="/assets/konqueror-file-size-view.png"><img src="/assets/konqueror-file-size-view_300.png" class="image-right" alt="Konqueror File Size View"></a> 
-
 We've all had occasions when we have needed to find where all our disk
 space has gone, well under KDE3.5 it was easy - you just ran Konqueror
 and then selected View » View Mode » File Size View.  But shock horror,

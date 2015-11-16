@@ -10,8 +10,6 @@ tags: [linux, mailserver, imap, ldap]
 image: dashboard_300.png
 ---
 
-<a href="http://iredmail.org"><img src="/assets/dashboard_300.png" class="image-right" alt="iRedmail"></a>
-
 Whilst the world seems to be moving email to "The Cloud", rightly or
 wrongly I remain reluctant to give up the control of our own mailserver.
 For over ten years now we have been using a combination of the following

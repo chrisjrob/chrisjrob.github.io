@@ -9,8 +9,6 @@ tags: [howto, linux, debian, jigdo]
 image: debian_logo.png
 ---
 
-<img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
-
 Just do an `sudo apt-get jigdo-file` and read the following:
 
    * [Debian Jigdo]

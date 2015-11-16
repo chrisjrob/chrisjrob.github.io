@@ -7,8 +7,6 @@ tags: [linux, ltsp, viglen, xubuntu, xfce]
 image: viglen-mpc-l.jpg
 ---
 
-<img src="/assets/viglen-mpc-l.jpg" class="image-right" alt="The Viglen MPC-L">
-
 I have solved the [issue with PXE booting on the Viglen MPC-L]({% post_url 2008-08-28-pxe-booting-the-viglen-mpc-l %})!
 
 To get past the kernel panic, it was necessary to switch of acpi in the kernel.  In LTSP that means copying the following file:

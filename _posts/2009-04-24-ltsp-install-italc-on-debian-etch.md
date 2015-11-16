@@ -9,8 +9,6 @@ tags: [ltsp]
 image: italc_icon.png
 ---
 
-<img src="/assets/italc_icon.png" class="image-right" alt="italc icons">
-
 ## Introduction
 
 **Stop!  I believe there are now instructions on the 'net for installing the client on the client instead of on the server**

@@ -9,10 +9,6 @@ tags: [ltsp, web, iceweasel]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
-## Introduction
-
 This is just a list of the hacks or fixes that I currently have in place on Iceweasel.  These were not my invention, and surely I owe a debt of thanks to various sites; unfortunately I have no way of knowing which sites.
 
 Some of these hacks are too facilitate system wide control, others help to maximise performance on a thin client system.

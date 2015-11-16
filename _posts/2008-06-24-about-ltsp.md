@@ -7,8 +7,6 @@ tags: [linux, ltsp]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP">
-
 ## What is the Linux Terminal Server Project (LTSP)
 
 If you come from a Windows background, you may be familiar with Windows Terminal Services and/or Citrix.  Windows Terminal Services basically enables users from different clients to connect to servers and work concurrently on them using the RDP (Remote Desktop) protocol.  Perhaps you've connected to your work PC using Remote Desktop - it's the same thing, just Terminal Services just allows multiple users to connect concurrently.  Citrix is just the same, but uses the ICA protocol.

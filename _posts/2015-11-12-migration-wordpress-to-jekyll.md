@@ -10,8 +10,6 @@ tags: [blog, jekyll, github]
 image: jekyll.png
 ---
 
-<img src="/assets/jekyll.png" class="image-right" alt="Jekyll logo">
-
 For the past few weeks I have migrating chrisjrob.com from Wordpress to Jekyll. 
 I have also been merging in my previous blog at bootpolish.net. 
 

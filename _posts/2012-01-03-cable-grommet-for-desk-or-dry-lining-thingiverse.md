@@ -10,8 +10,6 @@ tags: [3dprint, 3dmodel, grommet, github]
 image: grommet_300.jpg
 ---
 
-<a href="/assets/grommet.jpg"><img src="/assets/grommet_300.jpg" class="image-right" alt="Cable Grommet"></a>
-
 Having mounted my LED television on the wall I have a 80mm hole behind
 the TV, through which all the cables arrive. No-one can see it of
 course, but I know it's there and it needs finishing, otherwise I might

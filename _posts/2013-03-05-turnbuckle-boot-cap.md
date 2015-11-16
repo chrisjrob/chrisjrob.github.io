@@ -10,8 +10,6 @@ tags: [3dprint, 3dmodel, openscad, github]
 image: shroudcap_preview_featured_300.jpg
 ---
 
-<a href="/assets/shroudcap_preview_featured.jpg"><img src="/assets/shroudcap_preview_featured_300.jpg" class="image-right" alt="Turnbuckle Boot Cap"></a>
-
 I realise that I have made a number of posts on Google+, without posting
 first on my blog. This is the first of several posts that I will be
 making to correct that oversight...

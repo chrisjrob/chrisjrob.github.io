@@ -7,8 +7,6 @@ tags: [linux, eeepc, debian]
 image: eee-pc-701.jpg
 ---
 
-<img src="/assets/eee-pc-701.jpg" class="image-right" alt="EEE PC 701">
-
 When my old Dell laptop died, I naturally fell back to using my EeePC.  Now I've been using my EeePC for about six months now, and a very happy user I have been.  When I first bought it, I visited [eeeuser.com](http://wiki.eeeuser.com/howto:beginners_guide) to enable me to add icons to the easy mode interface, so that I could add openvpn and NoMachine NX for connecting to our LTSP server.  Once done I had an ideal machine for taking notes and doing occasional server admin from the shell, and even connect to our LTSP server via VPN.
 
 <!--more-->

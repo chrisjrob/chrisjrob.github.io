@@ -9,8 +9,6 @@ tags: [howto, linux, cli, bootchart, grub]
 image: bootchart.png
 ---
 
-<a href="/assets/bootchart.png"><img src="/assets/bootchart_500.png" class="image-right" alt="Boot Chart"></a>
-
 ## Step 1 - Install bootchart
 
     # aptitude install bootchart

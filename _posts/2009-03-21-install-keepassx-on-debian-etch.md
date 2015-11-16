@@ -9,8 +9,6 @@ tags: [howto, linux, keepassx, debian]
 image: debian_logo.png
 ---
 
-<img src="/assets/debian_logo.png" class="image-right" alt="Debian logo">
-
 KeePassX cannot be installed on Debian Etch, because of some dependency issues:
 
     Version: 0.3.1-1

@@ -10,9 +10,7 @@ tags: [linux, debian, apt]
 image: debian_logo.png
 ---
 
-<img src="/assets/debian_logo.png" class="image-right" alt="Debian Logo">
-
-I finally decided to upgrade my work desktop to Debian Squeeze.
+I finally decided to upgrade my work desktop to Debian Squeeze:
 
 Preparing for the Upgrade
 -------------------------

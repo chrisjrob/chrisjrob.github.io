@@ -10,8 +10,6 @@ tags: [linux, wallpaper, xkcd]
 image: xkcd-wallpaper_300.png
 ---
 
-<a href="/assets/xkcd-wallpaper.png"><img src="/assets/xkcd-wallpaper_300.png" class="image-right" alt="XKCD Wallpaper"></a>
-
 I confess, I like [XKCD](http://xkcd.com/). Even though some of them are
 [unfunny](http://xkcd.com/871/) and others [beyond my understanding](http://xkcd.com/849/), 
 sometimes, just sometimes, they 

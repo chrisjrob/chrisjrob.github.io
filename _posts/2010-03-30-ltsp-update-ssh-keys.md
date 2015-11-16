@@ -9,8 +9,6 @@ tags: [ltsp, ssh]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
 ## Command
 
     ltsp-update-sshkeys

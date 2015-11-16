@@ -9,8 +9,6 @@ tags: [linux, windows]
 image: linux-tux.jpg
 ---
 
-<img src="/assets/linux-tux.jpg" class="image-right" alt="Tux">
-
 ## Introduction
 
 Coping with Windows applications on Linux is probably the biggest problem that you will face.  Your options are:

@@ -10,8 +10,6 @@ tags: [sailing]
 image: prop.jpg
 ---
 
-<img src="/assets/prop.jpg" class="image-right" alt="Prop">
-
 I was a bit surprised to be asked if my prop was left or right-handed.
 Turns out that my boat is unusual in being left-handed, as the prop
 spins anti-clockwise. This means that the prop-wash will make it easier

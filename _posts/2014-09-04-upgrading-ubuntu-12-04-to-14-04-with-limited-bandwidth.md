@@ -10,8 +10,6 @@ tags: [linux, ubuntu, apt, bandwidth, cli]
 image: ubuntu-1404-desktop.png
 ---
 
-<img src="/assets/ubuntu-1404-desktop.png" class="image-right" alt="Ubuntu 14.04 Desktop">
-
 Upgrading Ubuntu at work can make you rather unpopular, as the Internet bandwidth
 is fully utilised downloading all the updates to packages you have long
 since forgotten that you installed.

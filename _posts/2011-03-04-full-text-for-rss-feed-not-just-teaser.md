@@ -10,8 +10,6 @@ tags: [blog, rss]
 image: rss.png
 ---
 
-<img src="/assets/rss.png" class="image-right" alt="RSS Logo">
-
 I wanted to change my blog so that the home page only has an opening
 paragraph of each blog post, rather than having the full text.  In my
 opinion this makes the blog easier and more pleasant to navigate.

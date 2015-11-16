@@ -8,8 +8,6 @@ tags: [blog, jekyll, wordpress, markdown]
 image: jekyll.png
 ---
 
-<img src="/assets/jekyll.png" class="image-right" alt="Jekyll icon">
-
 Following my [recent announcement]({% post_url 2015-11-12-migration-wordpress-to-jekyll %}), I thought I would give some of my reasons for the move and some early impressions of using Jekyll. 
 
 

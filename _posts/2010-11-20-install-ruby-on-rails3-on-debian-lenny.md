@@ -9,10 +9,6 @@ tags: [howto, linux, debian, ispconfig, apache, ruby]
 image: debian_logo.png
 ---
 
-<img src="/assets/debian_logo.png" class="image-right" alt="Debian">
-
-## Warning
-
 I know nothing about Ruby on Rails, but this is how I ended up successfully (I think!) installing it.  There may be better ways.
 
 ## Download and Compile Ruby

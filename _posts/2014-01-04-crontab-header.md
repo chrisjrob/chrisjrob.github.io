@@ -10,8 +10,6 @@ tags: [linux, cli, crontab]
 image: crontab.png
 ---
 
-<img src="/assets/crontab.png" class="image-right" alt="Crontab">
-
 Very early on in my Linux life, I came across this suggested header for
 crontab and I've used it ever since. So much so that I am always
 slightly thrown when I come across a crontab without it! No, you don't

@@ -9,8 +9,6 @@ tags: [ltsp, sound]
 image: mute.png
 ---
 
-<img src="/assets/mute.png" class="image-right" alt="Mute icon">
-
 ## Introduction
 
 There is a problem with some sound cards that start up muted.  This installs a script which responds to settings in lts.conf.

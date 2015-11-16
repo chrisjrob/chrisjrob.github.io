@@ -9,10 +9,6 @@ tags: [howto, linux, irc, irssi]
 image: irssi.png
 ---
 
-<img src="/assets/irssi.png" class="image-right" alt="IRSSI">
-
-## Introduction
-
 This page explains how to set up spelling in Irssi on Debian Lenny.  It assumes that you have already installed irssi.
 
 ## Install packages

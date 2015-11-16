@@ -10,8 +10,6 @@ tags: [sailing, rya, recommendation]
 image: rya_training.jpg
 ---
 
-<img src="/assets/rya_training.jpg" class="image-right" alt="RYA Training">
-
 [Surrey Shore-based RYA
 Training](http://www.surrey-shorebased.co.uk "Surrey Shore-based RYA Training")
 

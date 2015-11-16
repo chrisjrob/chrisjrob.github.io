@@ -7,8 +7,6 @@ tags: [linux, unison, sync]
 image: unison_logo.png
 ---
 
-<img src="/assets/unison_logo.png" class="image-right" alt="Unison Logo">
-
 One of the few things that we miss from the old Microsoft days is the "briefcase".  In particular our MD used it every day and loved it.  On Linux the best open source alternative is probably Unison File Synchroniser.
 
 I got this working a few weeks ago and it was incredibly simple to get working and a joy to use.  I personally didn't really have a need for this software, but now that it's installed it just so convenient that I am finding myself using it regularly.

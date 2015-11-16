@@ -10,8 +10,6 @@ tags: [sailing, rope, splice]
 image: soft-shackle.jpg
 ---
 
-<img src="/assets/soft-shackle.jpg" class="image-right" alt="Soft Shackle">
-
 I've been looking into the best method for attaching sheets to the
 foresail. Metal shackles are dangerous and can rip holes in sails,
 bowlines are unreliable knots when not under pressure, and a continuous

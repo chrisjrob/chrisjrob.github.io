@@ -9,10 +9,6 @@ tags: [howto, linux, kde, kiosktool]
 image: kiosktool3.png
 ---
 
-<img src="/assets/kiosktool3.png" class="image-right" alt="KDE Kiosktool">
-
-## Introduction
-
 First let's take a look at where KDE squirrels away all these settings. KDE is complex, but it's well-organised, and there is always a method to whatever KDE madness you find yourself in.
 
    * `/etc/kderc` :  This points to the file locations where configuration profiles are stored. 

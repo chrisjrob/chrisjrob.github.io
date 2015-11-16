@@ -10,8 +10,6 @@ tags: [novatech, laptop, review]
 image: nfinityn1411.png
 ---
 
-<img src="/assets/nfinityn1411.png" class="image-right" alt="nFinity n1410">
-
 After spending much time trying to choose the perfect Ultrabook, I came to the
 conclusion that it is either not made, or is prohibitively expensive. In the
 meantime I ordered a [Novatech nFinity

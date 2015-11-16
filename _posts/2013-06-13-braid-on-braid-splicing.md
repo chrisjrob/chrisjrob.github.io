@@ -10,8 +10,6 @@ tags: [sailing, rope, splice]
 image: splicing_300.png
 ---
 
-<a href="/assets/splicing.png"><img src="/assets/splicing_300.png" class="image-right" alt="Braid on Braid Splicing"></a>
-
 Having been quoted £250 to replace the halyards and topping lift on my
 boat, I decided to do it myself, by purchasing the ropes from eBay for
 £100 and the fids to do the splicing for £33.

@@ -10,8 +10,6 @@ tags: [linux, ubuntu, dillinger, markdown, review, web]
 image: dillinger.png
 ---
 
-<a href="http://dillinger.io"><img src="/assets/dillinger.png" class="image-right" alt="Dillinger"></a>
-
 I thought I loved
 [markdown](http://en.wikipedia.org/wiki/Markdown "Read about markdown on Wikipedia").
 I thought [Dillinger](http://dillinger.io) (an HTML5 Markdown editor)

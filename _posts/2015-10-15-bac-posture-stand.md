@@ -10,8 +10,6 @@ tags: [health, review]
 image: bac_posture_stand_300.jpg
 ---
 
-<img src="/assets/bac_posture_stand_300.jpg" class="image-right" alt="Bac Posture Stand">
-
 Being tall (6'2"), sedentary and over 40, I have succumbed to the inevitable
 back problems. Listening to [Jono's review of the LIFT Standing Desk on Bad
 Voltage][lift] reminded me that I've been

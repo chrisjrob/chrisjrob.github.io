@@ -10,8 +10,6 @@ tags: [linux, vpn, openvpn, networking]
 image: openvpn.png
 ---
 
-<a href="http://openvpn.net/"><img src="/assets/openvpn.png" class="image-right" alt="OpenVPN Logo"></a>
-
 Anyone who has enjoyed the dubious benefits of working with IPSEC will
 find [OpenVPN](http://openvpn.net/ "OpenVPN") a delight, but what do you
 do with your client.ovpn file once you have it?

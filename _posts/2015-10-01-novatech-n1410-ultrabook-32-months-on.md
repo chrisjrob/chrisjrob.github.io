@@ -10,8 +10,6 @@ tags: [laptop, novatech, review]
 image: nfinityn1411_300.png
 ---
 
-<a href="/assets/nfinityn1411.png"><img src="/assets/nfinityn1411_300.png" class="image-right" alt="nFinity n1410"></a>
-
 I received a surprising amount of interest in my [Novatech n1410
 review]({% post_url 2013-02-22-the-novatech-nfinity-n1410-review %})
 and my subsequent [nine-months on

@@ -8,8 +8,6 @@ tags: [health, linux, ubuntu]
 image: flux-icon-big.png
 ---
 
-<img src="/assets/flux-icon-big.png" class="image-right" alt="F.Lux logo">
-
 I was reading [Phones need 'bed mode' to protect sleep][bbc] on the BBC, that computers should have a blue light filter to help people to sleep properly at night. 
 As I am frequently working on my laptop until late in the evening, I felt that I should investigate further. 
 Currently I do turn down the brightness, but it seems that is not enough.

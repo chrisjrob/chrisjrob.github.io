@@ -7,8 +7,6 @@ tags: [howto, linux, unison, sync]
 image: unison_logo.png
 ---
 
-<img src="/assets/unison_logo.png" class="image-right" alt="Unison logo">
-
 ## Installing Unison
 
 You need to install unison on both machines, unison-gtk probably only on the client.

@@ -9,10 +9,6 @@ tags: [howto, linux, wine, ltsp]
 image: winehq_logo_glass.png
 ---
 
-<img src="/assets/winehq_logo_glass.png" class="image-right" alt="Wine">
-
-## Warning
-
 **These instructions have not been tested since re-writing, in particular there will be permissions issues.**
 
 ## Step 1: Install Wine

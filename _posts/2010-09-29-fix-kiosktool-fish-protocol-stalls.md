@@ -9,8 +9,6 @@ tags: [howto, linux, kde, kiosktool]
 image: kiosk_1.gif
 ---
 
-## The Issue
-
 When making changes to profiles under kiosktool, it stalls when uploading changes to the local machine using the fish protocol, see screenshots.
 
 Persistently clicking cancel followed by retry does deliver the goods, but sometimes it can take ten attempts or more, with the load average quickly escalating to ten times the server's usual level.

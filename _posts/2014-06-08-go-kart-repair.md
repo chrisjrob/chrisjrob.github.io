@@ -10,8 +10,6 @@ tags: [3dprint, 3dmodel, reprap, openscad, github]
 image: gokart-08.jpg
 ---
 
-<img src="/assets/gokart-08.jpg" class="image-right" alt="Go Kart">
-
 At a dinner party a few months ago, the host asked if I could repair
 their go-kart, using my RepRap 3D Printer. Apparently the steering wheel
 had broken off and the Chinese supplier refused to supply only the

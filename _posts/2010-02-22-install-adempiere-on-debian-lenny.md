@@ -6,6 +6,7 @@ date: 2010-02-22 17:28:11
 weight: 40
 category: technology
 tags: [linux, debian, adempiere]
+image: adempiere_logo.png
 ---
 
 I have run through these notes again and corrected the odd mistake and they do seem to work.  At least until something changes!!

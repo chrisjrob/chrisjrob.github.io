@@ -10,8 +10,6 @@ tags: [hardware, msata, novatech]
 image: NovatechNFinityN1410.jpg
 ---
 
-<a href="https://picasaweb.google.com/112653355770650909703/NovatechNFinityN1410?authuser=0&feat=embedwebsite"><img src="/assets/NovatechNFinityN1410.jpg" class="image-right" alt="Novatech nFinity n1410"></a>
-
 As discussed in my earlier [The Novatech nFinity n1410 Review]({% post_url 2013-02-22-the-novatech-nfinity-n1410-review %} "The Novatech nFinity n1410 Review"),
 I made a mistake in sticking with the default 128gb SSD. I promised to
 write up how I carried upgraded my Ultrabook by adding an mSATA drive,
@@ -35,7 +33,6 @@ followed these steps:
 6.  Close case.
 
 Apologies that these instructions are so poor, but hopefully the
-photographs in the [Picasaweb album
-above](https://picasaweb.google.com/112653355770650909703/NovatechNFinityN1410?authuser=0&amp;feat=embedwebsite)
+photographs in the [Picasaweb album](https://picasaweb.google.com/112653355770650909703/NovatechNFinityN1410?authuser=0&amp;feat=embedwebsite)
 will help.
 

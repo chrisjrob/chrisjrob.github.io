@@ -9,8 +9,6 @@ tags: [ltsp, scan]
 image: ltsp_logo.png
 ---
 
-<img src="/assets/ltsp_logo.png" class="image-right" alt="LTSP Logo">
-
 ## Scanning with LTSP 5 in Debian Etch or Lenny
 
 At the time of writing these instructions worked for Etch, but have not been completed for Lenny.

@@ -7,8 +7,6 @@ tags: [linux, ltsp, wallpaper]
 image: trident-wallpaper-300.png
 ---
 
-<img src="/assets/trident-wallpaper-300.png" class="image-right" alt="Trident Wallpaper">
-
 When I launched our first LTSP server, I was very keen to make the system as pleasurable for the users as possible; to this end, I left users able to customise their desktop pretty much how they liked.  I decided that this free-for-all had gone too far, when I saw customers sitting in front of one user's computer, sporting a desktop wallpaper of his baby son.  At the time I just set a system default of a fairly neutral blue / dark blue radial gradient, and put an item on my to-do list to create a desktop wallpaper.
 
 <!--more-->

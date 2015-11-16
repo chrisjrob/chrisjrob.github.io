@@ -7,8 +7,6 @@ tags: [linux, ltsp, ubuntu]
 image: edubuntu_8.04.png
 ---
 
-<img src="/assets/edubuntu_8.04.png" class="image-right" alt="Edubuntu 8.04">
-
 Having a brand new HP ML115 Server which I bought new for £107, I decided to have a play with [Ubuntu] LTSP at home.  Actually I decided on [Edubuntu], as I wanted to investigate the thin client management which I believe are included.
 
 I downloaded the [Ubuntu Alternate CD][alternate] and burned it to disk.  I booted the server onto the CD, missed the fact that I needed to hit F4 Modes and select LTSP before selecting install, whereon I wasted an hour installing Ubuntu-ordinaire.

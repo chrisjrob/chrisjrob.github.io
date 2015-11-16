@@ -7,8 +7,6 @@ tags: [linux, mythtv, nvidia, hauppauge]
 image: hvr2200_board_s_200.jpg
 ---
 
-<img src="/assets/hvr2200_board_s_200.jpg" class="image-right" alt="Hauppauge HVR2200">
-
 Wow, this really is a second post in one day!
 
 Following on from the DPI issue, I decided to throw science to the wind and just set DPI to 96x96 rather than 50x50, and the login screen looks better and the font size is improved (slightly larger).
