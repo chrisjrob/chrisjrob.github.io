@@ -1,0 +1,15 @@
+<script type="text/javascript">
+    $(function(){
+        $("#tagcloud").hide();
+
+        $("#moretags").click(function(){
+            $("#taglist").slideUp(1000);
+            $("#tagcloud").slideDown(3000);
+        });
+
+        $("#fewertags").click(function(){
+            $("#tagcloud").slideUp(3000);
+            $("#taglist").slideDown(1000);
+        });
+    });
+</script>

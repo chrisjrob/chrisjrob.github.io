@@ -103,8 +103,9 @@ html {
   text-align: center;
 }
 .sidebar-nav-item {
-  display: block;
-  line-height: 1.50;
+  padding: 5px;
+  display: inline;
+  line-height: auto;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -115,8 +116,9 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-category-item {
-  display: block;
-  line-height: 1.50;
+  padding: 5px;
+  display: inline;
+  line-height: auto;
   font-size: 1rem;
 }
 
@@ -306,6 +308,20 @@ a.sidebar-nav-item:focus {
 }
 
 #tags { line-height: 0.9; margin: auto auto 0.5em auto; text-align: center; }
+
+#taglist { margin: 0; list-style: none; padding-left: 0; }
+#taglist li { display: inline; }
+#taglist a.tag1  { font-size: 0.5em; color: #f2f2f2; font-weight: 100; }
+#taglist a.tag2  { font-size: 0.8em; color: #f4f4f4; font-weight: 200; }
+#taglist a.tag3  { font-size: 1.0em; color: #f5f5f5; font-weight: 300; }
+#taglist a.tag4  { font-size: 1.2em; color: #f6f6f6; font-weight: 400; }
+#taglist a.tag5  { font-size: 1.3em; color: #f8f8f8; font-weight: 500; }
+#taglist a.tag6  { font-size: 1.4em; color: #f9f9f9; font-weight: 600; }
+#taglist a.tag7  { font-size: 1.5em; color: #fbfbfb; font-weight: 700; }
+#taglist a.tag8  { font-size: 1.6em; color: #fcfcfc; font-weight: 800; }
+#taglist a.tag9  { font-size: 1.7em; color: #fefefe; font-weight: 900; }
+#taglist a.tag10 { font-size: 1.8em; color: #ffffff; font-weight: 900; }
+
 #tagcloud { margin: 0; list-style: none; padding-left: 0; }
 #tagcloud li { display: inline; }
 #tagcloud a.tag1  { font-size: 0.5em; color: #f2f2f2; font-weight: 100; }
@@ -323,7 +339,7 @@ a.sidebar-nav-item:focus {
   font-size: 1.00rem;
   font-weight: 300;
   margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
