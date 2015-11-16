@@ -286,7 +286,7 @@ a.sidebar-nav-item:focus {
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 48em) {
+@media (min-width: 60em) {
     .image-left {
         float: left;
         margin-right: 1em;
