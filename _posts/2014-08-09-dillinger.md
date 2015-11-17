@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, ubuntu, dillinger, markdown, review, web]
+tags: [linux, ubuntu, dillinger, markdown, review, web, vim]
 image: dillinger.png
 ---
 
