@@ -1,12 +1,12 @@
 --- 
 layout: post 
-title: Install Debian Squeeze With Raid1 + LVM
+title: Howto | Install Debian Squeeze With Raid1 + LVM
 date: 2011-03-01
 type: post 
 published: true 
 status: publish
 category: technology
-tags: [linux, debian, hp]
+tags: [howto, linux, debian, hp]
 image: hp-proliant-microserver-n36l.jpg
 ---
 
