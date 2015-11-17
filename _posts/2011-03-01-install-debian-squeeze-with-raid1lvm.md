@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [howto, linux, debian, hp]
+tags: [howto, linux, debian, squeeze, hp]
 image: hp-proliant-microserver-n36l.jpg
 ---
 

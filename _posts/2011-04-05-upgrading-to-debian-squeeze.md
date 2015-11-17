@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, debian, apt]
+tags: [linux, debian, squeeze, apt]
 image: debian_logo.png
 ---
 
