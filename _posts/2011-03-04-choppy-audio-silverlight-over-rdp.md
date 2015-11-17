@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, windows, silverlight, rdp]
+tags: [linux, windows, silverlight, rdesktop, rdp]
 image: silverlight.jpg
 ---
 
