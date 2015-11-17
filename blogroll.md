@@ -26,6 +26,7 @@ These should all ultimately converge upon this one.
  * [Leo Adamek](https://leo.adamek.me/)
  * [Linus Torvalds](http://torvalds-family.blogspot.com/)
  * [Planet Debian](http://planet.debian.org/)
+ * [Steve Dowe](http://stevedowe.me/)
  * [aseigo](http://aseigo.blogspot.com/)
  * [dotslash](http://dotslashontech.blogspot.com/)
  * [popey blog](http://popey.com/blog)
