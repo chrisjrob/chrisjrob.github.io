@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, ubuntu, hp, laptop, review]
+tags: [linux, ubuntu, hp, laptop, ebuyer, review]
 image: ubuntu-laptop-000.jpg
 ---
 
