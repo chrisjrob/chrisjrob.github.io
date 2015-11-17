@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [arm, linux, hardware]
+tags: [arm, linux, hardware, tonidoplug]
 image: TonidoPlug.jpg
 ---
 
