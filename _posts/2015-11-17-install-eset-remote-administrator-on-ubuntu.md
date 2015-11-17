@@ -16,7 +16,7 @@ ESET Remote Administrator is a server program for controlling ESET Antivirus (an
 
 Our Windows PCs are controlled by an ActiveDirectory server (actually a [Samba]4 ActiveDirectory server, although that should not make any difference to these instructions).
 
-I found [ESET instructions] for so doing decidedly sketchy, but I eventually managed to install it and took some notes as I went. 
+I found the [ESET instructions] for so doing decidedly sketchy, but I eventually managed to install it and took some notes as I went. 
 I cannot promise these instructions are complete, but used in conjunction with the [ESET instructions] they may be of help.
 
 
