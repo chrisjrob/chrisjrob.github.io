@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, vnc, ssh, dns]
+tags: [linux, vnc, ssh, dns, fail2ban]
 ---
 
 I want to be able to support my father's PC remotely via SSH and VNC.
