@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [linux, cli, fsniper]
+tags: [linux, cli, fsniper, rsync]
 ---
 
 I had never heard of fsniper until it was mentioned in a mailing list
