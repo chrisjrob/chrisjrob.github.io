@@ -23,7 +23,44 @@ delete_files_of('tag');
 create_files_of('category', $cats);
 create_files_of('tag', $tags);
 
+# Step 5 Create sitemap
+create_sitemap_of( $mdfiles );
+
 exit;
+
+sub convert_file_to_url {
+    my $file = shift;
+    if ($file =~ /^_(?:posts|drafts)\/(\d{4})-(\d{2})-(\d{2})-(.+?)\.md$/) {
+        # /_posts/2009-03-21-configure-knetwork-manager.md
+        return "$1/$2/$3/$4/";
+    } elsif ($file =~ /^_site/) {
+        return;
+    } elsif ($file =~ /index\.md/) {
+        $file =~ s/index\.md//;
+        return $file;
+    } else {
+        $file =~ s/\.md/.html/;
+        return $file;
+    }
+}
+
+sub create_sitemap_of {
+    my $mdfiles = shift;
+
+    my $siteurl = 'http://chrisjrob.com';
+    my $sitemap = 'sitemap.new';
+
+    open(my $fh_SITEMAP, '>', $sitemap) or die "Cannot create $sitemap: $!";
+    foreach my $mdfile (@{ $mdfiles }) {
+        my $page_url = convert_file_to_url( $mdfile );
+        if (not defined $page_url) {
+            next;
+        }
+        print $fh_SITEMAP "$siteurl/$page_url\n";
+    }
+    close($fh_SITEMAP) or die "Cannot close $sitemap: $!";
+
+}
 
 sub delete_files_of {
     my $type = shift;
