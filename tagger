@@ -24,7 +24,9 @@ create_files_of('category', $cats);
 create_files_of('tag', $tags);
 
 # Step 5 Create sitemap
-create_sitemap_of( $mdfiles );
+use YAML::XS 'LoadFile';
+my $config = LoadFile('_config.yml');
+create_sitemap_of( $config, $mdfiles );
 
 exit;
 
@@ -45,13 +47,13 @@ sub convert_file_to_url {
 }
 
 sub create_sitemap_of {
-    my $mdfiles = shift;
+    my ($config, $mdfiles) = @_;
 
-    my $siteurl = 'http://chrisjrob.com';
-    my $sitemap = 'sitemap.new';
+    my $siteurl = $config->{url};
+    my $sitemap = $config->{sitemap};
 
     open(my $fh_SITEMAP, '>', $sitemap) or die "Cannot create $sitemap: $!";
-    foreach my $mdfile (@{ $mdfiles }) {
+    foreach my $mdfile (sort @{ $mdfiles }) {
         my $page_url = convert_file_to_url( $mdfile );
         if (not defined $page_url) {
             next;

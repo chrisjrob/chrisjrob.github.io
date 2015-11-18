@@ -25,6 +25,7 @@ paginate:         10
 excerpt_separator: <!--more-->
 
 # Custom vars
+sitemap:          'sitemap.txt'
 social:
   plus:           112653355770650909703
   twitter:        chrisjrob
