@@ -1,4 +1,5 @@
 http://chrisjrob.com/
+http://chrisjrob.com/_drafts/add-activedirectory-addressbook-to-sylpheed-email.html
 http://chrisjrob.com/2008/06/17/ltsp-sound-in-rdesktop-sessions/
 http://chrisjrob.com/2008/06/18/sound-problem-fixed/
 http://chrisjrob.com/2008/06/19/big-buck-bunny/
@@ -288,6 +289,7 @@ http://chrisjrob.com/2015/11/15/sleeping-better-with-linux/
 http://chrisjrob.com/2015/11/16/wordpress-comments-migration-to-disqus/
 http://chrisjrob.com/2015/11/17/install-eset-remote-administrator-on-ubuntu/
 http://chrisjrob.com/2015/11/17/intermittent-usb3-drive-mount/
+http://chrisjrob.com/2015/11/19/add-activedirectory-addressbook-to-sylpheed-email/
 http://chrisjrob.com/about/
 http://chrisjrob.com/blogroll.html
 http://chrisjrob.com/category/personal/
@@ -481,6 +483,7 @@ http://chrisjrob.com/tag/ssh/
 http://chrisjrob.com/tag/sshfs/
 http://chrisjrob.com/tag/ssl/
 http://chrisjrob.com/tag/supplier/
+http://chrisjrob.com/tag/sylpheed/
 http://chrisjrob.com/tag/sync/
 http://chrisjrob.com/tag/synergy/
 http://chrisjrob.com/tag/tar/
