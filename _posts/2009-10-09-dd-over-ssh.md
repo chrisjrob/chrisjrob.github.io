@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Howto &#124; DD over SSH
+title:  Howto | DD over SSH
 date:   2009-10-09 00:00:00
 category: technology
 tags: [linux, howto, dd, ssh, cli]

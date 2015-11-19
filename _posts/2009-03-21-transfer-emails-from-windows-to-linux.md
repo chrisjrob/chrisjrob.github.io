@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Transfer Emails from Windows to Linux
+title: Howto | Transfer Emails from Windows to Linux
 menu: howto
 date: 2009-03-21 06:22:56
 weight: 40

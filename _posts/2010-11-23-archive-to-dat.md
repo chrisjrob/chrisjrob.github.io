@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Archive to DAT
+title: Howto | Archive to DAT
 menu: howto
 date: 2010-11-23 16:25:08
 weight: 40

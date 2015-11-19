@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Convert Quicktime MOV to AVI
+title: Howto | Convert Quicktime MOV to AVI
 menu: howto
 date: 2009-03-21 05:57:44
 weight: 40

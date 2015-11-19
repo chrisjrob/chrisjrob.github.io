@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Convert XPS to PDF
+title: Howto | Convert XPS to PDF
 menu: howto
 date: 2013-03-12 10:47:53
 weight: 40

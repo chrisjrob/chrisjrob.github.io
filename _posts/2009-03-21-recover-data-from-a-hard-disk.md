@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Recover Data from a Hard Disk
+title: Howto | Recover Data from a Hard Disk
 menu: howto
 date: 2009-03-21 06:21:01
 weight: 40

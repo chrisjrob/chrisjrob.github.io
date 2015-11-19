@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Build VirtualBox from Source
+title: Howto | Build VirtualBox from Source
 menu: howto
 date: 2009-03-21 05:33:10
 weight: 40

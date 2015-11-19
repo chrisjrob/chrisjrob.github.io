@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install IPCop Firewall
+title: Howto | Install IPCop Firewall
 menu: howto
 date: 2009-10-12 11:42:39
 weight: 40

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install Ruby on Rails3 on Debian Lenny
+title: Howto | Install Ruby on Rails3 on Debian Lenny
 menu: howto
 date: 2010-11-20 16:15:40
 weight: 40

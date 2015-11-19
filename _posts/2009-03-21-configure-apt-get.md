@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Configure apt-get
+title: Howto | Configure apt-get
 menu: howto
 date: 2009-03-21 05:55:33
 weight: 40

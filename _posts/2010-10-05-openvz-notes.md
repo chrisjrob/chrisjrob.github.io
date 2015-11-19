@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; OpenVZ Notes
+title: Howto | OpenVZ Notes
 menu: howto
 date: 2010-10-05 13:09:30
 weight: 40

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Submit a UK Self-Assessment Return under Linux
+title: Howto | Submit a UK Self-Assessment Return under Linux
 menu: howto
 date: 2010-01-15 10:48:27
 weight: 40

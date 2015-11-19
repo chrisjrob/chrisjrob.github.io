@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install KVM
+title: Howto | Install KVM
 menu: howto
 date: 2009-03-21 05:32:12
 weight: 40

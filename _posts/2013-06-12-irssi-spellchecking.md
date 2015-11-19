@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Spellcheck in irssi
+title: Howto | Spellcheck in irssi
 menu: howto
 date: 2014-07-09 11:34:11
 weight: 40

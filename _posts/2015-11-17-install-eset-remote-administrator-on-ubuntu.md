@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Howto &#124; Install ESET Remote Administrator on Ubuntu
+title: Howto | Install ESET Remote Administrator on Ubuntu
 date: 2015-11-17 20:12:00
 type: post 
 category: technology

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Send Files by Email
+title: Howto | Send Files by Email
 menu: howto
 date: 2009-03-21 06:21:16
 weight: 40

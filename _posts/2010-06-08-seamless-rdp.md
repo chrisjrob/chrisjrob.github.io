@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; SeamlessRDP
+title: Howto | SeamlessRDP
 menu: howto
 date: 2010-06-08 17:02:16
 weight: 40

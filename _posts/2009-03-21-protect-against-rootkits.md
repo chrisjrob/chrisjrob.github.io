@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Protect against rootkits
+title: Howto | Protect against rootkits
 menu: howto
 date: 2009-03-21 06:20:17
 weight: 40

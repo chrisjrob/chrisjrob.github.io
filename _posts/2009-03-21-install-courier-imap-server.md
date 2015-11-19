@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install Courier-IMAP Server
+title: Howto | Install Courier-IMAP Server
 menu: howto
 date: 2009-03-21 06:00:37
 weight: 40

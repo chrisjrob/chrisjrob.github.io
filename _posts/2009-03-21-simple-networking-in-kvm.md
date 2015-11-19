@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Simple networking in KVM
+title: Howto | Simple networking in KVM
 menu: howto
 date: 2009-03-21 05:32:36
 weight: 40

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Uninstall applications installed from source
+title: Howto | Uninstall applications installed from source
 menu: howto
 date: 2009-04-03 09:21:03
 weight: 40

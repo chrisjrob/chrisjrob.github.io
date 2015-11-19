@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Create Thumbnails from Movies
+title: Howto | Create Thumbnails from Movies
 menu: howto
 date: 2009-03-15 20:08:39
 weight: 40

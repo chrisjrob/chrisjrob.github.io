@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; VirtualBox
+title: Howto | VirtualBox
 menu: howto
 date: 2009-03-21 05:32:58
 weight: 40

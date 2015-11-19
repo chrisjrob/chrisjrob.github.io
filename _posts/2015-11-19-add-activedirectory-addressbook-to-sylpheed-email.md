@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Howto &#124; Add ActiveDirectory Addressbook to Sylpheed Email
+title: Howto | Add ActiveDirectory Addressbook to Sylpheed Email
 date: 2015-11-19
 type: post 
 category: technology

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install FreeNX
+title: Howto | Install FreeNX
 menu: howto
 date: 2010-07-08 16:01:27
 weight: 40

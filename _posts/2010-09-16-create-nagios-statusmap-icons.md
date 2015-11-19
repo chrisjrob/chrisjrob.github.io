@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Create Nagios Status Map Icons
+title: Howto | Create Nagios Status Map Icons
 menu: howto
 date: 2010-09-16 09:42:07
 weight: 40

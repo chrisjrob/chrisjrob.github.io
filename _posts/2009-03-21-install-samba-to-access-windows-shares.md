@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install Samba to Access Windows Shares
+title: Howto | Install Samba to Access Windows Shares
 menu: howto
 date: 2009-03-21 06:15:07
 weight: 40

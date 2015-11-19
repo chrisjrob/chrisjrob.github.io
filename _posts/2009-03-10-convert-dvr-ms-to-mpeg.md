@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Convert DVR-MS to MPEG
+title: Howto | Convert DVR-MS to MPEG
 menu: howto
 date: 2009-03-10 22:02:23
 weight: 40

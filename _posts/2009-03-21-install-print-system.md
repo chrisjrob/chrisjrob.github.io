@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install Print System
+title: Howto | Install Print System
 menu: howto
 date: 2009-03-21 06:06:29
 weight: 40

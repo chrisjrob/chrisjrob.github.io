@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Reconfigure Display Settings
+title: Howto | Reconfigure Display Settings
 menu: howto
 date: 2009-03-21 06:20:45
 weight: 40

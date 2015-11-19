@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Determine vendor-class-identifier
+title: Howto | Determine vendor-class-identifier
 menu: howto
 date: 2009-04-14 07:49:13 
 weight: 40

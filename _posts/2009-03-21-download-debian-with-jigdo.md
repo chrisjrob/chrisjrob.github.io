@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Howto &#124; Download Debian with Jigdo"
+title:  "Howto | Download Debian with Jigdo"
 menu: howto
 weight: 40
 date: 2009-03-21 05:59:30

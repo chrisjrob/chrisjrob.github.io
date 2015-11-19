@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Configure Iceweasel to print via Kprinter
+title: Howto | Configure Iceweasel to print via Kprinter
 menu: howto
 date: 2009-03-21 05:56:39 
 weight: 40

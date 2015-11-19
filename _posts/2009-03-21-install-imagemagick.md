@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install ImageMagick
+title: Howto | Install ImageMagick
 menu: howto
 date: 2009-03-21 06:02:20
 weight: 40

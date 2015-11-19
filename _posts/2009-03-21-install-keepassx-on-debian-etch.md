@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install KeePassX on Debian Etch
+title: Howto | Install KeePassX on Debian Etch
 menu: howto
 date: 2009-03-21 06:03:30
 weight: 40

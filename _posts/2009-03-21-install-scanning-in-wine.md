@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Install Scanning in Wine
+title: Howto | Install Scanning in Wine
 menu: howto
 date: 2009-03-21 06:16:07
 weight: 40

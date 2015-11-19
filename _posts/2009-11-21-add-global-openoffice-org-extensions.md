@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto &#124; Add Global OpenOffice.org Extensions
+title: Howto | Add Global OpenOffice.org Extensions
 menu: howto
 date: 2009-11-21 11:33:43
 weight: 40

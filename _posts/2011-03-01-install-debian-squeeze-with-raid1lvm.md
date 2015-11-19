@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Howto &#124; Install Debian Squeeze With Raid1 + LVM
+title: Howto | Install Debian Squeeze With Raid1 + LVM
 date: 2011-03-01
 type: post 
 published: true 
