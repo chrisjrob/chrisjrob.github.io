@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Install Kiosktool
+title: Howto &#124; Install Kiosktool
 menu: howto
 date: 2010-09-29 10:06:35
 weight: 40

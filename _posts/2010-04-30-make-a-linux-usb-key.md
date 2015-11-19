@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Make a Linux USB Key
+title: Howto &#124; Make a Linux USB Key
 menu: howto
 date: 2010-04-30 11:59:28
 weight: 40

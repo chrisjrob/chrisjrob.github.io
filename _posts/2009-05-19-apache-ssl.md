@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Apache SSL
+title: Howto &#124; Apache SSL
 menu: howto
 date: 2009-05-19 12:02:19
 weight: 40

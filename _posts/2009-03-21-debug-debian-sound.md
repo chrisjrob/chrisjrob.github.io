@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Debug Debian Sound
+title: Howto &#124; Debug Debian Sound
 menu: howto
 date: 2009-03-21 05:58:43
 weight: 40

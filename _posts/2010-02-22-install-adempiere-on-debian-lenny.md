@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Install Adempiere on Debian Lenny
+title: Howto &#124; Install Adempiere on Debian Lenny
 menu: howto
 date: 2010-02-22 17:28:11
 weight: 40

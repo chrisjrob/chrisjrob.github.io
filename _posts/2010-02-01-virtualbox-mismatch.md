@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | VirtualBox Mismatch
+title: Howto &#124; VirtualBox Mismatch
 menu: howto
 date: 2010-02-01 09:45:53
 weight: 40

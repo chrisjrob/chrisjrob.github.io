@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Unmount a share which fails
+title: Howto &#124; Unmount a share which fails
 menu: howto
 date: 2009-03-21 06:23:50
 weight: 40

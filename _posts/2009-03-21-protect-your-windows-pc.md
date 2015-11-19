@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Protect your Windows PC
+title: Howto &#124; Protect your Windows PC
 menu: howto
 date: 2009-03-21 05:34:14
 weight: 40

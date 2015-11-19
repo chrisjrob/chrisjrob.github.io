@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Install NTP time server or client
+title: Howto &#124; Install NTP time server or client
 menu: howto
 date: 2009-03-21 06:06:08
 weight: 40

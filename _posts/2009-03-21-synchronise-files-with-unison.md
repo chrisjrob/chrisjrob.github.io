@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Howto | Synchronise files with Unison"
+title: "Howto &#124; Synchronise files with Unison"
 date: 2009-03-21 06:22:37
 category: technology
 tags: [howto, linux, unison, sync]

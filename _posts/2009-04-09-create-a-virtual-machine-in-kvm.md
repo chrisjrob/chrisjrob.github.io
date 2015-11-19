@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Create a Virtual Machine in KVM
+title: Howto &#124; Create a Virtual Machine in KVM
 menu: howto
 date: 2009-04-09 19:26:35
 weight: 40

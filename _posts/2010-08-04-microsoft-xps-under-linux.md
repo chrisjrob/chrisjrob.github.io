@@ -14,4 +14,4 @@ Fortunately it seems XPS is supported in Okular under KDE4 (which we don't have 
 
 I am pleased to say it all works beautifully, and I have typed up my instructions for Debian Lenny here:
 
-   * [Howto | Convert XPS to PDF]({% post_url 2013-03-12-convert-xps-to-pdf %})
+   * [Howto &#124; Convert XPS to PDF]({% post_url 2013-03-12-convert-xps-to-pdf %})

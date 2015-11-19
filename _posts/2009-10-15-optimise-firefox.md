@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Howto | Optimise Firefox
+title:  Howto &#124; Optimise Firefox
 date:   2009-10-15 00:00:00
 category: technology
 tags: [howto, linux, firefox, sqlite]

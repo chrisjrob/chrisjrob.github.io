@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Fix nxclient arrow keys
+title: Howto &#124; Fix nxclient arrow keys
 menu: howto
 date: 2010-07-08 15:59:28
 weight: 40

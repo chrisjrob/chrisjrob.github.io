@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Copy Directories &amp; Preserve Permissions
+title: Howto &#124; Copy Directories &amp; Preserve Permissions
 menu: howto
 date: 2009-03-21 05:58:15
 weight: 40

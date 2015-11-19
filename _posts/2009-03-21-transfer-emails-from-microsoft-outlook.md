@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Microsoft Outlook
+title: Howto &#124; Microsoft Outlook
 menu: howto
 date: 2009-03-21 06:23:08
 weight: 40

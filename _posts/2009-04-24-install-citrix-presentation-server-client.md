@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Install Citrix Presentation Server Client
+title: Howto &#124; Install Citrix Presentation Server Client
 menu: howto
 date: 2009-04-24 14:36:46
 weight: 40

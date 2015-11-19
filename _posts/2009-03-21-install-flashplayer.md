@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Install Flashplayer
+title: Howto &#124; Install Flashplayer
 menu: howto
 date: 2009-03-21 06:01:08
 weight: 40

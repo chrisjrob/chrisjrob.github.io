@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Install Wine on LTSP
+title: Howto &#124; Install Wine on LTSP
 menu: howto
 date: 2010-10-06 15:29:55
 weight: 40

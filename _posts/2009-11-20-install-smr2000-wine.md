@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Install SMR2000 under Wine
+title: Howto &#124; Install SMR2000 under Wine
 menu: howto
 date: 2009-11-20 17:45:22
 weight: 40

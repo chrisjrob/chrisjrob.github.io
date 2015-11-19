@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto | Install Microsoft Fonts
+title: Howto &#124; Install Microsoft Fonts
 menu: howto
 date: 2009-03-21 06:05:43
 weight: 40
