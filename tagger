@@ -26,23 +26,37 @@ create_files_of('tag', $tags);
 # Step 5 Create sitemap
 use YAML::XS 'LoadFile';
 my $config = LoadFile('_config.yml');
+
+$mdfiles = list_markdown_files('inc_tags');
 create_sitemap_of( $config, $mdfiles );
 
 exit;
 
 sub convert_file_to_url {
     my $file = shift;
-    if ($file =~ /^_(?:posts|drafts)\/(\d{4})-(\d{2})-(\d{2})-(.+?)\.md$/) {
+
+    if ($file =~ /^(?:_posts|_drafts)\/(\d{4})-(\d{2})-(\d{2})-(.+?)\.md$/) {
         # /_posts/2009-03-21-configure-knetwork-manager.md
         return "$1/$2/$3/$4/";
+
     } elsif ($file =~ /^_site/) {
         return;
+
+    } elsif ($file =~ /^(?:README|LICENSE)/) {
+        return;
+
+    } elsif ($file =~ /^(?:tag|category)/) {
+        $file =~ s/\.md/\//;
+        return $file;
+
     } elsif ($file =~ /index\.md/) {
         $file =~ s/index\.md//;
         return $file;
+
     } else {
         $file =~ s/\.md/.html/;
         return $file;
+
     }
 }
 
@@ -53,6 +67,9 @@ sub create_sitemap_of {
     my $sitemap = $config->{sitemap};
 
     open(my $fh_SITEMAP, '>', $sitemap) or die "Cannot create $sitemap: $!";
+
+    print $fh_SITEMAP "$siteurl/\n";
+
     foreach my $mdfile (sort @{ $mdfiles }) {
         my $page_url = convert_file_to_url( $mdfile );
         if (not defined $page_url) {
@@ -80,16 +97,22 @@ sub delete_files_of {
 }
 
 sub list_markdown_files {
+    my $option = shift;
+
     use File::Find::Rule;
     my $rule = File::Find::Rule->new;
-    $rule->or(
-        $rule->new
-        ->directory
-        ->name('tag', 'category')
-        ->prune
-        ->discard,
-        $rule->new
-    );
+
+    unless ((defined $option) and ($option eq 'inc_tags')) {
+        $rule->or(
+            $rule->new
+            ->directory
+            ->name('tag', 'category')
+            ->prune
+            ->discard,
+            $rule->new
+        );
+    }
+
     $rule->file;
     $rule->name( '*.markdown', '*.md' );
     my @mdfiles = $rule->in( '.' );
