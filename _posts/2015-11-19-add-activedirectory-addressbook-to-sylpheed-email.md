@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Howto | Add ActiveDirectory Addressbook to Sylpheed Email
-date: 2015-11-19
+date: 2015-11-19 21:00:00
 type: post 
 category: technology
 tags: [howto, linux, email, activedirectory, ldap, sylpheed]
@@ -13,7 +13,7 @@ Where we require a lightweight mail client, we tend to use [Sylpheed], a fork of
 It seems unlikely that you would be able to add an ActiveDirectory Address Book into such a lightweight email client, and indeed the [manual] states:
 
     ### FIXME: write this part.
-    
+
 But in fact it was trivially easy:
 
 <!--more-->
