@@ -4,7 +4,7 @@ title: Varidesk Pro Plus 48 Standing Desk
 date: 2015-11-22 18:25:00
 type: post 
 category: technology
-tags: [health, back, standing, desk, varidesk]
+tags: [health, varidesk]
 image: varidesk-pro-plus-48-02_300.jpg
 ---
 

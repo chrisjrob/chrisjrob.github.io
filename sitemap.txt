@@ -289,6 +289,7 @@ http://chrisjrob.com/2015/11/16/wordpress-comments-migration-to-disqus/
 http://chrisjrob.com/2015/11/17/install-eset-remote-administrator-on-ubuntu/
 http://chrisjrob.com/2015/11/17/intermittent-usb3-drive-mount/
 http://chrisjrob.com/2015/11/19/add-activedirectory-addressbook-to-sylpheed-email/
+http://chrisjrob.com/2015/11/22/varidesk-pro-plus-48-standing-desk/
 http://chrisjrob.com/about/
 http://chrisjrob.com/blogroll.html
 http://chrisjrob.com/category/personal/
@@ -498,6 +499,7 @@ http://chrisjrob.com/tag/ubuntu/
 http://chrisjrob.com/tag/unison/
 http://chrisjrob.com/tag/usb/
 http://chrisjrob.com/tag/uupc/
+http://chrisjrob.com/tag/varidesk/
 http://chrisjrob.com/tag/viglen/
 http://chrisjrob.com/tag/vim/
 http://chrisjrob.com/tag/virtualisation/
