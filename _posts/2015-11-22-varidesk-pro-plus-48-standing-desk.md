@@ -19,7 +19,7 @@ You can start the day standing up and then, after your executive lunch, you can 
 N.B. This post includes Amazon Associates links, I have never actually received anything from them, but I live in hope!!
 
 
-## Expensive
+## Pricing
 
 At £437 (including delivery) this is a very expensive piece of equipment indeed. 
 The alternative is to buy [an actual standing desk] and in many cases this will be a better option. 
