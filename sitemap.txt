@@ -333,6 +333,7 @@ http://chrisjrob.com/tag/davfs2/
 http://chrisjrob.com/tag/dd/
 http://chrisjrob.com/tag/debaday/
 http://chrisjrob.com/tag/debian/
+http://chrisjrob.com/tag/desk/
 http://chrisjrob.com/tag/dhcp/
 http://chrisjrob.com/tag/dillinger/
 http://chrisjrob.com/tag/disk/
@@ -499,7 +500,6 @@ http://chrisjrob.com/tag/ubuntu/
 http://chrisjrob.com/tag/unison/
 http://chrisjrob.com/tag/usb/
 http://chrisjrob.com/tag/uupc/
-http://chrisjrob.com/tag/varidesk/
 http://chrisjrob.com/tag/viglen/
 http://chrisjrob.com/tag/vim/
 http://chrisjrob.com/tag/virtualisation/

@@ -6,7 +6,7 @@ type: post
 published: true 
 status: publish
 category: technology
-tags: [health, review]
+tags: [health, desk, review]
 image: bac_posture_stand_300.jpg
 ---
 
