@@ -113,3 +113,7 @@ It would be easy to portray this as clear evidence of the difficulty of running 
 Having rebooted, as expected, the drive worked. I tried running `lshw` to see if ASM1051 was present, but I could not find it. Of course upgrading the Kernel could have fixed the problem anyway.
 
 For the present I will labour under the comforting belief that the problem is fixed and will update this post again when either the problem reoccurs on in a week's time if all is well!
+
+ * Please see [Intermittent USB3 Drive Mount Continued]...
+
+[Intermittent USB3 Drive Mount Continued]: {% post_url 2015-11-27-intermittent-usb3-drive-mount-continued %}
