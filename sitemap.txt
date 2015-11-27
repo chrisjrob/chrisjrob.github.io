@@ -290,6 +290,7 @@ http://chrisjrob.com/2015/11/17/install-eset-remote-administrator-on-ubuntu/
 http://chrisjrob.com/2015/11/17/intermittent-usb3-drive-mount/
 http://chrisjrob.com/2015/11/19/add-activedirectory-addressbook-to-sylpheed-email/
 http://chrisjrob.com/2015/11/22/varidesk-pro-plus-48-standing-desk/
+http://chrisjrob.com/2015/11/27/intermittent-usb3-drive-mount-continued/
 http://chrisjrob.com/about/
 http://chrisjrob.com/blogroll.html
 http://chrisjrob.com/category/personal/
