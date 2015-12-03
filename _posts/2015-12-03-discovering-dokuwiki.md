@@ -79,6 +79,7 @@ Under the Use Cases on the [DokuWiki] website there is the suggestion of using i
 [DokuWiki Entities]: https://www.dokuwiki.org/entities
 [Drupal]: http://drupal.org/
 [Edittable Plugin]: https://www.dokuwiki.org/plugin:edittable
+[Jekyll]: http://jekyllrb.com/
 [Nginx Instructions from DokuWiki]: https://www.dokuwiki.org/install:nginx
 [MediaWiki]: http://mediawiki.org/
 [Nginx Instructions]: https://www.rosehosting.com/blog/how-to-install-dokuwiki-on-debian-wheezy-with-nginx/
