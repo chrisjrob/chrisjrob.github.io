@@ -291,6 +291,7 @@ http://chrisjrob.com/2015/11/17/intermittent-usb3-drive-mount/
 http://chrisjrob.com/2015/11/19/add-activedirectory-addressbook-to-sylpheed-email/
 http://chrisjrob.com/2015/11/22/varidesk-pro-plus-48-standing-desk/
 http://chrisjrob.com/2015/11/27/intermittent-usb3-drive-mount-continued/
+http://chrisjrob.com/2015/12/03/discovering-dokuwiki/
 http://chrisjrob.com/about/
 http://chrisjrob.com/blogroll.html
 http://chrisjrob.com/category/personal/
@@ -339,6 +340,7 @@ http://chrisjrob.com/tag/dhcp/
 http://chrisjrob.com/tag/dillinger/
 http://chrisjrob.com/tag/disk/
 http://chrisjrob.com/tag/dns/
+http://chrisjrob.com/tag/dokuwiki/
 http://chrisjrob.com/tag/drive/
 http://chrisjrob.com/tag/drm/
 http://chrisjrob.com/tag/drupal/
@@ -512,6 +514,7 @@ http://chrisjrob.com/tag/wallpaper/
 http://chrisjrob.com/tag/web/
 http://chrisjrob.com/tag/webdav/
 http://chrisjrob.com/tag/wget/
+http://chrisjrob.com/tag/wiki/
 http://chrisjrob.com/tag/windows/
 http://chrisjrob.com/tag/wine/
 http://chrisjrob.com/tag/wip/
