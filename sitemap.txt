@@ -339,6 +339,7 @@ http://chrisjrob.com/tag/dhcp/
 http://chrisjrob.com/tag/dillinger/
 http://chrisjrob.com/tag/disk/
 http://chrisjrob.com/tag/dns/
+http://chrisjrob.com/tag/docuwiki/
 http://chrisjrob.com/tag/drive/
 http://chrisjrob.com/tag/drm/
 http://chrisjrob.com/tag/drupal/
@@ -512,6 +513,7 @@ http://chrisjrob.com/tag/wallpaper/
 http://chrisjrob.com/tag/web/
 http://chrisjrob.com/tag/webdav/
 http://chrisjrob.com/tag/wget/
+http://chrisjrob.com/tag/wiki/
 http://chrisjrob.com/tag/windows/
 http://chrisjrob.com/tag/wine/
 http://chrisjrob.com/tag/wip/
