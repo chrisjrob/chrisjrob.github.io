@@ -1,0 +1,49 @@
+#!/usr/bin/perl
+#
+# suggest_tags
+
+use strict;
+use File::Slurp;
+
+my @tags = list_tags('../tags');
+
+my $text = read_file($ARGV[0]);
+
+my $tags;
+foreach my $tag (@tags) {
+    $tags->{$tag} = () = $text =~ /\b$tag\b/g;
+}
+
+# use Data::Dumper;
+# print Dumper($tags);
+
+my @topten;
+foreach my $tag (sort { $tags->{$b} <=> $tags->{$a} } %{ $tags }) {
+    if ( (defined $tags->{$tag}) and ($tags->{$tag} > 0) ) {
+        push(@topten, $tag);
+    }
+}
+
+my $topten = join(", ", reverse @topten);
+print "tags: [$topten]\n";
+
+exit;
+
+sub list_tags {
+    use Cwd;    
+    my $dir = getcwd;   
+    chdir("../tag");
+
+    my @tagfiles = glob('*.md');
+
+    my @tags;
+    foreach my $tagfile (@tagfiles) {
+        $tagfile =~ s/\.md//g;
+        push(@tags, $tagfile);
+    }
+
+    chdir($dir);
+
+    return @tags;
+}
+
