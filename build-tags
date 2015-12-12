@@ -1,0 +1,221 @@
+#!/usr/bin/perl
+#
+# tagger.pl
+# Updates required tag files in tags directory
+
+use strict;
+use warnings;
+
+# Step 1 Get list of markdown files
+my $mdfiles = list_markdown_files();
+
+# Step 2 Generate tags from markdown files
+my $cats = generate_cats_from_markdown_files( $mdfiles );
+
+# Step 2 Generate tags from markdown files
+my $tags = generate_tags_from_markdown_files( $mdfiles );
+
+# Step 3 Remove existing tag files
+delete_files_of('category');
+delete_files_of('tag');
+
+# Step 4 Create tag files from tags
+create_files_of('category', $cats);
+create_files_of('tag', $tags);
+
+# Step 5 Create sitemap
+use YAML::XS 'LoadFile';
+my $config = LoadFile('_config.yml');
+
+$mdfiles = list_markdown_files('inc_tags');
+create_sitemap_of( $config, $mdfiles );
+
+exit;
+
+sub convert_file_to_url {
+    my $file = shift;
+
+    if ($file =~ /^(?:_drafts|_site)\//) {
+        return;
+    
+    } elsif ($file =~ /^_posts\/(\d{4})-(\d{2})-(\d{2})-(.+?)\.md$/) {
+        # /_posts/2009-03-21-configure-knetwork-manager.md
+        return "$1/$2/$3/$4/";
+
+    } elsif ($file =~ /^(?:README|LICENSE)/) {
+        return;
+
+    } elsif ($file =~ /^(?:tag|category)/) {
+        $file =~ s/\.md/\//;
+        return $file;
+
+    } elsif ($file =~ /index\.md/) {
+        $file =~ s/index\.md//;
+        return $file;
+
+    } else {
+        $file =~ s/\.md/.html/;
+        return $file;
+
+    }
+}
+
+sub create_sitemap_of {
+    my ($config, $mdfiles) = @_;
+
+    my $siteurl = $config->{url};
+    my $sitemap = $config->{sitemap};
+
+    open(my $fh_SITEMAP, '>', $sitemap) or die "Cannot create $sitemap: $!";
+
+    print $fh_SITEMAP "$siteurl/\n";
+
+    foreach my $mdfile (sort @{ $mdfiles }) {
+        my $page_url = convert_file_to_url( $mdfile );
+        if (not defined $page_url) {
+            next;
+        }
+        print $fh_SITEMAP "$siteurl/$page_url\n";
+    }
+    close($fh_SITEMAP) or die "Cannot close $sitemap: $!";
+
+}
+
+sub delete_files_of {
+    my $type = shift;
+
+    use File::Find::Rule;
+    my $rule = File::Find::Rule->new;
+    $rule->file;
+    $rule->name( '*.markdown', '*.md' );
+    my @tagfiles = $rule->in( $type );
+
+    foreach my $tagfile (@tagfiles) {
+        print "Deleted $tagfile\n";
+        unlink($tagfile) or die "Cannot unlink $tagfile: $!";
+    }
+}
+
+sub list_markdown_files {
+    my $option = shift;
+
+    use File::Find::Rule;
+    my $rule = File::Find::Rule->new;
+
+    unless ((defined $option) and ($option eq 'inc_tags')) {
+        $rule->or(
+            $rule->new
+            ->directory
+            ->name('tag', 'category')
+            ->prune
+            ->discard,
+            $rule->new
+        );
+    }
+
+    $rule->file;
+    $rule->name( '*.markdown', '*.md' );
+    my @mdfiles = $rule->in( '.' );
+    return \@mdfiles;
+}
+
+sub generate_cats_from_markdown_files {
+    my $mdfiles = shift;
+
+    my %cats;
+    foreach my $mdfile (@{ $mdfiles }) {
+        my $catline  = find_cat_line_in_markdown_file( $mdfile );
+        $cats{$catline}=1;
+    }
+
+    my @cats = sort keys %cats;
+    return \@cats;
+}
+
+sub generate_tags_from_markdown_files {
+    my $mdfiles = shift;
+
+    my %tags;
+    foreach my $mdfile (@{ $mdfiles }) {
+        my $tagline  = find_tag_line_in_markdown_file( $mdfile );
+        my @temptags = split(/\,\s*/, $tagline);
+
+        foreach my $temptag (@temptags) {
+            $tags{$temptag}=1;
+        }
+    }
+
+    my @tags = sort keys %tags;
+    return \@tags;
+}
+
+sub find_cat_line_in_markdown_file {
+    my $mdfile = shift;
+
+    my $catline;
+    open( my $fh_mdfile, '<', $mdfile ) or die "Cannot read $mdfile: $!";
+    while (my $line = <$fh_mdfile>) {
+        if ($line =~ /^category:\s*(.+)$/) {
+            $catline = $1;
+            $catline =~ s/\s+$//g;
+            $catline =~ s/\s/-/g;
+            last;
+        }
+    }
+    close( $fh_mdfile ) or die "Cannot close $mdfile: $!";
+
+    return $catline;
+}
+
+sub find_tag_line_in_markdown_file {
+    my $mdfile = shift;
+
+    my $tagline;
+    open( my $fh_mdfile, '<', $mdfile ) or die "Cannot read $mdfile: $!";
+    while (my $line = <$fh_mdfile>) {
+        if ($line =~ /^tags: \[(.*)\]/) {
+            $tagline = $1;
+            last;
+        }
+    }
+    close( $fh_mdfile ) or die "Cannot close $mdfile: $!";
+
+    return $tagline;
+}
+
+sub create_files_of {
+    my ($type, $tags) = @_;
+
+    foreach my $tag (@{ $tags }) {
+        create_file_of($type, $tag);
+    }
+
+    return;
+}
+
+sub create_file_of {
+    my ($type, $tag) = @_;
+
+    if ((not defined $tag) or ($tag !~ /\w/)) {
+        return;
+    }
+
+    my $tagfilename = "./$type/$tag.md";
+
+    print "Writing $tag file to $tagfilename\n";
+
+    my $tagtext = <<END;
+---
+layout: by_$type
+$type: $tag
+permalink: /$type/$tag/
+---
+END
+
+    open(my $fh_tagfile, ">", $tagfilename) or die "Cannot create $tagfilename: $!";
+    print $fh_tagfile $tagtext;
+    close($fh_tagfile) or die "Cannot close $tagfilename: $!";
+
+    return;
+}
+
