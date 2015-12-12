@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+
+use strict;
+
+my $title = $ARGV[0];
+$title =~ s/\.md$//;
+$title =~ s/^[\d-]+//;
+$title =~ s/\-/ /g;
+$title =~ s/(\w+)/\u\L$1/g;
+
+my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
+$year += 1900;
+$mon  += 1;
+
+
+my $header = <<END;
+--- 
+layout: post 
+title: $title
+date: $year-$mon-$mday $hour:$min:$sec
+type: post 
+category: 
+tags: [ ]
+image: 
+---
+END
+
+print $header, "\n";
