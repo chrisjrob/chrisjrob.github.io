@@ -12,9 +12,10 @@ layout: post
 title: $title
 date: $date
 type: post 
-category: 
+category: technology
 tags: [$topten]
 image: 
+published: false
 ---
 END
 
