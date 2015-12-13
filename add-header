@@ -2,27 +2,85 @@
 
 use strict;
 
-my $title = $ARGV[0];
-$title =~ s/\.md$//;
-$title =~ s/^[\d-]+//;
-$title =~ s/\-/ /g;
-$title =~ s/(\w+)/\u\L$1/g;
-
-my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
-$year += 1900;
-$mon  += 1;
-
+my $title = filename_to_title($ARGV[0]);
+my $date  = date_text();
+my $topten = suggest_tags('../tag');
 
 my $header = <<END;
 --- 
 layout: post 
 title: $title
-date: $year-$mon-$mday $hour:$min:$sec
+date: $date
 type: post 
 category: 
-tags: [ ]
+tags: [$topten]
 image: 
 ---
 END
 
 print $header, "\n";
+
+exit;
+
+sub suggest_tags {
+    my $tagdir = shift;
+    my @tags = list_tags($tagdir);
+
+    use File::Slurp;
+    my $text = read_file($ARGV[0]);
+
+    my $tags;
+    foreach my $tag (@tags) {
+        $tags->{$tag} = () = $text =~ /\b$tag\b/g;
+    }
+
+    my @topten;
+    foreach my $tag (sort { $tags->{$b} <=> $tags->{$a} } %{ $tags }) {
+        if ( (defined $tags->{$tag}) and ($tags->{$tag} > 0) ) {
+            push(@topten, $tag);
+        }
+    }
+
+    my $topten = join(", ", reverse @topten);
+
+}
+
+sub date_text {
+    my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
+    $year += 1900;
+    $mon  += 1;
+
+    return "$year-$mon-$mday $hour:$min:$sec";
+}
+
+sub filename_to_title {
+    my $title = shift;
+    
+    $title =~ s/\.md$//;
+    $title =~ s/^[\d-]+//;
+    $title =~ s/\-/ /g;
+    $title =~ s/(\w+)/\u\L$1/g;
+
+    return $title;
+}
+
+sub list_tags {
+    my $tagdir = shift;
+
+    use Cwd;    
+    my $dir = getcwd;   
+    chdir($tagdir);
+
+    my @tagfiles = glob('*.md');
+
+    my @tags;
+    foreach my $tagfile (@tagfiles) {
+        $tagfile =~ s/\.md//g;
+        push(@tags, $tagfile);
+    }
+
+    chdir($dir);
+
+    return @tags;
+}
+
