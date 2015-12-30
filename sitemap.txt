@@ -340,11 +340,7 @@ http://chrisjrob.com/tag/dhcp/
 http://chrisjrob.com/tag/dillinger/
 http://chrisjrob.com/tag/disk/
 http://chrisjrob.com/tag/dns/
-<<<<<<< HEAD
-http://chrisjrob.com/tag/docuwiki/
-=======
 http://chrisjrob.com/tag/dokuwiki/
->>>>>>> aed8c96e44cc65d5e563ac5cd6c7731099243c55
 http://chrisjrob.com/tag/drive/
 http://chrisjrob.com/tag/drm/
 http://chrisjrob.com/tag/drupal/
