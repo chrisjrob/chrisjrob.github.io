@@ -52,15 +52,15 @@ Broadly speaking I followed these key stages:
 
     `sudo apt-get install checkinstall`
 
-3.  [Download source files](http://sourceforge.net/projects/sipe/files/sipe/pidgin-sipe-1.20.0/pidgin-sipe-1.20.0.tar.gz/download).
+3.  [Download source files](http://sourceforge.net/projects/sipe/files/sipe/pidgin-sipe-1.20.1/pidgin-sipe-1.20.1.tar.gz/download).
 
 4.  Extract source:
 
-    `tar -xvvzf pidgin-sipe-1.20.0.tar.gz`
+    `tar -xvvzf pidgin-sipe-1.20.1.tar.gz`
 
 5.  Change into source directory:
 
-    `cd pidgin-sipe-1.20.0`
+    `cd pidgin-sipe-1.20.1`
 
 6.  Read carefully the README file in the source directory.
 
