@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 category: technology
-tags: [linux, lenovo, thinkpad, ubuntu, review]
+tags: [linux, laptop, lenovo, thinkpad, ubuntu, review]
 image: lenovo-laptop-thinkpad-x1-carbon-2-front-2_300.jpg
 --- 
 
