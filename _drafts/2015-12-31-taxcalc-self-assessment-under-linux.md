@@ -6,7 +6,7 @@ type: post
 category: technology
 tags: [linux, tax, taxcalc]
 image: hmrc.jpg
-published: false
+published: true
 ---
 
 I first wrote about the difficulties of submitting a UK self-assessment tax return [back in January 2009][2009post], with a [follow up in January of 2010][2010post]. 
