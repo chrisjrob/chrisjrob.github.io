@@ -293,6 +293,7 @@ http://chrisjrob.com/2015/11/22/varidesk-pro-plus-48-standing-desk/
 http://chrisjrob.com/2015/11/27/intermittent-usb3-drive-mount-continued/
 http://chrisjrob.com/2015/12/03/discovering-dokuwiki/
 http://chrisjrob.com/2015/12/31/ubuntu-empathy-microsoft-skype-for-business-lync-2013-client/
+http://chrisjrob.com/2016/01/02/ubuntu-simple-scan-hp-all-in-one/
 http://chrisjrob.com/about/
 http://chrisjrob.com/blogroll.html
 http://chrisjrob.com/category/personal/
