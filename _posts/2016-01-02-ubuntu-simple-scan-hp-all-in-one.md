@@ -24,7 +24,7 @@ A quick Internet search took me to [this excellent Ubunutu community page][ubunt
 
 I opened a terminal and typed:
 
-    $ hp-makeuri 192.168.0.5
+    $ hp-makeuri 192.168.0.100
 
     CUPS URI: hp:/net/Officejet_J6400_series?ip=192.168.0.100
     SANE URI: hpaio:/net/Officejet_J6400_series?ip=192.168.0.100
@@ -36,7 +36,7 @@ I then typed (taking the SANE URI from above):
 
     simple-scan hpaio:/net/Officejet_J6400_series?ip=192.168.0.100
 
-And it worked perfectly! Flushed with success I read on to see how to make this a permanent fixture, and it turned out that all I needed to do was configure the CUPS URI for the printer itself (it was previously set to something like `socket://192.168.0.5`):
+And it worked perfectly! Flushed with success I read on to see how to make this a permanent fixture, and it turned out that all I needed to do was configure the CUPS URI for the printer itself (it was previously set to something like `socket://192.168.0.100`):
 
     $ vim /etc/cups/printers.com
 
