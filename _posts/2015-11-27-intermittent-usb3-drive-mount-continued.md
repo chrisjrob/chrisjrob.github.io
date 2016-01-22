@@ -62,7 +62,7 @@ And on the same lines the suggestion to edit `/etc/default/grub` file and append
 
     usbcore.autosuspend=-1
 
-Followed course by the obligatory:
+Followed of course by the obligatory:
 
     # update-grub
 
