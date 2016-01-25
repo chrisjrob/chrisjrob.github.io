@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Taxcalc Self Assessment Under Linux
-date: 2016-01-02 12:55:00
+date: 2016-01-25 13:35:00
 type: post 
 category: technology
 tags: [linux, tax, taxcalc]
@@ -14,7 +14,7 @@ In the subsequent years I have submitted my tax return under Windows with nary a
 
 This year was different, I went to download [TaxCalc] as usual, only this time [there was a Linux option][taxcalc-linux]. 
 I barely noticed at first, downloading the Windows version before I thought "Hang on, did that say Linux?".
-It had indeed.
+It did indeed.
 
 <!--more-->
 
