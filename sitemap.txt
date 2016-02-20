@@ -272,7 +272,6 @@ http://chrisjrob.com/2014/03/18/convert-openvpn-ovpn-files-for-use-in-network-ma
 http://chrisjrob.com/2014/03/24/pdftk-the-pdf-toolkit-2/
 http://chrisjrob.com/2014/05/01/visual-eyes-microwave-oven-repair/
 http://chrisjrob.com/2014/05/11/soft-shackles/
-http://chrisjrob.com/2014/05/20/westerly-merlin-29-1992-for-sale/
 http://chrisjrob.com/2014/06/08/go-kart-repair/
 http://chrisjrob.com/2014/07/07/hp-255-g1-laptop-with-ubuntu/
 http://chrisjrob.com/2014/08/09/dillinger/
@@ -295,6 +294,7 @@ http://chrisjrob.com/2015/12/03/discovering-dokuwiki/
 http://chrisjrob.com/2015/12/31/ubuntu-empathy-microsoft-skype-for-business-lync-2013-client/
 http://chrisjrob.com/2016/01/02/ubuntu-simple-scan-hp-all-in-one/
 http://chrisjrob.com/2016/01/25/taxcalc-self-assessment-under-linux/
+http://chrisjrob.com/2016/02/20/sonos-review/
 http://chrisjrob.com/about/
 http://chrisjrob.com/blogroll.html
 http://chrisjrob.com/category/personal/
@@ -482,13 +482,16 @@ http://chrisjrob.com/tag/sensors/
 http://chrisjrob.com/tag/silverlight/
 http://chrisjrob.com/tag/sinclair/
 http://chrisjrob.com/tag/skype/
+http://chrisjrob.com/tag/sonos/
 http://chrisjrob.com/tag/sound/
 http://chrisjrob.com/tag/splice/
+http://chrisjrob.com/tag/spotify/
 http://chrisjrob.com/tag/sqlite/
 http://chrisjrob.com/tag/squeeze/
 http://chrisjrob.com/tag/ssh/
 http://chrisjrob.com/tag/sshfs/
 http://chrisjrob.com/tag/ssl/
+http://chrisjrob.com/tag/subsonic/
 http://chrisjrob.com/tag/supplier/
 http://chrisjrob.com/tag/sylpheed/
 http://chrisjrob.com/tag/sync/
