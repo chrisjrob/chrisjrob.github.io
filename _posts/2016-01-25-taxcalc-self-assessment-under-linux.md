@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Taxcalc Self Assessment Under Linux
-date: 2016-01-02 12:55:00
+date: 2016-01-25 13:35:00
 type: post 
 category: technology
 tags: [linux, tax, taxcalc]
@@ -14,7 +14,7 @@ In the subsequent years I have submitted my tax return under Windows with nary a
 
 This year was different, I went to download [TaxCalc] as usual, only this time [there was a Linux option][taxcalc-linux]. 
 I barely noticed at first, downloading the Windows version before I thought "Hang on, did that say Linux?".
-It had indeed.
+It did indeed.
 
 <!--more-->
 
@@ -25,7 +25,7 @@ I won't detail all the installation instructions, which are [clearly described o
 
 ## Installation
 
-Unfortunately the download is for a compiled `.run` file and not a distribution package, so you will have to decide whether you trust TaxCalc enough to run the file on your computer and potential dump unknown rubbish all over your system which might then be difficult to remove. 
+Unfortunately the download is for a compiled `.run` file and not a distribution package, so you will have to decide whether you are happy to run the file and potentially dump unknown rubbish all over your system which might then be difficult to remove. 
 
 I decided to give it a go, downloading the `.run` file and marking it as executable.
 The instructions provided did not suggest running with sudo or as root, so I decided to follow the letter of the instructions and simply executed the `.run` file. 
