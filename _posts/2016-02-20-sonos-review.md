@@ -41,7 +41,7 @@ The Play:5 does have a Line-In, as does the [Sonos Connect] at £264.
 A word about the [Sonos Connect]. 
 A simple way to imagine it is that it is basically a Play:5, but without the speaker. 
 In other words it has the same Sonos interface with Line-In but no speaker.
-If you have an existing music system then this is potentially ideal and with hindsight I wish that I had done is purchase one Play:3 for the kitchen and one Sonos Connect for the living room.
+If you have an existing music system then this is potentially ideal and with hindsight I wish that what I had done was to purchase one Play:3 for the kitchen and one Sonos Connect for the living room.
 The opposing view is that a pair of Play:5 speakers complete obsoletes an existing music system - so why not do away with the legacy equipment.
 
 ### Amazon Prime Music
