@@ -295,6 +295,7 @@ http://chrisjrob.com/2015/12/31/ubuntu-empathy-microsoft-skype-for-business-lync
 http://chrisjrob.com/2016/01/02/ubuntu-simple-scan-hp-all-in-one/
 http://chrisjrob.com/2016/01/25/taxcalc-self-assessment-under-linux/
 http://chrisjrob.com/2016/02/20/sonos-review/
+http://chrisjrob.com/2016/05/09/a-probably-inaccurate-history-of-libvirt-kvm-qemu/
 http://chrisjrob.com/about/
 http://chrisjrob.com/blogroll.html
 http://chrisjrob.com/category/personal/
