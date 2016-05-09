@@ -108,6 +108,10 @@ sub delete_directories_of {
 
     # Sort dirs by reverse length to delete subdirs first
     foreach my $dir (sort { length($b) <=> length($a) } @dirs) {
+        if ($dir eq $type) {
+            # Skip $type directory
+            next;
+        }
         print "Deleted directory $dir\n";
         rmdir($dir) or die "Cannot rmdir $dir $!";
     }
@@ -203,8 +207,20 @@ sub find_tag_line_in_markdown_file {
 sub create_files_of {
     my ($type, $tags) = @_;
 
+    use File::Copy;
+
     foreach my $tag (@{ $tags }) {
+        if ((not defined $tag) or ($tag eq '')) {
+            next;
+        }
         create_file_of($type, $tag);
+
+        if ($type eq 'category') {
+            mkdir("$type/$tag") or die "Cannot create $type/$tag: $!";
+            mkdir("$type/$tag/feed") or die "Cannot create $type/$tag/feed: $!";
+            copy("$type/template_xml", "$type/$tag/feed/index.xml") or
+                die "Cannot copy $type/template_xml to $type/$tag/feed/index.xml: $!";
+        }
     }
 
     return;
