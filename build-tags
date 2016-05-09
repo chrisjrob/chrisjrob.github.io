@@ -17,6 +17,7 @@ my $tags = generate_tags_from_markdown_files( $mdfiles );
 
 # Step 3 Remove existing tag files
 delete_files_of('category');
+delete_directories_of('category');
 delete_files_of('tag');
 
 # Step 4 Create tag files from tags
@@ -87,12 +88,28 @@ sub delete_files_of {
     use File::Find::Rule;
     my $rule = File::Find::Rule->new;
     $rule->file;
-    $rule->name( '*.markdown', '*.md' );
-    my @tagfiles = $rule->in( $type );
+    $rule->name( '*.markdown', '*.md', '*.xml' );
+    my @files = $rule->in( $type );
 
-    foreach my $tagfile (@tagfiles) {
-        print "Deleted $tagfile\n";
-        unlink($tagfile) or die "Cannot unlink $tagfile: $!";
+    foreach my $file (@files) {
+        print "Deleted file $file\n";
+        unlink($file) or die "Cannot unlink $file: $!";
+    }
+}
+
+sub delete_directories_of {
+    my $type = shift;
+
+    use File::Find::Rule;
+    my $rule = File::Find::Rule->new;
+    $rule->directory;
+    $rule->name( "*" );
+    my @dirs = $rule->in( $type );
+
+    # Sort dirs by reverse length to delete subdirs first
+    foreach my $dir (sort { length($b) <=> length($a) } @dirs) {
+        print "Deleted directory $dir\n";
+        rmdir($dir) or die "Cannot rmdir $dir $!";
     }
 }
 
