@@ -74,7 +74,9 @@
                                  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
   <!-- RSS -->
-  {% if page.category %}
+  {% if page.tag %}
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/tag/{{ page.tag }}/feed/">
+  {% elsif page.category %}
     {% if page.categories %}
       <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
     {% else %}
