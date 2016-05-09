@@ -19,6 +19,7 @@ my $tags = generate_tags_from_markdown_files( $mdfiles );
 delete_files_of('category');
 delete_directories_of('category');
 delete_files_of('tag');
+delete_directories_of('tag');
 
 # Step 4 Create tag files from tags
 create_files_of('category', $cats);
@@ -215,12 +216,11 @@ sub create_files_of {
         }
         create_file_of($type, $tag);
 
-        if ($type eq 'category') {
-            mkdir("$type/$tag") or die "Cannot create $type/$tag: $!";
-            mkdir("$type/$tag/feed") or die "Cannot create $type/$tag/feed: $!";
-            copy("$type/template_xml", "$type/$tag/feed/index.xml") or
-                die "Cannot copy $type/template_xml to $type/$tag/feed/index.xml: $!";
-        }
+        # Create RSS feeds
+        mkdir("$type/$tag") or die "Cannot create $type/$tag: $!";
+        mkdir("$type/$tag/feed") or die "Cannot create $type/$tag/feed: $!";
+        copy("$type/template_xml", "$type/$tag/feed/index.xml") or
+            die "Cannot copy $type/template_xml to $type/$tag/feed/index.xml: $!";
     }
 
     return;
