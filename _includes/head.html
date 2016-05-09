@@ -74,7 +74,15 @@
                                  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  {% if page.category %}
+    {% if page.categories %}
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    {% else %}
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/category/{{ page.category }}/feed/">
+    {% endif %}
+  {% else %}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  {% endif %}
 
   {% include analytics.html %}
 
