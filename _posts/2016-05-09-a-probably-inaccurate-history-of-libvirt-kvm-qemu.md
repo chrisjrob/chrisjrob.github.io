@@ -10,10 +10,10 @@ published: true
 ---
 
 A while ago I was explaining the difference between QEMU, KVM and LibVirt, 
-and I ended up emailing this nonsense.
+and I ended up by emailing this nonsense.
 I don't claim it's accurate, it certainly isn't.
 It's probably not even funny.
-Enjoy. Or not.
+Enjoy :).
 
 *In the beginning there was QEMU, but it was slow and the people grieved.*
 <!--more-->
