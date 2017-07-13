@@ -1,0 +1,34 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  {% assign pathchunks = page.path | split:"/" %}
+  {% assign feedtag = pathchunks[1] %}
+  <channel>
+    <title>{{ site.title }}: {{ feedtag }}</title>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+    <description>{{ site.description }}</description>
+    <language>en-gb</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    {% for post in site.tags[feedtag] %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <author>{{ site.author.email }} ({{ site.author.name }})</author>
+      <guid>{{ site.url }}{{ post.id }}</guid>
+      <description>
+       <![CDATA[
+         {% if post.image %}
+           <img src="{{ site.url }}/assets/{{ post.image }}" align="right" alt="Featured Image">
+         {% endif %}
+         {{ post.content }}
+       ]]>
+      </description>
+    </item>
+    {% endfor %}
+  </channel> 
+</rss>

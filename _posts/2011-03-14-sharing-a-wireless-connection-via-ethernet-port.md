@@ -42,16 +42,20 @@ and a wired connection to the Client PC:
 
 Firstly, you will probably need to set some static IP details:
 
-    # ifdown eth0 # ifconfig eth0 192.168.10.1 netmask 255.255.255.0
+    # ifdown eth0
+    # ifconfig eth0 192.168.10.1 netmask 255.255.255.0
 
 Next we need to activate IP forwarding, and setup iptables to NAT:
 
-    # sysctl -w net.ipv4.ip_forward=1 # iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
+    # sysctl -w net.ipv4.ip_forward=1
+    # iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
 
 The following may be worth trying if the client gets Host Prohibited
 responses:\
 
-    # iptables -F FORWARD # iptables -A FORWARD -j ACCEPT # iptables -nvL
+    # iptables -F FORWARD 
+    # iptables -A FORWARD -j ACCEPT 
+    # iptables -nvL
 
 DNS and DHCP
 ------------
@@ -62,7 +66,9 @@ then you should not complete the next section entitled "On the Client
 PC", which should just pick up its details using DHCP. This method is
 particularly handy with a Debian net install.
 
-    # apt-get install dnsmasq # vim /etc/dnsmasq.conf interface=eth0 dhcp-range=192.168.10.10,192.168.10.19,4h # /etc/init.d/dnsmasq restart
+    # apt-get install dnsmasq 
+    # vim /etc/dnsmasq.conf interface=eth0 dhcp-range=192.168.10.10,192.168.10.19,4h 
+    # /etc/init.d/dnsmasq restart
 
 On the Client PC
 ----------------
