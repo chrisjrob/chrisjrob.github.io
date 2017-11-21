@@ -16,7 +16,7 @@ title:            chrisjrob
 tagline:          'GNU Linux, Perl and FLOSS'
 description:      'GNU Linux, Perl and FLOSS'
 url:              http://chrisjrob.com
-baseurl:          /
+baseurl:          '/'
 
 author:
   name:           'Chris Roberts'
