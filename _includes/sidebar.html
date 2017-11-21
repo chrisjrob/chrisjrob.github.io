@@ -3,7 +3,7 @@
     <div class="sidebar-about">
       <img src="/assets/profile-202020.jpg">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.baseurl }}/">
           {{ site.title }}
         </a>
       </h1>
@@ -14,7 +14,7 @@
 
     <nav class="sidebar-nav">
 
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
       {% include navbar.html menuLevel="main" %}
 
