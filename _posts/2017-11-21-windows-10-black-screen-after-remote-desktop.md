@@ -16,7 +16,7 @@ Searching the Internet was not helpful on this occasion; so I have made this qui
 
 <!--more-->
 
-It turns out that this is not some weird absence of wallpaper, but rather is an plain black wallpaper image, which has managed to get itself cached.
+It turns out that this is not some weird absence of wallpaper, but rather is a plain black wallpaper image, which has managed to get itself cached.
 The solution is consequentially simple - find and terminate said cached image.
 
  1. Open File Explorer and navigate to `%APPDATA%` (you can type that into the top address/location field).
