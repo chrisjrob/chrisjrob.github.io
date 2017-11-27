@@ -8,7 +8,7 @@ tags: [howto, linux, email, activedirectory, ldap, sylpheed]
 image: sylpheed.png
 ---
 
-Where we require a lightweight mail client, we tend to use [Sylpheed], a fork of the old Claws Mail.
+Where we require a lightweight mail client, we tend to use [Sylpheed] (from which Claws Mail was later forked).
 
 It seems unlikely that you would be able to add an ActiveDirectory Address Book into such a lightweight email client, and indeed the [manual] states:
 
