@@ -24,6 +24,10 @@ The solution is consequentially simple - find and terminate said cached image.
  3. Delete the cached version of the black wallpaper once it is found.
  4. Sign out and then sign back in.
 
+On my system the specific file location was:
+
+    %APPDATA%\Microsoft\Windows\Themes\CachedFiles\CachedImage_1920_1080_POS4.jpg
+ 
 Please do comment below if this was helpful, or if you needed to alter these instructions at all.
 
 ![File Manager](/assets/black-window.png)
