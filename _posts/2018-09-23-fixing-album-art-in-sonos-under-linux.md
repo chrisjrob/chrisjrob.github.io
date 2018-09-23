@@ -49,7 +49,7 @@ These instructions were written for Ubuntu GNU Linux, you will need to adapt the
 If you already have Imagemagick installed, then you may use that instead, just remove the "gm " from the relevant commands below.
 
 
-Step 1: Extract image from Music
+Step 1: Extract image from music
 --------------------------------
 
 **Please change directory into the first album that requires fixing, and stay in that directory until you have finished all steps.**
