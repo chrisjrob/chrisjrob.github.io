@@ -15,7 +15,7 @@ permalink:        /:year/:month/:day/:title/
 title:            chrisjrob
 tagline:          'GNU Linux, Perl and FLOSS'
 description:      'GNU Linux, Perl and FLOSS'
-url:              http://chrisjrob.com
+url:              https://chrisjrob.com
 baseurl:          ''
 
 author:
