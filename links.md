@@ -7,9 +7,8 @@ weight: 95
 
 ## Related
 
-* [Trident Honda](http://www.tridenthonda.co.uk)
-* [Linda Roberts Art](http://lindarobertsart.uk)
-* [Helene Raynsford](http://www.heleneraynsford.org.uk)
+* [Trident Honda](https://www.tridenthonda.co.uk)
+* [Linda Roberts Art](https://lindaroberts.art)
 * [Flowers by Rosie Orr](http://www.rosieorr.co.uk)
 
 ## 3D Printing
@@ -25,60 +24,50 @@ weight: 95
 
 * [LTSP](http://www.ltsp.org/)
   * [LTSP Mailing List](http://marc.info/?l=ltsp-discuss&r=1&w=2)
-* [Ubuntu LTSP Help](https://help.ubuntu.com/community/UbuntuLTSP)
-
-### FreeNX
-
-* [FreeNX](http://freenx.berlios.de/info.php)
-* [NoMachine](http://www.debianhelp.co.uk/)
-* [Howto install FreeNX on Debian](http://www.debianhelp.co.uk/freenx.htm)
 
 ### OpenSource Applications
 
-* [iRedMail - Mailserver](http://www.iredmail.org/)
-* [Mozilla Firefox - Web Browser](http://www.mozilla.com/firefox/)
-* [Mozilla Thunderbird - Email](http://www.mozilla.com/thunderbird/)
-* [iTalc - Multicomputer VNC](http://italc.sourceforge.net/)
-* [IPCop - Firewall](http://www.ipcop.org/)
-    * [Advanced Proxy](http://www.advproxy.net/)
-    * [URL Filter](http://www.urlfilter.net/)
+* [iRedMail - Mailserver](https://www.iredmail.org/)
+* [Mozilla Firefox - Web Browser](https://www.mozilla.com/firefox/)
+* [Mozilla Thunderbird - Email](https://www.thunderbird.net/)
+* [Veyon - LTSP Multicomputer VNC](https://veyon.io/)
 * [Unison File Synchroniser](http://www.cis.upenn.edu/~bcpierce/unison/)
 
 ### Linux Distributions
 
-* [Debian](http://www.debian.org/)
-    * [DebianHelp](http://www.debianhelp.co.uk/)
-* [Ubuntu](http://www.ubuntu.com/)
-    * [Kubuntu](http://www.kubuntu.org/)
-    * [Edubuntu](http://www.edubuntu.org/)
+* [Debian](https://www.debian.org/)
+* [Ubuntu](https://www.ubuntu.com/)
+    * [Kubuntu](https://kubuntu.org/)
+    * [Edubuntu](https://www.edubuntu.org/)
+* [Bodhi Linux](https://www.bodhilinux.com/)
 * [Knoppix](http://www.knoppix.org/)
 * [PuppyLinux](http://www.puppylinux.org/)
 
 ### Window Managers
 
-* [KDE](http://www.kde.org/)
-* [Gnome](http://www.gnome.org/)
-* [Fluxbox](http://fluxbox.sourceforge.net/)
-* [OpenBox](http://icculus.org/openbox/index.php/Main_Page)
+* [KDE](https://www.kde.org/)
+* [Gnome](https://www.gnome.org/)
+* [Fluxbox](http://fluxbox.org/)
+* [OpenBox](http://openbox.org)
 * [PekWM](http://pekwm.org/)
 
 ### Linux Podcasts
 
-* [Linux Outlaws](http://linuxoutlaws.com/)
 * [Lug Radio](http://lugradio.org/)
-* [Linux Basement](http://linuxbasement.com/)
-* [Linux Outlaws](http://linuxoutlaws.com/)
+* [Six Gun Productions](http://sixgun.org/)
 * [The Linux Link Tech Show](http://tllts.org/)
-* [Linux Cranks](http://linuxcranks.info/)
-* [LottaLinuxLinks](http://lottalinuxlinks.com/)
 
 ## Suppliers
 
+* [Andrews & Arnold](https://www.aaisp.net.uk/)
+* [Bitfolk](https://bitfolk.com)
+* [Bytemark](https://www.bytemark.com)
 * [Dabs](https://www.dabs.com/)
 * [LinITX](http://linitx.com/)
 
 ## Useful
 
-* [WikiPedia](http://en.wikipedia.org/)
-* [DNSStuff](http://www.dnsstuff.com/)
-* [IntoDNS](http://www.intodns.com/)
+* [DNSStuff](https://www.dnsstuff.com/)
+* [IntoDNS](https://www.intodns.com/)
+* [WikiPedia](https://en.wikipedia.org/)
+
