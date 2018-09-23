@@ -5,8 +5,11 @@ menu: main
 weight: 99
 ---
 
-Chris is the Finance & IT Director at Trident Garages Ltd, Honda dealers in Surrey.
+Chris is the Finance & IT Director at [Trident Garages Ltd](https://www.tridenthonda.co.uk), Honda dealers in Surrey.
 
-A FLOSS advocate, Chris is interested in GNU/Linux, Perl and RepRap 3D printing. Chris is involved in the [Surrey Linux User Group](http://surrey.lug.org.uk), the [Thames Valley RepRap User Group](http://tvrrug.org.uk).
+A FLOSS advocate, Chris is interested in GNU/Linux, Perl and 3D printing. 
+Chris's favourite text editor is Vim.
 
-Chris can be found in IRC in #surrey on irc.lug.org.uk.
+Chris's other interests are boats, sailing and piano.
+
+Chris can usually be found in IRC in #surrey on irc.lug.org.uk.
