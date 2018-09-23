@@ -42,6 +42,7 @@ Preparation
 -----------
 
 These instructions only require eyeD3 and either grapicsmagick or imagemagick.
+These instructions were written for Ubuntu GNU Linux, you will need to adapt these instructions if you use a different distribution.
 
     $ sudo apt install eyed3 graphicsmagick
 
