@@ -24,7 +24,7 @@ Firstly, a word about adding my music library to SONOS.
 This involved transferring my MP3 music collection onto an external hard drive and plugging it into my router and sharing it as a Samba share.
 The final step is to add Music Library as a service within the SONOS app, and specify the location of the Samba share created above.
 
-If your router doesn't offer a Samba option, then you might consider a Raspberry Pi with a simple samba share, or using NextCloud or a dedicated plug-in device like the Tonido Plug, or pretty much any NAS device.
+If your router doesn't offer a Samba option, then you might consider a Raspberry Pi with a simple samba share, or using NextCloud or a dedicated plug-in device like the [Tonido Plug]({% post_url tonidoplug-tnd003sp1a03-65-tonido-store %}), or pretty much any NAS device.
 
 
 Important Notice
