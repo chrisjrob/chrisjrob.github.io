@@ -193,7 +193,7 @@ https://chrisjrob.com/2011/02/24/freerdp/
 https://chrisjrob.com/2011/02/24/replacement-for-adsl-broadband/
 https://chrisjrob.com/2011/02/25/banking-with-barclays-on-linux/
 https://chrisjrob.com/2011/02/25/more-arm-based-plug-computing-with-the-dreamplug/
-https://chrisjrob.com/2011/02/25/tonidoplug-tnd003sp1a03-₤65-tonido-store/
+https://chrisjrob.com/2011/02/25/tonidoplug-tnd003sp1a03-65-tonido-store/
 https://chrisjrob.com/2011/02/26/openoffice-lock-files-not-being-removed-on-davfs2/
 https://chrisjrob.com/2011/03/01/install-debian-squeeze-with-raid1lvm/
 https://chrisjrob.com/2011/03/01/where-are-debian-news-and-debaday/
