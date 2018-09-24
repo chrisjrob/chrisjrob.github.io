@@ -13,7 +13,7 @@ Unfortunately many of the album covers were missing.
 After considerable googling I eventually determined that the missing covers were missing because I had embedded the album cover with a higher resolution than SONOS can cope with. 
 
 To fix this problem I needed to extract the embedded images, change the resolution, remove the current images, and re-embed the new lower resolution image.
-I needed to do this for each album that is missing its cover.
+I needed to do this for each album that was missing its cover.
 
 <!--more-->
 
