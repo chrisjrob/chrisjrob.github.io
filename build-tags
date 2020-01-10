@@ -56,7 +56,7 @@ sub convert_file_to_url {
         return $file;
 
     } else {
-        $file =~ s/\.md/.html/;
+        $file =~ s/\.md/\//;
         return $file;
 
     }
