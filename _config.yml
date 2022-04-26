@@ -30,7 +30,7 @@ excerpt_separator: <!--more-->
 # Custom vars
 sitemap:          'sitemap.txt'
 social:
-  mastodon:       chrisjrob
+  mastodon:       https://fosstodon.org/@chrisjrob
   twitter:        chrisjrob
   github:         chrisjrob
   facebook:       chrisjrob
