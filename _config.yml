@@ -30,11 +30,10 @@ excerpt_separator: <!--more-->
 # Custom vars
 sitemap:          'sitemap.txt'
 social:
-  plus:           112653355770650909703
+  mastodon:       chrisjrob
   twitter:        chrisjrob
   github:         chrisjrob
   facebook:       chrisjrob
-  flattr:         m1xpq0
 
 disqus:
   shortname:      'chrisjrob'
