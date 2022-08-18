@@ -40,3 +40,6 @@ social:
 
 disqus:
   shortname:      'chrisjrob'
+
+show_drafts:      false
+future:           false
