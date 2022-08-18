@@ -52,7 +52,7 @@ time being I have simply re-mapped the F10, F11 and F12 buttons to do
 the tasks that would normally be done by FN F10, FN F11 and FN F12 (see
 screenshot).
 
-[![Image]({{%20site.baseurl%20}}/assets/keyboard.png?w=650)](http://chrisjrob.files.wordpress.com/2013/11/keyboard.png)
+[![Image]({{ site.baseurl }}/assets/keyboard.png?w=650)](http://chrisjrob.files.wordpress.com/2013/11/keyboard.png)
 
 But I cannot fairly blame Novatech for these bugs, what I need to do is
 report bugs for them with Ubuntu. I have found an article about

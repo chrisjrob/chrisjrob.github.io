@@ -22,14 +22,14 @@ Just a reminder of what I was wanting for our HTPC:
 
 ## The Case: Lian Li PC-C37
 
-![Lian Li PC-37 Case]({{% site.url %}}/assets/lian_li_pc_c37_muse_200.jpg)
+![Lian Li PC-37 Case]({{ site.url }}/assets/lian_li_pc_c37_muse_200.jpg)
 
 I started, perversely, with the case.  Normally you would start with the cpu/mb, but I knew that, in order to get spouse approval, it had to look right.  You can spend from &#163;20 to &#163;1000 on cases, and I dare say more.  I wanted something that looked like a black HiFi separate, both in dimensions and styling.  I would have thought that there would have been a considerable choice, but there really wasn't, the only one I found was the [Lian-Li PC-C37](http://www.productwiki.com/lian-li-pc-c37-muse/).  It would seem to be a well made quality case, for about &#163;100. I would have liked to have spent a little less, but really there was no choice whatsover.
 
 
 ## Motherboard/CPU: Asrock A330ION
 
-![Asrock A330ION]({{ site.url %}}/assets/a330ion_angleshot_200.jpg)
+![Asrock A330ION]({{ site.url }}/assets/a330ion_angleshot_200.jpg)
 
 The Lian-Li PC-C37 takes both Mini-ITX and Micro-ATX motherboards.  Well that's just fine, given that my aim was a low power, silent and powerful PC, really the Intel Atom was the only choice and they invariably come in Mini-ITX motherboards.  Well there is a vast array of Intel Atom motherboards on the market but, oddly enough, almost all of them had problems.  Most of them only had 4 usb ports, which would be okay, just.  Almost none of them had DVI, let alone HDMI.  One motherboard stood out from the rest, the [Asrock A330ION](http://www.legitreviews.com/article/1213/1/).  Yes it's the old Atom 330, but it allowed the faster DDR3 RAM, and the specification of the motherboard was fantastic, including:
 
