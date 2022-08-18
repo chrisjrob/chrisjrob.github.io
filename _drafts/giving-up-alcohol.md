@@ -3,7 +3,7 @@ layout: post
 title: Giving up alcohol
 date: 2022-08-18 13:23:23
 type: post
-published: true
+published: false
 category: personal
 tags: [alcohol]
 image: coffee-2847957-400x300.jpg
