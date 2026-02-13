@@ -299,6 +299,8 @@ https://chrisjrob.com/2016/05/09/a-probably-inaccurate-history-of-libvirt-kvm-qe
 https://chrisjrob.com/2016/06/14/sluggle-irc-bot/
 https://chrisjrob.com/2017/11/21/windows-10-black-screen-after-remote-desktop/
 https://chrisjrob.com/2018/09/23/fixing-album-art-in-sonos-under-linux/
+https://chrisjrob.com/2022/01/27/fixing-svg-files-in-dokuwiki/
+https://chrisjrob.com/2026/02/13/vibe-coding/
 https://chrisjrob.com/about/
 https://chrisjrob.com/blogroll/
 https://chrisjrob.com/category/personal/
@@ -311,6 +313,8 @@ https://chrisjrob.com/tag/3dprint/
 https://chrisjrob.com/tag/64-bit/
 https://chrisjrob.com/tag/activedirectory/
 https://chrisjrob.com/tag/adempiere/
+https://chrisjrob.com/tag/ai/
+https://chrisjrob.com/tag/alcohol/
 https://chrisjrob.com/tag/amarok/
 https://chrisjrob.com/tag/amazon/
 https://chrisjrob.com/tag/android/
@@ -329,10 +333,12 @@ https://chrisjrob.com/tag/blog/
 https://chrisjrob.com/tag/bootchart/
 https://chrisjrob.com/tag/broadband/
 https://chrisjrob.com/tag/broadcom/
+https://chrisjrob.com/tag/chatgpt/
 https://chrisjrob.com/tag/chrome/
 https://chrisjrob.com/tag/citrix/
 https://chrisjrob.com/tag/cli/
 https://chrisjrob.com/tag/cms/
+https://chrisjrob.com/tag/codex/
 https://chrisjrob.com/tag/compiz/
 https://chrisjrob.com/tag/convert/
 https://chrisjrob.com/tag/crontab/
@@ -437,6 +443,7 @@ https://chrisjrob.com/tag/nagios/
 https://chrisjrob.com/tag/nas/
 https://chrisjrob.com/tag/network/
 https://chrisjrob.com/tag/networking/
+https://chrisjrob.com/tag/nginx/
 https://chrisjrob.com/tag/nochex/
 https://chrisjrob.com/tag/novatech/
 https://chrisjrob.com/tag/ntfs/
@@ -515,6 +522,7 @@ https://chrisjrob.com/tag/ubuntu/
 https://chrisjrob.com/tag/unison/
 https://chrisjrob.com/tag/usb/
 https://chrisjrob.com/tag/uupc/
+https://chrisjrob.com/tag/vibecoding/
 https://chrisjrob.com/tag/viglen/
 https://chrisjrob.com/tag/vim/
 https://chrisjrob.com/tag/virtualisation/
